@@ -1,0 +1,220 @@
+2025-05-22 23:19:40,315 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-05-22 23:19:40,315 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-22 23:19:40,315 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-22 23:19:40,315 - main - INFO - 🔵 [MAIN] Título asignatura: PHYSICS
+2025-05-22 23:19:40,315 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-05-22 23:19:40,315 - main - INFO - 📥 Processing guide URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-22 23:19:40,624 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-22 23:19:40,627 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-22 23:19:40,628 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-22 23:19:40,628 - main - INFO - ✅ Subject processed: Fundamentals of Mathematics
+2025-05-22 23:19:40,707 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-22 23:19:40,723 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-22 23:19:40,730 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-22 23:19:40,738 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-22 23:19:40,738 - main - INFO - ✅ Subject processed: Physics
+2025-05-22 23:19:40,743 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-22 23:19:40,744 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-22 23:19:40,744 - main - INFO - ✅ Subject processed: Introduction to Computers
+2025-05-22 23:19:40,744 - main - INFO - ✅ Extracted 3 subjects from guide
+2025-05-22 23:19:40,745 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 3
+2025-05-22 23:19:40,745 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-05-22 23:19:40,745 - main - INFO - 📥 Processing subject URL: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-22 23:19:40,745 - main - INFO - 🔍 Detected URV URL - attempting contents extraction
+2025-05-22 23:19:40,745 - main - INFO - 🔍 Fetching URV contents from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&fitxa_apartat=57
+2025-05-22 23:19:41,001 - main - INFO - ✅ Contents table found with Topic/Sub-topic headers
+2025-05-22 23:19:41,003 - main - INFO - ✅ URV contents extracted successfully
+2025-05-22 23:19:41,003 - main - INFO - 🔍 Fetching URV objectives from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&fitxa_apartat=56
+2025-05-22 23:19:41,280 - main - INFO - ✅ Fallback table found with Verdana class cells
+2025-05-22 23:19:41,280 - main - INFO - ✅ URV objectives extracted successfully
+2025-05-22 23:19:41,280 - main - INFO - 🔍 Fetching URV competences from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&fitxa_apartat=55
+2025-05-22 23:19:41,523 - main - INFO - ✅ Fallback table found with Verdana class cells
+2025-05-22 23:19:41,524 - main - INFO - ✅ URV competences extracted successfully
+2025-05-22 23:19:53,670 - main - INFO - Detailed theme extracted: {'core_topic': 'Electronics Fundamentals', 'key_contents': 'Electric Field, Kirchhoff Laws, Transfer Function, Semiconductor Materials', 'application_domain': 'Electronic Engineering'}
+2025-05-22 23:19:53,670 - main - INFO - 🔵 [MAIN] Temática principal identificada: {'core_topic': 'Electronics Fundamentals', 'key_contents': 'Electric Field, Kirchhoff Laws, Transfer Function, Semiconductor Materials', 'application_domain': 'Electronic Engineering'}
+2025-05-22 23:19:53,670 - main - INFO - 🔵 [MAIN] Fase 3: Comparando temáticas
+2025-05-22 23:20:07,772 - main - INFO - Detailed theme extracted: {'core_topic': 'Number Theory', 'key_contents': 'Formal propositional calculus, Predicate logic, Sets and elements, Functions and inverse function', 'application_domain': 'Cryptography'}
+2025-05-22 23:20:09,038 - main - INFO - Title similarity between 'PHYSICS' and 'Fundamentals of Mathematics': 0.24
+2025-05-22 23:20:22,887 - main - INFO - Detailed theme extracted: {'core_topic': 'Electrical Engineering Fundamentals', 'key_contents': "Ohm's law, Kirchhoff's laws, RC and RL circuits, RLC circuits, Complex numbers, Impedance, Alternating current circuits, Power, Signal superposition, Bandwidth, Resonance, Filters", 'application_domain': 'Electronics Engineering'}
+2025-05-22 23:20:26,919 - main - INFO - Raw LLM response for theme comparison: 0.14
+2025-05-22 23:20:26,919 - main - INFO - Extracted LLM score: 0.14
+2025-05-22 23:20:26,919 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.518216609954834, 'key_contents': 0.5464676022529602, 'application_domain': 0.5303610563278198}, LLM: 0.14, Title: 0.24, Final: 0.35
+2025-05-22 23:20:26,919 - main - INFO - 🔵 [MAIN] Comparación temática: Fundamentals of Mathematics - Similitud: 0.35
+2025-05-22 23:20:27,135 - main - INFO - Title similarity between 'PHYSICS' and 'Physics': 1.00
+2025-05-22 23:20:30,894 - main - INFO - Raw LLM response for theme comparison: 0.83
+2025-05-22 23:20:30,894 - main - INFO - Extracted LLM score: 0.83
+2025-05-22 23:20:30,894 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.8917621374130249, 'key_contents': 0.7167922258377075, 'application_domain': 0.9488803148269653}, LLM: 0.83, Title: 1.00, Final: 0.85
+2025-05-22 23:20:30,894 - main - INFO - 🔵 [MAIN] Comparación temática: Physics - Similitud: 0.85
+2025-05-22 23:20:36,334 - main - INFO - Detailed theme extracted: {'core_topic': 'Digital Circuits and Processor Design', 'key_contents': 'Representation of natural numbers in decimal, binary, and hexadecimal, Combinational logic circuits: NOT, AND, OR gates, truth tables, and logical analysis, Sequential logical circuits: edge-triggered D-type flip-flops, state graphs, and temporal analysis, Special purpose processors: processing unit, control unit, and asynchronous communication protocol', 'application_domain': 'Computer Architecture'}
+2025-05-22 23:20:36,495 - main - INFO - Title similarity between 'PHYSICS' and 'Introduction to Computers': 0.12
+2025-05-22 23:20:40,217 - main - INFO - Raw LLM response for theme comparison: 0.43
+2025-05-22 23:20:40,217 - main - INFO - Extracted LLM score: 0.43
+2025-05-22 23:20:40,218 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.6459264755249023, 'key_contents': 0.5257713198661804, 'application_domain': 0.5202388167381287}, LLM: 0.43, Title: 0.12, Final: 0.47
+2025-05-22 23:20:40,218 - main - INFO - 🔵 [MAIN] Comparación temática: Introduction to Computers - Similitud: 0.47
+2025-05-22 23:20:40,218 - main - INFO - 🔵 [MAIN] Asignaturas relevantes encontradas: 1
+2025-05-22 23:20:40,218 - main - INFO - 🔵 [MAIN] Fase 4: Extrayendo detalles asignatura principal
+2025-05-22 23:22:04,407 - main - ERROR - 🔴 [MAIN] No se encontró la asignatura 'PHYSICS'
+2025-05-22 23:22:04,408 - main - ERROR - 🔴 [MAIN] HTTPException: Asignatura no encontrada
+
+
+INFO:     127.0.0.1:63737 - "OPTIONS /compare HTTP/1.1" 200 OK
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+🔍 Searching for contents header in non-URV content
+📌 Encontrado título relevante: 'contents'
+✅ Contenido obtenido desde sección bajo título
+🔍 Searching for contents header in non-URV content
+📌 Encontrado título relevante: 'contents'
+✅ Contenido obtenido desde sección bajo título
+🔍 Searching for contents header in non-URV content
+📌 Encontrado título relevante: 'contents'
+✅ Contenido obtenido desde sección bajo título
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔍 Detected URV URL - using special content extraction
+Detected language: en
+Raw model response:
+ {
+    "Electrostatics": {
+        "competences": [],
+        "objectives": [
+            "Measure physical magnitudes.",
+            "Estimate the error in the results of measurements.",
+            "Know and apply Coulomb's law.",
+            "Understand the concepts of electric fields and electric potential.",
+            "Know the concept of electrostatic energy."
+        ],
+        "contents": {
+            "Module 1": [],
+            "Module 2": ["Electric Field", "Electrostatic Energy and Potential", "Conductor and Dielectric Materials", "Capacitors"],
+            "Module 3": [],
+            "Module 4": [],
+            "Module 5": [],
+            "Module 6": []
+        }
+    },
+    "Direct Electric Current": {
+        "competences": [],
+        "objectives": [
+            "Know the concept of electric circuits.",
+            "Know and apply Kirchhoff Laws.",
+            "Know Node Voltage method and Grid Current Method.",
+            "Know Thévenin and Norton Laws."
+        ],
+        "contents": {
+            "Module 1": ["Electric Circuits"],
+            "Module 2": ["Kirchhoff Laws", "Node Voltage method and Grid Current Method", "Thévenin and Norton Laws"],
+            "Module 3": [],
+            "Module 4": [],
+            "Module 5": [],
+            "Module 6": []
+        }
+    },
+    "Steady Sinusoidal Regime": {
+        "competences": [],
+        "objectives": [
+            "Know the concept of elements with time response.",
+            "Know Transfer Function.",
+            "Understand Resonance."
+        ],
+        "contents": {
+            "Module 1": ["Elements with Time Response"],
+            "Module 2": ["Transfer Function", "Resonance"],
+            "Module 3": [],
+            "Module 4": [],
+            "Module 5": [],
+            "Module 6": []
+        }
+    },
+    "Fundamentals of Semiconductors": {
+        "competences": [],
+        "objectives": [
+            "Know the characteristics of semiconducting materials.",
+            "Know Semiconductor Devices.",
+            "Understand Junction Diode and Light Emitting Diode.",
+            "Know Field-Effect Transistor."
+        ],
+        "contents": {
+            "Module 1": ["Semiconducting Materials"],
+            "Module 2": ["Semiconductor Devices", "Junction Diode and Light Emitting Diode", "Field-Effect Transistor"],
+            "Module 3": [],
+            "Module 4": [],
+            "Module 5": [],
+            "Module 6": []
+        }
+    },
+    "Semiconductor Devices Applications": {
+        "competences": [],
+        "objectives": [
+            "Know Logical Families with CMOS Technology.",
+            "Know Logic Programmable Devices."
+        ],
+        "contents": {
+            "Module 1": ["Logical Families with CMOS Technology"],
+            "Module 2": ["Logic Programmable Devices"],
+            "Module 3": [],
+            "Module 4": [],
+            "Module 5": [],
+            "Module 6": []
+        }
+    }
+}
+Detected language: tl
+INFO:     127.0.0.1:63737 - "POST /compare HTTP/1.1" 400 Bad Request
+
+
+<input name="fitxa_apartat" type="hidden" value=""><table id="menu" border="0" cellpadding="0" cellspacing="1"  style="width:525px"><tr><tr><td><A style='width: 175px' class="seccio" id="seccio55" href="?centre=17&ensenyament=1723&assignatura=17234013&fitxa_apartat=55&idioma=eng&any_academic=2024_25">Competences</A></td><td><A style='width: 175px' class="seccio" id="seccio56" href="?centre=17&ensenyament=1723&assignatura=17234013&fitxa_apartat=56&idioma=eng&any_academic=2024_25">Learning outcomes</A></td><td><A style='width: 175px' class="seccio_activa" id="seccio57" href="?centre=17&ensenyament=1723&assignatura=17234013&fitxa_apartat=57&idioma=eng&any_academic=2024_25">Contents</A></td></tr><tr><td><A style='width: 175px' class="seccio" id="seccio58" href="?centre=17&ensenyament=1723&assignatura=17234013&fitxa_apartat=58&idioma=eng&any_academic=2024_25">Planning</A></td><td><A style='width: 175px' class="seccio" id="seccio59" href="?centre=17&ensenyament=1723&assignatura=17234013&fitxa_apartat=59&idioma=eng&any_academic=2024_25">Methodologies</A></td><td><A style='width: 175px' class="seccio" id="seccio60" href="?centre=17&ensenyament=1723&assignatura=17234013&fitxa_apartat=60&idioma=eng&any_academic=2024_25">Personalized attention</A></td></tr><tr><td><A style='width: 175px' class="seccio" id="seccio61" href="?centre=17&ensenyament=1723&assignatura=17234013&fitxa_apartat=61&idioma=eng&any_academic=2024_25">Assessment</A></td><td><A style='width: 175px' class="seccio" id="seccio62" href="?centre=17&ensenyament=1723&assignatura=17234013&fitxa_apartat=62&idioma=eng&any_academic=2024_25">Sources of information</A></td><td><A style='width: 175px' class="seccio" id="seccio63" href="?centre=17&ensenyament=1723&assignatura=17234013&fitxa_apartat=63&idioma=eng&any_academic=2024_25">Recommendations</A></td></tr></tr></table>        <table cellspacing="1" cellpadding="2" width="100%">
+          <!--DWLayoutTable-->
+          <tr  align="center" valign="middle"> 
+    
+            <td align="center" class="VerdanaBlanca mainfons"><strong>Topic</strong></td>
+            <td align="center" class="VerdanaBlanca mainfons"><strong>Sub-topic</strong></td>
+          </tr>
+               <tr   > 
+		              
+			<td  valign="middle" class="Verdana" >Electrostatics </td>
+			<td class="Verdana">Electric Field<br />
+Electrostatic Energy and Potential<br />
+Conductor and Dielectric Materials<br />
+Capacitors </td>
+
+           </tr>
+                     <tr  class=mainfons2 > 
+		              
+			<td  valign="middle" class="Verdana" >Direct Electric Current </td>
+			<td class="Verdana">Electric Circuits<br />
+Kirchhoff Laws<br />
+Node Voltage method and Grid Current Method<br />
+Thévenin and Norton Laws </td>
+
+           </tr>
+                     <tr   > 
+		              
+			<td  valign="middle" class="Verdana" >Steady Sinusoidal Regime </td>
+			<td class="Verdana">Elements with Time Response<br />
+Transfer Function<br />
+Resonance </td>
+
+           </tr>
+                     <tr  class=mainfons2 > 
+		              
+			<td  valign="middle" class="Verdana" >Fundamentals of Semiconductors </td>
+			<td class="Verdana">Semiconducting Materials<br />
+Semiconductor Devices<br />
+Junction Diode and Light Emitting Diode<br />
+Field-Effect Transistor </td>
+
+           </tr>
+                     <tr   > 
+		              
+			<td  valign="middle" class="Verdana" >Semiconductor Devices Applications </td>
+			<td class="Verdana">Logical Families with CMOS Technology<br />
+Logic Programmable Devices </td>
+
+           </tr>
+            
+		  
+        </table>
+        </div>
+    </div>

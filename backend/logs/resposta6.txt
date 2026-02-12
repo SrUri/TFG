@@ -1,0 +1,175 @@
+INFO:     127.0.0.1:54877 - "OPTIONS /compare HTTP/1.1" 200 OK
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+Detected language: sl
+Detected language: sl
+Detected language: en
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "",
+        "objectives": [
+            "Conocer los conceptos básicos de la informática",
+            "Entender las características y potencialidades de los ordenadores",
+            "Desarrollar habilidades para utilizar los ordenadores"
+        ],
+        "contents": [
+            "Introducción a la informática",
+            "Conceptos básicos de la informática",
+            "Características y potencialidades de los ordenadores",
+            "Uso de los ordenadores"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Physics": {
+        "competences": "Desarrollar habilidades para analizar y comprender fenómenos físicos, así como aplicaciones prácticas en campos como la ingeniería y la tecnología.",
+        "objectives": [
+            "Analizar y comprender fenómenos físicos",
+            "Aplicar conceptos físicos a problemas reales",
+            "Desarrollar habilidades para medir y analizar datos experimentales",
+            "Comprender las implicaciones de la física en la sociedad",
+            "Desarrollar habilidades para comunicarse efectivamente sobre temas físicos",
+            "Analizar y resolver problemas utilizando conceptos físicos"
+        ],
+        "contents": [
+            "Fenómenos termodinámicos",
+            "Energía y trabajo",
+            "Movimiento y dinamismo",
+            "Fuerzas y campos",
+            "Ondas y partículas",
+            "Estructura atómica y nuclear"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Desarrolla habilidades matemáticas básicas y comprensión de conceptos fundamentales.",
+        "objectives": [
+            "Conocer los conceptos básicos de álgebra, geometría y análisis",
+            "Aprender a resolver problemas matemáticos de manera efectiva",
+            "Desarrollar habilidades de razonamiento lógico y resolución de problemas",
+            "Entender la importancia de las matemáticas en la ciencia y la tecnología"
+        ],
+        "contents": [
+            "Álgebra: ecuaciones, sistemas de ecuaciones, matrices y determinantes",
+            "Geometría: espacios euclidianos, curvas y superficies",
+            "Análisis: funciones elementales, límites, derivadas e integrales"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "FUNDAMENTALS OF COMPUTERS": {
+        "competences": "Desarrollar competencias en diseño y programación de computadoras, así como comprender la estructura y organización de los sistemas informáticos.",
+        "objectives": [
+            "Conocer la estructura y organización de los sistemas informáticos",
+            "Entender el diseño y programación de computadoras",
+            "Aprender a utilizar lenguajes de programación de nivel bajo (assembler)",
+            "Desarrollar habilidades en la resolución de problemas y análisis de sistemas",
+            "Comprender el papel de los sistemas informáticos en diferentes áreas del conocimiento"
+        ],
+        "contents": [
+            "Estructura y organización de los sistemas informáticos",
+            "Diseño y programación de computadoras",
+            "Lenguajes de programación de nivel bajo (assembler)",
+            "Uso de sistemas operativos",
+            "Análisis y resolución de problemas en sistemas informáticos"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "",
+        "objectives": [
+            "Conocer los conceptos básicos de la informática",
+            "Entender las características y potencialidades de los ordenadores",
+            "Desarrollar habilidades para utilizar los ordenadores"
+        ],
+        "contents": [
+            "Introducción a la informática",
+            "Conceptos básicos de la informática",
+            "Características y potencialidades de los ordenadores",
+            "Uso de los ordenadores"
+        ]
+    },
+    "Physics": {
+        "competences": "Desarrollar habilidades para analizar y comprender fenómenos físicos, así como aplicaciones prácticas en campos como la ingeniería y la tecnología.",
+        "objectives": [
+            "Analizar y comprender fenómenos físicos",
+            "Aplicar conceptos físicos a problemas reales",
+            "Desarrollar habilidades para medir y analizar datos experimentales",
+            "Comprender las implicaciones de la física en la sociedad",
+            "Desarrollar habilidades para comunicarse efectivamente sobre temas físicos",
+            "Analizar y resolver problemas utilizando conceptos físicos"
+        ],
+        "contents": [
+            "Fenómenos termodinámicos",
+            "Energía y trabajo",
+            "Movimiento y dinamismo",
+            "Fuerzas y campos",
+            "Ondas y partículas",
+            "Estructura atómica y nuclear"
+        ]
+    },
+    "Fundamentals of Mathematics": {
+        "competences": "Desarrolla habilidades matemáticas básicas y comprensión de conceptos fundamentales.",
+        "objectives": [
+            "Conocer los conceptos básicos de álgebra, geometría y análisis",
+            "Aprender a resolver problemas matemáticos de manera efectiva",
+            "Desarrollar habilidades de razonamiento lógico y resolución de problemas",
+            "Entender la importancia de las matemáticas en la ciencia y la tecnología"
+        ],
+        "contents": [
+            "Álgebra: ecuaciones, sistemas de ecuaciones, matrices y determinantes",
+            "Geometría: espacios euclidianos, curvas y superficies",
+            "Análisis: funciones elementales, límites, derivadas e integrales"
+        ]
+    }
+}
+Detected language: pt
+INFO:embedding:Iniciando cálculo de similitud mejorado...
+WARNING:embedding:Uno de los textos está vacío, devolviendo 0
+ERROR:embedding:Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes": [
+        {
+            "asignatura": "Asignatura 1: FUNDAMENTALS OF COMPUTERS",
+            "similitud": "Ambas asignaturas tienen como objetivo introducir a los estudiantes en la informática y el uso de ordenadores."
+        }
+    ],
+    "diferencias": [
+        {
+            "asignatura": "Asignatura 2: Introduction to Computers",
+            "diferencia": "La asignatura 1 tiene un enfoque más técnico y profundo, mientras que la asignatura 2 se centra en una introducción básica a la informática."
+        },
+        {
+            "asignatura": "Asignatura 2: Introduction to Computers",
+            "diferencia": "La asignatura 1 tiene un contenido más amplio y detallado, mientras que la asignatura 2 se enfoca en conceptos básicos."
+        },
+        {
+            "asignatura": "Asignatura 2: Introduction to Computers",
+            "diferencia": "La asignatura 1 tiene objetivos más específicos y medibles, mientras que la asignatura 2 tiene objetivos más generales y vagos."
+        }
+    ],
+    "coincidencia_estimada": 20,
+    "explicacion": "Aunque ambas asignaturas se refieren a la informática y el uso de ordenadores, la asignatura 1 es significativamente más detallada y técnica que la asignatura 2. La coincidencia entre los objetivos y contenidos es baja debido a la diferencia en el nivel de profundidad y complejidad.",
+    "recomendacion": "No hay equivalencia directa entre las dos asignaturas. La asignatura 1 es más adecuada para estudiantes con experiencia previa en informática, mientras que la asignatura 2 es más adecuada para estudiantes principiantes."
+}
+
+Nota: La puntuación de coincidencia estimada se basa en la similitud entre los objetivos y contenidos de las dos asignaturas. En este caso, solo hay una similitud real (la introducción a la informática) y varias diferencias fundamentales que lo convierten en un análisis crítico.
+INFO:embedding:Proceso completado en 67.24 segundos
+INFO:     127.0.0.1:54877 - "POST /compare HTTP/1.1" 500 Internal Server Error

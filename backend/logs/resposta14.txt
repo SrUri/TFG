@@ -1,0 +1,486 @@
+Detected language: en
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "Develop problem-solving skills, understand the basics of computer programming, and learn about the fundamental concepts of computers.",
+        "objectives": [
+            "Understand the basic components of a computer",
+            "Learn the fundamental concepts of computer programming",
+            "Develop problem-solving skills using programming languages"
+        ],
+        "contents": [
+            "Computer hardware and software",
+            "Programming basics: variables, data types, operators, control structures",
+            "Problem-solving exercises using programming languages"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "Computer Organization": {
+        "competences": "Students will acquire skills in computer organization, including the design and implementation of computer systems.",
+        "objectives": [
+            "Understand the basic principles of computer architecture",
+            "Design and implement a simple computer system",
+            "Analyze the performance of different computer architectures"
+        ],
+        "contents": [
+            "Computer Organization Fundamentals",
+            "Processor Architecture",
+            "Memory Hierarchy",
+            "Input/Output Systems",
+            "Performance Analysis and Optimization"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Mathematics I": {
+        "competences": "Develop mathematical skills and problem-solving abilities, understand mathematical concepts and methods, apply mathematical techniques to real-world problems.",
+        "objectives": [
+            "To develop a solid understanding of mathematical concepts and methods",
+            "To learn how to apply mathematical techniques to real-world problems",
+            "To improve problem-solving skills and logical thinking",
+            "To develop critical thinking and analytical abilities",
+            "To understand the importance of mathematics in various fields"
+        ],
+        "contents": [
+            "Linear Algebra",
+            "Calculus",
+            "Differential Equations",
+            "Probability Theory",
+            "Statistics",
+            "Mathematical Modeling"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Mathematics II": {
+        "competences": "Develop mathematical skills and apply them to solve problems in various fields, understand the role of mathematics in science and technology, and develop critical thinking and problem-solving abilities.",
+        "objectives": [
+            "To develop mathematical skills and apply them to solve problems",
+            "To understand the role of mathematics in science and technology",
+            "To develop critical thinking and problem-solving abilities",
+            "To analyze and interpret data using mathematical techniques",
+            "To understand the importance of mathematical modeling in various fields"
+        ],
+        "contents": [
+            "Linear Algebra",
+            "Differential Equations",
+            "Probability Theory",
+            "Statistics",
+            "Numerical Analysis",
+            "Mathematical Modeling",
+            "Applications to Science and Technology"
+        ]
+    }
+}
+Raw model response:
+ {
+    "PROGRAMMING I": {
+        "competences": "Students will acquire programming skills, learn to design and implement algorithms, and develop problem-solving capabilities.",
+        "objectives": [
+            "Design and implement algorithms",
+            "Develop problem-solving capabilities",
+            "Acquire programming skills"
+        ],
+        "contents": [
+            "Programming fundamentals",
+            "Variables, data types, and operators",
+            "Control structures (if-else, loops, etc.)",
+            "Functions and modules",
+            "Error handling and debugging"
+        ]
+    },
+    "MATHEMATICAL ANALYSIS I": {
+        "competences": "Students will develop mathematical skills, learn to analyze functions, and understand the basics of calculus.",
+        "objectives": [
+            "Develop mathematical skills",
+            "Analyze functions",
+            "Understand the basics of calculus"
+        ],
+        "contents": [
+            "Functions and limits",
+            "Continuity and differentiability",
+            "Derivatives and integrals",
+            "Applications to optimization problems"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "FUNDAMENTALS OF COMPUTERS": {
+        "competences": "Acquire knowledge of the structure, organization, logical design, operation, and interconnection of computers; understand programming and performance of assembly language; learn to use operating systems.",
+        "objectives": [
+            "Understand the fundamental concepts of computer science",
+            "Develop problem-solving skills using programming languages",
+            "Learn to use operating systems effectively",
+            "Acquire knowledge of computer architecture and organization",
+            "Develop logical thinking and analytical skills",
+            "Learn to work in a team and communicate technical information"
+        ],
+        "contents": [
+            "Structure, organization, logical design, operation, and interconnection of computers",
+            "Programming and performance of assembly language",
+            "Use of operating systems",
+            "Computer architecture and organization",
+            "Logical thinking and analytical skills",
+            "Problem-solving using programming languages"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Programming I": {
+        "competences": "Develop programming skills, understand the basics of programming languages, and learn to design and implement algorithms.",
+        "objectives": [
+            "Understand the basic concepts of programming",
+            "Learn to design and implement algorithms",
+            "Develop problem-solving skills",
+            "Gain experience in programming languages",
+            "Understand software development life cycles",
+            "Develop teamwork and communication skills"
+        ],
+        "contents": [
+            "Programming basics",
+            "Variables, data types, operators, control structures",
+            "Functions, modules, and object-oriented programming",
+            "Algorithms and data structures",
+            "Debugging and testing techniques",
+            "Software development life cycles"
+        ]
+    },
+    "Physics": {
+        "competences": "Develop analytical and problem-solving skills, understand the fundamental laws of physics, and apply them to real-world problems.",
+        "objectives": [
+            "Understand the principles of mechanics, thermodynamics, electromagnetism, and quantum mechanics",
+            "Apply mathematical techniques to solve physical problems",
+            "Analyze and interpret experimental data",
+            "Develop critical thinking and problem-solving skills",
+            "Understand the role of physics in understanding natural phenomena"
+        ],
+        "contents": [
+            "Mechanics: kinematics, dynamics, energy, momentum",
+            "Thermodynamics: laws, thermodynamic processes, heat transfer",
+            "Electromagnetism: electric charges, electric currents, magnetic fields",
+            "Quantum Mechanics: wave-particle duality, Schrödinger equation"
+        ]
+    },
+    "Fundamentals of Mathematics": {
+        "competences": "Develop problem-solving skills, understand mathematical structures and relationships, apply mathematical methods to solve problems in various fields.",
+        "objectives": [
+            "Understand the fundamental concepts of mathematics",
+            "Apply mathematical methods to solve problems",
+            "Develop problem-solving skills",
+            "Understand mathematical structures and relationships",
+            "Analyze and interpret data using mathematical techniques"
+        ],
+        "contents": [
+            "Mathematical structures and relationships",
+            "Problem-solving strategies and techniques",
+            "Applications of mathematics in various fields",
+            "Mathematical modeling and simulation",
+            "Data analysis and interpretation"
+        ]
+    },
+    "Introduction to Computers": {
+        "competences": "Develop problem-solving skills, understand the basics of computer programming, and learn about the fundamental concepts of computers.",
+        "objectives": [
+            "Understand the basic components of a computer",
+            "Learn the fundamental concepts of computer programming",
+            "Develop problem-solving skills using programming languages"
+        ],
+        "contents": [
+            "Computer hardware and software",
+            "Programming basics: variables, data types, operators, control structures",
+            "Problem-solving exercises using programming languages"
+        ]
+    },
+    "Computer Organization": {
+        "competences": "Students will acquire skills in computer organization, including the design and implementation of computer systems.",
+        "objectives": [
+            "Understand the basic principles of computer architecture",
+            "Design and implement a simple computer system",
+            "Analyze the performance of different computer architectures"
+        ],
+        "contents": [
+            "Computer Organization Fundamentals",
+            "Processor Architecture",
+            "Memory Hierarchy",
+            "Input/Output Systems",
+            "Performance Analysis and Optimization"
+        ]
+    },
+    "Mathematics I": {
+        "competences": "Develop mathematical skills and problem-solving abilities, understand mathematical concepts and methods, apply mathematical techniques to real-world problems.",
+        "objectives": [
+            "To develop a solid understanding of mathematical concepts and methods",
+            "To learn how to apply mathematical techniques to real-world problems",
+            "To improve problem-solving skills and logical thinking",
+            "To develop critical thinking and analytical abilities",
+            "To understand the importance of mathematics in various fields"
+        ],
+        "contents": [
+            "Linear Algebra",
+            "Calculus",
+            "Differential Equations",
+            "Probability Theory",
+            "Statistics",
+            "Mathematical Modeling"
+        ]
+    },
+    "Mathematics II": {
+        "competences": "Develop mathematical skills and apply them to solve problems in various fields, understand the role of mathematics in science and technology, and develop critical thinking and problem-solving abilities.",
+        "objectives": [
+            "To develop mathematical skills and apply them to solve problems",
+            "To understand the role of mathematics in science and technology",
+            "To develop critical thinking and problem-solving abilities",
+            "To analyze and interpret data using mathematical techniques",
+            "To understand the importance of mathematical modeling in various fields"
+        ],
+        "contents": [
+            "Linear Algebra",
+            "Differential Equations",
+            "Probability Theory",
+            "Statistics",
+            "Numerical Analysis",
+            "Mathematical Modeling",
+            "Applications to Science and Technology"
+        ]
+    },
+    "Programming II": {
+        "competences": "Students will acquire programming skills, learn to design and implement algorithms, and develop problem-solving capabilities.",
+        "objectives": [
+            "Design and implement algorithms",
+            "Develop problem-solving capabilities",
+            "Acquire programming skills"
+        ],
+        "contents": [
+            "Programming fundamentals",
+            "Variables, data types, and operators",
+            "Control structures (if-else, loops, etc.)",
+            "Functions and modules",
+            "Error handling and debugging"
+        ]
+    }
+}
+Detected language: de
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.7143339391607104), 'objectives': np.float64(0.8255940761358588), 'competences': np.float64(0.5781793893253896)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 36.33s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación te presento el análisis con EXTREMO RIGOR:
+
+{
+    "similitudes_tecnicas": ["Programming and performance of assembly language" (Asignatura 1) vs. "Functions, modules, and object-oriented programming" (Asignatura 2)],
+    "diferencias_sustanciales": ["La Asignatura 1 se enfoca en la estructura y organización de los computadores, mientras que la Asignatura 2 se centra en el desarrollo de programas", "La Asignatura 1 incluye la utilización de sistemas operativos, mientras que la Asignatura 2 no lo menciona"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que aunque hay similitudes entre las dos asignaturas, es fundamental considerar sus objetivos y contenidos específicos para entender mejor su enfoque y alcance"]
+}
+
+Nota: La estimación de coincidencia real se basa en la cantidad de similitudes técnicas reales encontradas y la diferencia sustancial entre los objetivos y contenidos de las dos asignaturas.
+INFO:embedding:Puntuación final estricta calculada: 0.6293858010307435
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 44.49s
+INFO:embedding:Proceso estricto completado en 81.66 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.5377488195641467), 'objectives': np.float64(0.6787692532225692), 'competences': np.float64(0.6135303803591038)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 27.78s
+ERROR:embedding:Error decodificando JSON estricto: Expecting ',' delimiter: line 2 column 57 (char 58)
+Respuesta: {
+    "similitudes_tecnicas": ["Use of operating systems" en Asignatura 1 es similar a "Analyze and interpret experimental data" en Asignatura 2 en cuanto a la manipulación de datos"],
+    "diferencias_sustanciales": ["La asignatura 1 se enfoca en la computación y la programación, mientras que la asignatura 2 se enfoca en la física y el análisis de datos", "La asignatura 1 no tiene contenido relacionado con la física o la matemática"],
+    "coincidencia_real": 25,
+    "advertencias": ["Es importante destacar que las similitudes entre ambas asignaturas son superficiales y no reflejan una conexión profunda entre los campos de estudio"]
+}
+INFO:embedding:Puntuación final estricta calculada: 0.39573946879539545
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 29.39s
+INFO:embedding:Proceso estricto completado en 57.33 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.6215198688947293), 'objectives': np.float64(0.6865235294254873), 'competences': np.float64(0.6235879181228982)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 46.42s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": [
+        "Use of operating systems" (Asignatura 1) vs. "Applications of mathematics in various fields" (Asignatura 2)
+    ],
+    "diferencias_sustanciales": [
+        La Asignatura 1 se enfoca en la estructura, organización y diseño lógico de computadoras, mientras que la Asignatura 2 se centra en las estructuras y relaciones matemáticas.
+        La Asignatura 1 incluye programación en lenguaje ensamblador, mientras que la Asignatura 2 no menciona programación específica.
+        La Asignatura 1 tiene como objetivo aprender a trabajar en equipo y comunicar información técnica, lo que no se encuentra en la Asignatura 2.
+    ],
+    "coincidencia_real": 40,
+    "advertencias": [
+        "Aunque ambas asignaturas buscan desarrollar habilidades de resolución de problemas, es importante destacar las diferencias en el enfoque y contenido entre ellas."
+    ]
+}
+
+Nota: La estimación de coincidencia real (40%) se basa en la similitud en el uso de operativos sistemas y la falta de programación específica en la Asignatura 2. Sin embargo, las diferencias sustanciales en el enfoque y contenido reducen significativamente la similitud entre ambas asignaturas.
+INFO:embedding:Puntuación final estricta calculada: 0.5017315849671053
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 66.73s
+INFO:embedding:Proceso estricto completado en 113.28 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.5859223039825218), 'objectives': np.float64(0.6699486927506235), 'competences': np.float64(0.7451352563511425)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 46.36s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación te presento el análisis con extremo rigor:
+
+{
+    "similitudes_tecnicas": [
+        "Programming and performance of assembly language" (Asignatura 1) vs. "Problem-solving exercises using programming languages" (Asignatura 2): ambos se refieren a la programación y resolución de problemas,
+        "Use of operating systems" (Asignatura 1) vs. "Computer hardware and software" (Asignatura 2): ambos mencionan el uso de sistemas operativos y hardware/computadora
+    ],
+    "diferencias_sustanciales": [
+        La Asignatura 1 se centra en la estructura, organización, diseño lógico, operación e interconexión de computadoras, mientras que la Asignatura 2 se enfoca en los conceptos básicos de programación y el hardware/software,
+        La Asignatura 1 incluye competencias como "Acquire knowledge of computer architecture and organization" y "Develop logical thinking and analytical skills", que no se encuentran en la Asignatura 2
+    ],
+    "coincidencia_real": 60,
+    "advertencias": [
+        "Es importante destacar que aunque haya similitudes, las competencias y objetivos de ambas asignaturas pueden tener diferentes niveles de profundidad o enfoques"
+    ]
+}
+
+Nota: La estimación de coincidencia real es conservadora ya que considero que las diferencias en los objetivos y competencias son significativas.
+INFO:embedding:Puntuación final estricta calculada: 0.46165451207077174
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 43.73s
+INFO:embedding:Proceso estricto completado en 90.21 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.5980490338729466), 'objectives': np.float64(0.567317603941872), 'competences': np.float64(0.5748829007386517)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 24.31s
+ERROR:embedding:Error decodificando JSON estricto: Expecting ',' delimiter: line 3 column 57 (char 176)
+Respuesta: {
+    "similitudes_tecnicas": ["Computer architecture and organization", "Processor Architecture", "Memory Hierarchy"],
+    "diferencias_sustanciales": ["Input/Output Systems" (Asignatura 2) vs. "Use of operating systems" (Asignatura 1), "Performance Analysis and Optimization" (Asignatura 2) vs. "Problem-solving using programming languages" (Asignatura 1)],
+    "coincidencia_real": 60,
+    "advertencias": ["La falta de énfasis en lenguajes de programación en la Asignatura 2 puede ser un punto a considerar para estudiantes con experiencia previa en programación"]
+}
+INFO:embedding:Puntuación final estricta calculada: 0.45803719777230306
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 28.60s
+INFO:embedding:Proceso estricto completado en 53.04 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.45161729257056316), 'objectives': np.float64(0.7009282651390603), 'competences': np.float64(0.5996896284238985)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 35.30s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis con extremo rigor:
+
+{
+    "similitudes_tecnicas": ["Use of operating systems" en Asignatura 1 se relaciona con la ausencia de contenido matemático en Asignatura 2 que no requiere herramientas específicas como operativos"],
+    "diferencias_sustanciales": ["La falta de contenido matemático en Asignatura 1 y la presencia de contenidos matemáticos en Asignatura 2", "El enfoque en la programación y la computadora en Asignatura 1 vs el enfoque en la resolución de problemas y aplicación de técnicas matemáticas en Asignatura 2"],
+    "coincidencia_real": 25,
+    "advertencias": ["La falta de similitudes entre los contenidos y objetivos puede indicar que estas asignaturas no están diseñadas para ser equivalentes"]
+}
+
+Nota: La estimación de coincidencia real es conservadora, ya que solo se consideraron similitudes técnicas reales y no genéricas.
+INFO:embedding:Puntuación final estricta calculada: 0.2895989236483049
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 30.53s
+INFO:embedding:Proceso estricto completado en 65.97 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.4746963573667591), 'objectives': np.float64(0.7024702716001306), 'competences': np.float64(0.6069927911275529)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 38.57s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, se presenta el análisis con extremo rigor:
+
+{
+    "similitudes_tecnicas": ["Use of operating systems" en Asignatura 1 coincide con "Applications to Science and Technology" en Asignatura 2 (no es exacta, pero hay un vínculo indirecto)],
+    "diferencias_sustanciales": [
+        "La Asignatura 1 se enfoca en la computación y su estructura, mientras que la Asignatura 2 se centra en matemáticas y su aplicación en diferentes campos.",
+        "La Asignatura 1 tiene un enfoque más práctico y aplicado, mientras que la Asignatura 2 es más teórica y enfocada en el desarrollo de habilidades matemáticas."
+    ],
+    "coincidencia_real": 25,
+    "advertencias": ["Es importante destacar que las similitudes entre ambas asignaturas son muy superficiales y no hay un vínculo directo entre la computación y las matemáticas."]
+}
+
+Nota: La estimación de coincidencia real es conservadora, ya que solo se consideran similitudes técnicas reales y no genéricas.
+INFO:embedding:Puntuación final estricta calculada: 0.3189671134248396
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 30.41s
+INFO:embedding:Proceso estricto completado en 69.12 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.5510015680973146), 'objectives': np.float64(0.5932156119418964), 'competences': np.float64(0.6930863846195223)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 31.98s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["Programming and performance of assembly language" en Asignatura 1 es similar a "Programming fundamentals" en Asignatura 2],
+    "diferencias_sustanciales": ["La estructura y organización de los computadores en Asignatura 1 se enfoca más en la arquitectura y organización del hardware, mientras que en Asignatura 2 se centra en la programación y diseño de algoritmos"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que aunque haya similitudes en los objetivos y competencias, las asignaturas tienen enfoques diferentes. La Asignatura 1 se enfoca más en la comprensión del hardware y el software, mientras que la Asignatura 2 se centra en la programación y el diseño de algoritmos."]
+}
+INFO:embedding:Puntuación final estricta calculada: 0.407727840546809
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 26.36s
+INFO:embedding:Proceso estricto completado en 58.45 segundos
+INFO:     127.0.0.1:49540 - "POST /compare HTTP/1.1" 200 OK

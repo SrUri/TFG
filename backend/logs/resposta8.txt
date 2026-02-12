@@ -1,0 +1,266 @@
+INFO:     127.0.0.1:50736 - "OPTIONS /compare HTTP/1.1" 200 OK
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+Translation error: Need to load profiles.
+Translation error: Need to load profiles.
+Detected language: en
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "",
+        "objectives": [
+            ""
+        ],
+        "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    }
+}
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "Desarrollar habilidades básicas en informática y comprender los conceptos fundamentales de la computadora.",
+        "objectives": [
+            "Conocer las partes componentes de una computadora",
+            "Entender el funcionamiento básico de la computadora",
+            "Aprender a utilizar software básico",
+            "Desarrollar habilidades para resolver problemas de informática"
+        ],
+        "contents": [
+            "Componentes de una computadora",
+            "Funcionamiento básico de la computadora",
+            "Software básico",
+            "Resolución de problemas de informática"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Physics": {
+        "competences": "Desarrollar habilidades para analizar y comprender fenómenos físicos, aplicando conceptos matemáticos y físicos.",
+        "objectives": [
+            "Analizar y comprender fenómenos físicos",
+            "Aplicar conceptos matemáticos y físicos",
+            "Desarrollar habilidades para resolver problemas",
+            "Entender la importancia de la física en la sociedad",
+            "Comprender la relación entre la teoría y la experimentación",
+            "Desarrollar habilidades para comunicarse efectivamente"
+        ],
+        "contents": [
+            "Física clásica",
+            "Energía y trabajo",
+            "Mecánica",
+            "Ondas y partículas",
+            "Electromagnetismo",
+            "Óptica",
+            "Termodinámica",
+            "Física cuántica"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "FUNDAMENTALS OF COMPUTERS": {
+        "competences": "Desarrollar competencias en diseño y programación de computadoras, así como comprender el funcionamiento interno de los sistemas operativos.",
+        "objectives": [
+            "Conocer la estructura y organización de los ordenadores",
+            "Entender el diseño lógico y la operación de los sistemas",
+            "Aprender a programar en lenguaje ensamblador",
+            "Utilizar sistemas operativos"
+        ],
+        "contents": [
+            "Estructura y organización de los ordenadores",
+            "Diseño lógico y operación de los sistemas",
+            "Programación en lenguaje ensamblador",
+            "Uso de sistemas operativos",
+            "Interconexión de computadoras"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Fundamentos de Matemáticas": {
+        "competences": "",
+        "objectives": [""],
+        "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    "Introducción a Computadoras": {
+        "competences": "Desarrollar habilidades básicas en informática y comprender los conceptos fundamentales de la computadora.",
+        "objectives": [
+            "Conocer las partes componentes de una computadora",
+            "Entender el funcionamiento básico de la computadora",
+            "Aprender a utilizar software básico",
+            "Desarrollar habilidades para resolver problemas de informática"
+        ],
+        "contents": [
+            "Componentes de una computadora",
+            "Funcionamiento básico de la computadora",
+            "Software básico",
+            "Resolución de problemas de informática"
+        ]
+    },
+    "Física": {
+        "competences": "Desarrollar habilidades para analizar y comprender fenómenos físicos, aplicando conceptos matemáticos y físicos.",
+        "objectives": [
+            "Analizar y comprender fenómenos físicos",
+            "Aplicar conceptos matemáticos y físicos",
+            "Desarrollar habilidades para resolver problemas",
+            "Entender la importancia de la física en la sociedad",
+            "Comprender la relación entre la teoría y la experimentación",
+            "Desarrollar habilidades para comunicarse efectivamente"
+        ],
+        "contents": [
+            "Física clásica",
+            "Energía y trabajo",
+            "Mecánica",
+            "Ondas y partículas",
+            "Electromagnetismo",
+            "Óptica",
+            "Termodinámica",
+            "Física cuántica"
+        ]
+    }
+}
+Detected language: es
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo competences no cumple con el mínimo de contenido
+WARNING:embedding:Campo objectives no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+WARNING:embedding:Uno de los textos está vacío, devolviendo 0
+WARNING:embedding:Uno de los textos está vacío, devolviendo 0
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.4246677805475332), 'objectives': 0.0, 'competences': 0.0}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 37.79s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación te presento el análisis con EXTREMO RIGOR:
+
+{
+    "similitudes_tecnicas": ["Uso de sistemas operativos", "Interconexión de computadoras"],
+    "diferencias_sustanciales": ["Estructura y organización de los ordenadores" (no hay equivalente en la asignatura de Fundamentos de Matemáticas), "Diseño lógico y operación de los sistemas" (no hay equivalente en la asignatura de Fundamentos de Matemáticas), "Programación en lenguaje ensamblador" (no hay equivalente en la asignatura de Fundamentos de Matemáticas)],
+    "coincidencia_real": 25,
+    "advertencias": ["La asignatura de Fundamentos de Computadoras se enfoca en la programación y el funcionamiento interno de los sistemas operativos, mientras que la asignatura de Fundamentos de Matemáticas se centra en conceptos matemáticos abstractos."]
+}
+
+Nota: La estimación de coincidencia real es del 25% porque solo hay dos similitudes técnicas reales entre las dos asignaturas. Las demás competencias y objetivos son significativamente diferentes.
+INFO:embedding:Puntuación final estricta calculada: 0.15583472568441648
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+¡INFO:embedding:Explicación estricta generada en 56.09s
+INFO:embedding:Proceso estricto completado en 94.80 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.728336190328127), 'objectives': np.float64(0.7036450792616431), 'competences': np.float64(0.6579511202987768)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 36.57s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis con EXTREMO RIGOR:
+
+{
+    "similitudes_tecnicas": ["Estructura y organización de los ordenadores", "Componentes de una computadora"],
+    "diferencias_sustanciales": ["Diseño lógico y operación de los sistemas" vs. "Funcionamiento básico de la computadora" (distinción entre diseño y funcionamiento), "Programación en lenguaje ensamblador" vs. "Software básico" (diferencia en el nivel de abstracción y profundidad)],
+    "coincidencia_real": 60,
+    "advertencias": ["La asignatura 1 se enfoca más en la programación y diseño de computadoras, mientras que la asignatura 2 se centra en la comprensión básica de los conceptos fundamentales de la computadora."]
+}
+
+Nota: La estimación de coincidencia real (60%) refleja la similitud en algunos contenidos técnicos, pero también destaca las diferencias sustanciales en el enfoque y profundidad de cada asignatura.
+INFO:embedding:Puntuación final estricta calculada: 0.638682301851262
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 35.25s
+INFO:embedding:Proceso estricto completado en 71.97 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.6362067964722321), 'objectives': np.float64(0.6567248909371235), 'competences': np.float64(0.5914968063980205)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 31.94s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación te presento mi análisis con extremo rigor:
+
+{
+    "similitudes_tecnicas": [],
+    "diferencias_sustanciales": ["La asignatura 1 se enfoca en la programación y diseño de computadoras, mientras que la asignatura 2 se enfoca en la física y su aplicación a fenómenos naturales"],
+    "coincidencia_real": 0,
+    "advertencias": ["No hay similitudes técnicas significativas entre las dos asignaturas"]
+}
+
+En resumen, no encontré similitudes técnicas reales entre las dos asignaturas. La asignatura 1 se enfoca en la programación y diseño de computadoras, mientras que la asignatura 2 se enfoca en la física y su aplicación a fenómenos naturales. Estas son diferencias sustanciales que no permiten considerar similitudes técnicas significativas entre las dos asignaturas.
+INFO:embedding:Puntuación final estricta calculada: 0.5155058250039035
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 30.06s
+INFO:embedding:Proceso estricto completado en 62.16 segundos
+INFO:     127.0.0.1:50736 - "POST /compare HTTP/1.1" 200 OK

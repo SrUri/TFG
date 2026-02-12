@@ -1,0 +1,140 @@
+2025-05-23 03:42:14,796 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-05-23 03:42:14,796 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25
+2025-05-23 03:42:14,796 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-23 03:42:14,796 - main - INFO - 🔵 [MAIN] Título asignatura: PHYSICS
+2025-05-23 03:42:14,796 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-05-23 03:42:14,796 - main - INFO - 📥 Processing guide URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-23 03:42:15,156 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-23 03:42:15,160 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-23 03:42:15,161 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-23 03:42:15,161 - main - INFO - ✅ Subject processed: Introduction to Computers
+2025-05-23 03:42:15,246 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-23 03:42:15,248 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-23 03:42:15,251 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-23 03:42:15,255 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-23 03:42:15,256 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-23 03:42:15,256 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-23 03:42:15,256 - main - INFO - ✅ Subject processed: Fundamentals of Mathematics
+2025-05-23 03:42:15,256 - main - INFO - ✅ Subject processed: Physics
+2025-05-23 03:42:15,256 - main - INFO - ✅ Extracted 3 subjects from guide
+2025-05-23 03:42:15,256 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 3
+2025-05-23 03:42:15,256 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-05-23 03:42:15,256 - main - INFO - 📥 Processing subject URL: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25
+2025-05-23 03:42:15,256 - main - INFO - 🔍 Detected URV URL - attempting contents extraction
+2025-05-23 03:42:15,257 - main - INFO - 🔍 Fetching URV contents from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&fitxa_apartat=57
+2025-05-23 03:42:15,538 - main - INFO - ✅ Contents table found with Topic/Sub-topic headers
+2025-05-23 03:42:15,539 - main - INFO - ✅ URV contents extracted successfully
+2025-05-23 03:42:15,539 - main - INFO - 🔍 Fetching URV objectives from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&fitxa_apartat=56
+2025-05-23 03:42:15,801 - main - INFO - ✅ Fallback table found with Verdana class cells
+2025-05-23 03:42:15,802 - main - INFO - ✅ URV objectives extracted successfully
+2025-05-23 03:42:15,802 - main - INFO - 🔍 Fetching URV competences from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&fitxa_apartat=55
+2025-05-23 03:42:16,041 - main - INFO - ✅ Fallback table found with Verdana class cells
+2025-05-23 03:42:16,042 - main - INFO - ✅ URV competences extracted successfully
+2025-05-23 03:42:28,189 - main - INFO - Detailed theme extracted: {'core_topic': 'Electronics Fundamentals', 'key_contents': 'Electric Field, Kirchhoff Laws, Transfer Function, Semiconductor Materials', 'application_domain': 'Electronic Engineering'}
+2025-05-23 03:42:28,189 - main - INFO - 🔵 [MAIN] Temática principal identificada: {'core_topic': 'Electronics Fundamentals', 'key_contents': 'Electric Field, Kirchhoff Laws, Transfer Function, Semiconductor Materials', 'application_domain': 'Electronic Engineering'}
+2025-05-23 03:42:28,189 - main - INFO - 🔵 [MAIN] Fase 3: Comparando temáticas
+2025-05-23 03:42:46,838 - main - INFO - Detailed theme extracted: {'core_topic': 'Number Theory', 'key_contents': 'Formal propositional calculus, Predicate logic, Sets and elements, Functions', 'application_domain': 'Mathematics'}
+2025-05-23 03:42:47,790 - main - INFO - Title similarity between 'PHYSICS' and 'Fundamentals of Mathematics': 0.24
+2025-05-23 03:42:53,621 - main - INFO - Detailed theme extracted: {'core_topic': 'Digital Circuits and Processor Design', 'key_contents': 'Combinational Logic Circuits, Sequential Logical Circuits, Special Purpose Processors, General Processing Unit', 'application_domain': 'Computer Architecture'}
+2025-05-23 03:42:57,345 - main - INFO - Raw LLM response for theme comparison: 0.14
+2025-05-23 03:42:57,345 - main - INFO - Extracted LLM score: 0.14
+2025-05-23 03:42:57,345 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.518216609954834, 'key_contents': 0.5131598711013794, 'application_domain': 0.5153810381889343}, LLM: 0.14, Title: 0.24, Final: 0.34
+2025-05-23 03:42:57,346 - main - INFO - 🔵 [MAIN] Comparación temática: Fundamentals of Mathematics - Similitud: 0.34
+2025-05-23 03:42:57,548 - main - INFO - Title similarity between 'PHYSICS' and 'Introduction to Computers': 0.12
+2025-05-23 03:43:01,058 - main - INFO - Raw LLM response for theme comparison: "0.43"
+2025-05-23 03:43:01,058 - main - INFO - Extracted LLM score: 0.43
+2025-05-23 03:43:01,058 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.6459264755249023, 'key_contents': 0.48218128085136414, 'application_domain': 0.5202388167381287}, LLM: 0.43, Title: 0.12, Final: 0.46
+2025-05-23 03:43:01,058 - main - INFO - 🔵 [MAIN] Comparación temática: Introduction to Computers - Similitud: 0.46
+2025-05-23 03:43:08,101 - main - INFO - Detailed theme extracted: {'core_topic': 'Electrical Engineering Fundamentals', 'key_contents': "Ohm's law, Kirchhoff's laws, RC and RL circuits, RLC circuits, Complex numbers, Impedance, Alternating current circuits, Power, Signal superposition, Bandwidth, Resonance, Filters, Electronic structure of atoms, Conduction theory, p-n junction diode, Logic gates", 'application_domain': 'Electrical Engineering'}
+2025-05-23 03:43:08,217 - main - INFO - Title similarity between 'PHYSICS' and 'Physics': 1.00
+2025-05-23 03:43:11,682 - main - INFO - Raw LLM response for theme comparison: 0.83
+2025-05-23 03:43:11,683 - main - INFO - Extracted LLM score: 0.83
+2025-05-23 03:43:11,683 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.8917621374130249, 'key_contents': 0.7315022945404053, 'application_domain': 0.8593912124633789}, LLM: 0.83, Title: 1.00, Final: 0.84
+2025-05-23 03:43:11,683 - main - INFO - 🔵 [MAIN] Comparación temática: Physics - Similitud: 0.84
+2025-05-23 03:43:11,683 - main - INFO - 🔵 [MAIN] Asignaturas relevantes encontradas: 1
+2025-05-23 03:43:11,683 - main - INFO - 🔵 [MAIN] Fase 4: Extrayendo detalles asignatura principal
+2025-05-23 03:43:55,262 - main - INFO - 🔵 [MAIN] Fase 5: Procesando asignaturas relevantes
+2025-05-23 03:44:52,522 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-23 03:44:52,522 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-23 03:44:52,522 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: PHYSICS
+            Competencias: ["Analyze electric circuits using Kirchhoff's laws", 'Calculate electrostatic energy and potential', 'Design digital circuits such as logic gates...
+2025-05-23 03:44:52,523 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Physics
+                            Competencias: ["Analyze electric circuits using Kirchhoff's laws", 'Calculate impedance in AC circuits', 'Design electronic cir...
+2025-05-23 03:44:52,523 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-23 03:44:52,524 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': 'PHYSICS', 'competences': '["Analyze electric circuits using Kirchhoff\'s laws", \'Calculate electrostatic energy and potential\', \'Design digital circuits such as logic gates or programmable digital circuits\']', 'objectives': '[\'Measure physical magnitudes\', \'Estimate the error in the results of measurements\', "Know and apply Coulomb\'s law", \'Understand the concepts of electric fields and electric potential\', \'Know the concept of electrostatic energy\', \'Know the characteristics of conductors\', \'Distinguish a dielectric material from another conductor\']', 'contents': "{'Electrostatics': ['Electric Field', 'Electrostatic Energy and Potential', 'Capacitors', 'Conductor and Dielectric Materials'], 'Direct Electric Current': ['Electric Circuits', 'Kirchhoff Laws', 'Node Voltage method and Grid Current Method', 'Thévenin and Norton Laws'], 'Steady Sinusoidal Regime': ['Elements with Time Response', 'Transfer Function', 'Resonance'], 'Fundamentals of Semiconductors': ['Semiconducting Materials', 'Semiconductor Devices', 'Junction Diode and Light Emitting Diode', 'Field-Effect Transistor'], 'Semiconductor Devices Applications': ['Logical Families with CMOS Technology', 'Logic Programmable Devices']}"}
+2025-05-23 03:44:52,524 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': 'Physics', 'competences': '["Analyze electric circuits using Kirchhoff\'s laws", \'Calculate impedance in AC circuits\', \'Design electronic circuits with logic gates\']', 'objectives': '[\'Design and analyze electric circuits\', "Implement Kirchhoff\'s laws for circuit analysis", \'Analyze the behavior of alternating current circuits\', \'Develop understanding of electronic structures and conduction theory\', \'Apply principles of wave functions and harmonic waves\']', 'contents': '{\'Direct Electric Current\': [\'Electric load\', \'Electrical current\', \'Voltage\', \'Power\', \'Resistance\', "Ohm\'s law", \'Joule effect\', \'Voltage sources\', "Kirchhoff\'s laws", \'Series and parallel resistors\', \'Measurement devices\', "Thévenin\'s theorem", \'Capacitors\'], \'Alternating Current (AC)\': [\'Transients: RC and RL circuits\', \'RLC circuits: steady state response\', \'Complex numbers\', \'Impedance\', "Ohm\'s law", \'Alternating current circuits\', \'Power\', \'Signal superposition\', \'Bandwidth\', \'Resonance\', \'Filters\'], \'Electronics and logic gates\': [\'Electronic structure of atoms\', \'Conduction theory: metals, insulators, semiconductors\', \'The p-n junction diode: current rectifier and logic gates\', \'Light-emitting diodes (LED)\', \'Zener diode: voltage regulators\', \'Enhancement MOSFET\', \'Logic gates\', \'CMOS inversor\', \'Power and delay in digital circuits\', \'CMOS logic\'], \'Waves\': [\'Wave types\', \'Wave functions\', \'Harmonic waves\', \'Electromagnetic waves Energy density. Intensity.\', \'Electromagnetic spectrum\', \'Polarisation. Liquid crystal displays\', \'Reflection and refraction. Optical fibres\', \'Interference\', \'Lasers\']}'}
+2025-05-23 03:44:52,524 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-23 03:44:52,525 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Electrostatics': ['Electric Field', 'Electrostatic Energy and Potential', 'Capacitors', 'Conductor...
+T2: {'Direct Electric Current': ['Electric load', 'Electrical current', 'Voltage', 'Power', 'Resistance'...
+2025-05-23 03:44:52,525 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Measure physical magnitudes', 'Estimate the error in the results of measurements', "Know and apply...
+T2: ['Design and analyze electric circuits', "Implement Kirchhoff's laws for circuit analysis", 'Analyze...
+2025-05-23 03:44:52,525 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ["Analyze electric circuits using Kirchhoff's laws", 'Calculate electrostatic energy and potential',...
+T2: ["Analyze electric circuits using Kirchhoff's laws", 'Calculate impedance in AC circuits', 'Design e...
+2025-05-23 03:44:52,705 - embedding - DEBUG - Similitud estricta calculada: 0.8310662384270086 (raw: 0.9310662384270085) (en 0.18s)
+2025-05-23 03:44:52,723 - embedding - DEBUG - Similitud estricta calculada: 0.7059768410622322 (raw: 0.8059768410622322) (en 0.20s)
+2025-05-23 03:44:52,813 - embedding - DEBUG - Similitud estricta calculada: 0.644828293139091 (raw: 0.9060353664238636) (en 0.29s)
+2025-05-23 03:44:52,813 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.644828293139091
+2025-05-23 03:44:52,813 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.7059768410622322
+2025-05-23 03:44:52,813 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.8310662384270086
+2025-05-23 03:44:52,813 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.644828293139091), 'objectives': np.float64(0.7059768410622322), 'competences': np.float64(0.8310662384270086)}
+2025-05-23 03:44:52,813 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-23 03:44:52,813 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-23 03:44:52,813 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': 'PHYSICS', 'competences': '["Analyze electric circuits using Kirchhoff\'s laws", \'Calculate electrostatic energy and potential\', \'Design digital circuits such as logic gates or programmable digital circuits\']', 'objectives': '[\'Measure physical magnitudes\', \'Estimate the error in the results of measurements\', "Know and apply Coulomb\'s law", \'Understand the concepts of electric fields and electric potential\', \'Know the concept of electrostatic energy\', \'Know the characteristics of conductors\', \'Distinguish a dielectric material from another conductor\']', 'contents': "{'Electrostatics': ['Electric Field', 'Electrostatic Energy and Potential', 'Capacitors', 'Conductor and Dielectric Materials'], 'Direct Electric Current': ['Electric Circuits', 'Kirchhoff Laws', 'Node Voltage method and Grid Current Method', 'Thévenin and Norton Laws'], 'Steady Sinusoidal Regime': ['Elements with Time Response', 'Transfer Function', 'Resonance'], 'Fundamentals of Semiconductors': ['Semiconducting Materials', 'Semiconductor Devices', 'Junction Diode and Light Emitting Diode', 'Field-Effect Transistor'], 'Semiconductor Devices Applications': ['Logical Families with CMOS Technology', 'Logic Programmable Devices']}"}
+2025-05-23 03:44:52,813 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': 'Physics', 'competences': '["Analyze electric circuits using Kirchhoff\'s laws", \'Calculate impedance in AC circuits\', \'Design electronic circuits with logic gates\']', 'objectives': '[\'Design and analyze electric circuits\', "Implement Kirchhoff\'s laws for circuit analysis", \'Analyze the behavior of alternating current circuits\', \'Develop understanding of electronic structures and conduction theory\', \'Apply principles of wave functions and harmonic waves\']', 'contents': '{\'Direct Electric Current\': [\'Electric load\', \'Electrical current\', \'Voltage\', \'Power\', \'Resistance\', "Ohm\'s law", \'Joule effect\', \'Voltage sources\', "Kirchhoff\'s laws", \'Series and parallel resistors\', \'Measurement devices\', "Thévenin\'s theorem", \'Capacitors\'], \'Alternating Current (AC)\': [\'Transients: RC and RL circuits\', \'RLC circuits: steady state response\', \'Complex numbers\', \'Impedance\', "Ohm\'s law", \'Alternating current circuits\', \'Power\', \'Signal superposition\', \'Bandwidth\', \'Resonance\', \'Filters\'], \'Electronics and logic gates\': [\'Electronic structure of atoms\', \'Conduction theory: metals, insulators, semiconductors\', \'The p-n junction diode: current rectifier and logic gates\', \'Light-emitting diodes (LED)\', \'Zener diode: voltage regulators\', \'Enhancement MOSFET\', \'Logic gates\', \'CMOS inversor\', \'Power and delay in digital circuits\', \'CMOS logic\'], \'Waves\': [\'Wave types\', \'Wave functions\', \'Harmonic waves\', \'Electromagnetic waves Energy density. Intensity.\', \'Electromagnetic spectrum\', \'Polarisation. Liquid crystal displays\', \'Reflection and refraction. Optical fibres\', \'Interference\', \'Lasers\']}'}
+2025-05-23 03:44:52,813 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación de programas académicos. Analiza la similitud entre estas dos asignaturas con un enfoque BENEVOLENTE, priorizando la similitud temática del temario:
+
+Asignatura 1:
+- Nombre: PHYSICS
+- Competencias: ["Analyze electric circuits using Kirchhoff's laws", 'Calculate electrostatic energy and potential', 'Design digital circuits such as logic gates or programmable digital circuits']
+- Objetivos: ['Measure physical magnitudes', 'Estimate the error in the results of measure...
+2025-05-23 03:45:19,319 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 26.51s
+2025-05-23 03:45:19,319 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+{
+    "similitudes_tecnicas": ["Electric Field", "Electrostatic Energy and Potential", "Capacitors", "Conductor and Dielectric Materials", "Kirchhoff Laws", "Thévenin and Norton Laws"],
+    "diferencias_sustanciales": ["Semiconductor Devices Applications", "Fundamentals of Semiconductors", "Steady Sinusoidal Regime", "Waves"],
+    "coincidencia_real": 85.5,
+    "advertencias": []
+}
+2025-05-23 03:45:19,319 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+{
+    "similitudes_tecnicas": ["Electric Field", "Electrostatic Energy and Potential", "Capacitors", "Conductor and Dielectric Materials", "Kirchhoff Laws", "Thévenin and Norton Laws"],
+    "diferencias_sustanciales": ["Semiconductor Devices Applications", "Fundamentals of Semiconductors", "Steady Sinusoidal Regime", "Waves"],
+    "coincidencia_real": 85.5,
+    "advertencias": []
+}
+2025-05-23 03:45:19,319 - embedding - INFO - 🟠 [EMBED-QA] Análisis parseado correctamente
+2025-05-23 03:45:19,319 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'similitudes_tecnicas': ['Electric Field', 'Electrostatic Energy and Potential', 'Capacitors', 'Conductor and Dielectric Materials', 'Kirchhoff Laws', 'Thévenin and Norton Laws'], 'diferencias_sustanciales': ['Semiconductor Devices Applications', 'Fundamentals of Semiconductors', 'Steady Sinusoidal Regime', 'Waves'], 'coincidencia_real': 85.5, 'advertencias': []}
+2025-05-23 03:45:19,319 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.8591338849203938
+2025-05-23 03:45:19,319 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-23 03:45:19,319 - embedding - INFO - Generando explicación estricta...
+2025-05-23 03:45:19,319 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: PHYSICS
+Asignatura B: Physics
+
+Puntuación de similitud: 85.9%
+
+Basándote en este análisis:
+{
+  "similitudes_tecnicas": [
+    "Electric Field",
+    "Electrostatic Energy and Potential",
+    "Capacitors",
+  ...
+2025-05-23 03:45:40,258 - embedding - INFO - Explicación estricta generada en 20.94s
+2025-05-23 03:45:40,258 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: En la asignatura A, PHYSICS, y la asignatura B, Physics, se observan importantes coincidencias técnicas. Ambas asignaturas abordan conceptos como Campo Eléctrico, Energía y Potencial Electroestático, Condensadores y Materiales Conductores y Dieléctricos. Además, comparten leyes como las de Kirchhoff y Thévenin-Norton.
+
+Sin embargo, hay diferencias sustanciales entre ambas asignaturas. La asignatura A incluye aplicaciones de dispositivos semiconductor, fundamentos de semiconductores y régimen sinusoidal estable, mientras que la asignatura B no menciona estos temas. En conclusión, aunque las asignaturas compartan un 85,9% de similitud técnica, la asignatura A se enfoca en aspectos más específicos y aplicados, lo que justifica su tratamiento como una asignatura separada.
+2025-05-23 03:45:40,258 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.8591), 'components': {'contents': np.float64(0.644828293139091), 'objectives': np.float64(0.7059768410622322), 'competences': np.float64(0.8310662384270086)}, 'llm_analysis': {'similitudes_tecnicas': ['Electric Field', 'Electrostatic Energy and Potential', 'Capacitors', 'Conductor and Dielectric Materials', 'Kirchhoff Laws', 'Thévenin and Norton Laws'], 'diferencias_sustanciales': ['Semiconductor Devices Applications', 'Fundamentals of Semiconductors', 'Steady Sinusoidal Regime', 'Waves'], 'coincidencia_real': 85.5, 'advertencias': []}, 'explanation': 'En la asignatura A, PHYSICS, y la asignatura B, Physics, se observan importantes coincidencias técnicas. Ambas asignaturas abordan conceptos como Campo Eléctrico, Energía y Potencial Electroestático, Condensadores y Materiales Conductores y Dieléctricos. Además, comparten leyes como las de Kirchhoff y Thévenin-Norton.\n\nSin embargo, hay diferencias sustanciales entre ambas asignaturas. La asignatura A incluye aplicaciones de dispositivos semiconductor, fundamentos de semiconductores y régimen sinusoidal estable, mientras que la asignatura B no menciona estos temas. En conclusión, aunque las asignaturas compartan un 85,9% de similitud técnica, la asignatura A se enfoca en aspectos más específicos y aplicados, lo que justifica su tratamiento como una asignatura separada.'}
+2025-05-23 03:45:40,259 - main - INFO - 🟢 [MAIN] Comparación completada exitosamente

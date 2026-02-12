@@ -1,0 +1,125 @@
+INFO:     Application startup complete.
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+Detected language: sl
+Detected language: sl
+Detected language: en
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "Develop problem-solving skills, understand the basic concepts of computer science, and learn programming techniques.",
+        "objectives": [
+            "Understand the fundamental principles of computer science",
+            "Learn programming techniques using a high-level language",
+            "Develop problem-solving skills"
+        ],
+        "contents": [
+            "Introduction to computers and their applications",
+            "Programming fundamentals: variables, data types, control structures",
+            "Algorithms and data structures",
+            "Computer systems and architecture",
+            "Software engineering principles"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Physics": {
+        "competences": "Students will develop skills in problem-solving, critical thinking, and analytical reasoning. They will also learn to apply physical principles to real-world problems.",
+        "objectives": [
+            "To understand the fundamental laws of physics",
+            "To apply mathematical techniques to solve problems",
+            "To analyze and interpret experimental data",
+            "To develop critical thinking skills",
+            "To understand the relationships between physical concepts"
+        ],
+        "contents": [
+            "Mechanics: kinematics, dynamics, energy, momentum",
+            "Thermodynamics: laws of thermodynamics, heat transfer, temperature",
+            "Electromagnetism: electric charges, electric and magnetic fields, Maxwell's equations",
+            "Optics: light waves, reflection, refraction, diffraction",
+            "Quantum Mechanics: wave-particle duality, Schrödinger equation, quantum systems"
+        ]
+    }
+}
+Trying to parse with json5 after a standard JSON error...
+⚠️ Error procesando https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F: 500: Error parsing JSON5: <string>:14 Unexpected "s" at column 88
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Develop problem-solving skills, understand mathematical structures and relationships, and apply mathematical techniques to real-world problems.",
+        "objectives": [
+            "Understand the fundamental concepts of mathematics",
+            "Apply mathematical techniques to solve problems",
+            "Develop critical thinking and problem-solving skills",
+            "Learn to communicate mathematical ideas effectively",
+            "Understand the importance of mathematical structures and relationships"
+        ],
+        "contents": [
+            "Mathematical structures and relationships",
+            "Algebraic manipulations and equations",
+            "Geometric transformations and shapes",
+            "Analytic geometry and calculus",
+            "Statistics and probability theory"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "FUNDAMENTALS OF COMPUTERS": {
+        "competences": "Students will be able to understand the structure, organization, logical design, operation, and interconnection of computers; program and perform assembly language; use operating systems.",
+        "objectives": [
+            "To understand the fundamental concepts of computer science",
+            "To learn programming skills in assembly language",
+            "To develop problem-solving skills using computers",
+            "To understand the basics of operating systems",
+            "To apply logical thinking to solve problems",
+            "To develop critical thinking and analytical skills"
+        ],
+        "contents": [
+            "Structure, organization, logical design, operation, and interconnection of computers",
+            "Programming and performance of assembly language",
+            "Use of operating systems",
+            "Logical design and problem-solving using computers"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "Develop problem-solving skills, understand the basic concepts of computer science, and learn programming techniques.",
+        "objectives": ["Understand the fundamental principles of computer science", "Learn programming techniques using a high-level language", "Develop problem-solving skills"],
+        "contents": ["Introduction to computers and their applications", "Programming fundamentals: variables, data types, control structures", "Algorithms and data structures", "Computer systems and architecture", "Software engineering principles"]
+    },
+    "Fundamentals of Mathematics": {
+        "competences": "Develop problem-solving skills, understand mathematical structures and relationships, and apply mathematical techniques to real-world problems.",
+        "objectives": ["Understand the fundamental concepts of mathematics", "Apply mathematical techniques to solve problems", "Develop critical thinking and problem-solving skills", "Learn to communicate mathematical ideas effectively", "Understand the importance of mathematical structures and relationships"],
+        "contents": ["Mathematical structures and relationships", "Algebraic manipulations and equations", "Geometric transformations and shapes", "Analytic geometry and calculus", "Statistics and probability theory"]
+    }
+}
+Detected language: ca
+INFO:embedding:Iniciando cálculo de similitud con prompt unificado...
+ERROR:embedding:Error extrayendo componentes: missing ), unterminated subpattern at position 13
+ERROR:embedding:Error extrayendo componentes: missing ), unterminated subpattern at position 13
+INFO:embedding:Componentes extraídos:
+Texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+Texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Ejecutando análisis completo con LLM...
+INFO:embedding:Puntuación final calculada: 0.8200000000000001
+INFO:embedding:Iniciando cálculo de similitud con prompt unificado...
+ERROR:embedding:Error extrayendo componentes: missing ), unterminated subpattern at position 13
+ERROR:embedding:Error extrayendo componentes: missing ), unterminated subpattern at position 13
+INFO:embedding:Componentes extraídos:
+Texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+Texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Ejecutando análisis completo con LLM...
+INFO:embedding:Puntuación final calculada: 0.8200000000000001
+INFO:     127.0.0.1:49638 - "POST /compare HTTP/1.1" 200 OK

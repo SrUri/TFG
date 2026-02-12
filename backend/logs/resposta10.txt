@@ -1,0 +1,186 @@
+INFO:     127.0.0.1:49384 - "OPTIONS /compare HTTP/1.1" 200 OK
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+Translation error: Need to load profiles.
+Detected language: sl
+Detected language: en
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Develop problem-solving skills, understand mathematical concepts and apply them to real-world problems.",
+        "objectives": [
+            "Understand the fundamental principles of mathematics",
+            "Apply mathematical techniques to solve problems",
+            "Develop critical thinking and analytical skills"
+        ],
+        "contents": [
+            "Algebraic structures",
+            "Linear algebra",
+            "Calculus",
+            "Probability theory",
+            "Statistics"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "",
+        "objectives": [
+            "To understand the basic concepts of computers and their applications",
+            "To develop problem-solving skills using programming languages",
+            "To learn about computer hardware and software components"
+        ],
+        "contents": [
+            "Computer architecture and organization",
+            "Programming fundamentals (variables, data types, control structures)",
+            "Basic algorithms and data structures",
+            "Introduction to programming languages (e.g., Python, Java)"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Physics": {
+        "competences": "",
+        "objectives": [
+            "To understand the fundamental principles of physics and their applications",
+            "To develop problem-solving skills using mathematical and computational tools",
+            "To analyze and interpret data to draw conclusions about physical phenomena"
+        ],
+        "contents": [
+            "Laws of motion and energy",
+            "Thermodynamics and statistical mechanics",
+            "Electromagnetism and optics",
+            "Quantum mechanics and relativity",
+            "Experimental methods in physics"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "FUNDAMENTALS OF COMPUTERS": {
+        "competences": "Students will be able to identify the structure, organization, logical design, operation, and interconnection of computers; program and perform assembly language; use operating systems.",
+        "objectives": [
+            "Understand the fundamental concepts of computer science",
+            "Be able to program in assembly language",
+            "Know how to use operating systems",
+            "Develop problem-solving skills",
+            "Learn how to work with logical design and operation",
+            "Gain knowledge on interconnection of computers"
+        ],
+        "contents": [
+            "Structure, organization, logical design, operation, and interconnection of computers",
+            "Programming and performance of assembly language",
+            "Use of operating systems",
+            "Logical design and operation",
+            "Interconnection of computers"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Develop problem-solving skills, understand mathematical concepts and apply them to real-world problems.",
+        "objectives": ["Understand the fundamental principles of mathematics", "Apply mathematical techniques to solve problems", "Develop critical thinking and analytical skills"],
+        "contents": ["Algebraic structures", "Linear algebra", "Calculus", "Probability theory", "Statistics"]
+    },
+    "Introduction to Computers": {
+        "competences": "",
+        "objectives": ["To understand the basic concepts of computers and their applications", "To develop problem-solving skills using programming languages", "To learn about computer hardware and software components"],
+        "contents": ["Computer architecture and organization", "Programming fundamentals (variables, data types, control structures)", "Basic algorithms and data structures", "Introduction to programming languages (e.g., Python, Java)"]
+    },
+    "Physics": {
+        "competences": "",
+        "objectives": ["To understand the fundamental principles of physics and their applications", "To develop problem-solving skills using mathematical and computational tools", "To analyze and interpret data to draw conclusions about physical phenomena"],
+        "contents": ["Laws of motion and energy", "Thermodynamics and statistical mechanics", "Electromagnetism and optics", "Quantum mechanics and relativity", "Experimental methods in physics"]
+    }
+}
+Detected language: ca
+INFO:embedding:Iniciando cálculo de similitud con prompt unificado...
+ERROR:embedding:Error extrayendo componentes: missing ), unterminated subpattern at position 13
+ERROR:embedding:Error extrayendo componentes: missing ), unterminated subpattern at position 13
+INFO:embedding:Componentes extraídos:
+Texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+Texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Ejecutando análisis completo con LLM...
+ERROR:embedding:Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: **Análisis de asignaturas**
+
+**ASIGNATURA 1**
+- **Nombre**: Desarrollo Web con HTML, CSS y JavaScript
+- **Competencias**: Diseñar y desarrollar aplicaciones web interactivas utilizando tecnologías web estándar; entender la estructura y funcionamiento de las páginas web.
+- **Objetivos**: Aprender a crear páginas web dinámicas y responsivas utilizando HTML, CSS y JavaScript; comprender el flujo de trabajo en el desarrollo web.
+- **Contenidos**:
+        + Introducción al desarrollo web
+        + HTML: estructura de documentos, elementos y atributos
+        + CSS: estilos y selecciones, box model y layout
+        + JavaScript: introducción a la programación, variables, tipos de datos y operadores
+
+**ASIGNATURA 2**
+- **Nombre**: Desarrollo de Aplicaciones Web con React y Node.js
+- **Competencias**: Diseñar y desarrollar aplicaciones web interactivas utilizando tecnologías web modernas; entender la estructura y funcionamiento de las páginas web.
+- **Objetivos**: Aprender a crear aplicaciones web dinámicas y responsivas utilizando React y Node.js; comprender el flujo de trabajo en el desarrollo web.
+- **Contenidos**:
+        + Introducción al desarrollo web con React
+        + JSX: creación de componentes y elementos
+        + Estado y ciclo de vida de los componentes
+        + Node.js: introducción a la programación, variables, tipos de datos y operadores
+
+**Análisis**
+
+1. **Similitud técnica**: 0.85 (ambas asignaturas se enfocan en el desarrollo web con tecnologías como HTML, CSS, JavaScript, React y Node.js)
+2. **Similitud de objetivos**: 0.75 (los objetivos de ambas asignaturas son similares, aunque ASIGNATURA 1 se centra más en la estructura y funcionamiento de las páginas web, mientras que ASIGNATURA 2 se enfoca en el desarrollo de aplicaciones web con React y Node.js)
+3. **Similitud de competencias**: 0.65 (las competencias de ambas asignaturas son similares, aunque ASIGNATURA 1 se centra más en la comprensión de la estructura y funcionamiento de las páginas web, mientras que ASIGNATURA 2 se enfoca en el diseño y desarrollo de aplicaciones web)
+
+**Lista de similitudes técnicas**: ["HTML", "CSS", "JavaScript", "React", "Node.js"]
+
+**Lista de diferencias sustanciales**: ["ASIGNATURA 1 se centra más en la estructura y funcionamiento de las páginas web, mientras que ASIGNATURA 2 se enfoca en el desarrollo de aplicaciones web con React y Node.js"]
+
+**Recomendación de equivalencia**: Las dos asignaturas pueden ser equivalentes si se considera que ASIGNATURA 1 es una base para el desarrollo web y ASIGNATURA 2 es un avance en el uso de tecnologías modernas como React y Node.js.
+
+**Explicación detallada**: Ambas asignaturas comparten objetivos y competencias similares, pero ASIGNATURA 1 se centra más en la estructura y funcionamiento de las páginas web, mientras que ASIGNATURA 2 se enfoca en el desarrollo de aplicaciones web con React y Node.js. Aunque hay diferencias sustanciales entre ambas asignaturas, pueden ser equivalentes si se considera que ASIGNATURA 1 es una base para el desarrollo web y ASIGNATURA 2 es un avance en el uso de tecnologías modernas.
+
+**Formato de respuesta JSON válido**:
+{
+    "contents_similarity": 0.85,
+    "objectives_similarity": 0.75,
+    "competences_similarity": 0.65,
+    "technical_similarities": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+    "substantial_differences": ["ASIGNATURA 1 se centra más en la estructura y funcionamiento de las páginas web, mientras que ASIGNATURA 2 se enfoca en el desarrollo de aplicaciones web con React y Node.js"],
+    "equivalence_recommendation": "Las dos asignaturas pueden ser equivalentes si se considera que ASIGNATURA 1 es una base para el desarrollo web y ASIGNATURA 2 es un avance en el uso de tecnologías modernas.",
+    "detailed_explanation": "Ambas asignaturas comparten objetivos y competencias similares, pero ASIGNATURA 1 se centra más en la estructura y funcionamiento de las páginas web, mientras que ASIGNATURA 2 se enfoca en el desarrollo de aplicaciones web con React y Node.js. Aunque hay diferencias sustanciales entre ambas asignaturas, pueden ser equivalentes si se considera que ASIGNATURA 1 es una base para el desarrollo web y ASIGNATURA 2 es un avance en el uso de tecnologías modernas."
+}
+ERROR:embedding:Error en similarity_score: Respuesta del LLM no es un JSON válido
+Traceback (most recent call last):
+  File "/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/embedding.py", line 146, in parse_llm_response
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/embedding.py", line 33, in similarity_score
+    result = parse_llm_response(response)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/embedding.py", line 150, in parse_llm_response
+    raise ValueError("Respuesta del LLM no es un JSON válido")
+ValueError: Respuesta del LLM no es un JSON válido
+INFO:     127.0.0.1:49384 - "POST /compare HTTP/1.1" 500 Internal Server Error

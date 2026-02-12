@@ -1,0 +1,208 @@
+INFO:     127.0.0.1:54095 - "OPTIONS /compare HTTP/1.1" 200 OK
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234103&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234103&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234103&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234103&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+🔗 Encolando asignatura: 'Programming I' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1
+🔗 Encolando asignatura: 'Computer Organization' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC
+🔗 Encolando asignatura: 'Mathematics I' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M1
+🔗 Encolando asignatura: 'Mathematics II' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M2
+🔗 Encolando asignatura: 'Programming II' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO2
+🔗 Encolando asignatura: 'Databases' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/BD
+🔗 Encolando asignatura: 'Computer Interfacing' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/CI
+🔗 Encolando asignatura: 'Data Structures and Algorithmics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EDA
+🔗 Encolando asignatura: 'Probability and Statistics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PE
+🔗 Encolando asignatura: 'Operating Systems' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/SO
+🔗 Encolando asignatura: 'Computer Architecture' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/AC
+🔗 Encolando asignatura: 'Business and Economic Environment' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EEE
+Detected language: en
+Detected language: en
+Detected language: en
+Detected language: en
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "Develop problem-solving skills, understand the basics of computer programming and data processing, and learn how to use computers as a tool for information processing.",
+        "objectives": [
+            "Understand the basic concepts of computer science",
+            "Learn the fundamentals of programming",
+            "Develop problem-solving skills using computational thinking",
+            "Understand the role of computers in information processing",
+            "Learn to use computers as a tool for data processing and analysis"
+        ],
+        "contents": [
+            "Introduction to computer systems and architecture",
+            "Programming basics: variables, data types, control structures, functions",
+            "Data processing and manipulation using programming languages",
+            "Computer networks and communication protocols",
+            "Introduction to algorithms and computational complexity"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Develop mathematical skills and problem-solving abilities, understand the fundamental concepts and methods of mathematics, apply mathematical techniques to real-world problems.",
+        "objectives": [
+            "Understand the basic principles of algebra, geometry, trigonometry, and calculus",
+            "Apply mathematical techniques to solve problems in various fields",
+            "Develop critical thinking and problem-solving skills",
+            "Learn to communicate mathematical ideas effectively",
+            "Understand the role of mathematics in science and technology"
+        ],
+        "contents": [
+            "Algebra: equations, functions, graphing",
+            "Geometry: points, lines, planes, solids",
+            "Trigonometry: triangles, waves, periodic phenomena",
+            "Calculus: limits, derivatives, integrals, applications"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "Programming I": {
+        "competences": "Develop programming skills, understand algorithms and data structures, and apply problem-solving techniques.",
+        "objectives": [
+            "Understand the basics of programming",
+            "Learn to write programs in a specific language",
+            "Apply problem-solving techniques",
+            "Understand algorithms and data structures",
+            "Develop programming skills"
+        ],
+        "contents": [
+            "Programming fundamentals",
+            "Variables, data types, and operators",
+            "Control structures (if-else, loops, etc.)",
+            "Functions and modules",
+            "Error handling and debugging",
+            "Algorithms and data structures (arrays, linked lists, stacks, etc.)"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "Physics": {
+        "competences": "Students will acquire skills in problem-solving, critical thinking, and analytical reasoning. They will also develop their ability to work with complex systems and understand the fundamental laws of physics.",
+        "objectives": [
+            "To understand the fundamental principles of physics",
+            "To apply mathematical techniques to solve problems in physics",
+            "To analyze and interpret data from experiments and observations",
+            "To develop problem-solving skills and critical thinking",
+            "To understand the importance of physics in everyday life"
+        ],
+        "contents": [
+            "Laws of motion and energy",
+            "Thermodynamics and statistical mechanics",
+            "Electromagnetism and optics",
+            "Quantum mechanics and relativity",
+            "Experimental methods and data analysis"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "Mathematics I": {
+        "competences": "Develop problem-solving skills, understand mathematical concepts and apply them to real-world problems.",
+        "objectives": [
+            "Understand the fundamental principles of mathematics",
+            "Apply mathematical techniques to solve problems",
+            "Develop critical thinking and analytical skills"
+        ],
+        "contents": [
+            "Introduction to mathematical concepts",
+            "Algebraic structures and operations",
+            "Calculus and its applications",
+            "Linear algebra and matrix theory"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "Computer Organization": {
+        "competences": "Students will acquire skills in computer organization, including the understanding of computer architecture, memory hierarchy, and input/output systems.",
+        "objectives": [
+            "To understand the fundamental concepts of computer organization",
+            "To analyze the design of computer architectures",
+            "To evaluate the performance of different computer architectures",
+            "To develop problem-solving skills using computer organization principles",
+            "To apply computer organization knowledge to real-world problems"
+        ],
+        "contents": [
+            "Computer architecture",
+            "Memory hierarchy",
+            "Input/output systems",
+            "Performance evaluation and optimization",
+            "Case studies in computer organization"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "Mathematics II": {
+        "competences": "Development of mathematical skills, problem-solving and critical thinking.",
+        "objectives": [
+            "To understand the fundamental concepts of mathematics",
+            "To develop mathematical skills and problem-solving abilities",
+            "To apply mathematical techniques to solve problems",
+            "To analyze and interpret data using mathematical methods",
+            "To develop critical thinking and logical reasoning",
+            "To understand the importance of mathematics in various fields"
+        ],
+        "contents": [
+            "Linear algebra: vector spaces, linear transformations, eigenvalues and eigenvectors",
+            "Calculus: limits, derivatives, integrals, and applications",
+            "Differential equations: ordinary and partial differential equations, numerical methods",
+            "Probability theory: random variables, probability distributions, Bayes' theorem",
+            "Statistics: descriptive statistics, inferential statistics, regression analysis"
+        ]
+    }
+}
+Trying to parse with json5 after a standard JSON error...
+⚠️ Error procesando https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M2: 500: Error parsing JSON5: <string>:16 Unexpected "t" at column 86
+Detected language: en
+Raw model response:
+ {
+    "PROGRAMMING I": {
+        "competences": "Develop programming skills to solve problems and understand algorithms, as well as analyze and design software systems.",
+        "objectives": [
+            "Acquire the ability to write efficient and correct programs in various languages",
+            "Understand the fundamental concepts of computer science and their applications",
+            "Develop problem-solving skills through hands-on experience with programming"
+        ],
+        "contents": [
+            "Introduction to programming concepts",
+            "Variables, data types, operators, control structures, functions, and arrays",
+            "Basic algorithms and data structures",
+            "Error handling and debugging techniques"
+        ]
+    },
+    "MATHEMATICAL ANALYSIS II": {
+        "competences": "Develop mathematical skills to analyze and solve problems in various fields, as well as understand the underlying principles of mathematics.",
+        "objectives": [
+            "Acquire a solid understanding of advanced mathematical concepts",
+            "Develop problem-solving skills through hands-on experience with mathematical techniques",
+            "Understand the applications of mathematical methods in various fields"
+        ],
+        "contents": [
+            "Advanced calculus, including differential equations and integral transforms",
+            "Linear algebra and matrix theory",
+            "Vector spaces and linear transformations",
+            "Group theory and abstract algebra"
+        ]
+    },
+    ...
+}
+Trying to parse with json5 after a standard JSON error...
+⚠️ Error procesando https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/BD: 500: Error parsing JSON5: <string>:30 Unexpected "." at column 6
+Detected language: en

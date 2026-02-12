@@ -1,0 +1,239 @@
+INFO:     Application startup complete.
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+Detected language: sl
+Detected language: sl
+Detected language: en
+Raw model response:
+ {
+    "Physics": {
+        "competences": "Desarrolla habilidades en el análisis y resolución de problemas físicos, comprensión de conceptos físicos y su aplicación en diferentes contextos.",
+        "objectives": [
+            "Comprender los conceptos básicos de la física",
+            "Aprender a analizar y resolver problemas físicos",
+            "Desarrollar habilidades para aplicar conceptos físicos en diferentes contextos"
+        ],
+        "contents": [
+            "Estructura atómica y molecular",
+            "Movimiento y energía",
+            "Fuerza y trabajo",
+            "Mecánica y termodinámica",
+            "Ondas y partículas"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "Desarrolla habilidades para utilizar herramientas y tecnologías informáticas básicas.",
+        "objectives": [
+            "Conocer los conceptos básicos de la informática",
+            "Dominar las herramientas y tecnologías informáticas básicas",
+            "Entender el papel de la informática en diferentes campos",
+            "Desarrollar habilidades para resolver problemas utilizando la informática",
+            "Aprender a utilizar lenguajes de programación básicos",
+            "Conocer los conceptos de algoritmos y estructuras de datos"
+        ],
+        "contents": [
+            "Introducción a la informática",
+            "Conceptos básicos de la informática",
+            "Herramientas y tecnologías informáticas básicas",
+            "Lenguajes de programación básicos",
+            "Algoritmos y estructuras de datos"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Desarrollar habilidades matemáticas básicas para resolver problemas y analizar datos.",
+        "objectives": [
+            "Conocer las herramientas matemáticas fundamentales",
+            "Aprender a resolver problemas utilizando técnicas matemáticas",
+            "Entender la importancia de la lógica y el razonamiento en la resolución de problemas",
+            "Desarrollar habilidades para analizar y visualizar datos",
+            "Aprender a comunicarse efectivamente sobre conceptos matemáticos",
+            "Conocer las aplicaciones prácticas de las matemáticas en diferentes campos"
+        ],
+        "contents": [
+            "Algebra lineal",
+            "Análisis numérico",
+            "Ecuaciones diferenciales",
+            "Geometría analítica",
+            "Matrices y operaciones vectoriales",
+            "Probabilidad y estadística descriptiva",
+            "Resolución de ecuaciones y sistemas de ecuaciones"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "FUNDAMENTALS OF COMPUTERS": {
+        "competences": "Desarrollar competencias en programación y diseño lógico de computadoras, así como entender la estructura y organización de los sistemas informáticos.",
+        "objectives": [
+            "Conocer la estructura y organización de los sistemas informáticos",
+            "Programar en lenguaje ensamblador",
+            "Entender el funcionamiento de los sistemas operativos",
+            "Desarrollar habilidades en diseño lógico de computadoras",
+            "Aplicar conceptos de programación para resolver problemas",
+            "Comprender la importancia de la seguridad y privacidad en el desarrollo de aplicaciones informáticas"
+        ],
+        "contents": [
+            "Estructura y organización de los sistemas informáticos",
+            "Programación en lenguaje ensamblador",
+            "Diseño lógico de computadoras",
+            "Sistemas operativos y su funcionamiento",
+            "Seguridad y privacidad en el desarrollo de aplicaciones informáticas"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Física": {
+        "competences": "Desarrolla habilidades en el análisis y resolución de problemas físicos, comprensión de conceptos físicos y su aplicación en diferentes contextos.",
+        "objectives": [
+            "Comprender los conceptos básicos de la física",
+            "Aprender a analizar y resolver problemas físicos",
+            "Desarrollar habilidades para aplicar conceptos físicos en diferentes contextos"
+        ],
+        "contents": [
+            "Estructura atómica y molecular",
+            "Movimiento y energía",
+            "Fuerza y trabajo",
+            "Mecánica y termodinámica",
+            "Ondas y partículas"
+        ]
+    },
+    "Introducción a los Computadores": {
+        "competences": "Desarrolla habilidades para utilizar herramientas y tecnologías informáticas básicas.",
+        "objectives": [
+            "Conocer los conceptos básicos de la informática",
+            "Dominar las herramientas y tecnologías informáticas básicas",
+            "Entender el papel de la informática en diferentes campos",
+            "Desarrollar habilidades para resolver problemas utilizando la informática",
+            "Aprender a utilizar lenguajes de programación básicos",
+            "Conocer los conceptos de algoritmos y estructuras de datos"
+        ],
+        "contents": [
+            "Introducción a la informática",
+            "Conceptos básicos de la informática",
+            "Herramientas y tecnologías informáticas básicas",
+            "Lenguajes de programación básicos",
+            "Algoritmos y estructuras de datos"
+        ]
+    },
+    "Fundamentos de Matemáticas": {
+        "competences": "Desarrollar habilidades matemáticas básicas para resolver problemas y analizar datos.",
+        "objectives": [
+            "Conocer las herramientas matemáticas fundamentales",
+            "Aprender a resolver problemas utilizando técnicas matemáticas",
+            "Entender la importancia de la lógica y el razonamiento en la resolución de problemas",
+            "Desarrollar habilidades para analizar y visualizar datos",
+            "Aprender a comunicarse efectivamente sobre conceptos matemáticos",
+            "Conocer las aplicaciones prácticas de las matemáticas en diferentes campos"
+        ],
+        "contents": [
+            "Algebra lineal",
+            "Análisis numérico",
+            "Ecuaciones diferenciales",
+            "Geometría analítica",
+            "Matrices y operaciones vectoriales",
+            "Probabilidad y estadística descriptiva",
+            "Resolución de ecuaciones y sistemas de ecuaciones"
+        ]
+    }
+}
+Detected language: ca
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.5309360099771617), 'objectives': np.float64(0.5314223868655462), 'competences': np.float64(0.526530107078241)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 38.15s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación te presento el análisis con extremo rigor:
+
+{
+"similitudes_tecnicas": ["Estructura atómica y molecular" en Asignatura 2 es similar a "Estructura y organización de los sistemas informáticos" en Asignatura 1, ya que ambos se refieren a la estructura básica de algo"],
+"diferencias_sustanciales": ["La asignatura sobre fundamentos de computadoras se enfoca en programación, diseño lógico y sistemas operativos, mientras que la asignatura sobre física se enfoca en conceptos físicos y resolución de problemas", "El lenguaje ensamblador no tiene equivalente en la asignatura sobre física"],
+"coincidencia_real": 25,
+"advertencias": ["Es importante destacar que las competencias y objetivos de ambas asignaturas son muy diferentes, por lo que no hay una similitud real entre ellas"]
+}
+
+Nota: La estimación de coincidencia real es del 25%, ya que solo se encontró una similitud técnica débil en la estructura atómica y molecular. Las demás diferencias son sustanciales y no permiten considerar una mayor similitud.
+INFO:embedding:Puntuación final estricta calculada: 0.3681387565119189
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 32.25s
+INFO:embedding:Proceso estricto completado en 70.57 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.7819371295160482), 'objectives': np.float64(0.8045893074818496), 'competences': np.float64(0.4731286885282626)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 45.51s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": [
+        "Programación en lenguaje ensamblador" (Asignatura 1) vs. "Lenguajes de programación básicos" (Asignatura 2)
+    ],
+    "diferencias_sustanciales": [
+        La Asignatura 1 se enfoca más en la estructura y organización de los sistemas informáticos, mientras que la Asignatura 2 se centra en las herramientas y tecnologías informáticas básicas.
+        La Asignatura 1 tiene un enfoque más específico en diseño lógico de computadoras, mientras que la Asignatura 2 no lo menciona explícitamente.
+        La Asignatura 1 incluye seguridad y privacidad como objetivo, mientras que la Asignatura 2 no lo hace.
+    ],
+    "coincidencia_real": 60,
+    "advertencias": [
+        "Es importante destacar que aunque haya similitudes en los objetivos y competencias, las asignaturas tienen enfoques diferentes y no son idénticas."
+    ]
+}
+
+Nota: La estimación de coincidencia real (60%) se basa en la cantidad de elementos técnicos similares entre ambas asignaturas, pero también considero las diferencias sustanciales en los objetivos y competencias.
+INFO:embedding:Puntuación final estricta calculada: 0.7065367770696585
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 26.66s
+INFO:embedding:Proceso estricto completado en 72.34 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.6589185183557307), 'objectives': np.float64(0.7055779315664307), 'competences': np.float64(0.44969952656957635)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 46.03s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis con EXTREMO RIGOR:
+
+{
+"similitudes_tecnicas": ["Programar en lenguaje ensamblador" (Asignatura 1) y "Resolución de ecuaciones y sistemas de ecuaciones" (Asignatura 2)],
+"diferencias_sustanciales": ["La Asignatura 1 se enfoca en la programación y diseño lógico de computadoras, mientras que la Asignatura 2 se centra en las habilidades matemáticas básicas para resolver problemas. La Asignatura 1 no aborda temas como algebra lineal o ecuaciones diferenciales"],
+"coincidencia_real": 25,
+"advertencias": ["La similitud entre las dos asignaturas se reduce a la programación y el análisis de datos, pero es importante destacar que la Asignatura 1 se enfoca en la computadora como objeto de estudio, mientras que la Asignatura 2 se centra en las habilidades matemáticas para resolver problemas"]
+}
+
+Nota: La estimación de coincidencia real (25%) se basa en la similitud entre la programación y el análisis de datos en ambas asignaturas. Sin embargo, es importante destacar que la Asignatura 1 se enfoca en la computadora como objeto de estudio, mientras que la Asignatura 2 se centra en las habilidades matemáticas para resolver problemas.
+INFO:embedding:Puntuación final estricta calculada: 0.5416909174297851
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 53.02s
+INFO:embedding:Proceso estricto completado en 99.23 segundos
+INFO:     127.0.0.1:49507 - "POST /compare HTTP/1.1" 200 OK

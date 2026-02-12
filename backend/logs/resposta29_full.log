@@ -1,0 +1,142 @@
+2025-05-23 13:51:19,475 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-05-23 13:51:19,475 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-23 13:51:19,475 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-23 13:51:19,475 - main - INFO - 🔵 [MAIN] Título asignatura: FUNDAMENTALS OF COMPUTERS
+2025-05-23 13:51:19,475 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-05-23 13:51:19,475 - main - INFO - 📥 Processing guide URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-23 13:51:19,852 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-23 13:51:19,862 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-23 13:51:19,870 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-23 13:51:19,870 - main - INFO - ✅ Subject processed: Introduction to Computers
+2025-05-23 13:51:19,905 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-23 13:51:19,905 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-23 13:51:19,908 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-23 13:51:19,911 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-23 13:51:19,912 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-23 13:51:19,912 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-23 13:51:19,912 - main - INFO - ✅ Subject processed: Fundamentals of Mathematics
+2025-05-23 13:51:19,912 - main - INFO - ✅ Subject processed: Physics
+2025-05-23 13:51:19,913 - main - INFO - ✅ Extracted 3 subjects from guide
+2025-05-23 13:51:19,913 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 3
+2025-05-23 13:51:19,913 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-05-23 13:51:19,913 - main - INFO - 📥 Processing subject URL: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-23 13:51:19,913 - main - INFO - 🔍 Detected URV URL - attempting contents extraction
+2025-05-23 13:51:19,913 - main - INFO - 🔍 Fetching URV contents from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&fitxa_apartat=57
+2025-05-23 13:51:20,193 - main - INFO - ✅ Contents table found with Topic/Sub-topic headers
+2025-05-23 13:51:20,194 - main - INFO - ✅ URV contents extracted successfully
+2025-05-23 13:51:20,194 - main - INFO - 🔍 Fetching URV objectives from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&fitxa_apartat=56
+2025-05-23 13:51:20,487 - main - INFO - ✅ Fallback table found with Verdana class cells
+2025-05-23 13:51:20,487 - main - INFO - ✅ URV objectives extracted successfully
+2025-05-23 13:51:20,487 - main - INFO - 🔍 Fetching URV competences from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&fitxa_apartat=55
+2025-05-23 13:51:20,765 - main - INFO - ✅ Fallback table found with Verdana class cells
+2025-05-23 13:51:20,766 - main - INFO - ✅ URV competences extracted successfully
+2025-05-23 13:51:27,429 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Systems', 'key_contents': 'Binary Encoding, ARM Machine Language, Digital Circuits', 'application_domain': 'IT'}
+2025-05-23 13:51:27,429 - main - INFO - 🔵 [MAIN] Temática principal identificada: {'core_topic': 'Computer Systems', 'key_contents': 'Binary Encoding, ARM Machine Language, Digital Circuits', 'application_domain': 'IT'}
+2025-05-23 13:51:27,429 - main - INFO - 🔵 [MAIN] Fase 3: Comparando temáticas
+2025-05-23 13:51:40,926 - main - INFO - Detailed theme extracted: {'core_topic': 'Number Theory', 'key_contents': 'Formal propositional calculus, Predicate logic, Sets and elements, Functions', 'application_domain': 'Mathematics'}
+2025-05-23 13:51:41,829 - main - INFO - Title similarity between 'FUNDAMENTALS OF COMPUTERS' and 'Fundamentals of Mathematics': 0.69
+2025-05-23 13:51:51,813 - main - INFO - Detailed theme extracted: {'core_topic': 'Electrical Engineering Fundamentals', 'key_contents': "Ohm's law, Kirchhoff's laws, Alternating current circuits, Logic gates, Waves", 'application_domain': 'Electronics and Electrical Systems'}
+2025-05-23 13:51:55,919 - main - INFO - Raw LLM response for theme comparison: 0.14
+2025-05-23 13:51:55,919 - main - INFO - Extracted LLM score: 0.14
+2025-05-23 13:51:55,919 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.47630223631858826, 'key_contents': 0.5920934677124023, 'application_domain': 0.43240129947662354}, LLM: 0.14, Title: 0.69, Final: 0.38
+2025-05-23 13:51:55,919 - main - INFO - 🔵 [MAIN] Comparación temática: Fundamentals of Mathematics - Similitud: 0.38
+2025-05-23 13:51:56,083 - main - INFO - Title similarity between 'FUNDAMENTALS OF COMPUTERS' and 'Physics': 0.19
+2025-05-23 13:52:00,044 - main - INFO - Raw LLM response for theme comparison: "0.83"
+2025-05-23 13:52:00,044 - main - INFO - Extracted LLM score: 0.83
+2025-05-23 13:52:00,045 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4281507730484009, 'key_contents': 0.5709861516952515, 'application_domain': 0.4113207459449768}, LLM: 0.83, Title: 0.19, Final: 0.59
+2025-05-23 13:52:00,045 - main - INFO - 🔵 [MAIN] Comparación temática: Physics - Similitud: 0.59
+2025-05-23 13:52:08,709 - main - WARNING - JSON decode error on attempt 1: Expecting value: line 1 column 1 (char 0)
+2025-05-23 13:52:20,734 - main - INFO - Detailed theme extracted: {'core_topic': 'Digital Circuits and Processor Design', 'key_contents': 'Representation of natural numbers in decimal, binary, and hexadecimal, Combinational logic circuits: NOT, AND, OR gates, truth tables, and logical analysis, Sequential logical circuits: edge-triggered D-type flip-flops, Moore model, state graphs, and temporal analysis, Special purpose processors: processing unit, control unit, and asynchronous communication protocol', 'application_domain': 'Computer Architecture and Digital Design'}
+2025-05-23 13:52:20,875 - main - INFO - Title similarity between 'FUNDAMENTALS OF COMPUTERS' and 'Introduction to Computers': 0.56
+2025-05-23 13:52:24,743 - main - INFO - Raw LLM response for theme comparison: 0.83
+2025-05-23 13:52:24,743 - main - INFO - Extracted LLM score: 0.83
+2025-05-23 13:52:24,743 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5372865200042725, 'key_contents': 0.7246799468994141, 'application_domain': 0.38082748651504517}, LLM: 0.83, Title: 0.56, Final: 0.68
+2025-05-23 13:52:24,744 - main - INFO - 🔵 [MAIN] Comparación temática: Introduction to Computers - Similitud: 0.68
+2025-05-23 13:52:24,744 - main - INFO - 🔵 [MAIN] Asignaturas relevantes encontradas: 1
+2025-05-23 13:52:24,744 - main - INFO - 🔵 [MAIN] Fase 4: Extrayendo detalles asignatura principal
+2025-05-23 13:53:07,504 - main - INFO - 🔵 [MAIN] Fase 5: Procesando asignaturas relevantes
+2025-05-23 13:54:48,114 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-23 13:54:48,114 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-23 13:54:48,114 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: FUNDAMENTALS OF COMPUTERS
+            Competencias: ['Master the tools for managing their own identity and activities in a digital environment', 'Search for and find information a...
+2025-05-23 13:54:48,114 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Introduction to Computers
+                            Competencias: ['Design combinational logic circuits', 'Implement arithmetic algorithms using combinational bl...
+2025-05-23 13:54:48,114 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-23 13:54:48,114 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': 'FUNDAMENTALS OF COMPUTERS', 'competences': "['Master the tools for managing their own identity and activities in a digital environment', 'Search for and find information autonomously with criteria of reliability and relevance', 'Organize information with appropriate tools (online and face-to-face) so that they can carry out their academic activities']", 'objectives': "['Master the tools for managing their own identity and activities in a digital environment', 'Search for and find information autonomously with criteria of reliability and relevance', 'Organize information with appropriate tools (online and face-to-face) so that they can carry out their academic activities', 'Produce information with tools and formats appropriate to the communicative situation and with complete honesty', 'Use IT to share and exchange information']", 'contents': "{'1. Introduction': ['Organization and Functions of a Computer System.', 'Information on a computer: binary encoding and operations.'], '2. ARM machine and assembly language': ['Introduction to ARM machine language.', 'Introduction to GAS assembly language.', 'Low-level programming.', 'Programming with routines.'], '3. Digital circuits of a computer': ['Logic gates.', 'Combinational blocks.', 'Sequential blocks.', 'Finite state machines.', 'CU-PU circuits.']}"}
+2025-05-23 13:54:48,114 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': 'Introduction to Computers', 'competences': "['Design combinational logic circuits', 'Implement arithmetic algorithms using combinational blocks', 'Analyze and synthesize sequential logical circuits']", 'objectives': "['Design a combinational logic circuit for natural number addition', 'Implement an integer multiplication algorithm using combinational blocks', 'Synthesize a sequential circuit to calculate the GCD of two numbers']", 'contents': '{\'Combinational Logic Circuits\': [\'Definition of a combinational logic circuit\', \'Time schedules\', \'Variables and logic functions\', \'Truth tables\', \'NOT, AND and OR logic gates\', \'Logic circuit diagram\', \'Interconnection rules for constructing valid combinational logic circuits\'], \'Natural Numbers: Combinational Arithmetic Blocks\': [\'Arithmetic algorithms for addition, subtraction, multiplication and division by powers of two natural numbers represented in binary\', \'Full adder, half adder and full subtractor\', \'Combinational blocks that implement the above arithmetic algorithms with detection results that cannot be represented in n bits\'], \'Integers: Representation and Combinational Arithmetic Blocks\': [\'Representing integers\', "Two\'s complement", \'Range and range extension algorithm\', "Changing integer representation between sign and magnitude in the decimal system and two\'s complement"], \'Sequential Logical Circuits\': [\'Memory needs and synchronisation\', \'The clock signal\', \'Definition of synchronous sequential circuit\', \'Edge-triggered D-type flip-flops: definition and implementation with two multiplexers, time propagation and time schedules\'], \'Special Purpose Processors\': [\'Introduction\', \'Special-purpose processor design, with a processing unit (for n-bit words) and a control unit (generating the control word for each cycle)\'], \'General Processing Unit\': [\'Introduction: from special purpose to general purpose processors\', \'Register bank with one write and two read buses\', \'Arithmetic logic unit with bitwise functionality for logic operations, arithmetic operations (addition, subtraction, multiplication and division by powers of two for natural numbers and integers), comparators (equal, less and less or equal for natural numbers and integers) and movement\'], \'General Control Unit\': [\'Initial implementation of the control unit\', \'Von Neumann and Harvard computer models\', \'ROM instruction storage\', \'From the state graph to the program in machine/assembly language\'], \'Storage and Input/Output\': [\'RAM, a simple operational model (read and write schedules, access times for reading and set-up and signal pulse width permission to write scripts)\', \'Memory address space\', \'Processor and data memory connections\']}'}
+2025-05-23 13:54:48,114 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-23 13:54:48,114 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'1. Introduction': ['Organization and Functions of a Computer System.', 'Information on a computer:...
+T2: {'Combinational Logic Circuits': ['Definition of a combinational logic circuit', 'Time schedules', '...
+2025-05-23 13:54:48,115 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Master the tools for managing their own identity and activities in a digital environment', 'Search...
+T2: ['Design a combinational logic circuit for natural number addition', 'Implement an integer multiplic...
+2025-05-23 13:54:48,115 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Master the tools for managing their own identity and activities in a digital environment', 'Search...
+T2: ['Design combinational logic circuits', 'Implement arithmetic algorithms using combinational blocks'...
+2025-05-23 13:54:48,321 - embedding - DEBUG - Similitud estricta calculada: 0.3712417866008248 (raw: 0.5640522332510309) (en 0.21s)
+2025-05-23 13:54:48,456 - embedding - DEBUG - Similitud estricta calculada: 0.5445905242233864 (raw: 0.780738155279233) (en 0.34s)
+2025-05-23 13:54:48,456 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.5445905242233864
+2025-05-23 13:54:48,456 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.3712417866008248
+2025-05-23 13:54:48,473 - embedding - DEBUG - Similitud estricta calculada: 0.38497617315014054 (raw: 0.5812202164376756) (en 0.36s)
+2025-05-23 13:54:48,473 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.38497617315014054
+2025-05-23 13:54:48,473 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.5445905242233864), 'objectives': np.float64(0.3712417866008248), 'competences': np.float64(0.38497617315014054)}
+2025-05-23 13:54:48,473 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-23 13:54:48,473 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-23 13:54:48,473 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': 'FUNDAMENTALS OF COMPUTERS', 'competences': "['Master the tools for managing their own identity and activities in a digital environment', 'Search for and find information autonomously with criteria of reliability and relevance', 'Organize information with appropriate tools (online and face-to-face) so that they can carry out their academic activities']", 'objectives': "['Master the tools for managing their own identity and activities in a digital environment', 'Search for and find information autonomously with criteria of reliability and relevance', 'Organize information with appropriate tools (online and face-to-face) so that they can carry out their academic activities', 'Produce information with tools and formats appropriate to the communicative situation and with complete honesty', 'Use IT to share and exchange information']", 'contents': "{'1. Introduction': ['Organization and Functions of a Computer System.', 'Information on a computer: binary encoding and operations.'], '2. ARM machine and assembly language': ['Introduction to ARM machine language.', 'Introduction to GAS assembly language.', 'Low-level programming.', 'Programming with routines.'], '3. Digital circuits of a computer': ['Logic gates.', 'Combinational blocks.', 'Sequential blocks.', 'Finite state machines.', 'CU-PU circuits.']}"}
+2025-05-23 13:54:48,473 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': 'Introduction to Computers', 'competences': "['Design combinational logic circuits', 'Implement arithmetic algorithms using combinational blocks', 'Analyze and synthesize sequential logical circuits']", 'objectives': "['Design a combinational logic circuit for natural number addition', 'Implement an integer multiplication algorithm using combinational blocks', 'Synthesize a sequential circuit to calculate the GCD of two numbers']", 'contents': '{\'Combinational Logic Circuits\': [\'Definition of a combinational logic circuit\', \'Time schedules\', \'Variables and logic functions\', \'Truth tables\', \'NOT, AND and OR logic gates\', \'Logic circuit diagram\', \'Interconnection rules for constructing valid combinational logic circuits\'], \'Natural Numbers: Combinational Arithmetic Blocks\': [\'Arithmetic algorithms for addition, subtraction, multiplication and division by powers of two natural numbers represented in binary\', \'Full adder, half adder and full subtractor\', \'Combinational blocks that implement the above arithmetic algorithms with detection results that cannot be represented in n bits\'], \'Integers: Representation and Combinational Arithmetic Blocks\': [\'Representing integers\', "Two\'s complement", \'Range and range extension algorithm\', "Changing integer representation between sign and magnitude in the decimal system and two\'s complement"], \'Sequential Logical Circuits\': [\'Memory needs and synchronisation\', \'The clock signal\', \'Definition of synchronous sequential circuit\', \'Edge-triggered D-type flip-flops: definition and implementation with two multiplexers, time propagation and time schedules\'], \'Special Purpose Processors\': [\'Introduction\', \'Special-purpose processor design, with a processing unit (for n-bit words) and a control unit (generating the control word for each cycle)\'], \'General Processing Unit\': [\'Introduction: from special purpose to general purpose processors\', \'Register bank with one write and two read buses\', \'Arithmetic logic unit with bitwise functionality for logic operations, arithmetic operations (addition, subtraction, multiplication and division by powers of two for natural numbers and integers), comparators (equal, less and less or equal for natural numbers and integers) and movement\'], \'General Control Unit\': [\'Initial implementation of the control unit\', \'Von Neumann and Harvard computer models\', \'ROM instruction storage\', \'From the state graph to the program in machine/assembly language\'], \'Storage and Input/Output\': [\'RAM, a simple operational model (read and write schedules, access times for reading and set-up and signal pulse width permission to write scripts)\', \'Memory address space\', \'Processor and data memory connections\']}'}
+2025-05-23 13:54:48,473 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación de programas académicos. Analiza la similitud entre estas dos asignaturas con un enfoque BENEVOLENTE, priorizando la similitud temática del temario:
+
+Asignatura 1:
+- Nombre: FUNDAMENTALS OF COMPUTERS
+- Competencias: ['Master the tools for managing their own identity and activities in a digital environment', 'Search for and find information autonomously with criteria of reliability and relevance', 'Organize information with appropriate tools (online and face-to-face...
+2025-05-23 13:55:21,635 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 33.16s
+2025-05-23 13:55:21,635 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+{
+    "similitudes_tecnicas": ["Combinational blocks", "Sequential logical circuits"],
+    "diferencias_sustanciales": ["CU-PU circuits.", "ROM instruction storage", "Arithmetic logic unit with bitwise functionality for logic operations, arithmetic operations (addition, subtraction, multiplication and division by powers of two for natural numbers and integers), comparators (equal, less and less or equal for natural numbers and integers) and movement"],
+    "coincidencia_real": 85.5,
+    "advertencias": ["Considera la similitud en conceptos de lógica y circuitos"]
+}
+2025-05-23 13:55:21,635 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+{
+    "similitudes_tecnicas": ["Combinational blocks", "Sequential logical circuits"],
+    "diferencias_sustanciales": ["CU-PU circuits.", "ROM instruction storage", "Arithmetic logic unit with bitwise functionality for logic operations, arithmetic operations (addition, subtraction, multiplication and division by powers of two for natural numbers and integers), comparators (equal, less and less or equal for natural numbers and integers) and movement"],
+    "coincidencia_real": 85.5,
+    "advertencias": ["Considera la similitud en conceptos de lógica y circuitos"]
+}
+2025-05-23 13:55:21,636 - embedding - INFO - 🟠 [EMBED-QA] Análisis parseado correctamente
+2025-05-23 13:55:21,636 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'similitudes_tecnicas': ['Combinational blocks', 'Sequential logical circuits'], 'diferencias_sustanciales': ['CU-PU circuits.', 'ROM instruction storage', 'Arithmetic logic unit with bitwise functionality for logic operations, arithmetic operations (addition, subtraction, multiplication and division by powers of two for natural numbers and integers), comparators (equal, less and less or equal for natural numbers and integers) and movement'], 'coincidencia_real': 85.5, 'advertencias': ['Considera la similitud en conceptos de lógica y circuitos']}
+2025-05-23 13:55:21,636 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.7
+2025-05-23 13:55:21,636 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-23 13:55:21,636 - embedding - INFO - Generando explicación estricta...
+2025-05-23 13:55:21,636 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: FUNDAMENTALS OF COMPUTERS
+Asignatura B: Introduction to Computers
+
+Puntuación de similitud: 70.0%
+
+Basándote en este análisis:
+{
+  "similitudes_tecnicas": [
+    "Combinational blocks",
+    "Sequential logi...
+2025-05-23 13:55:57,010 - embedding - INFO - Explicación estricta generada en 35.37s
+2025-05-23 13:55:57,010 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: A continuación, se presenta una explicación precisa y estricta sobre las asignaturas A: FUNDAMENTALS OF COMPUTERS y B: Introduction to Computers:
+
+Las coincidencias técnicas reales entre ambas asignaturas se centran en la lógica combinatoria y secuencial. Ambas asignaturas abordan conceptos como los bloques combinacionales y circuitos lógicos secuenciales, lo que indica una similitud real en el ámbito de la lógica digital.
+
+Sin embargo, existen diferencias significativas entre ambas asignaturas. La asignatura A: FUNDAMENTALS OF COMPUTERS se enfoca en componentes específicos como los circuitos CU-PU, almacenamiento de instrucciones ROM y la unidad aritmético-lógica con funcionalidades bitwise para operaciones lógicas y aritméticas. Por otro lado, la asignatura B: Introduction to Computers se centra en la introducción general a los conceptos básicos de la computación, sin profundizar en componentes específicos como los mencionados anteriormente.
+
+En conclusión, aunque ambas asignaturas comparten conceptos de lógica digital, la asignatura A: FUNDAMENTALS OF COMPUTERS se enfoca en componentes específicos y detalles técnicos, mientras que la asignatura B: Introduction to Computers se centra en una introducción general a los conceptos básicos de la computación.
+2025-05-23 13:55:57,010 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': 0.7, 'components': {'contents': np.float64(0.5445905242233864), 'objectives': np.float64(0.3712417866008248), 'competences': np.float64(0.38497617315014054)}, 'llm_analysis': {'similitudes_tecnicas': ['Combinational blocks', 'Sequential logical circuits'], 'diferencias_sustanciales': ['CU-PU circuits.', 'ROM instruction storage', 'Arithmetic logic unit with bitwise functionality for logic operations, arithmetic operations (addition, subtraction, multiplication and division by powers of two for natural numbers and integers), comparators (equal, less and less or equal for natural numbers and integers) and movement'], 'coincidencia_real': 85.5, 'advertencias': ['Considera la similitud en conceptos de lógica y circuitos']}, 'explanation': 'A continuación, se presenta una explicación precisa y estricta sobre las asignaturas A: FUNDAMENTALS OF COMPUTERS y B: Introduction to Computers:\n\nLas coincidencias técnicas reales entre ambas asignaturas se centran en la lógica combinatoria y secuencial. Ambas asignaturas abordan conceptos como los bloques combinacionales y circuitos lógicos secuenciales, lo que indica una similitud real en el ámbito de la lógica digital.\n\nSin embargo, existen diferencias significativas entre ambas asignaturas. La asignatura A: FUNDAMENTALS OF COMPUTERS se enfoca en componentes específicos como los circuitos CU-PU, almacenamiento de instrucciones ROM y la unidad aritmético-lógica con funcionalidades bitwise para operaciones lógicas y aritméticas. Por otro lado, la asignatura B: Introduction to Computers se centra en la introducción general a los conceptos básicos de la computación, sin profundizar en componentes específicos como los mencionados anteriormente.\n\nEn conclusión, aunque ambas asignaturas comparten conceptos de lógica digital, la asignatura A: FUNDAMENTALS OF COMPUTERS se enfoca en componentes específicos y detalles técnicos, mientras que la asignatura B: Introduction to Computers se centra en una introducción general a los conceptos básicos de la computación.'}
+2025-05-23 13:55:57,010 - main - INFO - 🟢 [MAIN] Comparación completada exitosamente

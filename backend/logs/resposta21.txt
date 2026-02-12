@@ -1,0 +1,135 @@
+INFO:     127.0.0.1:49466 - "OPTIONS /compare HTTP/1.1" 200 OK
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+🔗 Encolando asignatura: 'Programming I' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1
+🔗 Encolando asignatura: 'Computer Organization' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC
+🔗 Encolando asignatura: 'Mathematics I' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M1
+🔗 Encolando asignatura: 'Mathematics II' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M2
+🔗 Encolando asignatura: 'Programming II' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO2
+🔗 Encolando asignatura: 'Databases' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/BD
+🔗 Encolando asignatura: 'Computer Interfacing' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/CI
+🔗 Encolando asignatura: 'Data Structures and Algorithmics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EDA
+🔗 Encolando asignatura: 'Probability and Statistics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PE
+🔗 Encolando asignatura: 'Operating Systems' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/SO
+🔗 Encolando asignatura: 'Computer Architecture' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/AC
+🔗 Encolando asignatura: 'Business and Economic Environment' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EEE
+🔗 Encolando asignatura: 'Interaction and Interface Design' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IDI
+🔗 Encolando asignatura: 'Introduction to Software Engineering' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IES
+🔗 Encolando asignatura: 'Computer Networks' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/XC
+🔗 Encolando asignatura: 'Parallelism' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PAR
+🔗 Encolando asignatura: 'Programming Projects' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PROP
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+Theme subject:
+ "Physics"
+Theme subject:
+ "Computer Science"
+Theme subject:
+ "Computer Physics"
+Theme subject:
+ "Mathematics fundamentals"
+Theme subject:
+ "Software programming"
+LLM similarity score: 0.2
+Theme subject:
+ "Computer Organization"
+Theme subject:
+ "Mathematics and Computing"
+Theme subject:
+ "Mathematics and Computing"
+Theme subject:
+ "Software programming"
+LLM similarity score: 0.9
+Theme subject:
+ "Database Systems"
+Theme subject:
+ "Computer Interfacing"
+Theme subject:
+ "Probability and Statistics"
+Theme subject:
+ "Data Structures"
+LLM similarity score: 0.3
+Theme subject:
+ "Operating Systems"
+Theme subject:
+ "Computer Architecture"
+Theme subject:
+ "Interaction Design"
+Theme subject:
+ "Software Engineering"
+LLM similarity score: 0.02
+Theme subject:
+ "Software Engineering"
+Theme subject:
+ "Computer Networks"
+Theme subject:
+ "Software programming"
+Theme subject:
+ "Software engineering"
+LLM similarity score: 0.2
+LLM similarity score: 0.3
+LLM similarity score: 0.3
+LLM similarity score: 0.0
+LLM similarity score: 0.02
+LLM similarity score: 0.2
+LLM similarity score: 0.2
+LLM similarity score: 0.05
+LLM similarity score: 0.02
+LLM similarity score: 0.2
+LLM similarity score: 0.02
+LLM similarity score: 0.0
+LLM similarity score: 0.0
+LLM similarity score: 0.1
+LLM similarity score: 0.0
+LLM similarity score: 0.0
+Detected language: en
+Raw model response:
+ {
+    "PHYSICS": {
+        "competences": [
+            "Design and implement relational databases using SQL",
+            "Analyze and solve complex problems related to physics and information technologies engineering",
+            "Develop practical skills in programming languages such as Python or C++"
+        ],
+        "objectives": [
+            "Design a database schema for a given problem statement",
+            "Implement a simple algorithm to solve a physical problem",
+            "Analyze the performance of a program using profiling tools"
+        ],
+        "contents": {
+            "Module 1: Introduction to Physics and Information Technologies Engineering": ["Introduction to physics concepts", "Overview of information technologies engineering"],
+            "Module 2: Fundamentals of Physics": ["Mechanics", "Thermodynamics", "Electromagnetism"],
+            "Module 3: Applications of Physics in Information Technologies Engineering": ["Database systems", "Data analysis and visualization", "Machine learning"]
+        }
+    }
+}
+Detected language: tl
+Detected language: en
+Raw model response:
+ {
+    "Physics": {
+        "competences": [
+            "Design and implement relational databases using SQL",
+            "Apply mathematical models to describe physical phenomena",
+            "Analyze and interpret experimental data"
+        ],
+        "objectives": [
+            "Design a physics experiment to measure the motion of an object",
+            "Implement a numerical method to solve a differential equation",
+            "Analyze the results of a physics experiment and draw conclusions"
+        ],
+        "contents": {
+            "Module 1: Introduction to Physics": ["Introduction to physical systems", "Measurement and uncertainty"],
+            "Module 2: Mechanics": ["Newton's laws of motion", "Energy and momentum"],
+            "Module 3: Thermodynamics": ["Thermodynamic properties", "Heat transfer"],
+            "Module 4: Electromagnetism": ["Electric charges and currents", "Magnetic fields"],
+            "Module 5: Quantum Physics": ["Wave-particle duality", "Schrödinger equation"]
+        }
+    }
+}
+INFO:     127.0.0.1:49466 - "POST /compare HTTP/1.1" 200 OK

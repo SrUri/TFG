@@ -1,0 +1,335 @@
+🔗 Procesando asignatura: 'Physics of Memory Devices' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FDM
+Detected language: en
+Raw model response:
+ {
+    "Physics of Memory Devices": {
+        "competences": "Capacity for critical analysis of memory devices, ability to design and interpret experiments, communication skills in technological contexts",
+        "objectives": "Understand the principles of memory devices, apply physical laws to analyze device behavior, develop problem-solving skills",
+        "content": "Fundamentals of memory devices, device architecture, memory technologies, data storage and retrieval"
+    }
+}
+🔗 Procesando asignatura: 'Physics of Realistic Modelling and Animation' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FOMAR
+Detected language: en
+Raw model response:
+ {
+    "Physics of Realistic Modelling and Animation": {
+        "competences": "Capacity for critical analysis, ability to design and interpret models, communication skills",
+        "objectives": "Understand key concepts in realistic modelling and animation, apply mathematical and computational techniques",
+        "content": "Introduction to physics-based animation, rigid body dynamics, soft tissue simulation, collision detection"
+    }
+}
+🔗 Procesando asignatura: 'Cybersecurity Management' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/GCS
+Detected language: en
+Raw model response:
+ {
+    "Cybersecurity Management": {
+        "competences": "Capacity for critical analysis of cybersecurity phenomena, ability to design and interpret security protocols, communication skills in multicultural contexts",
+        "objectives": "Understand key concepts in cybersecurity management, apply security principles to real-world problems, develop skills in threat assessment and mitigation",
+        "content": "Contemporary cybersecurity threats, security frameworks and standards, risk assessment and mitigation strategies, incident response and crisis management"
+    }
+}
+🔗 Procesando asignatura: 'Computational Geometry' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/GEOC
+Detected language: en
+Raw model response:
+ {
+    "Computational Geometry": {
+        "competences": "",
+        "objectives": "",
+        "content": ""
+    }
+}
+🔗 Procesando asignatura: 'Introduction to Research' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/I2R3
+Detected language: en
+Raw model response:
+ {
+    "Introduction to Research": {
+        "competences": "",
+        "objectives": "",
+        "content": ""
+    }
+}
+🔗 Procesando asignatura: 'Introduction to Research' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/I2R6
+Detected language: en
+Raw model response:
+ {
+    "Introduction to Research": {
+        "competences": "",
+        "objectives": "",
+        "content": ""
+    }
+}
+🔗 Procesando asignatura: 'Leadership and Professional Development in Engineering' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/LDPE
+Detected language: en
+Raw model response:
+ {
+    "Leadership and Professional Development in Engineering": {
+        "competences": "Capacity for leadership, professional development, and engineering skills.",
+        "objectives": "Understand key concepts of leadership and professional development, apply them to real-world scenarios, develop skills in communication and teamwork.",
+        "content": "Strategic planning, team management, innovation and entrepreneurship, project management, communication and presentation skills."
+    }
+}
+🔗 Procesando asignatura: 'Data Mining' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/MD
+Detected language: en
+Raw model response:
+ {
+    "Data Mining": {
+        "competences": "Capacity for critical analysis of data, ability to design and interpret data mining processes, communication skills in multicultural contexts",
+        "objectives": "Understand key concepts in data mining, apply statistical models to complex problems, develop skills in data visualization and interpretation",
+        "content": "Fundamentals of data mining, data preprocessing, clustering and classification techniques, decision trees and random forests, association rule mining"
+    }
+}
+🔗 Procesando asignatura: 'Applied Engineering Project' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PAE
+Detected language: en
+Raw model response:
+ {
+    "PROGRAMMING I": {
+        "competences": "Capacity for programming and software development",
+        "objectives": "Understand programming concepts, develop problem-solving skills, apply algorithms to real-world problems",
+        "content": "Programming languages, data structures, algorithms, software engineering principles"
+    },
+    "MATHEMATICAL ANALYSIS II": {
+        "competences": "Capacity for mathematical analysis and problem-solving",
+        "objectives": "Understand advanced mathematical concepts, develop analytical skills, apply mathematical models to real-world problems",
+        "content": "Calculus, linear algebra, differential equations, mathematical modeling"
+    },
+    "DATABASE SYSTEMS": {
+        "competences": "Capacity for database design and management",
+        "objectives": "Understand database concepts, develop data modeling skills, apply database systems to real-world applications",
+        "content": "Database design principles, data modeling, relational databases, SQL"
+    },
+    "ALGORITHMS AND DATA STRUCTURES": {
+        "competences": "Capacity for algorithmic thinking and problem-solving",
+        "objectives": "Understand algorithms and data structures, develop problem-solving skills, apply computational methods to real-world problems",
+        "content": "Sorting and searching, graph algorithms, dynamic programming, data structures"
+    },
+    "COMPUTER ARCHITECTURE": {
+        "competences": "Capacity for computer architecture and system design",
+        "objectives": "Understand computer architecture concepts, develop system design skills, apply architectural principles to real-world applications",
+        "content": "Computer organization, processor design, memory hierarchy, input/output systems"
+    },
+    "OPERATING SYSTEMS": {
+        "competences": "Capacity for operating system design and management",
+        "objectives": "Understand operating system concepts, develop system design skills, apply OS principles to real-world applications",
+        "content": "Operating system design principles, process management, memory management, file systems"
+    },
+    "SOFTWARE ENGINEERING": {
+        "competences": "Capacity for software engineering and development",
+        "objectives": "Understand software engineering concepts, develop problem-solving skills, apply software engineering principles to real-world applications",
+        "content": "Software design principles, testing and debugging, version control systems, agile methodologies"
+    }
+}
+🔗 Procesando asignatura: 'Robotics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/ROB
+Detected language: en
+Raw model response:
+ {
+    "PROGRAMMING I": {
+        "competences": "Capacity for logical reasoning and problem-solving, ability to design and implement algorithms",
+        "objectives": "Understand programming concepts and apply them to solve problems, develop skills in coding and debugging",
+        "content": "Introduction to programming, data types, variables, control structures, functions, arrays"
+    },
+    "MATHEMATICAL ANALYSIS I": {
+        "competences": "Capacity for logical reasoning and problem-solving, ability to analyze and interpret mathematical concepts",
+        "objectives": "Understand mathematical analysis concepts and apply them to solve problems, develop skills in proof-writing and mathematical modeling",
+        "content": "Introduction to mathematical analysis, limits, derivatives, integrals"
+    },
+    "ALGORITHMS AND DATA STRUCTURES": {
+        "competences": "Capacity for logical reasoning and problem-solving, ability to design and implement algorithms",
+        "objectives": "Understand algorithmic concepts and apply them to solve problems, develop skills in coding and debugging",
+        "content": "Introduction to algorithms, data structures, sorting, searching, graph theory"
+    },
+    "COMPUTER ARCHITECTURE": {
+        "competences": "Capacity for logical reasoning and problem-solving, ability to analyze and interpret computer architecture concepts",
+        "objectives": "Understand computer architecture concepts and apply them to solve problems, develop skills in design and implementation of computer systems",
+        "content": "Introduction to computer architecture, CPU organization, memory hierarchy, input/output systems"
+    },
+    "OPERATING SYSTEMS": {
+        "competences": "Capacity for logical reasoning and problem-solving, ability to analyze and interpret operating system concepts",
+        "objectives": "Understand operating system concepts and apply them to solve problems, develop skills in design and implementation of operating systems",
+        "content": "Introduction to operating systems, process management, memory management, file systems"
+    },
+    "DATABASE SYSTEMS": {
+        "competences": "Capacity for logical reasoning and problem-solving, ability to analyze and interpret database system concepts",
+        "objectives": "Understand database system concepts and apply them to solve problems, develop skills in design and implementation of databases",
+        "content": "Introduction to database systems, data modeling, relational algebra, query languages"
+    },
+    "SOFTWARE ENGINEERING": {
+        "competences": "Capacity for logical reasoning and problem-solving, ability to analyze and interpret software engineering concepts",
+        "objectives": "Understand software engineering concepts and apply them to solve problems, develop skills in design and implementation of software systems",
+        "content": "Introduction to software engineering, requirements analysis, design patterns, testing and debugging"
+    }
+}
+🔗 Procesando asignatura: 'Free Software and Social Development' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/SLDS
+Detected language: en
+Raw model response:
+ {
+    "Free Software and Social Development": {
+        "competences": "Capacity for critical analysis of social phenomena, Ability to design and interpret social research, Communication skills in multicultural contexts",
+        "objectives": "Understand key social theories, Apply social research methods, Study trends in psychology",
+        "content": "Contemporary and classical social theories, History and evolution of psychology, Social research methodology, Public policies and human rights"
+    }
+}
+🔗 Procesando asignatura: 'Graphic Cards and Accelerators' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/TGA
+Detected language: en
+Raw model response:
+ {
+    "Graphic Cards and Accelerators": {
+        "competences": "",
+        "objectives": "",
+        "content": ""
+    }
+}
+🔗 Procesando asignatura: 'Computer Vision' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/VC
+Detected language: en
+Raw model response:
+ {
+    "Computer Vision": {
+        "competences": "",
+        "objectives": "",
+        "content": "Computer vision, image processing, pattern recognition, machine learning"
+    }
+}
+🔗 Procesando asignatura: 'Videogames' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/VJ
+Detected language: en
+Raw model response:
+ {
+    "PROGRAMMING I": {
+        "competences": "Capacity for programming and software development",
+        "objectives": "Understand the basics of programming, develop problem-solving skills, apply algorithms to solve problems",
+        "content": "Introduction to programming, data types, variables, control structures, functions, arrays"
+    },
+    "MATHEMATICAL ANALYSIS I": {
+        "competences": "Capacity for mathematical analysis and problem-solving",
+        "objectives": "Understand the basics of mathematical analysis, develop problem-solving skills, apply mathematical techniques to solve problems",
+        "content": "Introduction to mathematical analysis, limits, derivatives, integrals"
+    },
+    "ALGORITHMS AND DATA STRUCTURES": {
+        "competences": "Capacity for algorithm design and data structure implementation",
+        "objectives": "Understand the basics of algorithms and data structures, develop problem-solving skills, apply algorithms and data structures to solve problems",
+        "content": "Introduction to algorithms, sorting and searching, graph theory, dynamic programming"
+    },
+    "COMPUTER ARCHITECTURE": {
+        "competences": "Capacity for computer architecture and hardware design",
+        "objectives": "Understand the basics of computer architecture, develop problem-solving skills, apply computer architecture principles to design hardware",
+        "content": "Introduction to computer architecture, CPU organization, memory hierarchy, input/output systems"
+    },
+    "OPERATING SYSTEMS": {
+        "competences": "Capacity for operating system design and management",
+        "objectives": "Understand the basics of operating systems, develop problem-solving skills, apply operating system principles to manage resources",
+        "content": "Introduction to operating systems, process management, memory management, file systems"
+    },
+    "DATABASE SYSTEMS": {
+        "competences": "Capacity for database design and management",
+        "objectives": "Understand the basics of databases, develop problem-solving skills, apply database principles to manage data",
+        "content": "Introduction to databases, data modeling, query languages, database systems"
+    },
+    "SOFTWARE ENGINEERING": {
+        "competences": "Capacity for software engineering and development",
+        "objectives": "Understand the basics of software engineering, develop problem-solving skills, apply software engineering principles to design and develop software",
+        "content": "Introduction to software engineering, software development life cycles, testing and debugging, software quality"
+    }
+}
+🔗 Procesando asignatura: 'Writing Skills for Engineering' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/WSE
+Detected language: en
+Raw model response:
+ {
+    "Writing Skills for Engineering": {
+        "competences": "Capacity to write reports and documents in a clear and concise manner, ability to communicate technical information effectively.",
+        "objectives": "Develop writing skills for engineering purposes, understand the importance of clear communication in professional settings.",
+        "content": "Writing techniques for engineering, report writing, technical documentation, effective communication strategies."
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "PROGRAMMING": {
+        "competences": "Be able to understand the importance of negotiation, effective work habits, leadership and communication skills in all aspects of software development. Have knowledge of, design and efficiently use the most suitable data types and structures for solving a problem. Be able to analyse, design, build and maintain applications that are robust, secure and efficient, choosing the most suitable paradigm and programming languages.",
+        "objectives": "Understand the basics of Object-Oriented Programming (OOP), including classes, objects, methods and instances. Learn about class modifiers, composition in classes, and basic data structures.",
+        "content": "Basics of Object-Oriented Programming (OOP): data organization in classes. Topic 1: Classes, objects, methods and instances. Constructors. Class modifiers (public, private, static, ...). Composition in classes. Enumerates. Introduction to the basic data structures. Topic 2: Object-Oriented Programming in detail: Inheritance and Polimorphism. Topic 3: Introduction to the design of applications using OOP."
+    }
+}
+Error en la traducción: expected string or bytes-like object, got 'list'
+Raw model response:
+ {
+"courses": [
+{
+"name": "Introduction to Research",
+"info": {
+"competences": "",
+"objectives": "",
+"content": ""
+}
+},
+{
+"name": "Leadership and Professional Development in Engineering",
+"info": {
+"competences": "Capacity for leadership, professional development, and engineering skills.",
+"objectives": "Understand key concepts of leadership and professional development, apply them to real-world scenarios, develop skills in communication and teamwork.",
+"content": "Strategic planning, team management, innovation and entrepreneurship, project management, communication and presentation skills."
+}
+},
+{
+"name": "Data Mining",
+"info": {
+"competences": "Capacity for critical analysis of data, ability to design and interpret data mining processes, communication skills in multicultural contexts",
+"objectives": "Understand key concepts in data mining, apply statistical models to complex problems, develop skills in data visualization and interpretation",
+"content": "Fundamentals of data mining, data preprocessing, clustering and classification techniques, decision trees and random forests, association rule mining"
+}
+},
+{
+"name": "Robotics",
+"info": {
+"competences": "",
+"objectives": "",
+"content": ""
+}
+},
+{
+"name": "Free Software and Social Development",
+"info": {
+"competences": "Capacity for critical analysis of social phenomena, Ability to design and interpret social research, Communication skills in multicultural contexts",
+"objectives": "Understand key social theories, Apply social research methods, Study trends in psychology",
+"content": "Contemporary and classical social theories, History and evolution of psychology, Social research methodology, Public policies and human rights"
+}
+},
+{
+"name": "Graphic Cards and Accelerators",
+"info": {
+"competences": "",
+"objectives": "",
+"content": ""
+}
+},
+{
+"name": "Computer Vision",
+"info": {
+"competences": "",
+"objectives": "",
+"content": "Computer vision, image processing, pattern recognition, machine learning"
+}
+},
+{
+"name": "Videogames",
+"info": {
+"competences": "Capacity for programming and software development",
+"objectives": "Understand the basics of programming, develop problem-solving skills, apply algorithms to solve problems",
+"content": "Introduction to programming, data types, variables, control structures, functions, arrays"
+}
+},
+{
+"name": "Writing Skills for Engineering",
+"info": {
+"competences": "Capacity to write reports and documents in a clear and concise manner, ability to communicate technical information effectively.",
+"objectives": "Develop writing skills for engineering purposes, understand the importance of clear communication in professional settings.",
+"content": "Writing techniques for engineering, report writing, technical documentation, effective communication strategies."
+}
+}
+]
+}
+Detected language: da
+
+
+Comparando "Programming" con asignaturas de la segunda guía:
+
+courses59.37% de similitud 
+
+??????

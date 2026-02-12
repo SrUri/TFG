@@ -1,0 +1,233 @@
+INFO:     Application startup complete.
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+🔗 Encolando asignatura: 'Programming I' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1
+Translation error: Need to load profiles.
+Translation error: Need to load profiles.
+Detected language: sl
+Detected language: en
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "Understanding of the basic concepts and components of a computer system, familiarity with programming languages, ability to analyze problems and design solutions.",
+        "objectives": [
+            "Understand the fundamental principles of computing",
+            "Familiarize yourself with programming languages",
+            "Develop problem-solving skills"
+        ],
+        "contents": [
+            "Computer hardware and software components",
+            "Programming languages (e.g., Python, Java)",
+            "Problem-solving techniques and algorithms",
+            "Basic data structures and file management"
+        ]
+    }
+}
+Raw model response:
+ {
+    "PROGRAMMING I": {
+        "competences": "Develop programming skills, understand the basics of programming languages and data structures, and apply problem-solving techniques.",
+        "objectives": [
+            "Understand the basic concepts of programming",
+            "Learn to write programs in a specific language",
+            "Develop problem-solving skills using algorithms and data structures",
+            "Apply programming principles to real-world problems",
+            "Analyze and debug code",
+            "Design and implement simple programs"
+        ],
+        "contents": [
+            "Introduction to programming concepts",
+            "Variables, data types, and operators",
+            "Control structures (if-else, loops, etc.)",
+            "Functions and modules",
+            "Arrays and lists",
+            "Algorithms and data structures",
+            "Error handling and debugging"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Physics": {
+        "competences": "Develop problem-solving skills, understand the fundamental laws of physics, and apply mathematical techniques to analyze physical systems.",
+        "objectives": [
+            "Understand the principles of mechanics, electromagnetism, and thermodynamics",
+            "Apply mathematical techniques to solve problems in physics",
+            "Analyze and interpret data from experiments and observations",
+            "Develop problem-solving skills through hands-on activities and projects",
+            "Understand the historical development of physical theories and concepts",
+            "Critically evaluate scientific information and arguments"
+        ],
+        "contents": [
+            "Mechanics: kinematics, dynamics, energy, momentum",
+            "Electromagnetism: electric charges, currents, magnetic fields, electromagnetic induction",
+            "Thermodynamics: temperature, heat transfer, thermodynamic systems",
+            "Quantum mechanics: wave-particle duality, Schrödinger equation, quantum systems"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Develop mathematical skills and problem-solving abilities, understand mathematical structures and relationships, and apply mathematical concepts to real-world problems.",
+        "objectives": [
+            "Acquire a solid foundation in mathematics",
+            "Understand mathematical structures and relationships",
+            "Apply mathematical concepts to real-world problems",
+            "Develop problem-solving skills",
+            "Learn to think critically and logically"
+        ],
+        "contents": [
+            "Mathematical structures: groups, rings, fields, vector spaces",
+            "Linear algebra: vectors, matrices, determinants, eigenvalues",
+            "Calculus: limits, derivatives, integrals, differential equations",
+            "Probability theory: random variables, probability distributions, Bayes' theorem"
+        ]
+    }
+}
+Trying to parse with json5 after a standard JSON error...
+⚠️ Error procesando https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM: 500: Error parsing JSON5: <string>:15 Unexpected "t" at column 86
+Detected language: en
+Raw model response:
+ {
+    "FUNDAMENTALS OF COMPUTERS": {
+        "competences": "Students will be able to understand the structure, organization, logical design, operation, and interconnection of computers; program and perform assembly language; use operating systems.",
+        "objectives": [
+            "Understand the basic concepts of computer architecture",
+            "Learn programming in assembly language",
+            "Use operating systems",
+            "Design and implement simple computer programs",
+            "Analyze and troubleshoot computer systems",
+            "Develop problem-solving skills"
+        ],
+        "contents": [
+            "Structure, organization, logical design, operation, and interconnection of computers",
+            "Programming and performance of assembly language",
+            "Use of operating systems",
+            "Computer architecture",
+            "Assembly language programming",
+            "Operating system concepts"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "Understanding of the basic concepts and components of a computer system, familiarity with programming languages, ability to analyze problems and design solutions.",
+        "objectives": ["Understand the fundamental principles of computing", "Familiarize yourself with programming languages", "Develop problem-solving skills"],
+        "contents": ["Computer hardware and software components", "Programming languages (e.g., Python, Java)", "Problem-solving techniques and algorithms", "Basic data structures and file management"]
+    },
+    "Programming I": {
+        "competences": "Develop programming skills, understand the basics of programming languages and data structures, and apply problem-solving techniques.",
+        "objectives": ["Understand the basic concepts of programming", "Learn to write programs in a specific language", "Develop problem-solving skills using algorithms and data structures", "Apply programming principles to real-world problems", "Analyze and debug code", "Design and implement simple programs"],
+        "contents": ["Introduction to programming concepts", "Variables, data types, and operators", "Control structures (if-else, loops, etc.)", "Functions and modules", "Arrays and lists", "Algorithms and data structures", "Error handling and debugging"]
+    },
+    "Physics": {
+        "competences": "Develop problem-solving skills, understand the fundamental laws of physics, and apply mathematical techniques to analyze physical systems.",
+        "objectives": ["Understand the principles of mechanics, electromagnetism, and thermodynamics", "Apply mathematical techniques to solve problems in physics", "Analyze and interpret data from experiments and observations", "Develop problem-solving skills through hands-on activities and projects", "Understand the historical development of physical theories and concepts", "Critically evaluate scientific information and arguments"],
+        "contents": ["Mechanics: kinematics, dynamics, energy, momentum", "Electromagnetism: electric charges, currents, magnetic fields, electromagnetic induction", "Thermodynamics: temperature, heat transfer, thermodynamic systems", "Quantum mechanics: wave-particle duality, Schrödinger equation, quantum systems"]
+    }
+}
+Detected language: de
+INFO:embedding:Starting improved similarity calculation...
+INFO:embedding:Preparando prompt para análisis cualitativo universal...
+INFO:embedding:Respuesta LLM recibida en 78.94s
+ERROR:embedding:Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: **Análisis de las asignaturas**
+
+**Campo disciplinar principal:** Ingeniería Informática (Computing)
+
+**Similitudes:**
+
+1. **Tema fundamental:** "Structure, organization, logical design, operation, and interconnection of computers" (Asignatura 1) vs "Computer hardware and software components" (Asignatura 2). Profundidad: Intermedio. Equivalencia: Exacta. Evidencia: Ambas cubren los conceptos básicos de la arquitectura de computadoras.
+2. **Programming and performance of assembly language** (Asignatura 1) vs "Programming languages (e.g., Python, Java)" (Asignatura 2). Profundidad: Intermedio. Equivalencia: Parcial. Evidencia: Ambas cubren la programación, aunque con diferentes lenguajes y enfoques.
+
+**Diferencias:**
+
+1. **Enfoque metodológico:** Asignatura 1 se enfoca más en la teoría y el diseño de computadoras, mientras que Asignatura 2 se centra en la programación y la resolución de problemas.
+2. **Nivel de profundidad:** Asignatura 1 cubre temas como "Computer architecture" y "Assembly language programming", que requieren un nivel más avanzado de comprensión.
+
+**Coincidencia real:** 75%
+
+**Explicación equivalencia:** Las asignaturas comparten fundamentos técnicos, pero con diferentes enfoques y profundidad. La Asignatura 1 se enfoca más en la teoría y el diseño, mientras que la Asignatura 2 se centra en la programación y la resolución de problemas.
+
+**Recomendación:** Equivalencia recomendada con posible complemento puntual. Considerar las diferencias en enfoque metodológico y profundidad para adaptar la enseñanza a los estudiantes.
+
+**Advertencias:** Verificar horas de laboratorio y considerar la experiencia previa de los estudiantes en programación.
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 46.75s
+INFO:embedding:Starting improved similarity calculation...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Preparando prompt para análisis cualitativo universal...
+INFO:embedding:Respuesta LLM recibida en 96.54s
+ERROR:embedding:Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: **Análisis de similitud entre "FUNDAMENTALS OF COMPUTERS" y "Programming Fundamentals"**
+
+**Campo disciplinar principal:** Ciencias e Ingenierías (Informática)
+
+**Similitudes:**
+
+1. **Tema fundamental:** La estructura, organización, diseño lógico, operación y conexión de computadoras (FUNDAMENTALS OF COMPUTERS) y el desarrollo de habilidades de programación, comprensión de conceptos básicos de lenguajes de programación y estructuras de datos (Programming Fundamentals). **Equivalencia:** Exacta. **Evidencia:** Ambas asignaturas cubren la comprensión de los fundamentos de la computadora y el desarrollo de habilidades de programación.
+2. **Conceptos equivalentes con diferente terminología:** La programación en lenguaje ensamblador (FUNDAMENTALS OF COMPUTERS) y el desarrollo de programas en un lenguaje específico (Programming Fundamentals). **Equivalencia:** Parcial. **Evidencia:** Ambas asignaturas cubren la creación de programas, aunque con diferentes lenguajes.
+3. **Objetivos formativos alineados:** Ambas asignaturas tienen objetivos similares, como comprender los conceptos básicos de programación y desarrollar habilidades de resolución de problemas. **Equivalencia:** Exacta.
+
+**Diferencias:**
+
+1. **Enfoque metodológico:** FUNDAMENTALS OF COMPUTERS se centra en la comprensión de la estructura y operación de computadoras, mientras que Programming Fundamentals se enfoca en el desarrollo de habilidades de programación. **Tipo:** Enfoque metodológico. **Impacto:** Medio.
+2. **Nivel de profundidad:** FUNDAMENTALS OF COMPUTERS tiene un nivel de profundidad más bajo en comparación con Programming Fundamentals, que se centra en la creación de programas complejos. **Tipo:** Nivel de profundidad. **Impacto:** Alto.
+
+**Coincidencia real:** 85
+
+**Explicación equivalencia:** Ambas asignaturas comparten fundamentos técnicos y objetivos formativos similares, aunque con diferentes enfoques metodológicos y niveles de profundidad.
+
+**Recomendación:** Equivalencia recomendada con posible complemento puntual. **Advertencias:** Verificar horas de laboratorio y considerar la necesidad de complementar con lecturas adicionales.
+
+En resumen, las dos asignaturas comparten fundamentos técnicos y objetivos formativos similares, aunque con diferentes enfoques metodológicos y niveles de profundidad. La coincidencia real es del 85%, lo que sugiere una equivalencia parcial pero significativa.
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 31.27s
+INFO:embedding:Starting improved similarity calculation...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Preparando prompt para análisis cualitativo universal...
+INFO:embedding:Respuesta LLM recibida en 102.13s
+ERROR:embedding:Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: **Análisis**
+
+**Campo disciplinar principal:** Ingeniería/Informática (debido a la presencia de conceptos como estructura, organización, diseño lógico, operación y conexión de computadoras)
+
+**Similitudes:**
+
+1. **Tema fundamental:** "Structure, organization, logical design, operation, and interconnection of computers" (Asignatura 1) vs "Fundamentos de física" (Asignatura 2). La asignatura 1 se enfoca en la estructura y funcionamiento de los computadores, mientras que la asignatura 2 se centra en los fundamentos teóricos de la física. Aunque diferentes en terminología, ambos temas cubren conceptos básicos sobre la organización y función de sistemas complejos.
+        * Profundidad: Intermedio
+        * Equivalencia: Exacta (con diferente terminología)
+        * Evidencia: La asignatura 1 se enfoca en la estructura y funcionamiento de los computadores, mientras que la asignatura 2 se centra en los fundamentos teóricos de la física.
+2. **Competencias profesionales:** "Develop problem-solving skills" (Asignatura 1) vs "Apply mathematical techniques to solve problems in physics" (Asignatura 2). Ambas asignaturas buscan desarrollar habilidades para resolver problemas y analizar sistemas complejos.
+        * Profundidad: Intermedio
+        * Equivalencia: Exacta (con diferente terminología)
+        * Evidencia: La asignatura 1 se enfoca en la resolución de problemas en computación, mientras que la asignatura 2 se centra en la aplicación de técnicas matemáticas para resolver problemas en física.
+
+**Diferencias:**
+
+1. **Enfoque metodológico:** La asignatura 1 tiene un enfoque más teórico y conceptual, mientras que la asignatura 2 se enfoca en la aplicación práctica de conceptos físicos.
+        * Tipo: Metodología
+        * Impacto: Medio
+2. **Nivel de profundidad:** La asignatura 1 se enfoca en conceptos básicos sobre computación, mientras que la asignatura 2 se centra en los fundamentos teóricos de la física.
+        * Tipo: Nivel
+        * Impacto: Alto
+
+**Coincidencia real:** 75%
+
+**Explicación equivalencia:** Aunque las asignaturas tienen diferentes enfoques y terminologías, comparten temas fundamentales sobre la organización y función de sistemas complejos. La asignatura 1 se enfoca en la computación, mientras que la asignatura 2 se centra en la física.
+
+**Recomendación:** Equivalencia recomendada con posible complemento puntual. Considerar las diferencias en enfoque metodológico y nivel de profundidad para una mejor comprensión de los conceptos.
+
+**Advertencias:** Verificar horas de laboratorio y considerar la necesidad de complementar con lecturas o ejercicios prácticos.
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 32.03s
+INFO:     127.0.0.1:50501 - "POST /compare HTTP/1.1" 200 OK

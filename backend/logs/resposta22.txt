@@ -1,0 +1,243 @@
+INFO:     Application startup complete.
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+🔗 Encolando asignatura: 'Programming I' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1
+🔗 Encolando asignatura: 'Computer Organization' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC
+🔗 Encolando asignatura: 'Mathematics I' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M1
+🔗 Encolando asignatura: 'Mathematics II' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M2
+🔗 Encolando asignatura: 'Programming II' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO2
+🔗 Encolando asignatura: 'Databases' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/BD
+🔗 Encolando asignatura: 'Computer Interfacing' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/CI
+🔗 Encolando asignatura: 'Data Structures and Algorithmics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EDA
+🔗 Encolando asignatura: 'Probability and Statistics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PE
+🔗 Encolando asignatura: 'Operating Systems' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/SO
+🔗 Encolando asignatura: 'Computer Architecture' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/AC
+🔗 Encolando asignatura: 'Business and Economic Environment' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EEE
+🔗 Encolando asignatura: 'Interaction and Interface Design' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IDI
+🔗 Encolando asignatura: 'Introduction to Software Engineering' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IES
+🔗 Encolando asignatura: 'Computer Networks' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/XC
+🔗 Encolando asignatura: 'Parallelism' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PAR
+🔗 Encolando asignatura: 'Programming Projects' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PROP
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+Detected language: en
+Raw model response:
+ Here is the extracted data in JSON format:
+
+{
+    "THE FUNDAMENTALS OF PROGRAMMING I": {
+        "competences": [
+            "Design and implement relational databases using SQL",
+            "Write efficient algorithms to solve basic problems",
+            "Understand the basics of programming and C language"
+        ],
+        "objectives": [
+            "Design a program to solve a basic problem",
+            "Implement a relational database using SQL",
+            "Analyze the efficiency of an algorithm",
+            "Understand the basics of programming and C language"
+        ],
+        "contents": [
+            "Introduction to programming and C language",
+            "Basic data structures (arrays, linked lists)",
+            "Control structures (if-else, loops)",
+            "Functions and modules",
+            "Relational databases and SQL"
+        ]
+    }
+}
+
+Note: The contents section is not explicitly mentioned in the provided text, but based on the context of the course, it can be inferred that these topics would be covered.
+Detected language: en
+Detected language: en
+Detected language: en
+Detected language: en
+Detected language: en
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": [
+            "Design and implement relational databases using SQL",
+            "Develop basic programming skills in Python",
+            "Understand the fundamental concepts of computer science"
+        ],
+        "objectives": [
+            "Analyze the basic components of a computer system",
+            "Design and implement a simple program using a high-level language",
+            "Explain the concept of algorithms and data structures"
+        ],
+        "contents": {
+            "Module 1: Introduction to Computers": ["Introduction to computers", "Computer hardware and software"],
+            "Module 2: Programming Fundamentals": ["Basic programming concepts", "Variables, data types, and operators"],
+            "Module 3: Relational Databases": ["Database design principles", "SQL basics"]
+        }
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "Programming II": {
+        "competences": [
+            "Design and implement relational databases using SQL",
+            "Develop algorithms for solving computational problems",
+            "Analyze and optimize the performance of programming code"
+        ],
+        "objectives": [
+            "Design and implement a relational database management system",
+            "Develop an algorithm to solve a specific computational problem",
+            "Optimize the performance of a given programming code",
+            "Apply software engineering principles to develop a program",
+            "Analyze and evaluate the effectiveness of different programming languages"
+        ],
+        "contents": {
+            "Module 1: Introduction to Programming II": [
+                "Relational databases and SQL",
+                "Database design and normalization",
+                "Data modeling and schema definition"
+            ],
+            "Module 2: Algorithms and Data Structures": [
+                "Sorting and searching algorithms",
+                "Graph theory and graph traversal",
+                "Dynamic programming and memoization"
+            ],
+            "Module 3: Programming Languages and Paradigms": [
+                "Object-oriented programming principles",
+                "Functional programming concepts",
+                "Declarative programming approaches"
+            ]
+        }
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "Data Structures and Algorithmics": {
+        "competences": [
+            "Design and implement relational databases using SQL",
+            "Analyze and solve complex algorithmic problems",
+            "Develop efficient algorithms for data processing"
+        ],
+        "objectives": [
+            "Design and implement efficient data structures",
+            "Solve complex algorithmic problems",
+            "Analyze and optimize the performance of algorithms"
+        ],
+        "contents": {
+            "Module 1: Introduction to Data Structures": ["Introduction to data structures", "Arrays and linked lists"],
+            "Module 2: Algorithm Design": ["Introduction to algorithm design", "Divide-and-conquer approach"],
+            "Module 3: Sorting and Searching": ["Sorting algorithms", "Searching algorithms"],
+            "Module 4: Graph Algorithms": ["Graph traversal algorithms", "Shortest path algorithms"],
+            "Module 5: Advanced Topics": ["Dynamic programming", "Greedy algorithms"]
+        }
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "Programming I": {
+        "competences": [
+            "Design and implement relational databases using SQL",
+            "Write efficient algorithms for solving computational problems",
+            "Develop problem-solving skills through programming exercises"
+        ],
+        "objectives": [
+            "Design and implement a relational database using SQL",
+            "Solve computational problems using programming languages",
+            "Analyze and debug code to improve its efficiency"
+        ],
+        "contents": {
+            "Module 1: Introduction to Programming": ["Introduction to programming concepts", "Basic syntax of programming languages"],
+            "Module 2: Data Structures": ["Arrays", "Linked lists", "Stacks and queues"],
+            "Module 3: Algorithms": ["Sorting algorithms", "Searching algorithms", "Graph traversal algorithms"],
+            "Module 4: Relational Databases": ["Database design principles", "SQL syntax", "Data modeling"]
+        }
+    }
+}
+Raw model response:
+ {
+    "Operating Systems": {
+        "competences": [
+            "Design and implement operating systems using Linux",
+            "Manage and troubleshoot operating system configurations",
+            "Analyze and optimize system performance"
+        ],
+        "objectives": [
+            "Design and implement an operating system using Linux",
+            "Troubleshoot common operating system issues",
+            "Optimize system performance for specific use cases"
+        ],
+        "contents": {
+            "Module 1: Introduction to Operating Systems": ["Overview of operating systems", "Types of operating systems"],
+            "Module 2: Linux Fundamentals": ["Linux history and evolution", "Linux architecture and components"],
+            "Module 3: System Configuration and Management": ["System configuration and management tools", "Troubleshooting common system issues"],
+            "Module 4: Performance Optimization": ["Performance optimization techniques", "Tools for performance analysis"]
+        }
+    }
+}
+Raw model response:
+ {
+    "Programming Projects": {
+        "competences": [
+            "Design and implement relational databases using SQL",
+            "Develop algorithms for solving programming problems",
+            "Analyze and optimize the performance of software systems"
+        ],
+        "objectives": [
+            "Design and implement a database system that meets specific requirements",
+            "Implement algorithms to solve complex programming problems",
+            "Analyze and optimize the performance of software systems using profiling tools"
+        ],
+        "contents": {
+            "Module 1: Introduction to Programming": ["Introduction to programming concepts", "Basic syntax and semantics"],
+            "Module 2: Data Structures": ["Arrays and linked lists", "Trees and graphs"],
+            "Module 3: Algorithms": ["Sorting and searching algorithms", "Graph traversal algorithms"],
+            "Module 4: Database Systems": ["Database design principles", "SQL language basics"],
+            "Module 5: Software Engineering": ["Software development life cycle", "Testing and debugging techniques"]
+        }
+    }
+}
+Raw model response:
+ {
+    "Introduction to Software Engineering": {
+        "competences": [
+            "Design and implement relational databases using SQL",
+            "Apply software engineering principles to develop software systems",
+            "Use version control systems like Git"
+        ],
+        "objectives": [
+            "Analyze the requirements of a software system",
+            "Design a software architecture that meets the requirements",
+            "Implement a software system using programming languages like Java or Python",
+            "Test and debug a software system",
+            "Document software development processes and results"
+        ],
+        "contents": {
+            "Module 1: Introduction to Software Engineering": [
+                "Software engineering principles and practices",
+                "Software development life cycles",
+                "Requirements gathering and analysis"
+            ],
+            "Module 2: Programming Fundamentals": [
+                "Programming languages like Java or Python",
+                "Data structures and algorithms",
+                "Control structures and functions"
+            ],
+            "Module 3: Software Design": [
+                "Software design principles and patterns",
+                "Designing software architectures",
+                "Use cases and user stories"
+            ],
+            "Module 4: Implementation": [
+                "Implementing software systems using programming languages like Java or Python",
+                "Testing and debugging techniques",
+                "Version control systems like Git"
+            ]
+        }
+    }
+}
+INFO:     127.0.0.1:51527 - "POST /compare HTTP/1.1" 200 OK

@@ -1,0 +1,93 @@
+2025-05-22 19:58:47,206 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-05-22 19:58:47,206 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-22 19:58:47,206 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-22 19:58:47,206 - main - INFO - 🔵 [MAIN] Título asignatura: PHYSICS
+2025-05-22 19:58:47,206 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-05-22 19:58:47,637 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 3
+2025-05-22 19:58:47,637 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-05-22 19:58:47,917 - main - ERROR - 🔴 [MAIN] Error inesperado: extract_urv_section() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/main.py", line 1014, in compare
+    subject_text = extract_subject_from_url(request.url1)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/main.py", line 194, in extract_subject_from_url
+    content = extract_urv_section(soup, section)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: extract_urv_section() takes 1 positional argument but 2 were given
+2025-05-22 20:00:37,020 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-05-22 20:00:37,020 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-22 20:00:37,021 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-22 20:00:37,021 - main - INFO - 🔵 [MAIN] Título asignatura: PHYSICS
+2025-05-22 20:00:37,021 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-05-22 20:00:37,474 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 3
+2025-05-22 20:00:37,474 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-05-22 20:00:37,851 - main - ERROR - 🔴 [MAIN] Error inesperado: extract_urv_section() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/main.py", line 1008, in compare
+    subject_text = extract_subject_from_url(request.url1)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/main.py", line 194, in extract_subject_from_url
+    content = extract_urv_section(soup, section)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: extract_urv_section() takes 1 positional argument but 2 were given
+2025-05-22 20:03:40,308 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-05-22 20:03:40,308 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-22 20:03:40,308 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-22 20:03:40,308 - main - INFO - 🔵 [MAIN] Título asignatura: PHYSICS
+2025-05-22 20:03:40,308 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-05-22 20:03:40,756 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 3
+2025-05-22 20:03:40,756 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-05-22 20:03:41,044 - main - ERROR - 🔴 [MAIN] Error inesperado: extract_urv_section() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/main.py", line 886, in compare
+    subject_text = extract_subject_from_url(request.url1)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/main.py", line 194, in extract_subject_from_url
+    content = extract_urv_section(soup, section)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: extract_urv_section() takes 1 positional argument but 2 were given
+2025-05-22 20:04:48,007 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-05-22 20:04:48,007 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-22 20:04:48,007 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-22 20:04:48,007 - main - INFO - 🔵 [MAIN] Título asignatura: PHYSICS
+2025-05-22 20:04:48,007 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-05-22 20:04:48,444 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 3
+2025-05-22 20:04:48,444 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-05-22 20:04:48,695 - main - ERROR - 🔴 [MAIN] Error inesperado: extract_urv_section() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/main.py", line 880, in compare
+    subject_text = extract_subject_from_url(request.url1)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/main.py", line 194, in extract_subject_from_url
+    content = extract_urv_section(soup, section)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: extract_urv_section() takes 1 positional argument but 2 were given
+2025-05-22 20:07:16,280 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-05-22 20:07:16,280 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-22 20:07:16,280 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-22 20:07:16,280 - main - INFO - 🔵 [MAIN] Título asignatura: PHYSICS
+2025-05-22 20:07:16,280 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-05-22 20:07:16,746 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 3
+2025-05-22 20:07:16,746 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-05-22 20:07:17,028 - main - ERROR - 🔴 [MAIN] Error inesperado: extract_contents_section() missing 1 required positional argument: 'base_url'
+Traceback (most recent call last):
+  File "/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/main.py", line 943, in compare
+    main_theme = extract_subject_theme(subject_text)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/main.py", line 354, in extract_subject_theme
+    contents_section = extract_contents_section(text)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: extract_contents_section() missing 1 required positional argument: 'base_url'
+2025-05-22 20:13:52,896 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-05-22 20:13:52,896 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-22 20:13:52,896 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-22 20:13:52,896 - main - INFO - 🔵 [MAIN] Título asignatura: PHYSICS
+2025-05-22 20:13:52,896 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-05-22 20:13:53,326 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 3
+2025-05-22 20:13:53,326 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-05-22 20:13:53,583 - main - ERROR - 🔴 [MAIN] Error inesperado: extract_subject_theme() missing 1 required positional argument: 'base_url'
+Traceback (most recent call last):
+  File "/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/main.py", line 904, in compare
+    main_theme = extract_subject_theme(subject_text)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: extract_subject_theme() missing 1 required positional argument: 'base_url'

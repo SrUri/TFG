@@ -1,0 +1,171 @@
+INFO:     127.0.0.1:49621 - "OPTIONS /compare HTTP/1.1" 200 OK
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+Detected language: sl
+Detected language: sl
+Detected language: en
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Desarrolla habilidades matemáticas básicas y aplicadas para resolver problemas en diferentes áreas.",
+        "objectives": [
+            "Aprender las bases de la matemática",
+            "Desarrollar habilidades de resolución de problemas",
+            "Aplicar conceptos matemáticos a situaciones reales"
+        ],
+        "contents": [
+            "Algebra lineal y vectorial",
+            "Análisis matricial y determinante",
+            "Ecuaciones diferenciales y ecuaciones integrales",
+            "Geometría analítica y espacial",
+            "Matemáticas aplicadas a la física y la ingeniería"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Physics": {
+        "competences": "Desarrolla habilidades para analizar y resolver problemas físicos, comprender la teoría y los conceptos físicos, y aplicarlos en diferentes contextos.",
+        "objectives": [
+            "Comprender las leyes de la física y su aplicación en diferentes campos",
+            "Desarrollar habilidades para analizar y resolver problemas físicos",
+            "Aplicar la teoría física a problemas reales",
+            "Entender el papel de la física en la sociedad y la tecnología",
+            "Desarrollar habilidades críticas y creativas para abordar problemas complejos",
+            "Comprender la importancia de la experimentación y la medición en la física"
+        ],
+        "contents": [
+            "Lecturas y ejercicios sobre mecánica, electromagnetismo y óptica",
+            "Análisis de problemas físicos utilizando herramientas matemáticas y conceptos físicos",
+            "Experimentación y medición para verificar las predicciones teóricas",
+            "Aplicaciones prácticas de la física en diferentes campos, como la tecnología y la ingeniería"
+        ]
+    }
+}
+Raw model response:
+ {
+    "PROGRAMMING I": {
+        "competences": "Desarrollar habilidades en programación y resolución de problemas.",
+        "objectives": [
+            "Aprender los conceptos básicos de la programación",
+            "Dominar un lenguaje de programación específico",
+            "Resolver problemas utilizando algoritmos y estructuras de datos",
+            "Entender las características y limitaciones de diferentes lenguajes de programación"
+        ],
+        "contents": [
+            "Introducción a la programación",
+            "Conceptos básicos de la programación (variables, tipos de datos, operadores)",
+            "Estructuras de control (condicionales, bucles, funciones recursivas)",
+            "Algoritmos y estructuras de datos (arreglos, matrices, árboles binarios)",
+            "Desarrollo de un proyecto de programación"
+        ]
+    },
+    "MATHEMATICAL ANALYSIS I": {
+        "competences": "Desarrollar habilidades en análisis matemático y resolución de problemas.",
+        "objectives": [
+            "Aprender los conceptos básicos del análisis matemático",
+            "Dominar técnicas de resolución de ecuaciones y sistemas de ecuaciones",
+            "Entender las características y limitaciones de diferentes métodos de análisis",
+            "Resolver problemas utilizando algoritmos y estructuras de datos"
+        ],
+        "contents": [
+            "Introducción al análisis matemático",
+            "Ecuaciones y sistemas de ecuaciones (métodos numéricos, aproximación)",
+            "Funciones y aplicaciones (funciones elementales, funciones polinómicas)",
+            "Series y productos infinitos (serie geométrica, serie aritmética)",
+            "Desarrollo de un proyecto de análisis matemático"
+        ]
+    },
+    "PROGRAMMING II": {
+        "competences": "Desarrollar habilidades en programación y resolución de problemas.",
+        "objectives": [
+            "Aprender los conceptos básicos de la programación",
+            "Dominar un lenguaje de programación específico",
+            "Resolver problemas utilizando algoritmos y estructuras de datos",
+            "Entender las características y limitaciones de diferentes lenguajes de programación"
+        ],
+        "contents": [
+            "Introducción a la programación (continuación)",
+            "Conceptos avanzados de la programación (programación orientada a objetos, diseño de interfaces)",
+            "Estructuras de control (condicionales, bucles, funciones recursivas)",
+            "Algoritmos y estructuras de datos (arreglos, matrices, árboles binarios)",
+            "Desarrollo de un proyecto de programación"
+        ]
+    },
+    ...
+Trying to parse with json5 after a standard JSON error...
+⚠️ Error procesando https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC: 500: Error parsing JSON5: <string>:50 Unexpected "." at column 6
+Detected language: en
+Raw model response:
+ {
+    "FUNDAMENTALS OF COMPUTERS": {
+        "competences": "Desarrollar habilidades en programación y diseño lógico de computadoras, así como comprender la estructura y organización de los sistemas informáticos.",
+        "objectives": [
+            "Conocer la estructura y organización de los sistemas informáticos",
+            "Entender el diseño lógico de computadoras",
+            "Desarrollar habilidades en programación y diseño lógico de computadoras",
+            "Comprender el uso de sistemas operativos",
+            "Aprender a utilizar lenguajes de programación de asamblea",
+            "Desarrollar habilidades para la resolución de problemas informáticos"
+        ],
+        "contents": [
+            "Estructura y organización de los sistemas informáticos",
+            "Diseño lógico de computadoras",
+            "Programación en lenguajes de asamblea",
+            "Uso de sistemas operativos",
+            "Resolución de problemas informáticos"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Fundamentos de Matemática": {
+        "competences": "Desarrolla habilidades matemáticas básicas y aplicadas para resolver problemas en diferentes áreas.",
+        "objectives": [
+            "Aprender las bases de la matemática",
+            "Desarrollar habilidades de resolución de problemas",
+            "Aplicar conceptos matemáticos a situaciones reales"
+        ],
+        "contents": [
+            "Algebra lineal y vectorial",
+            "Análisis matricial y determinante",
+            "Ecuaciones diferenciales y ecuaciones integrales",
+            "Geometría analítica y espacial",
+            "Matemáticas aplicadas a la física y la ingeniería"
+        ]
+    },
+    "Física": {
+        "competences": "Desarrolla habilidades para analizar y resolver problemas físicos, comprender la teoría y los conceptos físicos, y aplicarlos en diferentes contextos.",
+        "objectives": [
+            "Comprender las leyes de la física y su aplicación en diferentes campos",
+            "Desarrollar habilidades para analizar y resolver problemas físicos",
+            "Aplicar la teoría física a problemas reales",
+            "Entender el papel de la física en la sociedad y la tecnología",
+            "Desarrollar habilidades críticas y creativas para abordar problemas complejos",
+            "Comprender la importancia de la experimentación y la medición en la física"
+        ],
+        "contents": [
+            "Lecturas y ejercicios sobre mecánica, electromagnetismo y óptica",
+            "Análisis de problemas físicos utilizando herramientas matemáticas y conceptos físicos",
+            "Experimentación y medición para verificar las predicciones teóricas",
+            "Aplicaciones prácticas de la física en diferentes campos, como la tecnología y la ingeniería"
+        ]
+    }
+}
+Detected language: es
+INFO:embedding:Iniciando cálculo de similitud mejorado...
+ERROR:embedding:Error en qualitative_analysis: No se encontró JSON en la respuesta
+ERROR:embedding:Error de valor: No se encontró JSON en la respuesta
+WARNING:main:Análisis inválido para Fundamentos de Matemática
+INFO:embedding:Iniciando cálculo de similitud mejorado...
+ERROR:embedding:Error en qualitative_analysis: No se encontró JSON en la respuesta
+ERROR:embedding:Error de valor: No se encontró JSON en la respuesta
+WARNING:main:Análisis inválido para Física
+INFO:     127.0.0.1:49621 - "POST /compare HTTP/1.1" 400 Bad Request

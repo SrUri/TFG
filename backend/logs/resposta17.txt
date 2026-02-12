@@ -1,0 +1,658 @@
+INFO:     127.0.0.1:57804 - "OPTIONS /compare HTTP/1.1" 200 OK
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234103&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234103&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234103&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234103&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+🔗 Encolando asignatura: 'Programming I' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1
+🔗 Encolando asignatura: 'Computer Organization' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC
+🔗 Encolando asignatura: 'Mathematics I' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M1
+🔗 Encolando asignatura: 'Mathematics II' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M2
+🔗 Encolando asignatura: 'Programming II' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO2
+🔗 Encolando asignatura: 'Databases' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/BD
+Translation error: Need to load profiles.
+Translation error: Need to load profiles.
+Detected language: sl
+Detected language: en
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Develop problem-solving skills, understand mathematical concepts and apply them to real-world problems.",
+        "objectives": [
+            "Understand the fundamental principles of mathematics",
+            "Apply mathematical techniques to solve problems",
+            "Develop critical thinking and analytical skills"
+        ],
+        "contents": [
+            "Introduction to mathematical structures",
+            "Algebraic manipulations and equations",
+            "Geometric transformations and shapes",
+            "Number theory and combinatorics"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "Students will be able to understand the basic concepts of computer science, including algorithms, data structures, and programming languages.",
+        "objectives": [
+            "To introduce students to the fundamental principles of computer science",
+            "To develop problem-solving skills through programming exercises",
+            "To understand the importance of computational thinking in various fields"
+        ],
+        "contents": [
+            "Introduction to computers and their components",
+            "Basic programming concepts and syntax",
+            "Data structures and algorithms",
+            "Programming languages and their applications"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "PROGRAMMING I": {
+        "competences": "Develop programming skills and understand the basics of computer science. Acquire problem-solving abilities, logical thinking, and analytical skills.",
+        "objectives": [
+            "Understand the basic concepts of programming",
+            "Learn to write programs in a specific language",
+            "Develop problem-solving skills",
+            "Acquire logical thinking and analytical skills",
+            "Understand the basics of computer science"
+        ],
+        "contents": [
+            "Basic programming concepts",
+            "Variables, data types, operators, control structures",
+            "Functions, modules, and libraries",
+            "Error handling and debugging techniques",
+            "Introduction to algorithms and data structures"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "Physics": {
+        "competences": "Develop skills in the application of physical principles to real-world problems, understand the fundamental laws of physics and their applications, develop problem-solving skills through hands-on experiments and simulations.",
+        "objectives": [
+            "Understand the fundamental laws of physics and their applications",
+            "Develop problem-solving skills through hands-on experiments and simulations",
+            "Apply physical principles to real-world problems",
+            "Analyze and interpret data from experiments and simulations",
+            "Design and conduct experiments to test hypotheses",
+            "Communicate scientific ideas and results effectively"
+        ],
+        "contents": [
+            "Mechanics: kinematics, dynamics, energy, momentum, rotational motion",
+            "Thermodynamics: laws of thermodynamics, heat transfer, temperature",
+            "Electromagnetism: electric charges, electric fields, magnetic fields, electromagnetic waves",
+            "Optics: reflection, refraction, diffraction, interference, spectroscopy",
+            "Quantum Mechanics: wave-particle duality, Schrödinger equation, quantum harmonic oscillator"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "Computer Organization": {
+        "competences": "Students will acquire knowledge and skills in computer organization, including the design and implementation of computer systems, memory management, input/output operations, and performance evaluation.",
+        "objectives": [
+            "Understand the fundamental concepts of computer organization",
+            "Design and implement a simple computer system",
+            "Analyze and evaluate the performance of computer systems"
+        ],
+        "contents": [
+            "Introduction to computer organization",
+            "Computer architecture",
+            "Memory management",
+            "Input/output operations",
+            "Performance evaluation",
+            "Case studies and project development"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "Mathematics I": {
+        "competences": "Develop mathematical skills and problem-solving abilities, understand mathematical structures and relationships, apply mathematical techniques to real-world problems.",
+        "objectives": [
+            "Understand the fundamental concepts of mathematics",
+            "Apply mathematical techniques to solve problems",
+            "Develop critical thinking and problem-solving skills",
+            "Understand the importance of mathematical modeling in various fields",
+            "Learn to communicate mathematical ideas effectively",
+            "Develop analytical and logical reasoning skills"
+        ],
+        "contents": [
+            "Algebraic structures",
+            "Linear algebra",
+            "Calculus",
+            "Differential equations",
+            "Probability theory",
+            "Statistics"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Mathematics II": {
+        "competences": "Develop problem-solving skills, apply mathematical techniques to real-world problems, and understand the role of mathematics in science and technology.",
+        "objectives": [
+            "To develop a deeper understanding of mathematical concepts and their applications",
+            "To learn how to solve problems using mathematical techniques",
+            "To understand the importance of mathematics in various fields",
+            "To develop critical thinking and problem-solving skills",
+            "To apply mathematical models to real-world problems"
+        ],
+        "contents": [
+            "Linear Algebra: vector spaces, linear transformations, eigenvalues and eigenvectors",
+            "Differential Equations: ordinary differential equations, partial differential equations, numerical methods",
+            "Probability Theory: probability distributions, random variables, Bayes' theorem",
+            "Statistics: descriptive statistics, inferential statistics, hypothesis testing"
+        ]
+    }
+}
+Raw model response:
+ {
+    "PROGRAMMING I": {
+        "competences": "Develop programming skills, understand the basics of programming languages, and learn to write efficient code.",
+        "objectives": [
+            "Understand the basic concepts of programming",
+            "Learn to write efficient code",
+            "Develop problem-solving skills",
+            "Master a programming language",
+            "Understand the importance of debugging",
+            "Learn to use programming tools"
+        ],
+        "contents": [
+            "Introduction to programming",
+            "Basic data structures (arrays, lists)",
+            "Control structures (if-else, loops)",
+            "Functions and modules",
+            "Error handling and debugging",
+            "Programming exercises and projects"
+        ]
+    }
+}
+Raw model response:
+ {
+    "DATABASES": {
+        "competences": "",
+        "objectives": [
+            "Design and implement databases",
+            "Understand database concepts and principles",
+            "Develop skills in database management"
+        ],
+        "contents": [
+            "Database design and implementation",
+            "Data modeling and normalization",
+            "Query languages and data retrieval",
+            "Database security and integrity",
+            "Database performance optimization"
+        ]
+    },
+    "PROGRAMMING I (6 ECTS)": {
+        "competences": "",
+        "objectives": [
+            "Understand programming concepts and principles",
+            "Develop problem-solving skills in programming",
+            "Learn to write efficient and readable code",
+            "Apply programming techniques to solve real-world problems"
+        ],
+        "contents": [
+            "Introduction to programming",
+            "Variables, data types, and operators",
+            "Control structures and functions",
+            "Arrays, strings, and file input/output",
+            "Object-Oriented Programming (OOP) concepts"
+        ]
+    },
+    "MATHEMATICAL ANALYSIS II": {
+        "competences": "",
+        "objectives": [
+            "Understand mathematical analysis techniques",
+            "Develop problem-solving skills in mathematical analysis",
+            "Learn to apply mathematical analysis to real-world problems"
+        ],
+        "contents": [
+            "Introduction to mathematical analysis",
+            "Limits and continuity of functions",
+            "Differentiation and integration of functions",
+            "Series and sequences of numbers",
+            "Applications of mathematical analysis"
+        ]
+    },
+    "PROGRAMMING I - 103481914": {
+        "competences": "",
+        "objectives": [
+            "Understand programming concepts and principles",
+            "Develop problem-solving skills in programming",
+            "Learn to write efficient and readable code",
+            "Apply programming techniques to solve real-world problems"
+        ],
+        "contents": [
+            "Introduction to programming",
+            "Variables, data types, and operators",
+            "Control structures and functions",
+            "Arrays, strings, and file input/output",
+            "Object-Oriented Programming (OOP) concepts"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "DATABASES": {
+        "competences": "Students will learn to design, implement, and manage databases; understand the fundamental concepts of database systems and relational models; and develop skills in logical data modeling and querying.",
+        "objectives": [
+            "Understand the fundamental concepts of database systems and relational models",
+            "Design, implement, and manage databases",
+            "Develop skills in logical data modeling and querying",
+            "Apply database design principles to real-world problems",
+            "Analyze and solve complex database-related problems"
+        ],
+        "contents": [
+            "Relational model and relational languages (relational algebra and SQL)",
+            "Logical design of BDR for information systems",
+            "Implementation of logical schemes in a relational system",
+            "Database management and querying techniques",
+            "Database design principles and best practices"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Develop problem-solving skills, understand mathematical concepts and apply them to real-world problems.",
+        "objectives": [
+            "Understand the fundamental principles of mathematics",
+            "Apply mathematical techniques to solve problems",
+            "Develop critical thinking and analytical skills"
+        ],
+        "contents": [
+            "Introduction to mathematical structures",
+            "Algebraic manipulations and equations",
+            "Geometric transformations and shapes",
+            "Number theory and combinatorics"
+        ]
+    },
+    "Introduction to Computers": {
+        "competences": "Students will be able to understand the basic concepts of computer science, including algorithms, data structures, and programming languages.",
+        "objectives": [
+            "To introduce students to the fundamental principles of computer science",
+            "To develop problem-solving skills through programming exercises",
+            "To understand the importance of computational thinking in various fields"
+        ],
+        "contents": [
+            "Introduction to computers and their components",
+            "Basic programming concepts and syntax",
+            "Data structures and algorithms",
+            "Programming languages and their applications"
+        ]
+    },
+    "Programming I": {
+        "competences": "Develop programming skills and understand the basics of computer science. Acquire problem-solving abilities, logical thinking, and analytical skills.",
+        "objectives": [
+            "Understand the basic concepts of programming",
+            "Learn to write programs in a specific language",
+            "Develop problem-solving skills",
+            "Acquire logical thinking and analytical skills",
+            "Understand the basics of computer science"
+        ],
+        "contents": [
+            "Basic programming concepts",
+            "Variables, data types, operators, control structures",
+            "Functions, modules, and libraries",
+            "Error handling and debugging techniques",
+            "Introduction to algorithms and data structures"
+        ]
+    },
+    "Physics": {
+        "competences": "Develop skills in the application of physical principles to real-world problems, understand the fundamental laws of physics and their applications, develop problem-solving skills through hands-on experiments and simulations.",
+        "objectives": [
+            "Understand the fundamental laws of physics and their applications",
+            "Develop problem-solving skills through hands-on experiments and simulations",
+            "Apply physical principles to real-world problems",
+            "Analyze and interpret data from experiments and simulations",
+            "Design and conduct experiments to test hypotheses",
+            "Communicate scientific ideas and results effectively"
+        ],
+        "contents": [
+            "Mechanics: kinematics, dynamics, energy, momentum, rotational motion",
+            "Thermodynamics: laws of thermodynamics, heat transfer, temperature",
+            "Electromagnetism: electric charges, electric fields, magnetic fields, electromagnetic waves",
+            "Optics: reflection, refraction, diffraction, interference, spectroscopy",
+            "Quantum Mechanics: wave-particle duality, Schrödinger equation, quantum harmonic oscillator"
+        ]
+    },
+    "Computer Organization": {
+        "competences": "Students will acquire knowledge and skills in computer organization, including the design and implementation of computer systems, memory management, input/output operations, and performance evaluation.",
+        "objectives": [
+            "Understand the fundamental concepts of computer organization",
+            "Design and implement a simple computer system",
+            "Analyze and evaluate the performance of computer systems"
+        ],
+        "contents": [
+            "Introduction to computer organization",
+            "Computer architecture",
+            "Memory management",
+            "Input/output operations",
+            "Performance evaluation",
+            "Case studies and project development"
+        ]
+    },
+    "Mathematics I": {
+        "competences": "Develop mathematical skills and problem-solving abilities, understand mathematical structures and relationships, apply mathematical techniques to real-world problems.",
+        "objectives": [
+            "Understand the fundamental concepts of mathematics",
+            "Apply mathematical techniques to solve problems",
+            "Develop critical thinking and problem-solving skills",
+            "Understand the importance of mathematical modeling in various fields",
+            "Learn to communicate mathematical ideas effectively",
+            "Develop analytical and logical reasoning skills"
+        ],
+        "contents": [
+            "Algebraic structures",
+            "Linear algebra",
+            "Calculus",
+            "Differential equations",
+            "Probability theory",
+            "Statistics"
+        ]
+    },
+    "Mathematics II": {
+        "competences": "Develop problem-solving skills, apply mathematical techniques to real-world problems, and understand the role of mathematics in science and technology.",
+        "objectives": [
+            "To develop a deeper understanding of mathematical concepts and their applications",
+            "To learn how to solve problems using mathematical techniques",
+            "To understand the importance of mathematics in various fields",
+            "To develop critical thinking and problem-solving skills",
+            "To apply mathematical models to real-world problems"
+        ],
+        "contents": [
+            "Linear Algebra: vector spaces, linear transformations, eigenvalues and eigenvectors",
+            "Differential Equations: ordinary differential equations, partial differential equations, numerical methods",
+            "Probability Theory: probability distributions, random variables, Bayes' theorem",
+            "Statistics: descriptive statistics, inferential statistics, hypothesis testing"
+        ]
+    },
+    "Programming II": {
+        "competences": "Develop programming skills, understand the basics of programming languages, and learn to write efficient code.",
+        "objectives": [
+            "Understand the basic concepts of programming",
+            "Learn to write efficient code",
+            "Develop problem-solving skills",
+            "Master a programming language",
+            "Understand the importance of debugging",
+            "Learn to use programming tools"
+        ],
+        "contents": [
+            "Introduction to programming",
+            "Basic data structures (arrays, lists)",
+            "Control structures (if-else, loops)",
+            "Functions and modules",
+            "Error handling and debugging",
+            "Programming exercises and projects"
+        ]
+    },
+    "Databases": {
+        "competences": "",
+        "objectives": [
+            "Design and implement databases",
+            "Understand database concepts and principles",
+            "Develop skills in database management"
+        ],
+        "contents": [
+            "Database design and implementation",
+            "Data modeling and normalization",
+            "Query languages and data retrieval",
+            "Database security and integrity",
+            "Database performance optimization"
+        ]
+    }
+}
+Detected language: de
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.44272643504498443), 'objectives': np.float64(0.5075325029975901), 'competences': np.float64(0.5032623304417673)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+recibida en 33.88s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["Relational model and relational languages (relational algebra and SQL)" en Asignatura 1 se relaciona con "Introduction to mathematical structures" en Asignatura 2, ya que ambos se refieren a la presentación de conceptos y lenguajes para trabajar con estructuras de datos"],
+    "diferencias_sustanciales": ["La asignatura sobre bases de datos se enfoca en la implementación y gestión de bases de datos, mientras que Fundamentos de Matemáticas se centra en el estudio de conceptos matemáticos abstractos", "La asignatura sobre bases de datos incluye temas como diseño lógico y querying, mientras que Fundamentos de Matemáticas se enfoca en la resolución de problemas y aplicaciones prácticas"],
+    "coincidencia_real": 25,
+    "advertencias": ["Es importante destacar que las competencias y objetivos de ambas asignaturas pueden parecer similares en superficie, pero tienen enfoques y contenidos significativamente diferentes"]
+}
+INFO:embedding:Puntuación final estricta calculada: 0.2543244106280779
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 37.09s
+INFO:embedding:Proceso estricto completado en 71.95 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.6251751951621666), 'objectives': np.float64(0.6247946890069894), 'competences': np.float64(0.715339114085655)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 42.67s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": [
+        "Relational model and relational languages (relational algebra and SQL)" en Asignatura 1 coincide con "Introduction to computers and their components" en Asignatura 2, ya que ambos mencionan conceptos relacionados con la base de datos y el lenguaje de programación.
+        "Logical design of BDR for information systems" en Asignatura 1 coincide con "Data structures and algorithms" en Asignatura 2, ya que ambos se refieren a la planificación y diseño lógico de sistemas.
+    ],
+    "diferencias_sustanciales": [
+        La asignatura 1 se enfoca específicamente en la diseño, implementación y gestión de bases de datos, mientras que la Asignatura 2 se centra en los fundamentos generales de la computadora y el programa de computadora.
+        La asignatura 1 utiliza términos como "relational model" y "logical design", mientras que la Asignatura 2 utiliza términos como "algorithms" y "data structures".
+    ],
+    "coincidencia_real": 50,
+    "advertencias": ["Es importante destacar que aunque haya similitudes entre las asignaturas, no es lo mismo diseñar una base de datos que aprender los fundamentos generales de la computadora."]
+}
+INFO:embedding:Puntuación final estricta calculada: 0.50471541855769
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Proceso estricto completado en 75.37 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.6391758826013272), 'objectives': np.float64(0.6754542775343534), 'competences': np.float64(0.6575277168756319)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 40.24s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación te presento el análisis con extremo rigor:
+
+{
+    "similitudes_tecnicas": ["Relational model and relational languages (relational algebra and SQL)" en Asignatura 1 se relaciona con "Basic programming concepts" y "Variables, data types, operators, control structures" en Asignatura 2 debido a la presencia de conceptos de programación y lenguajes de marcado relacional],
+    "diferencias_sustanciales": ["La asignatura 1 se enfoca específicamente en diseño, implementación y gestión de bases de datos, mientras que la asignatura 2 se centra en el desarrollo de habilidades programáticas generales", "La asignatura 1 incluye conceptos de modelo relacional y lenguajes relacionales, mientras que la asignatura 2 se enfoca en programación general"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que aunque haya similitudes técnicas, las competencias y objetivos de ambas asignaturas son fundamentalmente diferentes"]
+}
+
+Nota: La estimación de coincidencia real es conservadora ya que considero que la similitud en conceptos de programación y lenguajes relacionales no es suficiente para considerar que las asignaturas sean idénticas o muy cercanas.
+INFO:embedding:Puntuación final estricta calculada: 0.524391666848876
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 30.08s
+INFO:embedding:Proceso estricto completado en 70.44 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.48402867589902165), 'objectives': np.float64(0.6504736203948397), 'competences': np.float64(0.6218877702263739)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 30.42s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis con extremo rigor:
+
+{
+    "similitudes_tecnicas": ["Database management and querying techniques" y "Hands-on experiments and simulations"],
+    "diferencias_sustanciales": ["La asignatura 1 se enfoca en la diseño y gestión de bases de datos, mientras que la asignatura 2 se enfoca en la aplicación de principios físicos a problemas reales.", "La asignatura 1 no menciona experimentos o simulaciones, mientras que la asignatura 2 los considera fundamentales."],
+    "coincidencia_real": 25,
+    "advertencias": ["Aunque haya algunas similitudes técnicas superficiales, las diferencias en el contenido y objetivos son significativas."]
+}
+
+Nota: La estimación de coincidencia real es conservadora, ya que solo se consideran similitudes exactas o muy cercanas.
+INFO:embedding:Puntuación final estricta calculada: 0.32617759542457975
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 29.70s
+INFO:embedding:Proceso estricto completado en 60.28 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.6198691048014359), 'objectives': np.float64(0.5351331154038824), 'competences': np.float64(0.7486201343669483)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 39.39s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación te presento el análisis con extremo rigor:
+
+{
+    "similitudes_tecnicas": ["Relational model and relational languages (relational algebra and SQL)" en Asignatura 1 coincide con la falta de un contenido similar en Asignatura 2, pero se puede relacionar con el tema de "Computer architecture" y "Introduction to computer organization"],
+    "diferencias_sustanciales": ["La asignatura 1 se enfoca en diseño, implementación y gestión de bases de datos, mientras que la asignatura 2 se centra en la organización y arquitectura de computadoras", "La asignatura 1 tiene un enfoque más específico en lenguajes y modelos relacionales, mientras que la asignatura 2 aborda temas más generales de organización y diseño de sistemas"],
+    "coincidencia_real": 50,
+    "advertencias": ["Es importante destacar que aunque haya similitudes técnicas, las competencias y objetivos de ambas asignaturas son fundamentalmente diferentes"]
+}
+
+Nota: La estimación de coincidencia real es conservadora ya que se considera que la similitud en el contenido de "Relational model and relational languages" es débil y no directamente comparable con los contenidos de Asignatura 2.
+INFO:embedding:Puntuación final estricta calculada: 0.49078069926053053
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 25.66s
+INFO:embedding:Proceso estricto completado en 65.18 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.4546444339185798), 'objectives': np.float64(0.6639883822411505), 'competences': np.float64(0.6342823065463816)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 35.07s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["Relational model and relational languages (relational algebra and SQL)" en Asignatura 1 coincide con "Algebraic structures" en Asignatura 2"],
+    "diferencias_sustanciales": ["La Asignatura 1 se enfoca en diseño, implementación y gestión de bases de datos, mientras que la Asignatura 2 se centra en el desarrollo de habilidades matemáticas y resolución de problemas. La Asignatura 1 también incluye conceptos específicos de bases de datos como 'Logical design of BDR for information systems' y 'Database management and querying techniques', que no están presentes en la Asignatura 2"],
+    "coincidencia_real": 25,
+    "advertencias": ["Es importante destacar que, aunque haya algunas similitudes técnicas, las asignaturas tienen objetivos y competencias muy diferentes. Es fundamental considerar estas diferencias al diseñar un plan de estudio o evaluar el impacto de una asignatura en otra."]
+}
+INFO:embedding:Puntuación final estricta calculada: 0.2914184959496589
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 32.22s
+INFO:embedding:Proceso estricto completado en 67.41 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.5420252409238518), 'objectives': np.float64(0.6620417182790731), 'competences': np.float64(0.6172790103235885)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 28.87s
+ERROR:embedding:Error decodificando JSON estricto: Expecting ',' delimiter: line 2 column 78 (char 79)
+Respuesta: {
+    "similitudes_tecnicas": ["Database design principles and best practices" == "Apply mathematical models to real-world problems"],
+    "diferencias_sustanciales": ["Relational model and relational languages (relational algebra and SQL)" != "Linear Algebra: vector spaces, linear transformations, eigenvalues and eigenvectors", 
+                                "Logical design of BDR for information systems" != "Differential Equations: ordinary differential equations, partial differential equations, numerical methods", 
+                                "Implementation of logical schemes in a relational system" != "Probability Theory: probability distributions, random variables, Bayes' theorem", 
+                                "Database management and querying techniques" != "Statistics: descriptive statistics, inferential statistics, hypothesis testing"],
+    "coincidencia_real": 25,
+    "advertencias": ["No hay similitudes significativas entre las asignaturas en cuanto a contenidos técnicos"]
+}
+INFO:embedding:Puntuación final estricta calculada: 0.3995996734989016
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 34.18s
+INFO:embedding:Proceso estricto completado en 63.19 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.6171117411394121), 'objectives': np.float64(0.6471735916746449), 'competences': np.float64(0.5087400294682908)}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 27.95s
+ERROR:embedding:Error decodificando JSON estricto: Expecting ',' delimiter: line 2 column 103 (char 104)
+Respuesta: {
+    "similitudes_tecnicas": ["Relational model and relational languages (relational algebra and SQL)" in Asignatura 1 matches with "Introduction to programming" in Asignatura 2 due to the introduction of a programming language, although it's not exactly the same as database systems"],
+    "diferencias_sustanciales": ["Database management and querying techniques" in Asignatura 1 is a specific topic that doesn't have an equivalent in Asignatura 2, which focuses on general programming skills", "Logical design of BDR for information systems" in Asignatura 1 requires knowledge of database systems and relational models, whereas Asignatura 2 only covers basic programming concepts"],
+    "coincidencia_real": 40,
+    "advertencias": ["Be cautious when comparing these two courses as they have distinct focuses: databases and programming languages"]
+}
+INFO:embedding:Puntuación final estricta calculada: 0.48654403706514426
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 29.71s
+INFO:embedding:Proceso estricto completado en 57.79 segundos
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+WARNING:embedding:Campo competences no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+WARNING:embedding:Uno de los textos está vacío, devolviendo 0
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': np.float64(0.7567252565162541), 'objectives': np.float64(0.6646919350172665), 'competences': 0.0}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 30.56s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["Relational model and relational languages (relational algebra and SQL)", "Database management and querying techniques"],
+    "diferencias_sustanciales": ["Implementation of logical schemes in a relational system" vs. "Data modeling and normalization", "Logical design of BDR for information systems" vs. "Database security and integrity"],
+    "coincidencia_real": 60,
+    "advertencias": ["Aunque hay similitudes en los contenidos, es importante destacar que la asignatura 1 se enfoca más en el diseño y manejo de bases de datos, mientras que la asignatura 2 se centra en el diseño e implementación de bases de datos"]
+}
+
+Nota: La estimación de coincidencia real (60%) se basa en la cantidad de similitudes técnicas reales encontradas entre las dos asignaturas.
+INFO:embedding:Puntuación final estricta calculada: 0.6373757641470443
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 20.05s
+INFO:embedding:Proceso estricto completado en 50.76 segundos
+INFO:     127.0.0.1:57804 - "POST /compare HTTP/1.1" 200 OK

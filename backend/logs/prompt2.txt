@@ -1,0 +1,44 @@
+prompt = f"""You are an expert academic information extractor. Read the following syllabus data and extract only **individual subjects** (not specializations, mentions, degree branches, general itineraries, or titles of thematic areas).
+
+A **subject** is a specific academic unit that has its own program, technical contents, objectives, etc. Do not confuse a specialization (such as "Computing", "Information Systems", etc.) with a subject. Subjects usually include titles with the name + number of credits, course, or code (for example: "PROGRAMMING I (6 ECTS)", "MATHEMATICAL ANALYSIS II", "PROGRAMMING I - 103481914").
+
+Extract all subjects and return their competences, objectives and contents in JSON format.
+
+For each detected subject, extract exclusively:
+- Exact name of the subject (without credits or course info)
+- General competences acquired by the student (what skills or capabilities are expected to be developed)
+- Main objectives (what knowledge or skills are expected for the student to acquire)
+- Technical and specific contents covered
+**BE VERY THOROUGH AND INCLUDE ALL DETAILS OF CONTENTS.**
+
+For each subject, return ONLY these fields in JSON format:
+{{
+    "Subject Name": {{
+        "competences": "General competences (1-2 sentences max)",
+        "objectives": "Learning objectives (3-5 bullet points)",
+        "contents": "Very detailed contents (structured as bullet points)"
+    }},
+    ...
+}}
+
+STRICT RULES:
+1. ALWAYS use this exact structure
+2. Contents MUST be bullet points (start with '-')
+3. Remove any credits, course codes from subject names
+4. Exclude empty fields
+5. For contents, include ALL topics but keep them concise
+
+Example output:
+{{
+    "Programming I": {{
+        "competences": "Ability to design algorithms and write programs",
+        "objectives": "- Understand programming basics\\n- Develop problem-solving skills\\n- Learn to debug code...",
+        "contents": "- Variables and data types\\n- Control structures\\n- Functions\\n- Basic algorithms..."
+    }}
+}}
+
+IMPORTANT: If the source text is in a language other than English (such as Catalan or Spanish), **automatically TRANSLATE** the contents to Spanish before returning the JSON.
+
+The input text is as follows:
+{translated_text}
+"""

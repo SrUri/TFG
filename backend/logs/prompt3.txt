@@ -1,0 +1,70 @@
+prompt = f"""Eres un experto en comparación rigurosa de programas académicos de informática. Analiza METICULOSAMENTE la similitud entre estas dos asignaturas:
+
+Asignatura 1: {comp1['name']}
+- Competencias: {comp1['competences']}
+- Objetivos: {comp1['objectives']}
+- Contenidos: {comp1['contents'][:2000]}...
+
+Asignatura 2: {comp2['name']}
+- Competencias: {comp2['competences']}
+- Objetivos: {comp2['objectives']}
+- Contenidos: {comp2['contents'][:2000]}...
+
+INSTRUCCIONES ESPECÍFICAS:
+1. Enfócate PARTICULARMENTE en los contenidos técnicos (lenguajes, arquitecturas, conceptos)
+2. Considera tanto la similitud superficial como la profundidad conceptual
+3. Para informática, presta atención a:
+   - Conceptos de arquitectura de computadores
+   - Lenguajes de programación mencionados
+   - Nivel de detalle técnico
+   - Enfoque (teórico/práctico)
+4. Evalúa la equivalencia REAL considerando:
+   - Si cubren los mismos temas fundamentales
+   - Si el nivel de profundidad es comparable
+   - Si preparan para similares competencias profesionales
+
+CRITERIOS DE EVALUACIÓN:
+- Coincidencia exacta de temas técnicos: +30%
+- Conceptos equivalentes con diferente terminología: +20%
+- Objetivos formativos similares: +15%
+- Competencias profesionales comparables: +15%
+- Diferencias en enfoque o profundidad: -10% a -30%
+
+Formato de respuesta REQUERIDO (JSON válido):
+{{
+    "similitudes_tecnicas": [
+        {{
+            "tema": "nombre del tema técnico",
+            "nivel": "básico/intermedio/avanzado",
+            "equivalencia": "exacta/parcial/similar"
+        }}
+    ],
+    "diferencias": [
+        {{
+            "aspecto": "descripción breve",
+            "impacto": "bajo/medio/alto"
+        }}
+    ],
+    "coincidencia_real": 75,
+    "explicacion_equivalencia": "texto conciso que justifica la puntuación",
+    "advertencias": ["items importantes a considerar"]
+}}
+
+EJEMPLO PARA INFORMÁTICA:
+{{
+    "similitudes_tecnicas": [
+        {{
+            "tema": "arquitectura de computadores",
+            "nivel": "intermedio",
+            "equivalencia": "exacta"
+        }},
+        {{
+            "tema": "lenguajes ensamblador",
+            "nivel": "básico",
+            "equivalencia": "parcial"
+        }}
+    ],
+    "coincidencia_real": 85,
+    "explicacion_equivalencia": "Ambas asignaturas cubren los fundamentos de arquitectura de computadores con similar profundidad, aunque difieren en los lenguajes específicos usados para ejemplos.",
+    "advertencias": ["Verificar si los créditos ECTS son equivalentes"]
+}}"""

@@ -1,0 +1,61 @@
+INFO:     Application startup complete.
+INFO:     127.0.0.1:53849 - "OPTIONS /compare HTTP/1.1" 200 OK
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+Translation error: Need to load profiles.
+Translation error: Need to load profiles.
+Detected language: en
+Raw model response:
+ {
+    "Physics": {
+        "competences": "Ability to apply mathematical and physical concepts to solve problems",
+        "objectives": "- Understand the fundamental principles of physics\n- Apply mathematical techniques to analyze physical systems\n- Develop problem-solving skills",
+        "contents": "- Mechanics\n- Thermodynamics\n- Electromagnetism\n- Quantum mechanics\n- Statistical mechanics"
+    }
+}
+⚠️ Error procesando https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F: 500: {'error': 'Error processing subject extraction: Invalid control character at: line 4 column 74 (char 188)', 'response': '{\n    "Physics": {\n        "competences": "Ability to apply mathematical and physical concepts to solve problems",\n        "objectives": "- Understand the fundamental principles of physics\\n- Apply mathematical techniques to analyze physical systems\\n- Develop problem-solving skills",\n        "contents": "- Mechanics\\n- Thermodynamics\\n- Electromagnetism\\n- Quantum mechanics\\n- Statistical mechanics"\n    }\n}'}
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Ability to understand mathematical concepts and apply them to solve problems",
+        "objectives": "- Understand basic mathematical structures\n- Apply mathematical techniques to solve problems\n- Develop problem-solving skills",
+        "contents": "- Numbers and operations\n- Algebraic expressions and equations\n- Functions and graphs\n- Trigonometry and analytical geometry"
+    }
+}
+⚠️ Error procesando https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM: 500: {'error': 'Error processing subject extraction: Invalid control character at: line 4 column 66 (char 207)', 'response': '{\n    "Fundamentals of Mathematics": {\n        "competences": "Ability to understand mathematical concepts and apply them to solve problems",\n        "objectives": "- Understand basic mathematical structures\\n- Apply mathematical techniques to solve problems\\n- Develop problem-solving skills",\n        "contents": "- Numbers and operations\\n- Algebraic expressions and equations\\n- Functions and graphs\\n- Trigonometry and analytical geometry"\n    }\n}'}
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "Ability to understand the basic concepts of computer science and their applications",
+        "objectives": "- Understand the fundamental principles of computer science\n- Learn about the different types of computers and their characteristics\n- Develop problem-solving skills using programming languages",
+        "contents": "- Introduction to computer hardware and software\n- Basic programming concepts (variables, data types, control structures)\n- Programming in Python or other languages"
+    }
+}
+⚠️ Error procesando https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC: 500: {'error': 'Error processing subject extraction: Invalid control character at: line 4 column 83 (char 229)', 'response': '{\n    "Introduction to Computers": {\n        "competences": "Ability to understand the basic concepts of computer science and their applications",\n        "objectives": "- Understand the fundamental principles of computer science\\n- Learn about the different types of computers and their characteristics\\n- Develop problem-solving skills using programming languages",\n        "contents": "- Introduction to computer hardware and software\\n- Basic programming concepts (variables, data types, control structures)\\n- Programming in Python or other languages"\n    }\n}'}
+Detected language: en
+Raw model response:
+ {
+    "FUNDAMENTALS OF COMPUTERS": {
+        "competences": "Ability to understand the structure, organization, logical design, operation and interconnection of computers; ability to program and perform assembly language; ability to use operating systems",
+        "objectives": [
+            "- Understand the fundamental concepts of computer science",
+            "- Develop problem-solving skills through programming and performance of assembly language",
+            "- Learn to use operating systems effectively"
+        ],
+        "contents": [
+            "- Structure, organization, logical design, operation and interconnection of computers",
+            "- Programming and performance of assembly language",
+            "- Use of operating systems",
+            "- Logical design and implementation of computer systems",
+            "- Computer architecture and organization"
+        ]
+    }
+}
+INFO:     127.0.0.1:53849 - "POST /compare HTTP/1.1" 500 Internal Server Error

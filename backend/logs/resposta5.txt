@@ -1,0 +1,225 @@
+INFO:     Application startup complete.
+INFO:     127.0.0.1:54687 - "OPTIONS /compare HTTP/1.1" 200 OK
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+Detected language: sl
+Detected language: sl
+Detected language: en
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "",
+        "objectives": [
+            "Conocer los conceptos básicos de la informática",
+            "Entender el funcionamiento de los ordenadores y sus componentes",
+            "Aprender a utilizar herramientas y software para programar"
+        ],
+        "contents": [
+            "Introducción a la informática",
+            "Conceptos básicos de la computación",
+            "Componentes del ordenador",
+            "Herramientas y software para programar"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Physics": {
+        "competences": "Desarrolla habilidades para analizar y resolver problemas físicos, comprender fenómenos naturales y aplicar conceptos físicos en diferentes campos.",
+        "objectives": [
+            "Comprender los fundamentos de la física y su aplicación en diferentes áreas",
+            "Analizar y resolver problemas físicos utilizando herramientas matemáticas y experimentales",
+            "Desarrollar habilidades para comunicarse efectivamente sobre conceptos físicos"
+        ],
+        "contents": [
+            "Física clásica: mecánica, calor, luminosidad, electromagnetismo",
+            "Física moderna: relatividad especial, teoría cuántica, campo magnético",
+            "Experimentación y medición en física",
+            "Análisis de datos y presentación de resultados"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Desarrolla habilidades matemáticas básicas y aplicadas, analiza problemas y formula soluciones.",
+        "objectives": [
+            "Conocer las bases matemáticas para el análisis de problemas",
+            "Aprender a resolver problemas utilizando técnicas matemáticas",
+            "Desarrollar habilidades de pensamiento crítico y resolución de problemas"
+        ],
+        "contents": [
+            "Álgebra lineal",
+            "Análisis vectorial",
+            "Ecuaciones diferenciales",
+            "Geometría analítica",
+            "Matemáticas aplicadas a la ingeniería informática"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "FUNDAMENTALS OF COMPUTERS": {
+        "competences": "Desarrollar habilidades en la estructura, organización y diseño lógico de los ordenadores; programar y ejecutar lenguaje ensamblador; utilizar sistemas operativos.",
+        "objectives": [
+            "Conocer la estructura y funcionamiento básico de los ordenadores",
+            "Entender el diseño lógico y la organización de los ordenadores",
+            "Aprender a programar en lenguaje ensamblador",
+            "Utilizar sistemas operativos",
+            "Desarrollar habilidades para analizar y resolver problemas relacionados con la informática"
+        ],
+        "contents": [
+            "Estructura y organización de los ordenadores",
+            "Diseño lógico y programación en lenguaje ensamblador",
+            "Uso de sistemas operativos",
+            "Análisis y resolución de problemas relacionados con la informática"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "",
+        "objectives": [
+            "Conocer los conceptos básicos de la informática",
+            "Entender el funcionamiento de los ordenadores y sus componentes",
+            "Aprender a utilizar herramientas y software para programar"
+        ],
+        "contents": [
+            "Introducción a la informática",
+            "Conceptos básicos de la computación",
+            "Componentes del ordenador",
+            "Herramientas y software para programar"
+        ]
+    },
+    "Physics": {
+        "competences": "Desarrolla habilidades para analizar y resolver problemas físicos, comprender fenómenos naturales y aplicar conceptos físicos en diferentes campos.",
+        "objectives": [
+            "Comprender los fundamentos de la física y su aplicación en diferentes áreas",
+            "Analizar y resolver problemas físicos utilizando herramientas matemáticas y experimentales",
+            "Desarrollar habilidades para comunicarse efectivamente sobre conceptos físicos"
+        ],
+        "contents": [
+            "Física clásica: mecánica, calor, luminosidad, electromagnetismo",
+            "Física moderna: relatividad especial, teoría cuántica, campo magnético",
+            "Experimentación y medición en física",
+            "Análisis de datos y presentación de resultados"
+        ]
+    },
+    "Fundamentals of Mathematics": {
+        "competences": "Desarrolla habilidades matemáticas básicas y aplicadas, analiza problemas y formula soluciones.",
+        "objectives": [
+            "Conocer las bases matemáticas para el análisis de problemas",
+            "Aprender a resolver problemas utilizando técnicas matemáticas",
+            "Desarrollar habilidades de pensamiento crítico y resolución de problemas"
+        ],
+        "contents": [
+            "Álgebra lineal",
+            "Análisis vectorial",
+            "Ecuaciones diferenciales",
+            "Geometría analítica",
+            "Matemáticas aplicadas a la ingeniería informática"
+        ]
+    }
+}
+Detected language: pt
+INFO:embedding:Iniciando cálculo de similitud...
+INFO:embedding:Extrayendo componentes del texto...
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings...
+WARNING:embedding:Uno de los textos está vacío, devolviendo 0
+INFO:embedding:Puntuaciones crudas: {'contents': np.float64(0.8350200219550965), 'objectives': np.float64(0.8848511614079863), 'competences': 0.0}
+INFO:embedding:Iniciando análisis cualitativo con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo...
+INFO:embedding:Respuesta LLM recibida en 34.16s
+ERROR:embedding:Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis detallado:
+
+{
+"similitudes": [
+"Estructura y organización de los ordenadores",
+"Diseño lógico y programación en lenguaje ensamblador",
+"Herramientas y software para programar"
+],
+"diferencias": [
+"El nombre de la asignatura (FUNDAMENTALS OF COMPUTERS vs Introduction to Computers)",
+"La profundidad del contenido (Asignatura 1 se enfoca más en el diseño lógico y la organización de los ordenadores, mientras que Asignatura 2 se centra en la introducción a la informática y los conceptos básicos de la computación)",
+"No hay competencias definidas para Asignatura 2"
+],
+"coincidencia_estimada": 75,
+"recomendacion": "Las dos asignaturas comparten un enfoque similar en el diseño lógico y programación, pero Asignatura 1 se enfoca más en la profundidad del contenido. Es importante considerar las diferencias entre ambas asignaturas al diseñar un curso."
+}
+INFO:embedding:Puntuación final calculada: 0.7982521348026306
+INFO:embedding:Generando explicación...
+INFO:embedding:Generando explicación...
+INFO:embedding:Explicación generada en 41.02s
+INFO:embedding:Proceso completado en 76.41 segundos
+INFO:embedding:Iniciando cálculo de similitud...
+INFO:embedding:Extrayendo componentes del texto...
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings...
+INFO:embedding:Puntuaciones crudas: {'contents': np.float64(0.7103497304390581), 'objectives': np.float64(0.7660796205584085), 'competences': np.float64(0.6589420228896639)}
+INFO:embedding:Iniciando análisis cualitativo con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo...
+INFO:embedding:Respuesta LLM recibida en 65.86s
+ERROR:embedding:Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis detallado de las similitudes y diferencias entre las asignaturas "FUNDAMENTALS OF COMPUTERS" y "Physics":
+
+{
+"simititudes": [
+"Estructura y organización de los ordenadores" (en FUNDAMENTALS OF COMPUTERS) y "Experimentación y medición en física" (en Physics), ya que ambos contenidos se enfocan en el análisis y comprensión de la estructura y funcionamiento de sistemas complejos,
+"Diseño lógico y programación en lenguaje ensamblador" (en FUNDAMENTALS OF COMPUTERS) y "Física clásica: mecánica, calor, luminosidad, electromagnetismo" (en Physics), ya que ambos contenidos se enfocan en la comprensión de conceptos básicos y su aplicación práctica,
+"Análisis y resolución de problemas relacionados con la informática" (en FUNDAMENTALS OF COMPUTERS) y "Análisis de datos y presentación de resultados" (en Physics), ya que ambos contenidos se enfocan en el análisis y resolución de problemas utilizando herramientas matemáticas y experimentales
+],
+
+"diferencias": [
+La asignatura "FUNDAMENTALS OF COMPUTERS" se centra en la programación y el diseño lógico de ordenadores, mientras que la asignatura "Physics" se enfoca en la comprensión de fenómenos naturales,
+La asignatura "FUNDAMENTALS OF COMPUTERS" tiene un enfoque más práctico y aplicado, mientras que la asignatura "Physics" tiene un enfoque más teórico y experimental,
+La asignatura "FUNDAMENTALS OF COMPUTERS" se centra en la informática y los ordenadores, mientras que la asignatura "Physics" se enfoca en la física y su aplicación en diferentes campos
+],
+
+"coincidencia_estimada": 75,
+
+"recomendacion": "Ambas asignaturas comparten un enfoque analítico y resolutivo, pero tienen diferencias significativas en cuanto a su contenido y enfoque. Es importante considerar las habilidades y intereses de los estudiantes al elegir entre estas dos opciones."
+}
+INFO:embedding:Puntuación final calculada: 0.7133523340735235
+INFO:embedding:Generando explicación...
+INFO:embedding:Generando explicación...
+INFO:embedding:Explicación generada en 46.16s
+INFO:embedding:Proceso completado en 112.39 segundos
+INFO:embedding:Iniciando cálculo de similitud...
+INFO:embedding:Extrayendo componentes del texto...
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings...
+INFO:embedding:Puntuaciones crudas: {'contents': np.float64(0.7905880565364845), 'objectives': np.float64(0.8032919594555576), 'competences': np.float64(0.6604958008393587)}
+INFO:embedding:Iniciando análisis cualitativo con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo...
+INFO:embedding:Respuesta LLM recibida en 47.61s
+ERROR:embedding:Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis detallado de las similitudes y diferencias entre las asignaturas:
+
+{
+"similitudes": ["Análisis y resolución de problemas", "Desarrollar habilidades para analizar y resolver problemas"],
+"diferencias": ["Estructura y organización de ordenadores vs Álgebra lineal", "Lenguaje ensamblador vs Matemáticas aplicadas a la ingeniería informática", "Sistemas operativos vs Ecuaciones diferenciales"],
+"coincidencia_estimada": 60,
+"recomendacion": "Aunque las asignaturas tienen objetivos y contenidos diferentes, es importante considerar que ambas se centran en el desarrollo de habilidades para analizar y resolver problemas. Es recomendable que los estudiantes conozcan la estructura y funcionamiento básico de los ordenadores y desarrollen habilidades matemáticas básicas antes de profundizar en asignaturas más específicas."
+}
+
+En resumen, las similitudes clave entre las asignaturas se centran en el análisis y resolución de problemas. Los objetivos comunes incluyen la capacidad para analizar problemas y formular soluciones. Las competencias compartidas son el desarrollo de habilidades para analizar y resolver problemas. Sin embargo, hay diferencias notables en los contenidos, como la estructura y organización de ordenadores vs Álgebra lineal, lenguaje ensamblador vs Matemáticas aplicadas a la ingeniería informática y sistemas operativos vs Ecuaciones diferenciales. La coincidencia estimada es del 60%.
+INFO:embedding:Puntuación final calculada: 0.7853538340435354
+INFO:embedding:Generando explicación...
+INFO:embedding:Generando explicación...
+INFO:embedding:Explicación generada en 43.00s
+INFO:embedding:Proceso completado en 91.14 segundos
+INFO:     127.0.0.1:54687 - "POST /compare HTTP/1.1" 200 OK

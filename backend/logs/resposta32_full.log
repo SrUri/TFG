@@ -1,0 +1,389 @@
+2025-05-24 02:22:12,645 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-05-24 02:22:12,645 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-24 02:22:12,645 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-24 02:22:12,645 - main - INFO - 🔵 [MAIN] Título asignatura: THE FUNDAMENTALS OF PROGRAMMING I	
+2025-05-24 02:22:12,645 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-05-24 02:22:12,645 - main - INFO - 📥 Processing guide URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-24 02:22:12,982 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-24 02:22:12,986 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-24 02:22:12,986 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-24 02:22:12,986 - main - INFO - ✅ Subject processed: Fundamentals of Mathematics
+2025-05-24 02:22:13,094 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-24 02:22:13,103 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-24 02:22:13,113 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-24 02:22:13,132 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-24 02:22:13,145 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-24 02:22:13,145 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-24 02:22:13,146 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-24 02:22:13,151 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-24 02:22:13,151 - main - INFO - ✅ Subject processed: Programming I
+2025-05-24 02:22:13,151 - main - INFO - ✅ Subject processed: Physics
+2025-05-24 02:22:13,152 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-24 02:22:13,152 - main - INFO - ✅ Subject processed: Introduction to Computers
+2025-05-24 02:22:13,373 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-24 02:22:13,389 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-24 02:22:13,396 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-24 02:22:13,401 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-24 02:22:13,402 - main - INFO - ✅ Subject processed: Computer Organization
+2025-05-24 02:22:13,406 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-24 02:22:13,425 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-24 02:22:13,425 - main - INFO - ✅ Subject processed: Programming II
+2025-05-24 02:22:13,479 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-24 02:22:13,502 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-24 02:22:13,504 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-24 02:22:13,505 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-24 02:22:13,509 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-24 02:22:13,509 - main - INFO - ✅ Subject processed: Mathematics II
+2025-05-24 02:22:13,510 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-24 02:22:13,511 - main - INFO - ✅ Subject processed: Mathematics I
+2025-05-24 02:22:13,626 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-24 02:22:13,630 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-24 02:22:13,632 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-24 02:22:13,632 - main - INFO - ✅ Subject processed: Databases
+2025-05-24 02:22:13,810 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-24 02:22:13,815 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-24 02:22:13,815 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-24 02:22:13,815 - main - INFO - ✅ Subject processed: Computer Interfacing
+2025-05-24 02:22:13,816 - main - INFO - ✅ Extracted 10 subjects from guide
+2025-05-24 02:22:13,816 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 10
+2025-05-24 02:22:13,816 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-05-24 02:22:13,816 - main - INFO - 📥 Processing subject URL: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-24 02:22:13,816 - main - INFO - 🔍 Detected URV URL - attempting contents extraction
+2025-05-24 02:22:13,816 - main - INFO - 🔍 Fetching URV contents from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&fitxa_apartat=57
+2025-05-24 02:22:14,087 - main - INFO - ✅ Contents table found with Topic/Sub-topic headers
+2025-05-24 02:22:14,087 - main - INFO - ✅ URV contents extracted successfully
+2025-05-24 02:22:14,087 - main - INFO - 🔍 Fetching URV objectives from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&fitxa_apartat=56
+2025-05-24 02:22:14,359 - main - INFO - ✅ URV objectives extracted successfully
+2025-05-24 02:22:14,359 - main - INFO - 🔍 Fetching URV competences from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&fitxa_apartat=55
+2025-05-24 02:22:14,625 - main - INFO - ✅ Fallback table found with Verdana class cells
+2025-05-24 02:22:14,626 - main - INFO - ✅ URV competences extracted successfully
+2025-05-24 02:22:31,712 - main - INFO - Detailed theme extracted: {'core_topic': 'Programming Fundamentals', 'key_contents': 'Variables, Control Structures, Sequences and arrays, Procedures', 'application_domain': 'Software Development'}
+2025-05-24 02:22:31,713 - main - INFO - 🔵 [MAIN] Temática principal identificada: {'core_topic': 'Programming Fundamentals', 'key_contents': 'Variables, Control Structures, Sequences and arrays, Procedures', 'application_domain': 'Software Development'}
+2025-05-24 02:22:31,713 - main - INFO - 🔵 [MAIN] Fase 3: Comparando temáticas
+2025-05-24 02:22:45,439 - main - INFO - Detailed theme extracted: {'core_topic': 'Number Theory', 'key_contents': 'Formal propositional calculus, Predicate logic, Sets and elements, Functions and inverse function', 'application_domain': 'Mathematics'}
+2025-05-24 02:22:46,679 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I	' and 'Fundamentals of Mathematics': 0.62
+2025-05-24 02:22:49,532 - main - INFO - Detailed theme extracted: {'core_topic': 'Electrical Engineering Fundamentals', 'key_contents': "Ohm's law, Kirchhoff's laws, RC and RL circuits, RLC circuits, Impedance, Alternating current circuits", 'application_domain': 'Electronics'}
+2025-05-24 02:23:00,442 - main - INFO - Detailed theme extracted: {'core_topic': 'Programming Fundamentals', 'key_contents': 'Variables, Control Structures, Functions, Algorithms', 'application_domain': 'Software Development'}
+2025-05-24 02:23:09,152 - main - INFO - Detailed theme extracted: {'core_topic': 'Digital Circuits and Processor Design', 'key_contents': 'Combinational Logic Circuits, Sequential Logical Circuits, Special Purpose Processors, General Processing Unit', 'application_domain': 'Computer Architecture'}
+2025-05-24 02:23:09,152 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-24 02:23:09,152 - main - INFO - ❌ No contents header found, returning None
+2025-05-24 02:23:09,152 - main - INFO - ⚠️ No contents extracted, using raw text
+2025-05-24 02:23:13,082 - main - INFO - Raw LLM response for theme comparison: 0.14
+2025-05-24 02:23:13,082 - main - INFO - Extracted LLM score: 0.14
+2025-05-24 02:23:13,082 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5083816051483154, 'key_contents': 0.6132882237434387, 'application_domain': 0.5252191424369812}, LLM: 0.14, Title: 0.62, Final: 0.4
+2025-05-24 02:23:13,082 - main - INFO - 🔵 [MAIN] Comparación temática: Fundamentals of Mathematics - Similitud: 0.40
+2025-05-24 02:23:13,245 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I	' and 'Physics': 0.15
+2025-05-24 02:23:21,422 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Architecture', 'key_contents': 'Hierarchical description of the computer, Assembler and basic data types, Program translation, Arrays, Integer and floating point arithmetic, Cache Memory, Virtual Memory, Exceptions / Interrupts', 'application_domain': 'Computer Systems'}
+2025-05-24 02:23:30,705 - main - INFO - Detailed theme extracted: {'core_topic': 'Data Structures and Algorithms', 'key_contents': 'Stacks, Queues, Lists, Maps, and Sets, Tree Data Structures, Iterative Program Correctness, Recursive Programming and Correctness', 'application_domain': 'Software Development'}
+2025-05-24 02:23:37,816 - main - INFO - Detailed theme extracted: {'core_topic': 'Calculus', 'key_contents': 'Equations and Inequalities, Numerical Sequences, Theorems for Continuous Functions, Taylor Formula, Integration of Functions', 'application_domain': 'Mathematics'}
+2025-05-24 02:23:42,045 - main - INFO - Raw LLM response for theme comparison: 0.14
+2025-05-24 02:23:42,045 - main - INFO - Extracted LLM score: 0.14
+2025-05-24 02:23:42,045 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.7600107789039612, 'key_contents': 0.5276106595993042, 'application_domain': 0.5233123898506165}, LLM: 0.14, Title: 0.15, Final: 0.38
+2025-05-24 02:23:42,045 - main - INFO - 🔵 [MAIN] Comparación temática: Physics - Similitud: 0.38
+2025-05-24 02:23:42,209 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I	' and 'Programming I': 0.55
+2025-05-24 02:23:52,578 - main - INFO - Detailed theme extracted: {'core_topic': 'Graph Theory', 'key_contents': 'Graph Definition, Walks, Connectivity, and Distance, Eulerian and Hamiltonian Graphs, Trees', 'application_domain': 'Computer Science'}
+2025-05-24 02:24:00,462 - main - INFO - Detailed theme extracted: {'core_topic': 'Database Systems', 'key_contents': 'Relational Model, Relational Algebra and SQL, Logical Database Components, Transactions and Concurrency', 'application_domain': 'Software Development'}
+2025-05-24 02:24:04,557 - main - INFO - Raw LLM response for theme comparison: "0.93"
+2025-05-24 02:24:04,557 - main - INFO - Extracted LLM score: 0.93
+2025-05-24 02:24:04,557 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.9999997615814209, 'key_contents': 0.8676072359085083, 'application_domain': 1.0}, LLM: 0.93, Title: 0.55, Final: 0.9
+2025-05-24 02:24:04,557 - main - INFO - 🔵 [MAIN] Comparación temática: Programming I - Similitud: 0.90
+2025-05-24 02:24:04,714 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I	' and 'Introduction to Computers': 0.17
+2025-05-24 02:24:08,347 - main - INFO - Raw LLM response for theme comparison: "0.43"
+2025-05-24 02:24:08,347 - main - INFO - Extracted LLM score: 0.43
+2025-05-24 02:24:08,347 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.562990665435791, 'key_contents': 0.6008414030075073, 'application_domain': 0.5624937415122986}, LLM: 0.43, Title: 0.17, Final: 0.48
+2025-05-24 02:24:08,348 - main - INFO - 🔵 [MAIN] Comparación temática: Introduction to Computers - Similitud: 0.48
+2025-05-24 02:24:08,518 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I	' and 'Computer Organization': 0.25
+2025-05-24 02:24:12,490 - main - INFO - Raw LLM response for theme comparison: "0.79"
+2025-05-24 02:24:12,490 - main - INFO - Extracted LLM score: 0.79
+2025-05-24 02:24:12,490 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5248887538909912, 'key_contents': 0.6049255132675171, 'application_domain': 0.6052802801132202}, LLM: 0.79, Title: 0.25, Final: 0.63
+2025-05-24 02:24:12,490 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Organization - Similitud: 0.63
+2025-05-24 02:24:12,708 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I	' and 'Programming II': 0.54
+2025-05-24 02:24:16,633 - main - INFO - Raw LLM response for theme comparison: "0.83"
+2025-05-24 02:24:16,633 - main - INFO - Extracted LLM score: 0.83
+2025-05-24 02:24:16,633 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5834834575653076, 'key_contents': 0.6413717865943909, 'application_domain': 1.0}, LLM: 0.83, Title: 0.54, Final: 0.73
+2025-05-24 02:24:16,633 - main - INFO - 🔵 [MAIN] Comparación temática: Programming II - Similitud: 0.73
+2025-05-24 02:24:16,776 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I	' and 'Mathematics II': 0.38
+2025-05-24 02:24:20,238 - main - INFO - Raw LLM response for theme comparison: 0.19
+2025-05-24 02:24:20,238 - main - INFO - Extracted LLM score: 0.19
+2025-05-24 02:24:20,238 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5177743434906006, 'key_contents': 0.5825150012969971, 'application_domain': 0.5252191424369812}, LLM: 0.19, Title: 0.38, Final: 0.39
+2025-05-24 02:24:20,238 - main - INFO - 🔵 [MAIN] Comparación temática: Mathematics II - Similitud: 0.39
+2025-05-24 02:24:20,388 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I	' and 'Mathematics I': 0.34
+2025-05-24 02:24:23,822 - main - INFO - Raw LLM response for theme comparison: 0.43
+2025-05-24 02:24:23,822 - main - INFO - Extracted LLM score: 0.43
+2025-05-24 02:24:23,822 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.46930375695228577, 'key_contents': 0.5171893239021301, 'application_domain': 0.6636496782302856}, LLM: 0.43, Title: 0.34, Final: 0.47
+2025-05-24 02:24:23,822 - main - INFO - 🔵 [MAIN] Comparación temática: Mathematics I - Similitud: 0.47
+2025-05-24 02:24:23,950 - main - INFO - Detailed theme extracted: {'core_topic': 'Microcomputer Architecture and Interfaces', 'key_contents': 'Microcomputers, Instruction cycle stages, Arithmetic Logic Unit (ALU), Input/Output Ports, Interrupts', 'application_domain': 'Embedded Systems Development'}
+2025-05-24 02:24:23,969 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I	' and 'Databases': 0.23
+2025-05-24 02:24:27,027 - main - INFO - Raw LLM response for theme comparison: 0.83
+2025-05-24 02:24:27,027 - main - INFO - Extracted LLM score: 0.83
+2025-05-24 02:24:27,027 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4804348945617676, 'key_contents': 0.5926979780197144, 'application_domain': 1.0}, LLM: 0.83, Title: 0.23, Final: 0.67
+2025-05-24 02:24:27,027 - main - INFO - 🔵 [MAIN] Comparación temática: Databases - Similitud: 0.67
+2025-05-24 02:24:27,155 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I	' and 'Computer Interfacing': 0.33
+2025-05-24 02:24:30,332 - main - INFO - Raw LLM response for theme comparison: 0.43
+2025-05-24 02:24:30,332 - main - INFO - Extracted LLM score: 0.43
+2025-05-24 02:24:30,332 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.48335161805152893, 'key_contents': 0.5670203566551208, 'application_domain': 0.7164759635925293}, LLM: 0.43, Title: 0.33, Final: 0.49
+2025-05-24 02:24:30,332 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Interfacing - Similitud: 0.49
+2025-05-24 02:24:30,332 - main - INFO - 🔵 [MAIN] Asignaturas relevantes encontradas: 3
+2025-05-24 02:24:30,332 - main - INFO - 🔵 [MAIN] Fase 4: Extrayendo detalles asignatura principal
+2025-05-24 02:25:12,582 - main - INFO - 🔵 [MAIN] Fase 5: Procesando asignaturas relevantes
+2025-05-24 02:26:30,586 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-24 02:26:30,586 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-24 02:26:30,586 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: THE FUNDAMENTALS OF PROGRAMMING I	
+            Competencias: ['Master programming concepts', 'Design and implement algorithms', 'Manage data structures']
+            Objetivos: ['...
+2025-05-24 02:26:30,586 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Programming I
+                            Competencias: ['Design and implement basic programming structures', 'Analyze and optimize iterative instructions', 'Devel...
+2025-05-24 02:26:30,586 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-24 02:26:30,587 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Master programming concepts', 'Design and implement algorithms', 'Manage data structures']", 'objectives': "['Search for and find information autonomously with criteria of reliability and relevance.', 'Organize information with appropriate tools (online and face-to-face) so that they can carry out their academic activities', 'Produce information with tools and formats appropriate to the communicative situation and with complete honesty', 'Use IT to share and exchange information', 'Master the tools for managing their own identity and activities in a digital environment']", 'contents': "{'Introduction to programming': ['Hardware and software', 'Programming languages', 'The process of creating a program'], 'Data': ['Variables and constants', 'Numbers', 'Booleans and logic expressions', 'Characters', 'Interaction', 'Data persistence'], 'Control structures': ['Conditionals', 'Loops'], 'Sequences and arrays': ['Sequences', 'Arrays', 'Iteration', 'Search', 'Selection sort'], 'Procedures': ['Procedures', 'Arguments'], 'Structs': ['Structs']}"}
+2025-05-24 02:26:30,587 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': 'Programming I', 'competences': "['Design and implement basic programming structures', 'Analyze and optimize iterative instructions', 'Develop recursive functions with parameter passing']", 'objectives': "['Design a program using fundamental concepts', 'Implement for and while loops with examples', 'Search and traverse one-dimensional tables', 'Optimize sorting algorithms and binary search', 'Develop basic algorithms for solving problems']", 'contents': "{'Introduction to fundamental concepts': ['algorithm', 'program', 'variable', 'expression', 'data type'], 'Iterative instructions': ['For and while instructions', 'Examples'], 'Traversal and search diagrams': ['Sequences', 'Sequential traversal and search'], 'Actions and functions': ['Actions and functions', 'Parameter passing', 'Visibility levels'], 'Recursion': ['Introduction to recursive design'], 'Tables': ['One-dimensional tables', 'Multidimensional tables', 'Traversals and searches in tables'], 'Tuples': ['Programming with tuples'], 'Basic algorithms I': ['Sorting algorithms', 'Binary search']}"}
+2025-05-24 02:26:30,587 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-24 02:26:30,587 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Introduction to programming': ['Hardware and software', 'Programming languages', 'The process of c...
+T2: {'Introduction to fundamental concepts': ['algorithm', 'program', 'variable', 'expression', 'data ty...
+2025-05-24 02:26:30,588 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Search for and find information autonomously with criteria of reliability and relevance.', 'Organi...
+T2: ['Design a program using fundamental concepts', 'Implement for and while loops with examples', 'Sear...
+2025-05-24 02:26:30,588 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Master programming concepts', 'Design and implement algorithms', 'Manage data structures']...
+T2: ['Design and implement basic programming structures', 'Analyze and optimize iterative instructions',...
+2025-05-24 02:26:30,853 - embedding - DEBUG - Similitud estricta calculada: 0.4807532095054402 (raw: 0.7009415118818002) (en 0.27s)
+2025-05-24 02:26:30,883 - embedding - DEBUG - Similitud estricta calculada: 0.4890363799814698 (raw: 0.7112954749768372) (en 0.29s)
+2025-05-24 02:26:30,959 - embedding - DEBUG - Similitud estricta calculada: 0.7578003496848259 (raw: 0.8578003496848259) (en 0.37s)
+2025-05-24 02:26:30,959 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.7578003496848259
+2025-05-24 02:26:30,959 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.4807532095054402
+2025-05-24 02:26:30,959 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.4890363799814698
+2025-05-24 02:26:30,959 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.7578003496848259), 'objectives': np.float64(0.4807532095054402), 'competences': np.float64(0.4890363799814698)}
+2025-05-24 02:26:30,959 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-24 02:26:30,959 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-24 02:26:30,959 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Master programming concepts', 'Design and implement algorithms', 'Manage data structures']", 'objectives': "['Search for and find information autonomously with criteria of reliability and relevance.', 'Organize information with appropriate tools (online and face-to-face) so that they can carry out their academic activities', 'Produce information with tools and formats appropriate to the communicative situation and with complete honesty', 'Use IT to share and exchange information', 'Master the tools for managing their own identity and activities in a digital environment']", 'contents': "{'Introduction to programming': ['Hardware and software', 'Programming languages', 'The process of creating a program'], 'Data': ['Variables and constants', 'Numbers', 'Booleans and logic expressions', 'Characters', 'Interaction', 'Data persistence'], 'Control structures': ['Conditionals', 'Loops'], 'Sequences and arrays': ['Sequences', 'Arrays', 'Iteration', 'Search', 'Selection sort'], 'Procedures': ['Procedures', 'Arguments'], 'Structs': ['Structs']}"}
+2025-05-24 02:26:30,959 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': 'Programming I', 'competences': "['Design and implement basic programming structures', 'Analyze and optimize iterative instructions', 'Develop recursive functions with parameter passing']", 'objectives': "['Design a program using fundamental concepts', 'Implement for and while loops with examples', 'Search and traverse one-dimensional tables', 'Optimize sorting algorithms and binary search', 'Develop basic algorithms for solving problems']", 'contents': "{'Introduction to fundamental concepts': ['algorithm', 'program', 'variable', 'expression', 'data type'], 'Iterative instructions': ['For and while instructions', 'Examples'], 'Traversal and search diagrams': ['Sequences', 'Sequential traversal and search'], 'Actions and functions': ['Actions and functions', 'Parameter passing', 'Visibility levels'], 'Recursion': ['Introduction to recursive design'], 'Tables': ['One-dimensional tables', 'Multidimensional tables', 'Traversals and searches in tables'], 'Tuples': ['Programming with tuples'], 'Basic algorithms I': ['Sorting algorithms', 'Binary search']}"}
+2025-05-24 02:26:30,959 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación de programas académicos. Analiza la similitud entre estas dos asignaturas con un enfoque BENEVOLENTE, priorizando la similitud temática del temario:
+
+Asignatura 1:
+- Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+- Competencias: ['Master programming concepts', 'Design and implement algorithms', 'Manage data structures']
+- Objetivos: ['Search for and find information autonomously with criteria of reliability and relevance.', 'Organize information with appropriate tools (...
+2025-05-24 02:27:43,455 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 72.50s
+2025-05-24 02:27:43,456 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+{
+    "similitudes_tecnicas": ["Introduction to programming", "Data", "Control structures", "Sequences and arrays", "Procedures", "Structs"],
+    "diferencias_sustanciales": ["Basic algorithms I", "Tuples"],
+    "coincidencia_real": 85.5,
+    "advertencias": []
+}
+2025-05-24 02:27:43,456 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+{
+    "similitudes_tecnicas": ["Introduction to programming", "Data", "Control structures", "Sequences and arrays", "Procedures", "Structs"],
+    "diferencias_sustanciales": ["Basic algorithms I", "Tuples"],
+    "coincidencia_real": 85.5,
+    "advertencias": []
+}
+2025-05-24 02:27:43,456 - embedding - INFO - 🟠 [EMBED-QA] Análisis parseado correctamente
+2025-05-24 02:27:43,456 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'similitudes_tecnicas': ['Introduction to programming', 'Data', 'Control structures', 'Sequences and arrays', 'Procedures', 'Structs'], 'diferencias_sustanciales': ['Basic algorithms I', 'Tuples'], 'coincidencia_real': 85.5, 'advertencias': []}
+2025-05-24 02:27:43,456 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.9264384773931036
+2025-05-24 02:27:43,456 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-24 02:27:43,456 - embedding - INFO - Generando explicación estricta...
+2025-05-24 02:27:43,456 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: THE FUNDAMENTALS OF PROGRAMMING I
+Asignatura B: Programming I
+
+Puntuación de similitud: 92.6%
+
+Basándote en este análisis:
+{
+  "similitudes_tecnicas": [
+    "Introduction to programming",
+    "Data",
+    "...
+2025-05-24 02:28:21,206 - embedding - INFO - Explicación estricta generada en 37.75s
+2025-05-24 02:28:21,206 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: En cuanto a la asignatura A: THE FUNDAMENTALS OF PROGRAMMING I y la asignatura B: Programming I, podemos establecer que comparten una gran cantidad de conceptos técnicos importantes. En particular, ambas asignaturas cubren temas como la introducción al programa, los datos, las estructuras de control, las secuencias y arrays, los procedimientos y structs.
+
+Sin embargo, hay algunas diferencias sutiles entre ellas. Por ejemplo, la asignatura A incluye conceptos sobre algoritmos básicos I, mientras que la asignatura B no lo hace. Además, la asignatura A menciona tuplas como un tema importante, mientras que la asignatura B no lo hace. En conclusión, aunque ambas asignaturas comparten una gran cantidad de conceptos técnicos, hay algunas diferencias importantes en cuanto a contenido y profundidad.
+2025-05-24 02:28:21,206 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.9264), 'components': {'contents': np.float64(0.7578003496848259), 'objectives': np.float64(0.4807532095054402), 'competences': np.float64(0.4890363799814698)}, 'llm_analysis': {'similitudes_tecnicas': ['Introduction to programming', 'Data', 'Control structures', 'Sequences and arrays', 'Procedures', 'Structs'], 'diferencias_sustanciales': ['Basic algorithms I', 'Tuples'], 'coincidencia_real': 85.5, 'advertencias': []}, 'explanation': 'En cuanto a la asignatura A: THE FUNDAMENTALS OF PROGRAMMING I y la asignatura B: Programming I, podemos establecer que comparten una gran cantidad de conceptos técnicos importantes. En particular, ambas asignaturas cubren temas como la introducción al programa, los datos, las estructuras de control, las secuencias y arrays, los procedimientos y structs.\n\nSin embargo, hay algunas diferencias sutiles entre ellas. Por ejemplo, la asignatura A incluye conceptos sobre algoritmos básicos I, mientras que la asignatura B no lo hace. Además, la asignatura A menciona tuplas como un tema importante, mientras que la asignatura B no lo hace. En conclusión, aunque ambas asignaturas comparten una gran cantidad de conceptos técnicos, hay algunas diferencias importantes en cuanto a contenido y profundidad.'}
+2025-05-24 02:28:21,206 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-24 02:28:21,206 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-24 02:28:21,206 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: THE FUNDAMENTALS OF PROGRAMMING I	
+            Competencias: ['Master programming concepts', 'Design and implement algorithms', 'Manage data structures']
+            Objetivos: ['...
+2025-05-24 02:28:21,206 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Programming II
+                            Competencias: ['Design and implement iterative and recursive algorithms', 'Analyze and justify the correctness of iterat...
+2025-05-24 02:28:21,206 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-24 02:28:21,206 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Master programming concepts', 'Design and implement algorithms', 'Manage data structures']", 'objectives': "['Search for and find information autonomously with criteria of reliability and relevance.', 'Organize information with appropriate tools (online and face-to-face) so that they can carry out their academic activities', 'Produce information with tools and formats appropriate to the communicative situation and with complete honesty', 'Use IT to share and exchange information', 'Master the tools for managing their own identity and activities in a digital environment']", 'contents': "{'Introduction to programming': ['Hardware and software', 'Programming languages', 'The process of creating a program'], 'Data': ['Variables and constants', 'Numbers', 'Booleans and logic expressions', 'Characters', 'Interaction', 'Data persistence'], 'Control structures': ['Conditionals', 'Loops'], 'Sequences and arrays': ['Sequences', 'Arrays', 'Iteration', 'Search', 'Selection sort'], 'Procedures': ['Procedures', 'Arguments'], 'Structs': ['Structs']}"}
+2025-05-24 02:28:21,206 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': 'Programming II', 'competences': "['Design and implement iterative and recursive algorithms', 'Analyze and justify the correctness of iterative and recursive algorithms', 'Detect and eliminate repeated calculations to improve efficiency']", 'objectives': "['Design and implement modular designs in C++', 'Implement object-oriented design principles using classes and objects', 'Justify the need for abstraction and encapsulation in modular design']", 'contents': "{'Linear Data Structures': ['Stacks', 'Queues', 'Lists', 'Maps', 'Sets', 'Iterators'], 'Tree Data Structures': ['Binary Trees'], 'Recursive Programming and Correctness of Recursive Algorithms': ['Inductive Design of Recursive Algorithms', 'Justification of the Correctness of Recursive Algorithms', 'Generalisation of a Function', 'Specification Immersions by Weakening the Postcondition and Strengthening the Precondition', 'Relationship between Tail-Recursive Algorithms and Iterative Algorithms'], 'Efficiency Enhancements for Recursive and Iterative Programs': ['Detection of Repeated Calculations in Recursive and Iterative Programs', 'Efficiency Generalisations: New Data (Input Parameters) and/or Results (Return Values or Output Parameters) in Recursive Operations to Improve Efficiency', 'New Local Variables that Use their Previous Values in Iterative Operations to Improve Efficiency'], 'Modular Design and Object-Oriented Design': ['Abstraction and the Need for Abstraction', 'Functional and Data Decomposition', 'Modules', 'Information Hiding', 'Encapsulation', 'Modular Design Phases: Difference between Specification and Implementation', 'Types of Modules and their Use', 'Libraries'], 'Basic Principles of Object-Oriented Design': ['Classes and Objects', 'Fields and Methods']}"}
+2025-05-24 02:28:21,206 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-24 02:28:21,206 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Introduction to programming': ['Hardware and software', 'Programming languages', 'The process of c...
+T2: {'Linear Data Structures': ['Stacks', 'Queues', 'Lists', 'Maps', 'Sets', 'Iterators'], 'Tree Data St...
+2025-05-24 02:28:21,207 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Search for and find information autonomously with criteria of reliability and relevance.', 'Organi...
+T2: ['Design and implement modular designs in C++', 'Implement object-oriented design principles using c...
+2025-05-24 02:28:21,207 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Master programming concepts', 'Design and implement algorithms', 'Manage data structures']...
+T2: ['Design and implement iterative and recursive algorithms', 'Analyze and justify the correctness of ...
+2025-05-24 02:28:21,463 - embedding - DEBUG - Similitud estricta calculada: 0.433429604225917 (raw: 0.6417870052823962) (en 0.26s)
+2025-05-24 02:28:21,629 - embedding - DEBUG - Similitud estricta calculada: 0.5527085073164761 (raw: 0.7908856341455951) (en 0.42s)
+2025-05-24 02:28:21,629 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.5527085073164761
+2025-05-24 02:28:21,656 - embedding - DEBUG - Similitud estricta calculada: 0.3596128683651684 (raw: 0.5495160854564605) (en 0.45s)
+2025-05-24 02:28:21,656 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.3596128683651684
+2025-05-24 02:28:21,656 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.433429604225917
+2025-05-24 02:28:21,656 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.5527085073164761), 'objectives': np.float64(0.3596128683651684), 'competences': np.float64(0.433429604225917)}
+2025-05-24 02:28:21,656 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-24 02:28:21,656 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-24 02:28:21,656 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Master programming concepts', 'Design and implement algorithms', 'Manage data structures']", 'objectives': "['Search for and find information autonomously with criteria of reliability and relevance.', 'Organize information with appropriate tools (online and face-to-face) so that they can carry out their academic activities', 'Produce information with tools and formats appropriate to the communicative situation and with complete honesty', 'Use IT to share and exchange information', 'Master the tools for managing their own identity and activities in a digital environment']", 'contents': "{'Introduction to programming': ['Hardware and software', 'Programming languages', 'The process of creating a program'], 'Data': ['Variables and constants', 'Numbers', 'Booleans and logic expressions', 'Characters', 'Interaction', 'Data persistence'], 'Control structures': ['Conditionals', 'Loops'], 'Sequences and arrays': ['Sequences', 'Arrays', 'Iteration', 'Search', 'Selection sort'], 'Procedures': ['Procedures', 'Arguments'], 'Structs': ['Structs']}"}
+2025-05-24 02:28:21,656 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': 'Programming II', 'competences': "['Design and implement iterative and recursive algorithms', 'Analyze and justify the correctness of iterative and recursive algorithms', 'Detect and eliminate repeated calculations to improve efficiency']", 'objectives': "['Design and implement modular designs in C++', 'Implement object-oriented design principles using classes and objects', 'Justify the need for abstraction and encapsulation in modular design']", 'contents': "{'Linear Data Structures': ['Stacks', 'Queues', 'Lists', 'Maps', 'Sets', 'Iterators'], 'Tree Data Structures': ['Binary Trees'], 'Recursive Programming and Correctness of Recursive Algorithms': ['Inductive Design of Recursive Algorithms', 'Justification of the Correctness of Recursive Algorithms', 'Generalisation of a Function', 'Specification Immersions by Weakening the Postcondition and Strengthening the Precondition', 'Relationship between Tail-Recursive Algorithms and Iterative Algorithms'], 'Efficiency Enhancements for Recursive and Iterative Programs': ['Detection of Repeated Calculations in Recursive and Iterative Programs', 'Efficiency Generalisations: New Data (Input Parameters) and/or Results (Return Values or Output Parameters) in Recursive Operations to Improve Efficiency', 'New Local Variables that Use their Previous Values in Iterative Operations to Improve Efficiency'], 'Modular Design and Object-Oriented Design': ['Abstraction and the Need for Abstraction', 'Functional and Data Decomposition', 'Modules', 'Information Hiding', 'Encapsulation', 'Modular Design Phases: Difference between Specification and Implementation', 'Types of Modules and their Use', 'Libraries'], 'Basic Principles of Object-Oriented Design': ['Classes and Objects', 'Fields and Methods']}"}
+2025-05-24 02:28:21,656 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación de programas académicos. Analiza la similitud entre estas dos asignaturas con un enfoque BENEVOLENTE, priorizando la similitud temática del temario:
+
+Asignatura 1:
+- Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+- Competencias: ['Master programming concepts', 'Design and implement algorithms', 'Manage data structures']
+- Objetivos: ['Search for and find information autonomously with criteria of reliability and relevance.', 'Organize information with appropriate tools (...
+2025-05-24 02:29:05,813 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 44.16s
+2025-05-24 02:29:05,813 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+{
+    "similitudes_tecnicas": ["Introduction to programming", "Data", "Control structures", "Sequences and arrays", "Procedures"],
+    "diferencias_sustanciales": ["Structs", "Modular Design and Object-Oriented Design", "Basic Principles of Object-Oriented Design"],
+    "coincidencia_real": 83.5,
+    "advertencias": ["La asignatura 1 se enfoca en los conceptos básicos de programación, mientras que la asignatura 2 profundiza en diseño modular y orientado a objetos."]
+}
+2025-05-24 02:29:05,813 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+{
+    "similitudes_tecnicas": ["Introduction to programming", "Data", "Control structures", "Sequences and arrays", "Procedures"],
+    "diferencias_sustanciales": ["Structs", "Modular Design and Object-Oriented Design", "Basic Principles of Object-Oriented Design"],
+    "coincidencia_real": 83.5,
+    "advertencias": ["La asignatura 1 se enfoca en los conceptos básicos de programación, mientras que la asignatura 2 profundiza en diseño modular y orientado a objetos."]
+}
+2025-05-24 02:29:05,813 - embedding - INFO - 🟠 [EMBED-QA] Análisis parseado correctamente
+2025-05-24 02:29:05,813 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'similitudes_tecnicas': ['Introduction to programming', 'Data', 'Control structures', 'Sequences and arrays', 'Procedures'], 'diferencias_sustanciales': ['Structs', 'Modular Design and Object-Oriented Design', 'Basic Principles of Object-Oriented Design'], 'coincidencia_real': 83.5, 'advertencias': ['La asignatura 1 se enfoca en los conceptos básicos de programación, mientras que la asignatura 2 profundiza en diseño modular y orientado a objetos.']}
+2025-05-24 02:29:05,813 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.7
+2025-05-24 02:29:05,813 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-24 02:29:05,813 - embedding - INFO - Generando explicación estricta...
+2025-05-24 02:29:05,813 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: THE FUNDAMENTALS OF PROGRAMMING I
+Asignatura B: Programming II
+
+Puntuación de similitud: 70.0%
+
+Basándote en este análisis:
+{
+  "similitudes_tecnicas": [
+    "Introduction to programming",
+    "Data",
+    ...
+2025-05-24 02:29:42,655 - embedding - INFO - Explicación estricta generada en 36.84s
+2025-05-24 02:29:42,655 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: Asignatura A: THE FUNDAMENTALS OF PROGRAMMING I y Asignatura B: Programming II comparten importantes coincidencias técnicas. Ambas asignaturas abordan conceptos básicos de programación, como la introducción a la programación, el manejo de datos, estructuras de control y secuencias y arrays.
+
+Sin embargo, hay diferencias sutiles entre ellas. La Asignatura A se centra en los conceptos fundamentales, mientras que la Asignatura B profundiza en diseño modular y orientado a objetos, incluyendo structs y principios básicos de diseño orientado a objetos. En conclusión, aunque ambas asignaturas comparten un 83.5% de similitud real, la Asignatura B se enfoca en aspectos más avanzados y complejos, lo que justifica su tratamiento como una asignatura separada.
+2025-05-24 02:29:42,655 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': 0.7, 'components': {'contents': np.float64(0.5527085073164761), 'objectives': np.float64(0.3596128683651684), 'competences': np.float64(0.433429604225917)}, 'llm_analysis': {'similitudes_tecnicas': ['Introduction to programming', 'Data', 'Control structures', 'Sequences and arrays', 'Procedures'], 'diferencias_sustanciales': ['Structs', 'Modular Design and Object-Oriented Design', 'Basic Principles of Object-Oriented Design'], 'coincidencia_real': 83.5, 'advertencias': ['La asignatura 1 se enfoca en los conceptos básicos de programación, mientras que la asignatura 2 profundiza en diseño modular y orientado a objetos.']}, 'explanation': 'Asignatura A: THE FUNDAMENTALS OF PROGRAMMING I y Asignatura B: Programming II comparten importantes coincidencias técnicas. Ambas asignaturas abordan conceptos básicos de programación, como la introducción a la programación, el manejo de datos, estructuras de control y secuencias y arrays.\n\nSin embargo, hay diferencias sutiles entre ellas. La Asignatura A se centra en los conceptos fundamentales, mientras que la Asignatura B profundiza en diseño modular y orientado a objetos, incluyendo structs y principios básicos de diseño orientado a objetos. En conclusión, aunque ambas asignaturas comparten un 83.5% de similitud real, la Asignatura B se enfoca en aspectos más avanzados y complejos, lo que justifica su tratamiento como una asignatura separada.'}
+2025-05-24 02:29:42,655 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-24 02:29:42,655 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-24 02:29:42,655 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: THE FUNDAMENTALS OF PROGRAMMING I	
+            Competencias: ['Master programming concepts', 'Design and implement algorithms', 'Manage data structures']
+            Objetivos: ['...
+2025-05-24 02:29:42,655 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Databases
+                            Competencias: ['Design and implement relational databases', 'Write SQL queries to manipulate and query data', 'Implement stor...
+2025-05-24 02:29:42,655 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-24 02:29:42,655 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Master programming concepts', 'Design and implement algorithms', 'Manage data structures']", 'objectives': "['Search for and find information autonomously with criteria of reliability and relevance.', 'Organize information with appropriate tools (online and face-to-face) so that they can carry out their academic activities', 'Produce information with tools and formats appropriate to the communicative situation and with complete honesty', 'Use IT to share and exchange information', 'Master the tools for managing their own identity and activities in a digital environment']", 'contents': "{'Introduction to programming': ['Hardware and software', 'Programming languages', 'The process of creating a program'], 'Data': ['Variables and constants', 'Numbers', 'Booleans and logic expressions', 'Characters', 'Interaction', 'Data persistence'], 'Control structures': ['Conditionals', 'Loops'], 'Sequences and arrays': ['Sequences', 'Arrays', 'Iteration', 'Search', 'Selection sort'], 'Procedures': ['Procedures', 'Arguments'], 'Structs': ['Structs']}"}
+2025-05-24 02:29:42,655 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': 'Databases', 'competences': "['Design and implement relational databases', 'Write SQL queries to manipulate and query data', 'Implement stored procedures in PL/pgSQL language']", 'objectives': "['Design a database model using the relational model', 'Implement transactions with ACID properties', 'Develop a program that accesses a database using JDBC', 'Analyze the costs of different access methods', 'Design and implement a stored procedure in PL/pgSQL language']", 'contents': "{'Database Concept': ['Design models and databases', 'Types of users', 'Categories of database languages', 'Desirable objectives for databases that DBMS should provide', 'Architecture of DBMS'], 'Relational model': ['Objectives and origin', 'Data structure with which to construct relational databases', 'Operations that provides the relational model to manipulate and query data', 'Integrity rules to be met by the data in a relational database'], 'Languages: Relational Algebra and SQL': ['Introduction', 'Relational Algebra: relational algebra operations; queries', 'SQL: create tables, insert, delete and update of rows in a table, queries on a database', 'Considerations and quality criteria about how to write queries'], 'Logical database components': ['Concept of a logical database component: data and control components', 'Introduction to the data components: schemes, tables and domains, assertions and views', 'Introduction to the control components: stored procedures, triggers and privileges'], 'Stored Procedures and Triggers': ['Implementation of stored procedures in PL/pgSQL language', 'Implementation of triggers in PostgreSQL', 'Considerations and quality criteria in the design and implementation of procedures and triggers'], 'SQL Programming': ['Programming in Java and JDBC', 'Considerations and quality criteria in the design and implementation of programs that access databases'], 'Introduction to the design of relational databases': ['Stages in the design of a database', 'Introduction to the understanding of simple UML conceptual models', 'Translation of simple UML conceptual models to relational model databases'], 'Transactions and concurrency': ['Concept of transaction', 'ACID properties of transactions', 'Interference between transactions', 'Serializability', 'Recoverability', 'Concurrency control techniques', 'Isolation Levels', 'Locking and isolation levels']}"}
+2025-05-24 02:29:42,655 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-24 02:29:42,655 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Introduction to programming': ['Hardware and software', 'Programming languages', 'The process of c...
+T2: {'Database Concept': ['Design models and databases', 'Types of users', 'Categories of database langu...
+2025-05-24 02:29:42,655 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Search for and find information autonomously with criteria of reliability and relevance.', 'Organi...
+T2: ['Design a database model using the relational model', 'Implement transactions with ACID properties'...
+2025-05-24 02:29:42,656 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Master programming concepts', 'Design and implement algorithms', 'Manage data structures']...
+T2: ['Design and implement relational databases', 'Write SQL queries to manipulate and query data', 'Imp...
+2025-05-24 02:29:42,879 - embedding - DEBUG - Similitud estricta calculada: 0.5134554949024079 (raw: 0.7418193686280099) (en 0.22s)
+2025-05-24 02:29:42,879 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.5134554949024079
+2025-05-24 02:29:42,902 - embedding - DEBUG - Similitud estricta calculada: 0.4316594419282592 (raw: 0.639574302410324) (en 0.25s)
+2025-05-24 02:29:42,903 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.4316594419282592
+2025-05-24 02:29:42,919 - embedding - DEBUG - Similitud estricta calculada: 0.5094461992578858 (raw: 0.6094461992578858) (en 0.26s)
+2025-05-24 02:29:42,919 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.5094461992578858
+2025-05-24 02:29:42,919 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.5134554949024079), 'objectives': np.float64(0.4316594419282592), 'competences': np.float64(0.5094461992578858)}
+2025-05-24 02:29:42,919 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-24 02:29:42,919 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-24 02:29:42,919 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Master programming concepts', 'Design and implement algorithms', 'Manage data structures']", 'objectives': "['Search for and find information autonomously with criteria of reliability and relevance.', 'Organize information with appropriate tools (online and face-to-face) so that they can carry out their academic activities', 'Produce information with tools and formats appropriate to the communicative situation and with complete honesty', 'Use IT to share and exchange information', 'Master the tools for managing their own identity and activities in a digital environment']", 'contents': "{'Introduction to programming': ['Hardware and software', 'Programming languages', 'The process of creating a program'], 'Data': ['Variables and constants', 'Numbers', 'Booleans and logic expressions', 'Characters', 'Interaction', 'Data persistence'], 'Control structures': ['Conditionals', 'Loops'], 'Sequences and arrays': ['Sequences', 'Arrays', 'Iteration', 'Search', 'Selection sort'], 'Procedures': ['Procedures', 'Arguments'], 'Structs': ['Structs']}"}
+2025-05-24 02:29:42,920 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': 'Databases', 'competences': "['Design and implement relational databases', 'Write SQL queries to manipulate and query data', 'Implement stored procedures in PL/pgSQL language']", 'objectives': "['Design a database model using the relational model', 'Implement transactions with ACID properties', 'Develop a program that accesses a database using JDBC', 'Analyze the costs of different access methods', 'Design and implement a stored procedure in PL/pgSQL language']", 'contents': "{'Database Concept': ['Design models and databases', 'Types of users', 'Categories of database languages', 'Desirable objectives for databases that DBMS should provide', 'Architecture of DBMS'], 'Relational model': ['Objectives and origin', 'Data structure with which to construct relational databases', 'Operations that provides the relational model to manipulate and query data', 'Integrity rules to be met by the data in a relational database'], 'Languages: Relational Algebra and SQL': ['Introduction', 'Relational Algebra: relational algebra operations; queries', 'SQL: create tables, insert, delete and update of rows in a table, queries on a database', 'Considerations and quality criteria about how to write queries'], 'Logical database components': ['Concept of a logical database component: data and control components', 'Introduction to the data components: schemes, tables and domains, assertions and views', 'Introduction to the control components: stored procedures, triggers and privileges'], 'Stored Procedures and Triggers': ['Implementation of stored procedures in PL/pgSQL language', 'Implementation of triggers in PostgreSQL', 'Considerations and quality criteria in the design and implementation of procedures and triggers'], 'SQL Programming': ['Programming in Java and JDBC', 'Considerations and quality criteria in the design and implementation of programs that access databases'], 'Introduction to the design of relational databases': ['Stages in the design of a database', 'Introduction to the understanding of simple UML conceptual models', 'Translation of simple UML conceptual models to relational model databases'], 'Transactions and concurrency': ['Concept of transaction', 'ACID properties of transactions', 'Interference between transactions', 'Serializability', 'Recoverability', 'Concurrency control techniques', 'Isolation Levels', 'Locking and isolation levels']}"}
+2025-05-24 02:29:42,920 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación de programas académicos. Analiza la similitud entre estas dos asignaturas con un enfoque BENEVOLENTE, priorizando la similitud temática del temario:
+
+Asignatura 1:
+- Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+- Competencias: ['Master programming concepts', 'Design and implement algorithms', 'Manage data structures']
+- Objetivos: ['Search for and find information autonomously with criteria of reliability and relevance.', 'Organize information with appropriate tools (...
+2025-05-24 02:30:21,624 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 38.70s
+2025-05-24 02:30:21,625 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+{
+    "similitudes_tecnicas": ["Introduction to programming", "Data: Variables and constants", "Control structures", "Sequences and arrays"],
+    "diferencias_sustanciales": ["Database Concept", "Languages: Relational Algebra and SQL", "Logical database components", "Transactions and concurrency"],
+    "coincidencia_real": 85.5,
+    "advertencias": ["La asignatura de bases de datos se enfoca más en la implementación y diseño de bases de datos, mientras que la asignatura de fundamentos de programación I se centra en el aprendizaje de conceptos básicos de programación."]
+}
+2025-05-24 02:30:21,625 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+{
+    "similitudes_tecnicas": ["Introduction to programming", "Data: Variables and constants", "Control structures", "Sequences and arrays"],
+    "diferencias_sustanciales": ["Database Concept", "Languages: Relational Algebra and SQL", "Logical database components", "Transactions and concurrency"],
+    "coincidencia_real": 85.5,
+    "advertencias": ["La asignatura de bases de datos se enfoca más en la implementación y diseño de bases de datos, mientras que la asignatura de fundamentos de programación I se centra en el aprendizaje de conceptos básicos de programación."]
+}
+2025-05-24 02:30:21,625 - embedding - INFO - 🟠 [EMBED-QA] Análisis parseado correctamente
+2025-05-24 02:30:21,625 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'similitudes_tecnicas': ['Introduction to programming', 'Data: Variables and constants', 'Control structures', 'Sequences and arrays'], 'diferencias_sustanciales': ['Database Concept', 'Languages: Relational Algebra and SQL', 'Logical database components', 'Transactions and concurrency'], 'coincidencia_real': 85.5, 'advertencias': ['La asignatura de bases de datos se enfoca más en la implementación y diseño de bases de datos, mientras que la asignatura de fundamentos de programación I se centra en el aprendizaje de conceptos básicos de programación.']}
+2025-05-24 02:30:21,625 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.7
+2025-05-24 02:30:21,625 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-24 02:30:21,625 - embedding - INFO - Generando explicación estricta...
+2025-05-24 02:30:21,625 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: THE FUNDAMENTALS OF PROGRAMMING I
+Asignatura B: Databases
+
+Puntuación de similitud: 70.0%
+
+Basándote en este análisis:
+{
+  "similitudes_tecnicas": [
+    "Introduction to programming",
+    "Data: Variables ...
+2025-05-24 02:31:02,946 - embedding - INFO - Explicación estricta generada en 41.32s
+2025-05-24 02:31:02,946 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: A continuación, se presenta una explicación estricta y precisa sobre la asignatura A: THE FUNDAMENTALS OF PROGRAMMING I y la asignatura B: Databases.
+
+Coincidencias TÉCNICAS REALES:
+
+* Ambas asignaturas abordan conceptos básicos de programación, como "Introduction to programming", "Data: Variables and constants" y "Control structures".
+* La asignatura A y la asignatura B comparten también el tema de "Sequences and arrays".
+
+Diferencias:
+
+* La asignatura A se centra en el aprendizaje de conceptos básicos de programación, mientras que la asignatura B se enfoca más en la implementación y diseño de bases de datos.
+* La asignatura B introduce conceptos específicos de bases de datos, como "Database Concept", "Languages: Relational Algebra and SQL" y "Logical database components".
+
+CONCLUSIÓN PRÁCTICA:
+
+Aunque ambas asignaturas comparten algunos temas técnicos, la asignatura A se enfoca en el aprendizaje de programación básica, mientras que la asignatura B se centra en la implementación y diseño de bases de datos. La similitud real entre las dos asignaturas es del 85.5%, lo que indica una relación estrecha pero no idéntica. En conclusión, aunque hay algunas coincidencias técnicas, las asignaturas A y B tienen objetivos y enfoques diferentes.
+2025-05-24 02:31:02,946 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': 0.7, 'components': {'contents': np.float64(0.5134554949024079), 'objectives': np.float64(0.4316594419282592), 'competences': np.float64(0.5094461992578858)}, 'llm_analysis': {'similitudes_tecnicas': ['Introduction to programming', 'Data: Variables and constants', 'Control structures', 'Sequences and arrays'], 'diferencias_sustanciales': ['Database Concept', 'Languages: Relational Algebra and SQL', 'Logical database components', 'Transactions and concurrency'], 'coincidencia_real': 85.5, 'advertencias': ['La asignatura de bases de datos se enfoca más en la implementación y diseño de bases de datos, mientras que la asignatura de fundamentos de programación I se centra en el aprendizaje de conceptos básicos de programación.']}, 'explanation': 'A continuación, se presenta una explicación estricta y precisa sobre la asignatura A: THE FUNDAMENTALS OF PROGRAMMING I y la asignatura B: Databases.\n\nCoincidencias TÉCNICAS REALES:\n\n* Ambas asignaturas abordan conceptos básicos de programación, como "Introduction to programming", "Data: Variables and constants" y "Control structures".\n* La asignatura A y la asignatura B comparten también el tema de "Sequences and arrays".\n\nDiferencias:\n\n* La asignatura A se centra en el aprendizaje de conceptos básicos de programación, mientras que la asignatura B se enfoca más en la implementación y diseño de bases de datos.\n* La asignatura B introduce conceptos específicos de bases de datos, como "Database Concept", "Languages: Relational Algebra and SQL" y "Logical database components".\n\nCONCLUSIÓN PRÁCTICA:\n\nAunque ambas asignaturas comparten algunos temas técnicos, la asignatura A se enfoca en el aprendizaje de programación básica, mientras que la asignatura B se centra en la implementación y diseño de bases de datos. La similitud real entre las dos asignaturas es del 85.5%, lo que indica una relación estrecha pero no idéntica. En conclusión, aunque hay algunas coincidencias técnicas, las asignaturas A y B tienen objetivos y enfoques diferentes.'}
+2025-05-24 02:31:02,947 - main - INFO - 🟢 [MAIN] Comparación completada exitosamente

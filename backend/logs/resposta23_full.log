@@ -1,0 +1,941 @@
+2025-05-21 01:44:15,755 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-05-21 01:44:15,755 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-21 01:44:15,755 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-21 01:44:15,755 - main - INFO - 🔵 [MAIN] Título asignatura: THE FUNDAMENTALS OF PROGRAMMING I
+2025-05-21 01:44:15,755 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-05-21 01:44:17,437 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 20
+2025-05-21 01:44:17,437 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-05-21 01:44:26,102 - main - INFO - Detailed theme extracted: {'core_topic': 'Programming Fundamentals', 'key_contents': 'Introduction to programming, C language basics', 'application_domain': 'Software Development'}
+2025-05-21 01:44:26,102 - main - INFO - 🔵 [MAIN] Temática principal identificada: {'core_topic': 'Programming Fundamentals', 'key_contents': 'Introduction to programming, C language basics', 'application_domain': 'Software Development'}
+2025-05-21 01:44:26,102 - main - INFO - 🔵 [MAIN] Fase 3: Comparando temáticas
+2025-05-21 01:44:42,306 - main - INFO - Detailed theme extracted: {'core_topic': 'Programming I', 'key_contents': 'Variables, Control Structures, Functions', 'application_domain': 'Software Development'}
+2025-05-21 01:44:43,315 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Programming I': 0.57
+2025-05-21 01:44:49,499 - main - INFO - Detailed theme extracted: {'core_topic': 'Introduction to Computers', 'key_contents': 'Computer Fundamentals, Basic Concepts of Computing, Introduction to Programming', 'application_domain': 'Software Development and Information Technologies'}
+2025-05-21 01:44:59,332 - main - INFO - Detailed theme extracted: {'core_topic': 'Mathematics Fundamentals', 'key_contents': 'Algebra, Geometry, Calculus', 'application_domain': 'Various Fields of Science and Technology'}
+2025-05-21 01:45:05,252 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Science', 'key_contents': 'Physics, Computing, Software Engineering', 'application_domain': 'Software Development and Information Technologies'}
+2025-05-21 01:45:09,257 - main - INFO - Raw LLM response for theme comparison: "0.93"
+2025-05-21 01:45:09,257 - main - INFO - Extracted LLM score: 0.93
+2025-05-21 01:45:09,257 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.6163679361343384, 'key_contents': 0.5543184876441956, 'application_domain': 1.0}, LLM: 0.93, Title: 0.57, Final: 0.76
+2025-05-21 01:45:09,257 - main - INFO - 🔵 [MAIN] Comparación temática: Programming I - Similitud: 0.76
+2025-05-21 01:45:09,436 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Introduction to Computers': 0.17
+2025-05-21 01:45:20,501 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Organization', 'key_contents': 'Computer Architecture, Memory Hierarchy, Input/Output Systems', 'application_domain': 'Software Development and Computer Engineering'}
+2025-05-21 01:45:30,272 - main - INFO - Detailed theme extracted: {'core_topic': 'Mathematics', 'key_contents': 'Basic mathematical concepts, Problem-solving techniques, Mathematical modeling', 'application_domain': 'Various fields of science and engineering'}
+2025-05-21 01:45:39,698 - main - INFO - Detailed theme extracted: {'core_topic': 'Mathematics', 'key_contents': 'Mathematical concepts, Problem-solving techniques, Applications of mathematics', 'application_domain': 'Various fields, including Science and Engineering'}
+2025-05-21 01:45:43,587 - main - INFO - Raw LLM response for theme comparison: 0.83
+2025-05-21 01:45:43,587 - main - INFO - Extracted LLM score: 0.83
+2025-05-21 01:45:43,587 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5991010069847107, 'key_contents': 0.816076934337616, 'application_domain': 0.8308196067810059}, LLM: 0.83, Title: 0.17, Final: 0.72
+2025-05-21 01:45:43,587 - main - INFO - 🔵 [MAIN] Comparación temática: Introduction to Computers - Similitud: 0.72
+2025-05-21 01:45:43,755 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Fundamentals of Mathematics': 0.63
+2025-05-21 01:45:53,362 - main - INFO - Detailed theme extracted: {'core_topic': 'Programming II', 'key_contents': 'Object-Oriented Programming, Data Structures and Algorithms, Software Design Patterns', 'application_domain': 'Software Development'}
+2025-05-21 01:46:02,206 - main - INFO - Detailed theme extracted: {'core_topic': 'Databases', 'key_contents': 'Database Systems, Data Modeling, Query Languages', 'application_domain': 'Software Development and Information Technologies'}
+2025-05-21 01:46:11,886 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Interfacing', 'key_contents': 'Computer Interfacing, Interfacing Principles, Digital Logic, Microcontrollers', 'application_domain': 'Electronics and Electrical Engineering'}
+2025-05-21 01:46:16,203 - main - INFO - Raw LLM response for theme comparison: "0.14"
+2025-05-21 01:46:16,204 - main - INFO - Extracted LLM score: 0.14
+2025-05-21 01:46:16,204 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.7983351349830627, 'key_contents': 0.5768312215805054, 'application_domain': 0.5902853608131409}, LLM: 0.14, Title: 0.63, Final: 0.45
+2025-05-21 01:46:16,204 - main - INFO - 🔵 [MAIN] Comparación temática: Fundamentals of Mathematics - Similitud: 0.45
+2025-05-21 01:46:16,442 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Physics': 0.15
+2025-05-21 01:46:25,837 - main - INFO - Detailed theme extracted: {'core_topic': 'Probability and Statistics', 'key_contents': 'Probability Theory, Statistical Inference, Data Analysis', 'application_domain': 'Data Science and Analytics'}
+2025-05-21 01:46:36,355 - main - INFO - Detailed theme extracted: {'core_topic': 'Data Structures and Algorithmics', 'key_contents': 'Data Structures, Algorithms, Problem Solving', 'application_domain': 'Software Development'}
+2025-05-21 01:46:43,222 - main - INFO - Detailed theme extracted: {'core_topic': 'Operating Systems', 'key_contents': 'Process Management, Memory Management, File Systems, Scheduling', 'application_domain': 'Computer Engineering'}
+2025-05-21 01:46:47,570 - main - INFO - Raw LLM response for theme comparison: "0.83"
+2025-05-21 01:46:47,571 - main - INFO - Extracted LLM score: 0.83
+2025-05-21 01:46:47,571 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.6222110390663147, 'key_contents': 0.6081701517105103, 'application_domain': 0.8308196067810059}, LLM: 0.83, Title: 0.15, Final: 0.68
+2025-05-21 01:46:47,571 - main - INFO - 🔵 [MAIN] Comparación temática: Physics - Similitud: 0.68
+2025-05-21 01:46:47,720 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Computer Organization': 0.26
+2025-05-21 01:47:00,474 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Architecture', 'key_contents': 'Instruction Set Design, Memory Hierarchy, Input/Output Systems, Performance Analysis', 'application_domain': 'Hardware and Software Development'}
+2025-05-21 01:47:08,627 - main - INFO - Detailed theme extracted: {'core_topic': 'Business and Economic Environment', 'key_contents': 'Economic Analysis, Business Strategy, Market Research, Financial Management', 'application_domain': 'Business and Economics'}
+2025-05-21 01:47:19,584 - main - INFO - Detailed theme extracted: {'core_topic': 'Interaction and Interface Design', 'key_contents': 'Design principles, User experience, Human-computer interaction', 'application_domain': 'Software Development'}
+2025-05-21 01:47:24,305 - main - INFO - Raw LLM response for theme comparison: "0.43"
+2025-05-21 01:47:24,305 - main - INFO - Extracted LLM score: 0.43
+2025-05-21 01:47:24,305 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4887538254261017, 'key_contents': 0.5378643274307251, 'application_domain': 0.848448634147644}, LLM: 0.43, Title: 0.26, Final: 0.49
+2025-05-21 01:47:24,305 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Organization - Similitud: 0.49
+2025-05-21 01:47:24,450 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Mathematics I': 0.35
+2025-05-21 01:47:35,053 - main - INFO - Detailed theme extracted: {'core_topic': 'Software Engineering', 'key_contents': 'Introduction to Software Engineering, Software Development Life Cycle, Requirements Engineering, Design and Implementation', 'application_domain': 'Software Development'}
+2025-05-21 01:47:44,731 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Networks', 'key_contents': 'Network Architecture, Protocols and Standards, Network Security', 'application_domain': 'Software Development and Network Administration'}
+2025-05-21 01:47:50,726 - main - INFO - Detailed theme extracted: {'core_topic': 'Parallelism', 'key_contents': 'Concurrency, Synchronization, Thread Management', 'application_domain': 'Computer Architecture and Operating Systems'}
+2025-05-21 01:47:55,092 - main - INFO - Raw LLM response for theme comparison: "0.43"
+2025-05-21 01:47:55,092 - main - INFO - Extracted LLM score: 0.43
+2025-05-21 01:47:55,092 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5501101016998291, 'key_contents': 0.6239026784896851, 'application_domain': 0.5941998362541199}, LLM: 0.43, Title: 0.35, Final: 0.5
+2025-05-21 01:47:55,092 - main - INFO - 🔵 [MAIN] Comparación temática: Mathematics I - Similitud: 0.50
+2025-05-21 01:47:55,268 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Mathematics II': 0.38
+2025-05-21 01:47:59,204 - main - INFO - Raw LLM response for theme comparison: "0.43"
+2025-05-21 01:47:59,205 - main - INFO - Extracted LLM score: 0.43
+2025-05-21 01:47:59,205 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5501101016998291, 'key_contents': 0.5572192072868347, 'application_domain': 0.6083680391311646}, LLM: 0.43, Title: 0.38, Final: 0.49
+2025-05-21 01:47:59,205 - main - INFO - 🔵 [MAIN] Comparación temática: Mathematics II - Similitud: 0.49
+2025-05-21 01:47:59,445 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Programming II': 0.55
+2025-05-21 01:48:02,981 - main - INFO - Raw LLM response for theme comparison: 0.83
+2025-05-21 01:48:02,981 - main - INFO - Extracted LLM score: 0.83
+2025-05-21 01:48:02,981 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5882237553596497, 'key_contents': 0.6271835565567017, 'application_domain': 1.0}, LLM: 0.83, Title: 0.55, Final: 0.73
+2025-05-21 01:48:02,981 - main - INFO - 🔵 [MAIN] Comparación temática: Programming II - Similitud: 0.73
+2025-05-21 01:48:03,134 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Databases': 0.24
+2025-05-21 01:48:07,030 - main - INFO - Detailed theme extracted: {'core_topic': 'Programming Projects', 'key_contents': 'Programming, Projects', 'application_domain': 'Software Development'}
+2025-05-21 01:48:07,539 - main - INFO - Raw LLM response for theme comparison: {"similarity": 0.87}
+2025-05-21 01:48:07,539 - main - INFO - Extracted LLM score: 0.87
+2025-05-21 01:48:07,539 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5072506666183472, 'key_contents': 0.5487033724784851, 'application_domain': 0.8308196067810059}, LLM: 0.87, Title: 0.24, Final: 0.67
+2025-05-21 01:48:07,539 - main - INFO - 🔵 [MAIN] Comparación temática: Databases - Similitud: 0.67
+2025-05-21 01:48:07,678 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Computer Interfacing': 0.34
+2025-05-21 01:48:11,066 - main - INFO - Raw LLM response for theme comparison: 0.14
+2025-05-21 01:48:11,066 - main - INFO - Extracted LLM score: 0.14
+2025-05-21 01:48:11,066 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.49645301699638367, 'key_contents': 0.6093191504478455, 'application_domain': 0.5002443194389343}, LLM: 0.14, Title: 0.34, Final: 0.36
+2025-05-21 01:48:11,066 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Interfacing - Similitud: 0.36
+2025-05-21 01:48:11,213 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Probability and Statistics': 0.27
+2025-05-21 01:48:14,962 - main - INFO - Raw LLM response for theme comparison: "0.19"
+2025-05-21 01:48:14,962 - main - INFO - Extracted LLM score: 0.19
+2025-05-21 01:48:14,962 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4731772541999817, 'key_contents': 0.47908222675323486, 'application_domain': 0.548073410987854}, LLM: 0.19, Title: 0.27, Final: 0.35
+2025-05-21 01:48:14,962 - main - INFO - 🔵 [MAIN] Comparación temática: Probability and Statistics - Similitud: 0.35
+2025-05-21 01:48:15,081 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Data Structures and Algorithmics': 0.12
+2025-05-21 01:48:18,631 - main - INFO - Raw LLM response for theme comparison: 0.80
+2025-05-21 01:48:18,631 - main - INFO - Extracted LLM score: 0.8
+2025-05-21 01:48:18,631 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5832406878471375, 'key_contents': 0.5823970437049866, 'application_domain': 1.0}, LLM: 0.8, Title: 0.12, Final: 0.67
+2025-05-21 01:48:18,631 - main - INFO - 🔵 [MAIN] Comparación temática: Data Structures and Algorithmics - Similitud: 0.67
+2025-05-21 01:48:18,744 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Operating Systems': 0.28
+2025-05-21 01:48:22,407 - main - INFO - Raw LLM response for theme comparison: 0.14
+2025-05-21 01:48:22,407 - main - INFO - Extracted LLM score: 0.14
+2025-05-21 01:48:22,407 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4930177927017212, 'key_contents': 0.5111132264137268, 'application_domain': 0.6095880270004272}, LLM: 0.14, Title: 0.28, Final: 0.35
+2025-05-21 01:48:22,407 - main - INFO - 🔵 [MAIN] Comparación temática: Operating Systems - Similitud: 0.35
+2025-05-21 01:48:22,519 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Computer Architecture': 0.19
+2025-05-21 01:48:26,271 - main - INFO - Raw LLM response for theme comparison: 0.44
+2025-05-21 01:48:26,271 - main - INFO - Extracted LLM score: 0.44
+2025-05-21 01:48:26,271 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5248887538909912, 'key_contents': 0.5509750843048096, 'application_domain': 0.807042121887207}, LLM: 0.44, Title: 0.19, Final: 0.49
+2025-05-21 01:48:26,271 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Architecture - Similitud: 0.49
+2025-05-21 01:48:26,397 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Business and Economic Environment': 0.24
+2025-05-21 01:48:30,538 - main - INFO - Raw LLM response for theme comparison: "0.19"
+2025-05-21 01:48:30,538 - main - INFO - Extracted LLM score: 0.19
+2025-05-21 01:48:30,538 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4051877558231354, 'key_contents': 0.48891863226890564, 'application_domain': 0.47006911039352417}, LLM: 0.19, Title: 0.24, Final: 0.33
+2025-05-21 01:48:30,538 - main - INFO - 🔵 [MAIN] Comparación temática: Business and Economic Environment - Similitud: 0.33
+2025-05-21 01:48:30,648 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Interaction and Interface Design': 0.12
+2025-05-21 01:48:35,029 - main - INFO - Raw LLM response for theme comparison: "0.43"
+2025-05-21 01:48:35,029 - main - INFO - Extracted LLM score: 0.43
+2025-05-21 01:48:35,029 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4168757498264313, 'key_contents': 0.5742127895355225, 'application_domain': 1.0}, LLM: 0.43, Title: 0.12, Final: 0.48
+2025-05-21 01:48:35,029 - main - INFO - 🔵 [MAIN] Comparación temática: Interaction and Interface Design - Similitud: 0.48
+2025-05-21 01:48:35,144 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Introduction to Software Engineering': 0.26
+2025-05-21 01:48:39,423 - main - INFO - Raw LLM response for theme comparison: "0.83"
+2025-05-21 01:48:39,423 - main - INFO - Extracted LLM score: 0.83
+2025-05-21 01:48:39,423 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.577953577041626, 'key_contents': 0.674541711807251, 'application_domain': 1.0}, LLM: 0.83, Title: 0.26, Final: 0.71
+2025-05-21 01:48:39,423 - main - INFO - 🔵 [MAIN] Comparación temática: Introduction to Software Engineering - Similitud: 0.71
+2025-05-21 01:48:39,537 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Computer Networks': 0.28
+2025-05-21 01:48:43,726 - main - INFO - Raw LLM response for theme comparison: "0.43"
+2025-05-21 01:48:43,726 - main - INFO - Extracted LLM score: 0.43
+2025-05-21 01:48:43,726 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.45814770460128784, 'key_contents': 0.45839279890060425, 'application_domain': 0.7440258264541626}, LLM: 0.43, Title: 0.28, Final: 0.46
+2025-05-21 01:48:43,726 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Networks - Similitud: 0.46
+2025-05-21 01:48:43,835 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Parallelism': 0.23
+2025-05-21 01:48:47,939 - main - INFO - Raw LLM response for theme comparison: "0.14"
+2025-05-21 01:48:47,939 - main - INFO - Extracted LLM score: 0.14
+2025-05-21 01:48:47,939 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.44266587495803833, 'key_contents': 0.508830726146698, 'application_domain': 0.6056252121925354}, LLM: 0.14, Title: 0.23, Final: 0.33
+2025-05-21 01:48:47,939 - main - INFO - 🔵 [MAIN] Comparación temática: Parallelism - Similitud: 0.33
+2025-05-21 01:48:48,083 - main - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Programming Projects': 0.45
+2025-05-21 01:48:52,425 - main - INFO - Raw LLM response for theme comparison: "0.95"
+2025-05-21 01:48:52,426 - main - INFO - Extracted LLM score: 0.95
+2025-05-21 01:48:52,426 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.6420647501945496, 'key_contents': 0.6766339540481567, 'application_domain': 1.0}, LLM: 0.95, Title: 0.45, Final: 0.79
+2025-05-21 01:48:52,426 - main - INFO - 🔵 [MAIN] Comparación temática: Programming Projects - Similitud: 0.79
+2025-05-21 01:48:52,426 - main - INFO - 🔵 [MAIN] Asignaturas relevantes encontradas: 8
+2025-05-21 01:48:52,426 - main - INFO - 🔵 [MAIN] Fase 4: Extrayendo detalles asignatura principal
+2025-05-21 01:49:42,837 - main - INFO - 🔵 [MAIN] Fase 5: Procesando asignaturas relevantes
+2025-05-21 01:51:39,650 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-21 01:51:39,657 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-21 01:51:39,658 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+            Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'D...
+2025-05-21 01:51:39,662 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Physics
+                            Competencias: ['Design and implement relational databases using SQL', 'Apply mathematical techniques to solve problems in physi...
+2025-05-21 01:51:39,663 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-21 01:51:39,663 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 01:51:39,663 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': 'Physics', 'competences': "['Design and implement relational databases using SQL', 'Apply mathematical techniques to solve problems in physics', 'Use computational tools to analyze data and simulate physical systems']", 'objectives': "['Analyze the behavior of physical systems using mathematical models', 'Design and implement algorithms for solving physics-related problems', 'Develop skills in programming languages such as Python or MATLAB']", 'contents': "{'Module 1: Introduction to Physics': ['Introduction to classical mechanics', 'Kinematics and dynamics'], 'Module 2: Thermodynamics': ['Thermodynamic laws', 'Heat transfer and energy conversion'], 'Module 3: Electromagnetism': ['Electric charges and currents', 'Magnetic fields and forces'], 'Module 4: Quantum Mechanics': ['Wave-particle duality', 'Schrödinger equation and wave functions']}"}
+2025-05-21 01:51:39,664 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-21 01:51:39,664 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], ...
+T2: {'Module 1: Introduction to Physics': ['Introduction to classical mechanics', 'Kinematics and dynami...
+2025-05-21 01:51:39,664 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Analyze the structure of a program and identify its components', 'Implement a simple program using...
+T2: ['Analyze the behavior of physical systems using mathematical models', 'Design and implement algorit...
+2025-05-21 01:51:39,665 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using stan...
+T2: ['Design and implement relational databases using SQL', 'Apply mathematical techniques to solve prob...
+2025-05-21 01:51:40,621 - embedding - DEBUG - Similitud estricta calculada: 0.5218214329609442 (raw: 0.7522767912011802) (en 0.96s)
+2025-05-21 01:51:40,688 - embedding - DEBUG - Similitud estricta calculada: 0.5788051592456188 (raw: 0.6788051592456188) (en 1.02s)
+2025-05-21 01:51:40,849 - embedding - DEBUG - Similitud estricta calculada: 0.6187902783129696 (raw: 0.7187902783129696) (en 1.19s)
+2025-05-21 01:51:40,850 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.6187902783129696
+2025-05-21 01:51:40,850 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.5218214329609442
+2025-05-21 01:51:40,850 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.5788051592456188
+2025-05-21 01:51:40,850 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.6187902783129696), 'objectives': np.float64(0.5218214329609442), 'competences': np.float64(0.5788051592456188)}
+2025-05-21 01:51:40,850 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-21 01:51:40,850 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-21 01:51:40,850 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 01:51:40,850 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': 'Physics', 'competences': "['Design and implement relational databases using SQL', 'Apply mathematical techniques to solve problems in physics', 'Use computational tools to analyze data and simulate physical systems']", 'objectives': "['Analyze the behavior of physical systems using mathematical models', 'Design and implement algorithms for solving physics-related problems', 'Develop skills in programming languages such as Python or MATLAB']", 'contents': "{'Module 1: Introduction to Physics': ['Introduction to classical mechanics', 'Kinematics and dynamics'], 'Module 2: Thermodynamics': ['Thermodynamic laws', 'Heat transfer and energy conversion'], 'Module 3: Electromagnetism': ['Electric charges and currents', 'Magnetic fields and forces'], 'Module 4: Quantum Mechanics': ['Wave-particle duality', 'Schrödinger equation and wave functions']}"}
+2025-05-21 01:51:40,850 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación estricta de programas académicos. Analiza RIGUROSAMENTE la similitud entre estas dos asignaturas:
+
+Asignatura 1:
+- Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+- Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']
+- Objetivos: ['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control...
+2025-05-21 01:54:31,713 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 170.86s
+2025-05-21 01:54:31,713 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+A continuación, te presento el análisis con extremo rigor:
+
+{
+    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en un lenguaje de programación (C en Asignatura 1 y Python o MATLAB en Asignatura 2)", "Depurar y probar propios programas"],
+    "diferencias_sustanciales": ["La asignatura THE FUNDAMENTALS OF PROGRAMMING I se enfoca exclusivamente en la programación, mientras que la asignatura Physics combina conceptos de física con habilidades de programación.", "La asignatura THE FUNDAMENTALS OF PROGRAMMING I no aborda temas específicos de física ni utiliza herramientas o lenguajes relacionados con la física."],
+    "coincidencia_real": 25,
+    "advertencias": ["Es importante destacar que, aunque existan algunas similitudes técnicas, las asignaturas THE FUNDAMENTALS OF PROGRAMMING I y Physics tienen objetivos y contenidos muy diferentes."]
+}
+
+Nota: La estimación de coincidencia real es del 25% porque, aunque haya algunas similitudes técnicas, la mayor parte de los objetivos y contenidos de ambas asignaturas son significativamente diferentes.
+2025-05-21 01:54:31,713 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+A continuación, te presento el análisis con extremo rigor:
+
+{
+    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en un lenguaje de programación (C en Asignatura 1 y Python o MATLAB en Asignatura 2)", "Depurar y probar propios programas"],
+    "diferencias_sustanciales": ["La asignatura THE FUNDAMENTALS OF PROGRAMMING I se enfoca exclusivamente en la programación, mientras que la asignatura Physics combina conceptos de física con habilidades de programación.", "La asignatura THE FUNDAMENTALS OF PROGRAMMING I no aborda temas específicos de física ni utiliza herramientas o lenguajes relacionados con la física."],
+    "coincidencia_real": 25,
+    "advertencias": ["Es importante destacar que, aunque existan algunas similitudes técnicas, las asignaturas THE FUNDAMENTALS OF PROGRAMMING I y Physics tienen objetivos y contenidos muy diferentes."]
+}
+
+Nota: La estimación de coincidencia real es del 25% porque, aunque haya algunas similitudes técnicas, la mayor parte de los objetivos y contenidos de ambas asignaturas son significativamente diferentes.
+2025-05-21 01:54:31,713 - embedding - ERROR - 🔴 [EMBED-QA] Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis con extremo rigor:
+
+{
+    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en un lenguaje de programación (C en Asignatura 1 y Python o MATLAB en Asignatura 2)", "Depurar y probar propios programas"],
+    "diferencias_sustanciales": ["La asignatura THE FUNDAMENTALS OF PROGRAMMING I se enfoca exclusivamente en la programación, mientras que la asignatura Physics combina conceptos de física con habilidades de programación.", "La asignatura THE FUNDAMENTALS OF PROGRAMMING I no aborda temas específicos de física ni utiliza herramientas o lenguajes relacionados con la física."],
+    "coincidencia_real": 25,
+    "advertencias": ["Es importante destacar que, aunque existan algunas similitudes técnicas, las asignaturas THE FUNDAMENTALS OF PROGRAMMING I y Physics tienen objetivos y contenidos muy diferentes."]
+}
+
+Nota: La estimación de coincidencia real es del 25% porque, aunque haya algunas similitudes técnicas, la mayor parte de los objetivos y contenidos de ambas asignaturas son significativamente diferentes.
+2025-05-21 01:54:31,713 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'error': 'Invalid JSON response', 'response': 'A continuación, te presento el análisis con extremo rigor:\n\n{\n    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en un lenguaje de programación (C en Asignatura 1 y Python o MATLAB en Asignatura 2)", "Depurar y probar propios programas"],\n    "diferencias_sustanciales": ["La asignatura THE FUNDAMENTALS OF PROGRAMMING I se enfoca exclusivamente en la programación, mientras que la asignatura Physics combina conceptos de física con habilidades de programación.", "La asignatura THE FUNDAMENTALS OF PROGRAMMING I no aborda temas específicos de física ni utiliza herramientas o lenguajes relacionados con la física."],\n    "coincidencia_real": 25,\n    "advertencias": ["Es importante destacar que, aunque existan algunas similitudes técnicas, las asignaturas THE FUNDAMENTALS OF PROGRAMMING I y Physics tienen objetivos y contenidos muy diferentes."]\n}\n\nNota: La estimación de coincidencia real es del 25% porque, aunque haya algunas similitudes técnicas, la mayor parte de los objetivos y contenidos de ambas asignaturas son significativamente diferentes.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}
+2025-05-21 01:54:31,713 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.47961024914958744
+2025-05-21 01:54:31,713 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-21 01:54:31,713 - embedding - INFO - Generando explicación estricta...
+2025-05-21 01:54:31,713 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: THE FUNDAMENTALS OF PROGRAMMING I
+Asignatura B: Physics
+
+Puntuación de similitud: 48.0%
+
+Basándote en este análisis:
+{
+  "error": "Invalid JSON response",
+  "response": "A continuaci\u00f3n, te presento el...
+2025-05-21 01:56:42,707 - embedding - INFO - Explicación estricta generada en 130.99s
+2025-05-21 01:56:42,707 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: A continuación, te presento el análisis con extremo rigor:
+
+**Coincidencias Técnicas Reales**: Aunque las asignaturas THE FUNDAMENTALS OF PROGRAMMING I y Physics tengan objetivos y contenidos diferentes, existen algunas similitudes técnicas importantes. Por ejemplo, ambas asignaturas requieren implementar algoritmos para resolver problemas básicos y escribir programas en un lenguaje de programación (C en Asignatura 1 y Python o MATLAB en Asignatura 2). Además, ambas asignaturas también involucran la depuración y prueba de propios programas.
+
+**Diferencias Sustanciales**: La principal diferencia entre las dos asignaturas es que THE FUNDAMENTALS OF PROGRAMMING I se enfoca exclusivamente en la programación, mientras que Physics combina conceptos de física con habilidades de programación. Además, la asignatura Physics no aborda temas específicos de programación ni utiliza herramientas o lenguajes relacionados con la programación.
+
+**Conclusión Práctica**: Aunque existan algunas similitudes técnicas entre las dos asignaturas, es importante destacar que su contenido y objetivo son significativamente diferentes. Por lo tanto, no hay equivalencia real entre ellas.
+2025-05-21 01:56:42,707 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.4796), 'components': {'contents': np.float64(0.6187902783129696), 'objectives': np.float64(0.5218214329609442), 'competences': np.float64(0.5788051592456188)}, 'llm_analysis': {'error': 'Invalid JSON response', 'response': 'A continuación, te presento el análisis con extremo rigor:\n\n{\n    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en un lenguaje de programación (C en Asignatura 1 y Python o MATLAB en Asignatura 2)", "Depurar y probar propios programas"],\n    "diferencias_sustanciales": ["La asignatura THE FUNDAMENTALS OF PROGRAMMING I se enfoca exclusivamente en la programación, mientras que la asignatura Physics combina conceptos de física con habilidades de programación.", "La asignatura THE FUNDAMENTALS OF PROGRAMMING I no aborda temas específicos de física ni utiliza herramientas o lenguajes relacionados con la física."],\n    "coincidencia_real": 25,\n    "advertencias": ["Es importante destacar que, aunque existan algunas similitudes técnicas, las asignaturas THE FUNDAMENTALS OF PROGRAMMING I y Physics tienen objetivos y contenidos muy diferentes."]\n}\n\nNota: La estimación de coincidencia real es del 25% porque, aunque haya algunas similitudes técnicas, la mayor parte de los objetivos y contenidos de ambas asignaturas son significativamente diferentes.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}, 'explanation': 'A continuación, te presento el análisis con extremo rigor:\n\n**Coincidencias Técnicas Reales**: Aunque las asignaturas THE FUNDAMENTALS OF PROGRAMMING I y Physics tengan objetivos y contenidos diferentes, existen algunas similitudes técnicas importantes. Por ejemplo, ambas asignaturas requieren implementar algoritmos para resolver problemas básicos y escribir programas en un lenguaje de programación (C en Asignatura 1 y Python o MATLAB en Asignatura 2). Además, ambas asignaturas también involucran la depuración y prueba de propios programas.\n\n**Diferencias Sustanciales**: La principal diferencia entre las dos asignaturas es que THE FUNDAMENTALS OF PROGRAMMING I se enfoca exclusivamente en la programación, mientras que Physics combina conceptos de física con habilidades de programación. Además, la asignatura Physics no aborda temas específicos de programación ni utiliza herramientas o lenguajes relacionados con la programación.\n\n**Conclusión Práctica**: Aunque existan algunas similitudes técnicas entre las dos asignaturas, es importante destacar que su contenido y objetivo son significativamente diferentes. Por lo tanto, no hay equivalencia real entre ellas.'}
+2025-05-21 01:56:42,707 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-21 01:56:42,707 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-21 01:56:42,707 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+            Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'D...
+2025-05-21 01:56:42,707 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Programming I
+                            Competencias: ['Design and implement relational databases using SQL', 'Write efficient algorithms for solving computation...
+2025-05-21 01:56:42,707 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-21 01:56:42,708 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 01:56:42,708 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': 'Programming I', 'competences': "['Design and implement relational databases using SQL', 'Write efficient algorithms for solving computational problems', 'Develop problem-solving skills through hands-on programming exercises']", 'objectives': "['Analyze the design of a database system', 'Implement data structures and algorithms in a programming language', 'Solve computational problems using programming techniques', 'Design and implement a simple relational database', 'Write efficient code for solving computational problems']", 'contents': "{'Module 1: Introduction to Programming': ['Introduction to programming concepts', 'Basic syntax of a programming language'], 'Module 2: Data Structures': ['Arrays and lists', 'Linked lists and stacks', 'Queues and trees'], 'Module 3: Algorithms': ['Sorting algorithms (e.g., bubble sort, quicksort)', 'Searching algorithms (e.g., linear search, binary search)']}"}
+2025-05-21 01:56:42,708 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-21 01:56:42,708 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], ...
+T2: {'Module 1: Introduction to Programming': ['Introduction to programming concepts', 'Basic syntax of ...
+2025-05-21 01:56:42,709 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Analyze the structure of a program and identify its components', 'Implement a simple program using...
+T2: ['Analyze the design of a database system', 'Implement data structures and algorithms in a programmi...
+2025-05-21 01:56:42,709 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using stan...
+T2: ['Design and implement relational databases using SQL', 'Write efficient algorithms for solving comp...
+2025-05-21 01:56:43,919 - embedding - DEBUG - Similitud estricta calculada: 0.6516994242187953 (raw: 0.7516994242187953) (en 1.21s)
+2025-05-21 01:56:43,951 - embedding - DEBUG - Similitud estricta calculada: 0.7687743572644938 (raw: 0.8687743572644938) (en 1.24s)
+2025-05-21 01:56:43,951 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.7687743572644938
+2025-05-21 01:56:43,973 - embedding - DEBUG - Similitud estricta calculada: 0.7138242938920626 (raw: 0.8138242938920626) (en 1.26s)
+2025-05-21 01:56:43,973 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.7138242938920626
+2025-05-21 01:56:43,973 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.6516994242187953
+2025-05-21 01:56:43,973 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.7687743572644938), 'objectives': np.float64(0.7138242938920626), 'competences': np.float64(0.6516994242187953)}
+2025-05-21 01:56:43,973 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-21 01:56:43,973 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-21 01:56:43,973 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 01:56:43,973 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': 'Programming I', 'competences': "['Design and implement relational databases using SQL', 'Write efficient algorithms for solving computational problems', 'Develop problem-solving skills through hands-on programming exercises']", 'objectives': "['Analyze the design of a database system', 'Implement data structures and algorithms in a programming language', 'Solve computational problems using programming techniques', 'Design and implement a simple relational database', 'Write efficient code for solving computational problems']", 'contents': "{'Module 1: Introduction to Programming': ['Introduction to programming concepts', 'Basic syntax of a programming language'], 'Module 2: Data Structures': ['Arrays and lists', 'Linked lists and stacks', 'Queues and trees'], 'Module 3: Algorithms': ['Sorting algorithms (e.g., bubble sort, quicksort)', 'Searching algorithms (e.g., linear search, binary search)']}"}
+2025-05-21 01:56:43,973 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación estricta de programas académicos. Analiza RIGUROSAMENTE la similitud entre estas dos asignaturas:
+
+Asignatura 1:
+- Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+- Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']
+- Objetivos: ['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control...
+2025-05-21 01:57:23,096 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 39.12s
+2025-05-21 01:57:23,097 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+A continuación, te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["Design and implement algorithms to solve basic problems", "Write programs in C language using standard libraries"],
+    "diferencias_sustanciales": ["The focus on relational databases and SQL in Programming I, whereas THE FUNDAMENTALS OF PROGRAMMING I does not mention these topics", "THE FUNDAMENTALS OF PROGRAMMING I has a broader range of programming concepts (variables, data types, operators, control structures, functions, recursion, arrays, strings) compared to Programming I's focus on algorithms and data structures"],
+    "coincidencia_real": 40,
+    "advertencias": ["La asignatura THE FUNDAMENTALS OF PROGRAMMING I se centra en la programación en C y no aborda temas de bases de datos relacionales como Programación I. Es importante considerar estas diferencias al comparar las competencias y objetivos entre ambas asignaturas."]
+}
+
+Nota: La estimación de coincidencia real (40%) refleja que hay algunas similitudes técnicas, pero también hay diferencias sustanciales en la enfoque y contenido de las asignaturas.
+2025-05-21 01:57:23,097 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+A continuación, te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["Design and implement algorithms to solve basic problems", "Write programs in C language using standard libraries"],
+    "diferencias_sustanciales": ["The focus on relational databases and SQL in Programming I, whereas THE FUNDAMENTALS OF PROGRAMMING I does not mention these topics", "THE FUNDAMENTALS OF PROGRAMMING I has a broader range of programming concepts (variables, data types, operators, control structures, functions, recursion, arrays, strings) compared to Programming I's focus on algorithms and data structures"],
+    "coincidencia_real": 40,
+    "advertencias": ["La asignatura THE FUNDAMENTALS OF PROGRAMMING I se centra en la programación en C y no aborda temas de bases de datos relacionales como Programación I. Es importante considerar estas diferencias al comparar las competencias y objetivos entre ambas asignaturas."]
+}
+
+Nota: La estimación de coincidencia real (40%) refleja que hay algunas similitudes técnicas, pero también hay diferencias sustanciales en la enfoque y contenido de las asignaturas.
+2025-05-21 01:57:23,097 - embedding - ERROR - 🔴 [EMBED-QA] Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["Design and implement algorithms to solve basic problems", "Write programs in C language using standard libraries"],
+    "diferencias_sustanciales": ["The focus on relational databases and SQL in Programming I, whereas THE FUNDAMENTALS OF PROGRAMMING I does not mention these topics", "THE FUNDAMENTALS OF PROGRAMMING I has a broader range of programming concepts (variables, data types, operators, control structures, functions, recursion, arrays, strings) compared to Programming I's focus on algorithms and data structures"],
+    "coincidencia_real": 40,
+    "advertencias": ["La asignatura THE FUNDAMENTALS OF PROGRAMMING I se centra en la programación en C y no aborda temas de bases de datos relacionales como Programación I. Es importante considerar estas diferencias al comparar las competencias y objetivos entre ambas asignaturas."]
+}
+
+Nota: La estimación de coincidencia real (40%) refleja que hay algunas similitudes técnicas, pero también hay diferencias sustanciales en la enfoque y contenido de las asignaturas.
+2025-05-21 01:57:23,097 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'error': 'Invalid JSON response', 'response': 'A continuación, te presento el análisis riguroso de las asignaturas:\n\n{\n    "similitudes_tecnicas": ["Design and implement algorithms to solve basic problems", "Write programs in C language using standard libraries"],\n    "diferencias_sustanciales": ["The focus on relational databases and SQL in Programming I, whereas THE FUNDAMENTALS OF PROGRAMMING I does not mention these topics", "THE FUNDAMENTALS OF PROGRAMMING I has a broader range of programming concepts (variables, data types, operators, control structures, functions, recursion, arrays, strings) compared to Programming I\'s focus on algorithms and data structures"],\n    "coincidencia_real": 40,\n    "advertencias": ["La asignatura THE FUNDAMENTALS OF PROGRAMMING I se centra en la programación en C y no aborda temas de bases de datos relacionales como Programación I. Es importante considerar estas diferencias al comparar las competencias y objetivos entre ambas asignaturas."]\n}\n\nNota: La estimación de coincidencia real (40%) refleja que hay algunas similitudes técnicas, pero también hay diferencias sustanciales en la enfoque y contenido de las asignaturas.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}
+2025-05-21 01:57:23,097 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.6899353471807633
+2025-05-21 01:57:23,097 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-21 01:57:23,097 - embedding - INFO - Generando explicación estricta...
+2025-05-21 01:57:23,097 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: THE FUNDAMENTALS OF PROGRAMMING I
+Asignatura B: Programming I
+
+Puntuación de similitud: 69.0%
+
+Basándote en este análisis:
+{
+  "error": "Invalid JSON response",
+  "response": "A continuaci\u00f3n, te prese...
+2025-05-21 01:58:03,375 - embedding - INFO - Explicación estricta generada en 40.28s
+2025-05-21 01:58:03,375 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: A continuación, se presenta el análisis riguroso de las asignaturas:
+
+**Coincidencias Técnicas Reales**: Ambas asignaturas comparten la importancia de diseñar y implementar algoritmos para resolver problemas básicos. Además, en ambas se enfoca en escribir programas en lenguaje C utilizando bibliotecas estándar.
+
+**Diferencias Sustanciales**: La asignatura THE FUNDAMENTALS OF PROGRAMMING I no aborda temas de bases de datos relacionales y SQL, mientras que Programación I sí. Además, la primera asignatura tiene un rango más amplio de conceptos de programación (variables, tipos de datos, operadores, estructuras de control, funciones, recursividad, arrays, cadenas) en comparación con la segunda, que se centra en algoritmos y estructuras de datos.
+
+**Conclusión Práctica**: Aunque existen algunas similitudes técnicas entre las asignaturas, es importante considerar las diferencias sustanciales en el enfoque y contenido. En consecuencia, no hay una equivalencia real entre ambas asignaturas, ya que THE FUNDAMENTALS OF PROGRAMMING I se centra más en la programación en C y Programación I en algoritmos y estructuras de datos.
+2025-05-21 01:58:03,375 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.6899), 'components': {'contents': np.float64(0.7687743572644938), 'objectives': np.float64(0.7138242938920626), 'competences': np.float64(0.6516994242187953)}, 'llm_analysis': {'error': 'Invalid JSON response', 'response': 'A continuación, te presento el análisis riguroso de las asignaturas:\n\n{\n    "similitudes_tecnicas": ["Design and implement algorithms to solve basic problems", "Write programs in C language using standard libraries"],\n    "diferencias_sustanciales": ["The focus on relational databases and SQL in Programming I, whereas THE FUNDAMENTALS OF PROGRAMMING I does not mention these topics", "THE FUNDAMENTALS OF PROGRAMMING I has a broader range of programming concepts (variables, data types, operators, control structures, functions, recursion, arrays, strings) compared to Programming I\'s focus on algorithms and data structures"],\n    "coincidencia_real": 40,\n    "advertencias": ["La asignatura THE FUNDAMENTALS OF PROGRAMMING I se centra en la programación en C y no aborda temas de bases de datos relacionales como Programación I. Es importante considerar estas diferencias al comparar las competencias y objetivos entre ambas asignaturas."]\n}\n\nNota: La estimación de coincidencia real (40%) refleja que hay algunas similitudes técnicas, pero también hay diferencias sustanciales en la enfoque y contenido de las asignaturas.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}, 'explanation': 'A continuación, se presenta el análisis riguroso de las asignaturas:\n\n**Coincidencias Técnicas Reales**: Ambas asignaturas comparten la importancia de diseñar y implementar algoritmos para resolver problemas básicos. Además, en ambas se enfoca en escribir programas en lenguaje C utilizando bibliotecas estándar.\n\n**Diferencias Sustanciales**: La asignatura THE FUNDAMENTALS OF PROGRAMMING I no aborda temas de bases de datos relacionales y SQL, mientras que Programación I sí. Además, la primera asignatura tiene un rango más amplio de conceptos de programación (variables, tipos de datos, operadores, estructuras de control, funciones, recursividad, arrays, cadenas) en comparación con la segunda, que se centra en algoritmos y estructuras de datos.\n\n**Conclusión Práctica**: Aunque existen algunas similitudes técnicas entre las asignaturas, es importante considerar las diferencias sustanciales en el enfoque y contenido. En consecuencia, no hay una equivalencia real entre ambas asignaturas, ya que THE FUNDAMENTALS OF PROGRAMMING I se centra más en la programación en C y Programación I en algoritmos y estructuras de datos.'}
+2025-05-21 01:58:03,376 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-21 01:58:03,376 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-21 01:58:03,376 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+            Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'D...
+2025-05-21 01:58:03,376 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Introduction to Computers
+                            Competencias: ['Design and implement relational databases using SQL', 'Use programming languages such as Pyth...
+2025-05-21 01:58:03,376 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-21 01:58:03,376 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 01:58:03,376 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': 'Introduction to Computers', 'competences': "['Design and implement relational databases using SQL', 'Use programming languages such as Python, Java, or C++', 'Understand the basics of computer architecture']", 'objectives': "['Design a simple database schema', 'Implement a basic algorithm in a programming language', 'Analyze the performance characteristics of different algorithms']", 'contents': "{'Module 1: Introduction to Computers': ['Introduction to computers', 'Computer hardware and software'], 'Module 2: Programming Fundamentals': ['Programming concepts', 'Variables, data types, and operators'], 'Module 3: Database Systems': ['Database systems', 'Data modeling and normalization']}"}
+2025-05-21 01:58:03,376 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-21 01:58:03,376 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], ...
+T2: {'Module 1: Introduction to Computers': ['Introduction to computers', 'Computer hardware and softwar...
+2025-05-21 01:58:03,377 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Analyze the structure of a program and identify its components', 'Implement a simple program using...
+T2: ['Design a simple database schema', 'Implement a basic algorithm in a programming language', 'Analyz...
+2025-05-21 01:58:03,378 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using stan...
+T2: ['Design and implement relational databases using SQL', 'Use programming languages such as Python, J...
+2025-05-21 01:58:03,535 - embedding - DEBUG - Similitud estricta calculada: 0.5195225754809194 (raw: 0.7494032193511492) (en 0.16s)
+2025-05-21 01:58:03,549 - embedding - DEBUG - Similitud estricta calculada: 0.6224756800867042 (raw: 0.7224756800867042) (en 0.17s)
+2025-05-21 01:58:03,571 - embedding - DEBUG - Similitud estricta calculada: 0.7600718546721743 (raw: 0.8600718546721743) (en 0.19s)
+2025-05-21 01:58:03,571 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.7600718546721743
+2025-05-21 01:58:03,571 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.5195225754809194
+2025-05-21 01:58:03,571 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.6224756800867042
+2025-05-21 01:58:03,571 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.7600718546721743), 'objectives': np.float64(0.5195225754809194), 'competences': np.float64(0.6224756800867042)}
+2025-05-21 01:58:03,571 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-21 01:58:03,571 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-21 01:58:03,571 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 01:58:03,571 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': 'Introduction to Computers', 'competences': "['Design and implement relational databases using SQL', 'Use programming languages such as Python, Java, or C++', 'Understand the basics of computer architecture']", 'objectives': "['Design a simple database schema', 'Implement a basic algorithm in a programming language', 'Analyze the performance characteristics of different algorithms']", 'contents': "{'Module 1: Introduction to Computers': ['Introduction to computers', 'Computer hardware and software'], 'Module 2: Programming Fundamentals': ['Programming concepts', 'Variables, data types, and operators'], 'Module 3: Database Systems': ['Database systems', 'Data modeling and normalization']}"}
+2025-05-21 01:58:03,571 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación estricta de programas académicos. Analiza RIGUROSAMENTE la similitud entre estas dos asignaturas:
+
+Asignatura 1:
+- Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+- Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']
+- Objetivos: ['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control...
+2025-05-21 01:58:31,574 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 28.00s
+2025-05-21 01:58:31,574 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+{
+    "similitudes_tecnicas": ["Use of C language in Asignatura 1 and Python, Java, or C++ in Asignatura 2", "Debugging and testing own programs in Asignatura 1 and debugging algorithm performance characteristics in Asignatura 2"],
+    "diferencias_sustanciales": ["Asignatura 1 focuses on programming fundamentals with a specific language (C), while Asignatura 2 covers broader computer concepts, including database systems", "Asignatura 1 has a stronger emphasis on individual program development and testing, whereas Asignatura 2 explores algorithm performance characteristics"],
+    "coincidencia_real": 60,
+    "advertencias": ["Be cautious when comparing programming fundamentals with broader computer concepts; consider the specific goals and methodologies of each course"]
+}
+2025-05-21 01:58:31,574 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+{
+    "similitudes_tecnicas": ["Use of C language in Asignatura 1 and Python, Java, or C++ in Asignatura 2", "Debugging and testing own programs in Asignatura 1 and debugging algorithm performance characteristics in Asignatura 2"],
+    "diferencias_sustanciales": ["Asignatura 1 focuses on programming fundamentals with a specific language (C), while Asignatura 2 covers broader computer concepts, including database systems", "Asignatura 1 has a stronger emphasis on individual program development and testing, whereas Asignatura 2 explores algorithm performance characteristics"],
+    "coincidencia_real": 60,
+    "advertencias": ["Be cautious when comparing programming fundamentals with broader computer concepts; consider the specific goals and methodologies of each course"]
+}
+2025-05-21 01:58:31,574 - embedding - INFO - 🟠 [EMBED-QA] Análisis parseado correctamente
+2025-05-21 01:58:31,574 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'similitudes_tecnicas': ['Use of C language in Asignatura 1 and Python, Java, or C++ in Asignatura 2', 'Debugging and testing own programs in Asignatura 1 and debugging algorithm performance characteristics in Asignatura 2'], 'diferencias_sustanciales': ['Asignatura 1 focuses on programming fundamentals with a specific language (C), while Asignatura 2 covers broader computer concepts, including database systems', 'Asignatura 1 has a stronger emphasis on individual program development and testing, whereas Asignatura 2 explores algorithm performance characteristics'], 'coincidencia_real': 60, 'advertencias': ['Be cautious when comparing programming fundamentals with broader computer concepts; consider the specific goals and methodologies of each course']}
+2025-05-21 01:58:31,574 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.6581658598926451
+2025-05-21 01:58:31,574 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-21 01:58:31,574 - embedding - INFO - Generando explicación estricta...
+2025-05-21 01:58:31,574 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: THE FUNDAMENTALS OF PROGRAMMING I
+Asignatura B: Introduction to Computers
+
+Puntuación de similitud: 65.8%
+
+Basándote en este análisis:
+{
+  "similitudes_tecnicas": [
+    "Use of C language in Asignatura 1 a...
+2025-05-21 01:59:13,565 - embedding - INFO - Explicación estricta generada en 41.99s
+2025-05-21 01:59:13,566 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: A continuación, se presenta una explicación estricta y precisa sobre las asignaturas A: THE FUNDAMENTALS OF PROGRAMMING I y B: Introduction to Computers:
+
+Coincidencias TÉCNICAS REALES:
+Ambas asignaturas comparten la importancia del debugging y testing de programas propios. En Asignatura A, se enfoca en el uso del lenguaje C para desarrollar habilidades programáticas básicas, mientras que en Asignatura B, se exploran algoritmos y características de rendimiento, utilizando lenguajes como Python, Java o C++.
+
+Diferencias SUSTANCIALES:
+Aunque ambas asignaturas tratan sobre programación, su enfoque es diferente. Asignatura A se centra en los fundamentos de la programación con un lenguaje específico (C), mientras que Asignatura B cubre conceptos más amplios de computadora, incluyendo sistemas de bases de datos. Además, Asignatura A tiene un mayor énfasis en el desarrollo individual de programas y testing, en comparación con Asignatura B, que explora las características de rendimiento de los algoritmos.
+
+CONCLUSIÓN PRÁCTICA:
+En conclusión, aunque ambas asignaturas comparten algunas similitudes técnicas, su enfoque y contenido son diferentes. Es importante considerar las metas y metodologías específicas de cada curso al evaluar su equivalencia real.
+2025-05-21 01:59:13,566 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.6582), 'components': {'contents': np.float64(0.7600718546721743), 'objectives': np.float64(0.5195225754809194), 'competences': np.float64(0.6224756800867042)}, 'llm_analysis': {'similitudes_tecnicas': ['Use of C language in Asignatura 1 and Python, Java, or C++ in Asignatura 2', 'Debugging and testing own programs in Asignatura 1 and debugging algorithm performance characteristics in Asignatura 2'], 'diferencias_sustanciales': ['Asignatura 1 focuses on programming fundamentals with a specific language (C), while Asignatura 2 covers broader computer concepts, including database systems', 'Asignatura 1 has a stronger emphasis on individual program development and testing, whereas Asignatura 2 explores algorithm performance characteristics'], 'coincidencia_real': 60, 'advertencias': ['Be cautious when comparing programming fundamentals with broader computer concepts; consider the specific goals and methodologies of each course']}, 'explanation': 'A continuación, se presenta una explicación estricta y precisa sobre las asignaturas A: THE FUNDAMENTALS OF PROGRAMMING I y B: Introduction to Computers:\n\nCoincidencias TÉCNICAS REALES:\nAmbas asignaturas comparten la importancia del debugging y testing de programas propios. En Asignatura A, se enfoca en el uso del lenguaje C para desarrollar habilidades programáticas básicas, mientras que en Asignatura B, se exploran algoritmos y características de rendimiento, utilizando lenguajes como Python, Java o C++.\n\nDiferencias SUSTANCIALES:\nAunque ambas asignaturas tratan sobre programación, su enfoque es diferente. Asignatura A se centra en los fundamentos de la programación con un lenguaje específico (C), mientras que Asignatura B cubre conceptos más amplios de computadora, incluyendo sistemas de bases de datos. Además, Asignatura A tiene un mayor énfasis en el desarrollo individual de programas y testing, en comparación con Asignatura B, que explora las características de rendimiento de los algoritmos.\n\nCONCLUSIÓN PRÁCTICA:\nEn conclusión, aunque ambas asignaturas comparten algunas similitudes técnicas, su enfoque y contenido son diferentes. Es importante considerar las metas y metodologías específicas de cada curso al evaluar su equivalencia real.'}
+2025-05-21 01:59:13,566 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-21 01:59:13,566 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-21 01:59:13,566 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+            Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'D...
+2025-05-21 01:59:13,566 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Programming II
+                            Competencias: ['Design and implement relational databases using SQL', 'Develop algorithms for solving computational prob...
+2025-05-21 01:59:13,566 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-21 01:59:13,566 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 01:59:13,566 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': 'Programming II', 'competences': "['Design and implement relational databases using SQL', 'Develop algorithms for solving computational problems', 'Apply data structures to solve programming challenges']", 'objectives': "['Design a database schema for a given problem domain', 'Implement a relational database management system', 'Analyze the performance of different algorithms for solving computational problems', 'Develop a program that uses data structures to solve a specific problem', 'Apply software engineering principles to develop a program']", 'contents': "{'Module 1: Introduction to Programming II': ['Relational databases and SQL', 'Data types and operators in programming languages'], 'Module 2: Database Systems': ['Database design and normalization', 'SQL queries and database transactions'], 'Module 3: Algorithms and Data Structures': ['Sorting and searching algorithms', 'Graph theory and graph traversal algorithms']}"}
+2025-05-21 01:59:13,566 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-21 01:59:13,567 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], ...
+T2: {'Module 1: Introduction to Programming II': ['Relational databases and SQL', 'Data types and operat...
+2025-05-21 01:59:13,568 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Analyze the structure of a program and identify its components', 'Implement a simple program using...
+T2: ['Design a database schema for a given problem domain', 'Implement a relational database management ...
+2025-05-21 01:59:13,569 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using stan...
+T2: ['Design and implement relational databases using SQL', 'Develop algorithms for solving computationa...
+2025-05-21 01:59:13,708 - embedding - DEBUG - Similitud estricta calculada: 0.7269801806133022 (raw: 0.8269801806133021) (en 0.14s)
+2025-05-21 01:59:13,708 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.7269801806133022
+2025-05-21 01:59:13,728 - embedding - DEBUG - Similitud estricta calculada: 0.6725189595787523 (raw: 0.7725189595787523) (en 0.16s)
+2025-05-21 01:59:13,728 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.6725189595787523
+2025-05-21 01:59:13,742 - embedding - DEBUG - Similitud estricta calculada: 0.6356301732017468 (raw: 0.7356301732017467) (en 0.17s)
+2025-05-21 01:59:13,742 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.6356301732017468
+2025-05-21 01:59:13,743 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.7269801806133022), 'objectives': np.float64(0.6725189595787523), 'competences': np.float64(0.6356301732017468)}
+2025-05-21 01:59:13,743 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-21 01:59:13,743 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-21 01:59:13,743 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 01:59:13,743 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': 'Programming II', 'competences': "['Design and implement relational databases using SQL', 'Develop algorithms for solving computational problems', 'Apply data structures to solve programming challenges']", 'objectives': "['Design a database schema for a given problem domain', 'Implement a relational database management system', 'Analyze the performance of different algorithms for solving computational problems', 'Develop a program that uses data structures to solve a specific problem', 'Apply software engineering principles to develop a program']", 'contents': "{'Module 1: Introduction to Programming II': ['Relational databases and SQL', 'Data types and operators in programming languages'], 'Module 2: Database Systems': ['Database design and normalization', 'SQL queries and database transactions'], 'Module 3: Algorithms and Data Structures': ['Sorting and searching algorithms', 'Graph theory and graph traversal algorithms']}"}
+2025-05-21 01:59:13,743 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación estricta de programas académicos. Analiza RIGUROSAMENTE la similitud entre estas dos asignaturas:
+
+Asignatura 1:
+- Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+- Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']
+- Objetivos: ['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control...
+2025-05-21 01:59:42,100 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 28.36s
+2025-05-21 01:59:42,100 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+{
+    "similitudes_tecnicas": ["Write programs in C language using standard libraries" (Asignatura 1) vs. "Data types and operators in programming languages" (Asignatura 2)],
+    "diferencias_sustanciales": ["Design and implement algorithms to solve basic problems" (Asignatura 1) vs. "Develop algorithms for solving computational problems" (Asignatura 2), "Debug and test own programs" (Asignatura 1) vs. "Apply software engineering principles to develop a program" (Asignatura 2)],
+    "coincidencia_real": 50,
+    "advertencias": ["La falta de similitud en los objetivos y competencias puede indicar que las asignaturas están enfocadas en diferentes aspectos del programa"]
+}
+2025-05-21 01:59:42,100 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+{
+    "similitudes_tecnicas": ["Write programs in C language using standard libraries" (Asignatura 1) vs. "Data types and operators in programming languages" (Asignatura 2)],
+    "diferencias_sustanciales": ["Design and implement algorithms to solve basic problems" (Asignatura 1) vs. "Develop algorithms for solving computational problems" (Asignatura 2), "Debug and test own programs" (Asignatura 1) vs. "Apply software engineering principles to develop a program" (Asignatura 2)],
+    "coincidencia_real": 50,
+    "advertencias": ["La falta de similitud en los objetivos y competencias puede indicar que las asignaturas están enfocadas en diferentes aspectos del programa"]
+}
+2025-05-21 01:59:42,100 - embedding - ERROR - 🔴 [EMBED-QA] Error decodificando JSON: Expecting ',' delimiter: line 2 column 86 (char 87)
+Respuesta: {
+    "similitudes_tecnicas": ["Write programs in C language using standard libraries" (Asignatura 1) vs. "Data types and operators in programming languages" (Asignatura 2)],
+    "diferencias_sustanciales": ["Design and implement algorithms to solve basic problems" (Asignatura 1) vs. "Develop algorithms for solving computational problems" (Asignatura 2), "Debug and test own programs" (Asignatura 1) vs. "Apply software engineering principles to develop a program" (Asignatura 2)],
+    "coincidencia_real": 50,
+    "advertencias": ["La falta de similitud en los objetivos y competencias puede indicar que las asignaturas están enfocadas en diferentes aspectos del programa"]
+}
+2025-05-21 01:59:42,100 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'error': 'Invalid JSON response', 'response': '{\n    "similitudes_tecnicas": ["Write programs in C language using standard libraries" (Asignatura 1) vs. "Data types and operators in programming languages" (Asignatura 2)],\n    "diferencias_sustanciales": ["Design and implement algorithms to solve basic problems" (Asignatura 1) vs. "Develop algorithms for solving computational problems" (Asignatura 2), "Debug and test own programs" (Asignatura 1) vs. "Apply software engineering principles to develop a program" (Asignatura 2)],\n    "coincidencia_real": 50,\n    "advertencias": ["La falta de similitud en los objetivos y competencias puede indicar que las asignaturas están enfocadas en diferentes aspectos del programa"]\n}', 'exception': "Expecting ',' delimiter: line 2 column 86 (char 87)"}
+2025-05-21 01:59:42,100 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.6327586303845903
+2025-05-21 01:59:42,100 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-21 01:59:42,100 - embedding - INFO - Generando explicación estricta...
+2025-05-21 01:59:42,100 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: THE FUNDAMENTALS OF PROGRAMMING I
+Asignatura B: Programming II
+
+Puntuación de similitud: 63.3%
+
+Basándote en este análisis:
+{
+  "error": "Invalid JSON response",
+  "response": "{\n    \"similitudes_tecnica...
+2025-05-21 02:00:26,152 - embedding - INFO - Explicación estricta generada en 44.05s
+2025-05-21 02:00:26,152 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: A continuación, se presenta una explicación precisa y concisa sobre las asignaturas A: THE FUNDAMENTALS OF PROGRAMMING I y B: Programming II:
+
+**Coincidencias Técnicas Reales**
+
+Una de las principales similitudes entre ambas asignaturas es el uso del lenguaje C para escribir programas. En ambos casos, se requiere la capacidad para utilizar bibliotecas estándar y aplicar conceptos básicos de programación.
+
+**Diferencias Sustanciales**
+
+Aunque parezcan similares, las asignaturas A y B tienen objetivos y competencias significativamente diferentes. Mientras que en la asignatura A se enfoca en el diseño y implementación de algoritmos para resolver problemas básicos, en la asignatura B se centra en el desarrollo de algoritmos para resolver problemas computacionales. Además, en la asignatura A se requiere depurar y probar propios programas, mientras que en la asignatura B se aplica el enfoque de ingeniería de software para desarrollar un programa.
+
+**Conclusión Práctica**
+
+En conclusión, aunque ambas asignaturas comparten algunas similitudes técnicas, tienen objetivos y competencias significativamente diferentes. La asignatura A se enfoca en la programación básica y el desarrollo de algoritmos, mientras que la asignatura B se centra en el desarrollo de soluciones computacionales más avanzadas. Por lo tanto, no hay equivalencia real entre ambas asignaturas.
+2025-05-21 02:00:26,152 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.6328), 'components': {'contents': np.float64(0.7269801806133022), 'objectives': np.float64(0.6725189595787523), 'competences': np.float64(0.6356301732017468)}, 'llm_analysis': {'error': 'Invalid JSON response', 'response': '{\n    "similitudes_tecnicas": ["Write programs in C language using standard libraries" (Asignatura 1) vs. "Data types and operators in programming languages" (Asignatura 2)],\n    "diferencias_sustanciales": ["Design and implement algorithms to solve basic problems" (Asignatura 1) vs. "Develop algorithms for solving computational problems" (Asignatura 2), "Debug and test own programs" (Asignatura 1) vs. "Apply software engineering principles to develop a program" (Asignatura 2)],\n    "coincidencia_real": 50,\n    "advertencias": ["La falta de similitud en los objetivos y competencias puede indicar que las asignaturas están enfocadas en diferentes aspectos del programa"]\n}', 'exception': "Expecting ',' delimiter: line 2 column 86 (char 87)"}, 'explanation': 'A continuación, se presenta una explicación precisa y concisa sobre las asignaturas A: THE FUNDAMENTALS OF PROGRAMMING I y B: Programming II:\n\n**Coincidencias Técnicas Reales**\n\nUna de las principales similitudes entre ambas asignaturas es el uso del lenguaje C para escribir programas. En ambos casos, se requiere la capacidad para utilizar bibliotecas estándar y aplicar conceptos básicos de programación.\n\n**Diferencias Sustanciales**\n\nAunque parezcan similares, las asignaturas A y B tienen objetivos y competencias significativamente diferentes. Mientras que en la asignatura A se enfoca en el diseño y implementación de algoritmos para resolver problemas básicos, en la asignatura B se centra en el desarrollo de algoritmos para resolver problemas computacionales. Además, en la asignatura A se requiere depurar y probar propios programas, mientras que en la asignatura B se aplica el enfoque de ingeniería de software para desarrollar un programa.\n\n**Conclusión Práctica**\n\nEn conclusión, aunque ambas asignaturas comparten algunas similitudes técnicas, tienen objetivos y competencias significativamente diferentes. La asignatura A se enfoca en la programación básica y el desarrollo de algoritmos, mientras que la asignatura B se centra en el desarrollo de soluciones computacionales más avanzadas. Por lo tanto, no hay equivalencia real entre ambas asignaturas.'}
+2025-05-21 02:00:26,152 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-21 02:00:26,152 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-21 02:00:26,152 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+            Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'D...
+2025-05-21 02:00:26,152 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Databases
+                            Competencias: ['Design and implement relational databases using SQL', 'Develop data models and schema for database systems', ...
+2025-05-21 02:00:26,152 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-21 02:00:26,152 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 02:00:26,152 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': 'Databases', 'competences': "['Design and implement relational databases using SQL', 'Develop data models and schema for database systems', 'Analyze and optimize database performance']", 'objectives': "['Design and implement a relational database system', 'Develop a data model and schema for a database system', 'Analyze and optimize the performance of a database system', 'Apply data modeling techniques to design a database system', 'Implement a database system using SQL']", 'contents': "{'Module 1: Introduction to Databases': ['Introduction to databases', 'Database systems and architecture', 'Data modeling and schema design'], 'Module 2: Relational Database Systems': ['Relational database systems', 'SQL language and syntax', 'Database normalization (1NF, 2NF, 3NF)'], 'Module 3: Data Modeling and Schema Design': ['Data modeling techniques', 'Schema design for relational databases', 'Entity-relationship diagrams']}"}
+2025-05-21 02:00:26,152 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-21 02:00:26,153 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], ...
+T2: {'Module 1: Introduction to Databases': ['Introduction to databases', 'Database systems and architec...
+2025-05-21 02:00:26,153 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Analyze the structure of a program and identify its components', 'Implement a simple program using...
+T2: ['Design and implement a relational database system', 'Develop a data model and schema for a databas...
+2025-05-21 02:00:26,153 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using stan...
+T2: ['Design and implement relational databases using SQL', 'Develop data models and schema for database...
+2025-05-21 02:00:26,288 - embedding - DEBUG - Similitud estricta calculada: 0.5453521015452211 (raw: 0.645352101545221) (en 0.13s)
+2025-05-21 02:00:26,318 - embedding - DEBUG - Similitud estricta calculada: 0.5288978091471701 (raw: 0.7611222614339626) (en 0.17s)
+2025-05-21 02:00:26,318 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.5288978091471701
+2025-05-21 02:00:26,335 - embedding - DEBUG - Similitud estricta calculada: 0.601484772017547 (raw: 0.701484772017547) (en 0.18s)
+2025-05-21 02:00:26,335 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.601484772017547
+2025-05-21 02:00:26,335 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.5453521015452211
+2025-05-21 02:00:26,335 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.5288978091471701), 'objectives': np.float64(0.601484772017547), 'competences': np.float64(0.5453521015452211)}
+2025-05-21 02:00:26,335 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-21 02:00:26,335 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-21 02:00:26,335 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 02:00:26,336 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': 'Databases', 'competences': "['Design and implement relational databases using SQL', 'Develop data models and schema for database systems', 'Analyze and optimize database performance']", 'objectives': "['Design and implement a relational database system', 'Develop a data model and schema for a database system', 'Analyze and optimize the performance of a database system', 'Apply data modeling techniques to design a database system', 'Implement a database system using SQL']", 'contents': "{'Module 1: Introduction to Databases': ['Introduction to databases', 'Database systems and architecture', 'Data modeling and schema design'], 'Module 2: Relational Database Systems': ['Relational database systems', 'SQL language and syntax', 'Database normalization (1NF, 2NF, 3NF)'], 'Module 3: Data Modeling and Schema Design': ['Data modeling techniques', 'Schema design for relational databases', 'Entity-relationship diagrams']}"}
+2025-05-21 02:00:26,336 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación estricta de programas académicos. Analiza RIGUROSAMENTE la similitud entre estas dos asignaturas:
+
+Asignatura 1:
+- Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+- Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']
+- Objetivos: ['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control...
+2025-05-21 02:00:59,268 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 32.93s
+2025-05-21 02:00:59,269 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+A continuación te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],
+    "diferencias_sustanciales": ["El uso de lenguajes y herramientas específicas (C vs SQL)", "La falta de contenido relacionado con bases de datos en la asignatura 1"],
+    "coincidencia_real": 25,
+    "advertencias": ["Es importante destacar que aunque haya similitudes técnicas, las competencias y objetivos de ambas asignaturas son fundamentalmente diferentes"]
+}
+
+Nota: La estimación de coincidencia real se basa en la cantidad de similitudes técnicas reales encontradas entre las dos asignaturas. En este caso, solo hay dos similitudes técnicas muy cercanas, lo que reduce la coincidencia real a un 25%.
+2025-05-21 02:00:59,269 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+A continuación te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],
+    "diferencias_sustanciales": ["El uso de lenguajes y herramientas específicas (C vs SQL)", "La falta de contenido relacionado con bases de datos en la asignatura 1"],
+    "coincidencia_real": 25,
+    "advertencias": ["Es importante destacar que aunque haya similitudes técnicas, las competencias y objetivos de ambas asignaturas son fundamentalmente diferentes"]
+}
+
+Nota: La estimación de coincidencia real se basa en la cantidad de similitudes técnicas reales encontradas entre las dos asignaturas. En este caso, solo hay dos similitudes técnicas muy cercanas, lo que reduce la coincidencia real a un 25%.
+2025-05-21 02:00:59,269 - embedding - ERROR - 🔴 [EMBED-QA] Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],
+    "diferencias_sustanciales": ["El uso de lenguajes y herramientas específicas (C vs SQL)", "La falta de contenido relacionado con bases de datos en la asignatura 1"],
+    "coincidencia_real": 25,
+    "advertencias": ["Es importante destacar que aunque haya similitudes técnicas, las competencias y objetivos de ambas asignaturas son fundamentalmente diferentes"]
+}
+
+Nota: La estimación de coincidencia real se basa en la cantidad de similitudes técnicas reales encontradas entre las dos asignaturas. En este caso, solo hay dos similitudes técnicas muy cercanas, lo que reduce la coincidencia real a un 25%.
+2025-05-21 02:00:59,269 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'error': 'Invalid JSON response', 'response': 'A continuación te presento el análisis riguroso de las asignaturas:\n\n{\n    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],\n    "diferencias_sustanciales": ["El uso de lenguajes y herramientas específicas (C vs SQL)", "La falta de contenido relacionado con bases de datos en la asignatura 1"],\n    "coincidencia_real": 25,\n    "advertencias": ["Es importante destacar que aunque haya similitudes técnicas, las competencias y objetivos de ambas asignaturas son fundamentalmente diferentes"]\n}\n\nNota: La estimación de coincidencia real se basa en la cantidad de similitudes técnicas reales encontradas entre las dos asignaturas. En este caso, solo hay dos similitudes técnicas muy cercanas, lo que reduce la coincidencia real a un 25%.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}
+2025-05-21 02:00:59,269 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.3735383437129784
+2025-05-21 02:00:59,269 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-21 02:00:59,269 - embedding - INFO - Generando explicación estricta...
+2025-05-21 02:00:59,269 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: THE FUNDAMENTALS OF PROGRAMMING I
+Asignatura B: Databases
+
+Puntuación de similitud: 37.4%
+
+Basándote en este análisis:
+{
+  "error": "Invalid JSON response",
+  "response": "A continuaci\u00f3n te presento e...
+2025-05-21 02:01:38,528 - embedding - INFO - Explicación estricta generada en 39.26s
+2025-05-21 02:01:38,529 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: A continuación, se presenta el análisis riguroso de las asignaturas:
+
+**Coincidencias Técnicas Reales**: Aunque sea limitado, hay dos similitudes importantes entre "The Fundamentals of Programming I" y "Databases". En primer lugar, tanto la asignatura A como la asignatura B requieren implementar algoritmos para resolver problemas básicos. En segundo lugar, ambos cursos demandan escribir programas en un lenguaje específico (C en el caso de la asignatura A y SQL en el caso de la asignatura B).
+
+**Diferencias Sustanciales**: La principal diferencia entre las dos asignaturas es el uso de lenguajes y herramientas específicas. Mientras que la asignatura A se centra en C, la asignatura B se enfoca en SQL. Además, la asignatura A no aborda contenido relacionado con bases de datos, lo que contrasta con la importancia central de las bases de datos en la asignatura B.
+
+**Conclusión Práctica**: En conclusión, aunque haya algunas similitudes técnicas entre "The Fundamentals of Programming I" y "Databases", es importante destacar que las competencias y objetivos de ambas asignaturas son fundamentalmente diferentes. Por lo tanto, no hay equivalencia real entre ellas.
+2025-05-21 02:01:38,529 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.3735), 'components': {'contents': np.float64(0.5288978091471701), 'objectives': np.float64(0.601484772017547), 'competences': np.float64(0.5453521015452211)}, 'llm_analysis': {'error': 'Invalid JSON response', 'response': 'A continuación te presento el análisis riguroso de las asignaturas:\n\n{\n    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],\n    "diferencias_sustanciales": ["El uso de lenguajes y herramientas específicas (C vs SQL)", "La falta de contenido relacionado con bases de datos en la asignatura 1"],\n    "coincidencia_real": 25,\n    "advertencias": ["Es importante destacar que aunque haya similitudes técnicas, las competencias y objetivos de ambas asignaturas son fundamentalmente diferentes"]\n}\n\nNota: La estimación de coincidencia real se basa en la cantidad de similitudes técnicas reales encontradas entre las dos asignaturas. En este caso, solo hay dos similitudes técnicas muy cercanas, lo que reduce la coincidencia real a un 25%.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}, 'explanation': 'A continuación, se presenta el análisis riguroso de las asignaturas:\n\n**Coincidencias Técnicas Reales**: Aunque sea limitado, hay dos similitudes importantes entre "The Fundamentals of Programming I" y "Databases". En primer lugar, tanto la asignatura A como la asignatura B requieren implementar algoritmos para resolver problemas básicos. En segundo lugar, ambos cursos demandan escribir programas en un lenguaje específico (C en el caso de la asignatura A y SQL en el caso de la asignatura B).\n\n**Diferencias Sustanciales**: La principal diferencia entre las dos asignaturas es el uso de lenguajes y herramientas específicas. Mientras que la asignatura A se centra en C, la asignatura B se enfoca en SQL. Además, la asignatura A no aborda contenido relacionado con bases de datos, lo que contrasta con la importancia central de las bases de datos en la asignatura B.\n\n**Conclusión Práctica**: En conclusión, aunque haya algunas similitudes técnicas entre "The Fundamentals of Programming I" y "Databases", es importante destacar que las competencias y objetivos de ambas asignaturas son fundamentalmente diferentes. Por lo tanto, no hay equivalencia real entre ellas.'}
+2025-05-21 02:01:38,530 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-21 02:01:38,530 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-21 02:01:38,530 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+            Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'D...
+2025-05-21 02:01:38,530 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Data Structures and Algorithmics
+                            Competencias: ['Design and implement algorithms for solving computational problems', 'Analyze the time...
+2025-05-21 02:01:38,530 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-21 02:01:38,530 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 02:01:38,531 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': 'Data Structures and Algorithmics', 'competences': "['Design and implement algorithms for solving computational problems', 'Analyze the time and space complexity of algorithms', 'Develop problem-solving skills using data structures']", 'objectives': "['Design and analyze algorithms to solve computational problems', 'Implement and test algorithms in programming languages', 'Apply data structures to solve problems and optimize performance', 'Understand the trade-offs between time and space complexity', 'Develop problem-solving skills using data structures and algorithms']", 'contents': "{'Module 1: Introduction to Data Structures': ['Arrays and linked lists', 'Stacks and queues', 'Trees and graphs'], 'Module 2: Algorithm Design': ['Divide-and-conquer approach', 'Greedy algorithms', 'Dynamic programming'], 'Module 3: Sorting and Searching': ['Sorting algorithms (e.g., bubble sort, quicksort)', 'Searching algorithms (e.g., linear search, binary search)']}"}
+2025-05-21 02:01:38,531 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-21 02:01:38,531 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], ...
+T2: {'Module 1: Introduction to Data Structures': ['Arrays and linked lists', 'Stacks and queues', 'Tree...
+2025-05-21 02:01:38,532 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Analyze the structure of a program and identify its components', 'Implement a simple program using...
+T2: ['Design and analyze algorithms to solve computational problems', 'Implement and test algorithms in ...
+2025-05-21 02:01:38,533 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using stan...
+T2: ['Design and implement algorithms for solving computational problems', 'Analyze the time and space c...
+2025-05-21 02:01:38,657 - embedding - DEBUG - Similitud estricta calculada: 0.6849517020134118 (raw: 0.7849517020134118) (en 0.12s)
+2025-05-21 02:01:38,676 - embedding - DEBUG - Similitud estricta calculada: 0.7308845596789589 (raw: 0.8308845596789589) (en 0.14s)
+2025-05-21 02:01:38,706 - embedding - DEBUG - Similitud estricta calculada: 0.7099904445873008 (raw: 0.8099904445873007) (en 0.17s)
+2025-05-21 02:01:38,706 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.7099904445873008
+2025-05-21 02:01:38,706 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.7308845596789589
+2025-05-21 02:01:38,706 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.6849517020134118
+2025-05-21 02:01:38,706 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.7099904445873008), 'objectives': np.float64(0.7308845596789589), 'competences': np.float64(0.6849517020134118)}
+2025-05-21 02:01:38,706 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-21 02:01:38,706 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-21 02:01:38,706 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 02:01:38,706 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': 'Data Structures and Algorithmics', 'competences': "['Design and implement algorithms for solving computational problems', 'Analyze the time and space complexity of algorithms', 'Develop problem-solving skills using data structures']", 'objectives': "['Design and analyze algorithms to solve computational problems', 'Implement and test algorithms in programming languages', 'Apply data structures to solve problems and optimize performance', 'Understand the trade-offs between time and space complexity', 'Develop problem-solving skills using data structures and algorithms']", 'contents': "{'Module 1: Introduction to Data Structures': ['Arrays and linked lists', 'Stacks and queues', 'Trees and graphs'], 'Module 2: Algorithm Design': ['Divide-and-conquer approach', 'Greedy algorithms', 'Dynamic programming'], 'Module 3: Sorting and Searching': ['Sorting algorithms (e.g., bubble sort, quicksort)', 'Searching algorithms (e.g., linear search, binary search)']}"}
+2025-05-21 02:01:38,706 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación estricta de programas académicos. Analiza RIGUROSAMENTE la similitud entre estas dos asignaturas:
+
+Asignatura 1:
+- Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+- Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']
+- Objetivos: ['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control...
+2025-05-21 02:02:18,419 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 39.71s
+2025-05-21 02:02:18,419 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+A continuación, te presento el análisis con EXTREMO RIGOR:
+
+{
+    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],
+    "diferencias_sustanciales": ["El enfoque de la asignatura 1 se centra en el lenguaje de programación C, mientras que la asignatura 2 se enfoca en estructuras de datos y algoritmos más generales", "La asignatura 1 se concentra en la implementación de programas simples, mientras que la asignatura 2 se enfoca en la diseño y análisis de algoritmos para resolver problemas computacionales"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que aunque haya similitudes entre las competencias y objetivos de ambas asignaturas, es fundamental considerar las diferencias sustanciales en el enfoque y contenido"]
+}
+
+Nota: La estimación de coincidencia real (60%) se basa en la cantidad de similitudes técnicas reales encontradas, pero también considero las diferencias sustanciales entre las dos asignaturas.
+2025-05-21 02:02:18,419 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+A continuación, te presento el análisis con EXTREMO RIGOR:
+
+{
+    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],
+    "diferencias_sustanciales": ["El enfoque de la asignatura 1 se centra en el lenguaje de programación C, mientras que la asignatura 2 se enfoca en estructuras de datos y algoritmos más generales", "La asignatura 1 se concentra en la implementación de programas simples, mientras que la asignatura 2 se enfoca en la diseño y análisis de algoritmos para resolver problemas computacionales"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que aunque haya similitudes entre las competencias y objetivos de ambas asignaturas, es fundamental considerar las diferencias sustanciales en el enfoque y contenido"]
+}
+
+Nota: La estimación de coincidencia real (60%) se basa en la cantidad de similitudes técnicas reales encontradas, pero también considero las diferencias sustanciales entre las dos asignaturas.
+2025-05-21 02:02:18,419 - embedding - ERROR - 🔴 [EMBED-QA] Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis con EXTREMO RIGOR:
+
+{
+    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],
+    "diferencias_sustanciales": ["El enfoque de la asignatura 1 se centra en el lenguaje de programación C, mientras que la asignatura 2 se enfoca en estructuras de datos y algoritmos más generales", "La asignatura 1 se concentra en la implementación de programas simples, mientras que la asignatura 2 se enfoca en la diseño y análisis de algoritmos para resolver problemas computacionales"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que aunque haya similitudes entre las competencias y objetivos de ambas asignaturas, es fundamental considerar las diferencias sustanciales en el enfoque y contenido"]
+}
+
+Nota: La estimación de coincidencia real (60%) se basa en la cantidad de similitudes técnicas reales encontradas, pero también considero las diferencias sustanciales entre las dos asignaturas.
+2025-05-21 02:02:18,419 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'error': 'Invalid JSON response', 'response': 'A continuación, te presento el análisis con EXTREMO RIGOR:\n\n{\n    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],\n    "diferencias_sustanciales": ["El enfoque de la asignatura 1 se centra en el lenguaje de programación C, mientras que la asignatura 2 se enfoca en estructuras de datos y algoritmos más generales", "La asignatura 1 se concentra en la implementación de programas simples, mientras que la asignatura 2 se enfoca en la diseño y análisis de algoritmos para resolver problemas computacionales"],\n    "coincidencia_real": 60,\n    "advertencias": ["Es importante destacar que aunque haya similitudes entre las competencias y objetivos de ambas asignaturas, es fundamental considerar las diferencias sustanciales en el enfoque y contenido"]\n}\n\nNota: La estimación de coincidencia real (60%) se basa en la cantidad de similitudes técnicas reales encontradas, pero también considero las diferencias sustanciales entre las dos asignaturas.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}
+2025-05-21 02:02:18,419 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.6198240968026925
+2025-05-21 02:02:18,419 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-21 02:02:18,419 - embedding - INFO - Generando explicación estricta...
+2025-05-21 02:02:18,419 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: THE FUNDAMENTALS OF PROGRAMMING I
+Asignatura B: Data Structures and Algorithmics
+
+Puntuación de similitud: 62.0%
+
+Basándote en este análisis:
+{
+  "error": "Invalid JSON response",
+  "response": "A continua...
+2025-05-21 02:03:03,474 - embedding - INFO - Explicación estricta generada en 45.05s
+2025-05-21 02:03:03,474 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: A continuación, te presento el análisis con EXTREMO RIGOR:
+
+**Coincidencias TÉCNICAS REALES**
+
+La asignatura A "THE FUNDAMENTALS OF PROGRAMMING I" y la asignatura B "Data Structures and Algorithmics" comparten algunas similitudes técnicas reales. Por ejemplo, ambas asignaturas requieren implementar algoritmos para resolver problemas básicos.
+
+**Diferencias SUSTANCIALES**
+
+Aunque haya similitudes entre las competencias y objetivos de ambas asignaturas, hay diferencias sustanciales en el enfoque y contenido. La asignatura A se centra en el lenguaje de programación C, mientras que la asignatura B se enfoca en estructuras de datos y algoritmos más generales. Además, la asignatura A se concentra en la implementación de programas simples, mientras que la asignatura B se enfoca en la diseño y análisis de algoritmos para resolver problemas computacionales.
+
+**CONCLUSIÓN PRÁCTICA**
+
+En conclusión, aunque haya algunas similitudes técnicas reales entre las dos asignaturas, es fundamental considerar las diferencias sustanciales en el enfoque y contenido. La asignatura A se enfoca en la implementación de programas simples en C, mientras que la asignatura B se enfoca en la diseño y análisis de algoritmos para resolver problemas computacionales. Por lo tanto, no hay equivalencia real entre las dos asignaturas.
+2025-05-21 02:03:03,474 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.6198), 'components': {'contents': np.float64(0.7099904445873008), 'objectives': np.float64(0.7308845596789589), 'competences': np.float64(0.6849517020134118)}, 'llm_analysis': {'error': 'Invalid JSON response', 'response': 'A continuación, te presento el análisis con EXTREMO RIGOR:\n\n{\n    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],\n    "diferencias_sustanciales": ["El enfoque de la asignatura 1 se centra en el lenguaje de programación C, mientras que la asignatura 2 se enfoca en estructuras de datos y algoritmos más generales", "La asignatura 1 se concentra en la implementación de programas simples, mientras que la asignatura 2 se enfoca en la diseño y análisis de algoritmos para resolver problemas computacionales"],\n    "coincidencia_real": 60,\n    "advertencias": ["Es importante destacar que aunque haya similitudes entre las competencias y objetivos de ambas asignaturas, es fundamental considerar las diferencias sustanciales en el enfoque y contenido"]\n}\n\nNota: La estimación de coincidencia real (60%) se basa en la cantidad de similitudes técnicas reales encontradas, pero también considero las diferencias sustanciales entre las dos asignaturas.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}, 'explanation': 'A continuación, te presento el análisis con EXTREMO RIGOR:\n\n**Coincidencias TÉCNICAS REALES**\n\nLa asignatura A "THE FUNDAMENTALS OF PROGRAMMING I" y la asignatura B "Data Structures and Algorithmics" comparten algunas similitudes técnicas reales. Por ejemplo, ambas asignaturas requieren implementar algoritmos para resolver problemas básicos.\n\n**Diferencias SUSTANCIALES**\n\nAunque haya similitudes entre las competencias y objetivos de ambas asignaturas, hay diferencias sustanciales en el enfoque y contenido. La asignatura A se centra en el lenguaje de programación C, mientras que la asignatura B se enfoca en estructuras de datos y algoritmos más generales. Además, la asignatura A se concentra en la implementación de programas simples, mientras que la asignatura B se enfoca en la diseño y análisis de algoritmos para resolver problemas computacionales.\n\n**CONCLUSIÓN PRÁCTICA**\n\nEn conclusión, aunque haya algunas similitudes técnicas reales entre las dos asignaturas, es fundamental considerar las diferencias sustanciales en el enfoque y contenido. La asignatura A se enfoca en la implementación de programas simples en C, mientras que la asignatura B se enfoca en la diseño y análisis de algoritmos para resolver problemas computacionales. Por lo tanto, no hay equivalencia real entre las dos asignaturas.'}
+2025-05-21 02:03:03,474 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-21 02:03:03,474 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-21 02:03:03,474 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+            Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'D...
+2025-05-21 02:03:03,474 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Introduction to Software Engineering
+                            Competencias: ['Design and implement relational databases using SQL', 'Develop software applicatio...
+2025-05-21 02:03:03,474 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-21 02:03:03,475 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 02:03:03,475 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': 'Introduction to Software Engineering', 'competences': "['Design and implement relational databases using SQL', 'Develop software applications using object-oriented programming principles', 'Analyze and troubleshoot software systems']", 'objectives': "['Design a software system that meets specific requirements', 'Implement a software application using object-oriented programming principles', 'Troubleshoot and debug software systems', 'Analyze the performance of a software system', 'Develop a software system that is scalable and maintainable']", 'contents': "{'Module 1: Introduction to Software Engineering': ['Software engineering concepts and principles', 'Software development life cycles', 'Software engineering methodologies'], 'Module 2: Programming Fundamentals': ['Programming languages and syntax', 'Data types and variables', 'Control structures and functions'], 'Module 3: Software Design': ['Design principles and patterns', 'Software architecture and design', 'User interface and user experience design']}"}
+2025-05-21 02:03:03,475 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-21 02:03:03,475 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], ...
+T2: {'Module 1: Introduction to Software Engineering': ['Software engineering concepts and principles', ...
+2025-05-21 02:03:03,475 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Analyze the structure of a program and identify its components', 'Implement a simple program using...
+T2: ['Design a software system that meets specific requirements', 'Implement a software application usin...
+2025-05-21 02:03:03,475 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using stan...
+T2: ['Design and implement relational databases using SQL', 'Develop software applications using object-...
+2025-05-21 02:03:03,629 - embedding - DEBUG - Similitud estricta calculada: 0.570754670812926 (raw: 0.8134433385161574) (en 0.15s)
+2025-05-21 02:03:03,629 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.570754670812926
+2025-05-21 02:03:03,645 - embedding - DEBUG - Similitud estricta calculada: 0.7042856721411586 (raw: 0.8042856721411585) (en 0.17s)
+2025-05-21 02:03:03,645 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.7042856721411586
+2025-05-21 02:03:03,661 - embedding - DEBUG - Similitud estricta calculada: 0.6263390158610548 (raw: 0.7263390158610548) (en 0.19s)
+2025-05-21 02:03:03,661 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.6263390158610548
+2025-05-21 02:03:03,661 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.570754670812926), 'objectives': np.float64(0.7042856721411586), 'competences': np.float64(0.6263390158610548)}
+2025-05-21 02:03:03,661 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-21 02:03:03,661 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-21 02:03:03,661 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 02:03:03,661 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': 'Introduction to Software Engineering', 'competences': "['Design and implement relational databases using SQL', 'Develop software applications using object-oriented programming principles', 'Analyze and troubleshoot software systems']", 'objectives': "['Design a software system that meets specific requirements', 'Implement a software application using object-oriented programming principles', 'Troubleshoot and debug software systems', 'Analyze the performance of a software system', 'Develop a software system that is scalable and maintainable']", 'contents': "{'Module 1: Introduction to Software Engineering': ['Software engineering concepts and principles', 'Software development life cycles', 'Software engineering methodologies'], 'Module 2: Programming Fundamentals': ['Programming languages and syntax', 'Data types and variables', 'Control structures and functions'], 'Module 3: Software Design': ['Design principles and patterns', 'Software architecture and design', 'User interface and user experience design']}"}
+2025-05-21 02:03:03,661 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación estricta de programas académicos. Analiza RIGUROSAMENTE la similitud entre estas dos asignaturas:
+
+Asignatura 1:
+- Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+- Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']
+- Objetivos: ['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control...
+2025-05-21 02:03:42,009 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 38.35s
+2025-05-21 02:03:42,009 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+A continuación, te presento el análisis con EXTREMO RIGOR:
+
+{
+    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],
+    "diferencias_sustanciales": ["El uso de lenguajes y herramientas específicas (C vs. no especificado)", "La falta de enfoque en la programación orientada a objetos en THE FUNDAMENTALS OF PROGRAMMING I", "La inclusión de diseño de bases de datos relacionales y software engineering concepts en Introduction to Software Engineering"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que, aunque haya similitudes entre las competencias y objetivos, la asignatura THE FUNDAMENTALS OF PROGRAMMING I se centra más en la programación básica, mientras que Introduction to Software Engineering aborda aspectos más amplios de la ingeniería del software."]
+}
+
+Nota: La estimación de coincidencia real es conservadora ya que considero que las similitudes técnicas son específicas y no genéricas.
+2025-05-21 02:03:42,009 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+A continuación, te presento el análisis con EXTREMO RIGOR:
+
+{
+    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],
+    "diferencias_sustanciales": ["El uso de lenguajes y herramientas específicas (C vs. no especificado)", "La falta de enfoque en la programación orientada a objetos en THE FUNDAMENTALS OF PROGRAMMING I", "La inclusión de diseño de bases de datos relacionales y software engineering concepts en Introduction to Software Engineering"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que, aunque haya similitudes entre las competencias y objetivos, la asignatura THE FUNDAMENTALS OF PROGRAMMING I se centra más en la programación básica, mientras que Introduction to Software Engineering aborda aspectos más amplios de la ingeniería del software."]
+}
+
+Nota: La estimación de coincidencia real es conservadora ya que considero que las similitudes técnicas son específicas y no genéricas.
+2025-05-21 02:03:42,009 - embedding - ERROR - 🔴 [EMBED-QA] Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis con EXTREMO RIGOR:
+
+{
+    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],
+    "diferencias_sustanciales": ["El uso de lenguajes y herramientas específicas (C vs. no especificado)", "La falta de enfoque en la programación orientada a objetos en THE FUNDAMENTALS OF PROGRAMMING I", "La inclusión de diseño de bases de datos relacionales y software engineering concepts en Introduction to Software Engineering"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que, aunque haya similitudes entre las competencias y objetivos, la asignatura THE FUNDAMENTALS OF PROGRAMMING I se centra más en la programación básica, mientras que Introduction to Software Engineering aborda aspectos más amplios de la ingeniería del software."]
+}
+
+Nota: La estimación de coincidencia real es conservadora ya que considero que las similitudes técnicas son específicas y no genéricas.
+2025-05-21 02:03:42,009 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'error': 'Invalid JSON response', 'response': 'A continuación, te presento el análisis con EXTREMO RIGOR:\n\n{\n    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],\n    "diferencias_sustanciales": ["El uso de lenguajes y herramientas específicas (C vs. no especificado)", "La falta de enfoque en la programación orientada a objetos en THE FUNDAMENTALS OF PROGRAMMING I", "La inclusión de diseño de bases de datos relacionales y software engineering concepts en Introduction to Software Engineering"],\n    "coincidencia_real": 60,\n    "advertencias": ["Es importante destacar que, aunque haya similitudes entre las competencias y objetivos, la asignatura THE FUNDAMENTALS OF PROGRAMMING I se centra más en la programación básica, mientras que Introduction to Software Engineering aborda aspectos más amplios de la ingeniería del software."]\n}\n\nNota: La estimación de coincidencia real es conservadora ya que considero que las similitudes técnicas son específicas y no genéricas.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}
+2025-05-21 02:03:42,009 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.44018885652332607
+2025-05-21 02:03:42,009 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-21 02:03:42,009 - embedding - INFO - Generando explicación estricta...
+2025-05-21 02:03:42,009 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: THE FUNDAMENTALS OF PROGRAMMING I
+Asignatura B: Introduction to Software Engineering
+
+Puntuación de similitud: 44.0%
+
+Basándote en este análisis:
+{
+  "error": "Invalid JSON response",
+  "response": "A cont...
+2025-05-21 02:04:20,624 - embedding - INFO - Explicación estricta generada en 38.62s
+2025-05-21 02:04:20,625 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: A continuación, te presento el análisis con EXTREMO RIGOR:
+
+**Coincidencias TÉCNICAS REALES**: La asignatura THE FUNDAMENTALS OF PROGRAMMING I y la asignatura Introduction to Software Engineering comparten la implementación de algoritmos para resolver problemas básicos. Además, ambas asignaturas requieren escribir programas en C utilizando bibliotecas estándar.
+
+**Diferencias SUSTANCIALES**: La principal diferencia entre las dos asignaturas radica en el enfoque y los objetivos. THE FUNDAMENTALS OF PROGRAMMING I se centra en la programación básica, mientras que Introduction to Software Engineering aborda aspectos más amplios de la ingeniería del software, incluyendo diseño de bases de datos relacionales y conceptos de software engineering.
+
+**CONCLUSIÓN PRÁCTICA**: Aunque hay similitudes técnicas entre las dos asignaturas, es importante destacar que Introduction to Software Engineering tiene un enfoque más amplio y aborda aspectos más complejos de la ingeniería del software. Por lo tanto, aunque haya algunas coincidencias técnicas, no se puede considerar que las dos asignaturas sean equivalentes en términos prácticos.
+2025-05-21 02:04:20,625 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.4402), 'components': {'contents': np.float64(0.570754670812926), 'objectives': np.float64(0.7042856721411586), 'competences': np.float64(0.6263390158610548)}, 'llm_analysis': {'error': 'Invalid JSON response', 'response': 'A continuación, te presento el análisis con EXTREMO RIGOR:\n\n{\n    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],\n    "diferencias_sustanciales": ["El uso de lenguajes y herramientas específicas (C vs. no especificado)", "La falta de enfoque en la programación orientada a objetos en THE FUNDAMENTALS OF PROGRAMMING I", "La inclusión de diseño de bases de datos relacionales y software engineering concepts en Introduction to Software Engineering"],\n    "coincidencia_real": 60,\n    "advertencias": ["Es importante destacar que, aunque haya similitudes entre las competencias y objetivos, la asignatura THE FUNDAMENTALS OF PROGRAMMING I se centra más en la programación básica, mientras que Introduction to Software Engineering aborda aspectos más amplios de la ingeniería del software."]\n}\n\nNota: La estimación de coincidencia real es conservadora ya que considero que las similitudes técnicas son específicas y no genéricas.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}, 'explanation': 'A continuación, te presento el análisis con EXTREMO RIGOR:\n\n**Coincidencias TÉCNICAS REALES**: La asignatura THE FUNDAMENTALS OF PROGRAMMING I y la asignatura Introduction to Software Engineering comparten la implementación de algoritmos para resolver problemas básicos. Además, ambas asignaturas requieren escribir programas en C utilizando bibliotecas estándar.\n\n**Diferencias SUSTANCIALES**: La principal diferencia entre las dos asignaturas radica en el enfoque y los objetivos. THE FUNDAMENTALS OF PROGRAMMING I se centra en la programación básica, mientras que Introduction to Software Engineering aborda aspectos más amplios de la ingeniería del software, incluyendo diseño de bases de datos relacionales y conceptos de software engineering.\n\n**CONCLUSIÓN PRÁCTICA**: Aunque hay similitudes técnicas entre las dos asignaturas, es importante destacar que Introduction to Software Engineering tiene un enfoque más amplio y aborda aspectos más complejos de la ingeniería del software. Por lo tanto, aunque haya algunas coincidencias técnicas, no se puede considerar que las dos asignaturas sean equivalentes en términos prácticos.'}
+2025-05-21 02:04:20,625 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-21 02:04:20,625 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-21 02:04:20,625 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+            Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'D...
+2025-05-21 02:04:20,625 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Programming Projects
+                            Competencias: ['Design and implement relational databases using SQL', 'Develop algorithms for solving computationa...
+2025-05-21 02:04:20,625 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-21 02:04:20,626 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 02:04:20,626 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': 'Programming Projects', 'competences': "['Design and implement relational databases using SQL', 'Develop algorithms for solving computational problems', 'Apply data structures to solve programming challenges']", 'objectives': "['Analyze the design of a database system', 'Implement a relational database management system', 'Solve computational problems using algorithms and data structures']", 'contents': "{'Module 1: Introduction to Programming': ['Introduction to programming concepts', 'Basic syntax and semantics'], 'Module 2: Data Structures': ['Arrays and linked lists', 'Stacks and queues', 'Trees and graphs'], 'Module 3: Algorithms': ['Sorting and searching algorithms', 'Graph traversal algorithms', 'Dynamic programming'], 'Module 4: Database Systems': ['Database design principles', 'Relational database management systems', 'SQL syntax']}"}
+2025-05-21 02:04:20,626 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-21 02:04:20,626 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], ...
+T2: {'Module 1: Introduction to Programming': ['Introduction to programming concepts', 'Basic syntax and...
+2025-05-21 02:04:20,626 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Analyze the structure of a program and identify its components', 'Implement a simple program using...
+T2: ['Analyze the design of a database system', 'Implement a relational database management system', 'So...
+2025-05-21 02:04:20,627 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using stan...
+T2: ['Design and implement relational databases using SQL', 'Develop algorithms for solving computationa...
+2025-05-21 02:04:20,774 - embedding - DEBUG - Similitud estricta calculada: 0.6131196999361278 (raw: 0.8663996249201597) (en 0.15s)
+2025-05-21 02:04:20,774 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.6131196999361278
+2025-05-21 02:04:20,787 - embedding - DEBUG - Similitud estricta calculada: 0.6356301732017468 (raw: 0.7356301732017467) (en 0.16s)
+2025-05-21 02:04:20,800 - embedding - DEBUG - Similitud estricta calculada: 0.5124206582811452 (raw: 0.7405258228514315) (en 0.17s)
+2025-05-21 02:04:20,801 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.5124206582811452
+2025-05-21 02:04:20,801 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.6356301732017468
+2025-05-21 02:04:20,801 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.6131196999361278), 'objectives': np.float64(0.5124206582811452), 'competences': np.float64(0.6356301732017468)}
+2025-05-21 02:04:20,801 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-21 02:04:20,801 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-21 02:04:20,801 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': 'THE FUNDAMENTALS OF PROGRAMMING I', 'competences': "['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']", 'objectives': "['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control structures', 'Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs', 'Understand the concept of variables, data types, and operators in programming']", 'contents': "{'Module 1: Introduction to Programming': [], 'Module 2: Variables, Data Types, and Operators': [], 'Module 3: Control Structures': [], 'Module 4: Functions and Recursion': [], 'Module 5: Arrays and Strings': [], 'Module 6: Debugging and Testing': []}"}
+2025-05-21 02:04:20,801 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': 'Programming Projects', 'competences': "['Design and implement relational databases using SQL', 'Develop algorithms for solving computational problems', 'Apply data structures to solve programming challenges']", 'objectives': "['Analyze the design of a database system', 'Implement a relational database management system', 'Solve computational problems using algorithms and data structures']", 'contents': "{'Module 1: Introduction to Programming': ['Introduction to programming concepts', 'Basic syntax and semantics'], 'Module 2: Data Structures': ['Arrays and linked lists', 'Stacks and queues', 'Trees and graphs'], 'Module 3: Algorithms': ['Sorting and searching algorithms', 'Graph traversal algorithms', 'Dynamic programming'], 'Module 4: Database Systems': ['Database design principles', 'Relational database management systems', 'SQL syntax']}"}
+2025-05-21 02:04:20,801 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación estricta de programas académicos. Analiza RIGUROSAMENTE la similitud entre estas dos asignaturas:
+
+Asignatura 1:
+- Nombre: THE FUNDAMENTALS OF PROGRAMMING I
+- Competencias: ['Design and implement algorithms to solve basic problems', 'Write programs in C language using standard libraries', 'Debug and test own programs']
+- Objetivos: ['Analyze the structure of a program and identify its components', 'Implement a simple program using variables, data types, and control...
+2025-05-21 02:04:55,495 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 34.69s
+2025-05-21 02:04:55,495 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+A continuación, te presento el análisis con EXTREMO RIGOR:
+
+{
+    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],
+    "diferencias_sustanciales": ["El uso de lenguajes y herramientas específicas (C vs. SQL)", "La falta de mención a variables, tipos de datos y operadores en la asignatura 2", "La orientación hacia proyectos y desafíos computacionales en la asignatura 2"],
+    "coincidencia_real": 60,
+    "advertencias": ["Aunque las competencias y objetivos aparentemente se relacionan, es importante considerar las diferencias en el enfoque y contenido entre ambas asignaturas"]
+}
+
+Nota: La estimación de coincidencia real (60%) refleja la similitud en algunos objetivos y competencias, pero también la diferencia en el enfoque y contenido entre las dos asignaturas.
+2025-05-21 02:04:55,495 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+A continuación, te presento el análisis con EXTREMO RIGOR:
+
+{
+    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],
+    "diferencias_sustanciales": ["El uso de lenguajes y herramientas específicas (C vs. SQL)", "La falta de mención a variables, tipos de datos y operadores en la asignatura 2", "La orientación hacia proyectos y desafíos computacionales en la asignatura 2"],
+    "coincidencia_real": 60,
+    "advertencias": ["Aunque las competencias y objetivos aparentemente se relacionan, es importante considerar las diferencias en el enfoque y contenido entre ambas asignaturas"]
+}
+
+Nota: La estimación de coincidencia real (60%) refleja la similitud en algunos objetivos y competencias, pero también la diferencia en el enfoque y contenido entre las dos asignaturas.
+2025-05-21 02:04:55,495 - embedding - ERROR - 🔴 [EMBED-QA] Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis con EXTREMO RIGOR:
+
+{
+    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],
+    "diferencias_sustanciales": ["El uso de lenguajes y herramientas específicas (C vs. SQL)", "La falta de mención a variables, tipos de datos y operadores en la asignatura 2", "La orientación hacia proyectos y desafíos computacionales en la asignatura 2"],
+    "coincidencia_real": 60,
+    "advertencias": ["Aunque las competencias y objetivos aparentemente se relacionan, es importante considerar las diferencias en el enfoque y contenido entre ambas asignaturas"]
+}
+
+Nota: La estimación de coincidencia real (60%) refleja la similitud en algunos objetivos y competencias, pero también la diferencia en el enfoque y contenido entre las dos asignaturas.
+2025-05-21 02:04:55,495 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'error': 'Invalid JSON response', 'response': 'A continuación, te presento el análisis con EXTREMO RIGOR:\n\n{\n    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],\n    "diferencias_sustanciales": ["El uso de lenguajes y herramientas específicas (C vs. SQL)", "La falta de mención a variables, tipos de datos y operadores en la asignatura 2", "La orientación hacia proyectos y desafíos computacionales en la asignatura 2"],\n    "coincidencia_real": 60,\n    "advertencias": ["Aunque las competencias y objetivos aparentemente se relacionan, es importante considerar las diferencias en el enfoque y contenido entre ambas asignaturas"]\n}\n\nNota: La estimación de coincidencia real (60%) refleja la similitud en algunos objetivos y competencias, pero también la diferencia en el enfoque y contenido entre las dos asignaturas.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}
+2025-05-21 02:04:55,495 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.47442319940836164
+2025-05-21 02:04:55,495 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-21 02:04:55,495 - embedding - INFO - Generando explicación estricta...
+2025-05-21 02:04:55,495 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: THE FUNDAMENTALS OF PROGRAMMING I
+Asignatura B: Programming Projects
+
+Puntuación de similitud: 47.4%
+
+Basándote en este análisis:
+{
+  "error": "Invalid JSON response",
+  "response": "A continuaci\u00f3n, t...
+2025-05-21 02:05:35,575 - embedding - INFO - Explicación estricta generada en 40.08s
+2025-05-21 02:05:35,575 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: A continuación, te presento el análisis con EXTREMO RIGOR:
+
+**Coincidencias TÉCNICAS REALES**
+
+La asignatura A "THE FUNDAMENTALS OF PROGRAMMING I" y la asignatura B "Programming Projects" comparten la implementación de algoritmos para resolver problemas básicos. Además, ambos cursos requieren escribir programas en C utilizando bibliotecas estándar.
+
+**Diferencias SUSTANCIALES**
+
+La principal diferencia entre ambas asignaturas es el enfoque y contenido. La asignatura A se centra en la teoría y fundamentos del programación, mientras que la asignatura B se enfoca en proyectos y desafíos computacionales. Además, la asignatura B no menciona variables, tipos de datos y operadores, lo que sugiere un enfoque más práctico y aplicado.
+
+**CONCLUSIÓN PRÁCTICA**
+
+Aunque las competencias y objetivos aparentemente se relacionan, es importante considerar las diferencias en el enfoque y contenido entre ambas asignaturas. En conclusión, aunque existen algunas similitudes técnicas reales, la asignatura B "Programming Projects" tiene un enfoque más práctico y aplicado que la asignatura A "THE FUNDAMENTALS OF PROGRAMMING I".
+2025-05-21 02:05:35,575 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.4744), 'components': {'contents': np.float64(0.6131196999361278), 'objectives': np.float64(0.5124206582811452), 'competences': np.float64(0.6356301732017468)}, 'llm_analysis': {'error': 'Invalid JSON response', 'response': 'A continuación, te presento el análisis con EXTREMO RIGOR:\n\n{\n    "similitudes_tecnicas": ["Implementar algoritmos para resolver problemas básicos", "Escribir programas en C utilizando bibliotecas estándar"],\n    "diferencias_sustanciales": ["El uso de lenguajes y herramientas específicas (C vs. SQL)", "La falta de mención a variables, tipos de datos y operadores en la asignatura 2", "La orientación hacia proyectos y desafíos computacionales en la asignatura 2"],\n    "coincidencia_real": 60,\n    "advertencias": ["Aunque las competencias y objetivos aparentemente se relacionan, es importante considerar las diferencias en el enfoque y contenido entre ambas asignaturas"]\n}\n\nNota: La estimación de coincidencia real (60%) refleja la similitud en algunos objetivos y competencias, pero también la diferencia en el enfoque y contenido entre las dos asignaturas.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}, 'explanation': 'A continuación, te presento el análisis con EXTREMO RIGOR:\n\n**Coincidencias TÉCNICAS REALES**\n\nLa asignatura A "THE FUNDAMENTALS OF PROGRAMMING I" y la asignatura B "Programming Projects" comparten la implementación de algoritmos para resolver problemas básicos. Además, ambos cursos requieren escribir programas en C utilizando bibliotecas estándar.\n\n**Diferencias SUSTANCIALES**\n\nLa principal diferencia entre ambas asignaturas es el enfoque y contenido. La asignatura A se centra en la teoría y fundamentos del programación, mientras que la asignatura B se enfoca en proyectos y desafíos computacionales. Además, la asignatura B no menciona variables, tipos de datos y operadores, lo que sugiere un enfoque más práctico y aplicado.\n\n**CONCLUSIÓN PRÁCTICA**\n\nAunque las competencias y objetivos aparentemente se relacionan, es importante considerar las diferencias en el enfoque y contenido entre ambas asignaturas. En conclusión, aunque existen algunas similitudes técnicas reales, la asignatura B "Programming Projects" tiene un enfoque más práctico y aplicado que la asignatura A "THE FUNDAMENTALS OF PROGRAMMING I".'}
+2025-05-21 02:05:35,575 - main - INFO - 🟢 [MAIN] Comparación completada exitosamente

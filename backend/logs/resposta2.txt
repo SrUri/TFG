@@ -1,0 +1,119 @@
+INFO:     Finished server process [10977]
+/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/embedding.py:6: LangChainDeprecationWarning: The class `OllamaEmbeddings` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaEmbeddings``.
+  embedding_model = OllamaEmbeddings(model="nomic-embed-text")
+/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/main.py:40: LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+  llm = Ollama(
+INFO:     Started server process [11165]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:56458 - "OPTIONS /compare HTTP/1.1" 200 OK
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234114&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234114&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234114&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234114&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Procesando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+Detected language: en
+Raw model response:
+ {
+    "Physics": {
+        "competences": "Capacity for scientific reasoning and analytical skills, ability to apply physical principles to real-world situations.",
+        "objectives": "Understand the fundamental laws of physics, develop problem-solving skills, apply mathematical models to physical systems.",
+        "contents": "Mechanics: kinematics, dynamics, energy, momentum; Thermodynamics: heat transfer, thermodynamic processes; Electromagnetism: electric and magnetic fields, Maxwell's equations; Optics: light propagation, refraction, reflection; Quantum Mechanics: wave-particle duality, Schrödinger equation; Relativity: special relativity, general relativity."
+    }
+}
+Trying to parse with json5 after a standard JSON error...
+⚠️ Error procesando https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F: 500: Error processing the response: 500: Error parsing JSON5: <string>:5 Unexpected "s" at column 185
+🔗 Procesando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+Detected language: en
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Capacity for logical reasoning and abstraction, ability to apply mathematical models to real-world situations.",
+        "objectives": "Understand the fundamentals of mathematics, develop problem-solving skills, apply mathematical concepts to complex problems.",
+        "contents": "Algebraic structures, number theory, combinatorics, graph theory, probability theory, statistical methods for inference."
+    }
+}
+🔗 Procesando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+Detected language: en
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "",
+        "objectives": "Understand the basic concepts of computer science, learn programming techniques and data structures, develop problem-solving skills",
+        "contents": "Programming I (6 ECTS), Programming II (6 ECTS), Data Structures and Algorithms (6 ECTS), Computer Systems and Networks (6 ECTS), Introduction to Informatics Engineering (6 ECTS)"
+    }
+}
+🔗 Procesando asignatura: 'Programming I' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1
+Detected language: en
+Raw model response:
+ {
+    "PROGRAMMING I": {
+        "competences": "Capacity for programming in various languages, problem-solving skills and logical reasoning.",
+        "objectives": "Understand the basics of programming, apply programming concepts to solve problems, develop skills in debugging and testing.",
+        "contents": "Variables and data types, control structures (if-else, loops), functions, arrays, strings, file input/output, exception handling."
+    }
+}
+🔗 Procesando asignatura: 'Computer Organization' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC
+Detected language: en
+Raw model response:
+ {
+    "Computer Organization": {
+        "competences": "Capacity for critical analysis of computer organization concepts, Ability to design and implement computer systems, Problem-solving skills in computer organization",
+        "objectives": "Understand the fundamental principles of computer organization, Apply knowledge of computer architecture and organization to solve problems, Develop skills in designing and implementing computer systems",
+        "contents": "Computer Organization: Introduction, CPU Architecture, Memory Hierarchy, Input/Output Systems, Interrupt Handling, Exception Handling, Pipelining, Cache Memory, Virtual Memory"
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "PROGRAMMING": {
+        "competences": "Capacity to understand the basics of object-oriented programming, ability to design and implement simple programs using OOP concepts.",
+        "objectives": "Understand the principles of object-oriented programming, learn how to design and implement simple programs using OOP concepts, develop problem-solving skills through practical exercises.",
+        "contents": [
+            {
+                "topic": "Introduction to Object-Oriented Programming",
+                "description": "Overview of OOP concepts, including classes, objects, inheritance, polymorphism, and encapsulation."
+            },
+            {
+                "topic": "Designing Classes and Objects",
+                "description": "How to define classes and objects, including attributes, methods, and constructors."
+            },
+            {
+                "topic": "Inheritance and Polymorphism",
+                "description": "How inheritance and polymorphism work in OOP, with examples of how to use them effectively."
+            },
+            {
+                "topic": "Encapsulation and Abstraction",
+                "description": "How encapsulation and abstraction are used to hide implementation details and promote modularity."
+            }
+        ]
+    }
+}
+Error en la traducción: expected string or bytes-like object, got 'list'
+Raw model response:
+ {
+    "Fundamentos de Matemáticas": {
+        "competences": "Capacidad para razonamiento lógico y abstracción, capacidad para aplicar modelos matemáticos a problemas del mundo real.",
+        "objectives": "Entender los fundamentos de la matemática, desarrollar habilidades en resolución de problemas, aplicar conceptos matemáticos a problemas complejos.",
+        "contents": "Estructuras algebraicas, teoría de números, combinatoria, teoría de grafos, teoría de probabilidades, métodos estadísticos para inferencia."
+    },
+    "Introducción a los Computadores": {
+        "competences": "",
+        "objectives": "Entender los conceptos básicos de la ciencia de la computación, aprender técnicas de programación y estructuras de datos, desarrollar habilidades en resolución de problemas.",
+        "contents": "PROGRAMMING I (6 ECTS), PROGRAMMING II (6 ECTS), Data Structures and Algorithms (6 ECTS), Computer Systems and Networks (6 ECTS), Introduction to Informatics Engineering (6 ECTS)"
+    },
+    "PROGRAMMING I": {
+        "competences": "Capacidad para programar en varios lenguajes, habilidades en resolución de problemas y razonamiento lógico.",
+        "objectives": "Entender los conceptos básicos de la programación, aplicar conceptos de programación para resolver problemas, desarrollar habilidades en depuración y pruebas.",
+        "contents": "Variables y tipos de datos, estructuras de control (if-else, bucles), funciones, arrays, cadenas, entrada/salida de archivos, manejo de excepciones."
+    },
+    "Organización del Computador": {
+        "competences": "Capacidad para análisis crítico de conceptos de organización del computador, capacidad para diseñar e implementar sistemas de computadora, habilidades en resolución de problemas en organización del computador.",
+        "objectives": "Entender los principios fundamentales de la organización del computador, aplicar conocimientos sobre arquitectura y organización de la computadora para resolver problemas, desarrollar habilidades en diseño e implementación de sistemas de computadora.",
+        "contents": "Organización del Computador: Introducción, Arquitectura del CPU, Jerarquía de Memoria, Sistemas de Entrada/Salida, Manejo de Interrupciones, Manejo de Excepciones, Pipelining, Memoria Cache, Memoria Virtual"
+    }
+}
+Detected language: da
+INFO:     127.0.0.1:56458 - "POST /compare HTTP/1.1" 200 OK

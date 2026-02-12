@@ -1,0 +1,236 @@
+2025-05-20 23:15:48,503 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-05-20 23:15:48,503 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234118&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-20 23:15:48,503 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-20 23:15:48,503 - main - INFO - 🔵 [MAIN] Título asignatura: DATA NETWORKS
+2025-05-20 23:15:48,503 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-05-20 23:15:50,235 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 20
+2025-05-20 23:15:50,235 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-05-20 23:16:16,823 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Data Networks', 'application_domain': 'Computer Engineering', 'methodologies': 'Network Technologies, Internet Operations', 'key_concepts': 'Unknown'}
+2025-05-20 23:16:16,823 - main - INFO - 🔵 [MAIN] Temática principal identificada: {'core_topic': 'Data Networks', 'application_domain': 'Computer Engineering', 'methodologies': 'Network Technologies, Internet Operations', 'key_concepts': 'Unknown'}
+2025-05-20 23:16:16,823 - main - INFO - 🔵 [MAIN] Fase 3: Comparando temáticas
+2025-05-20 23:16:43,397 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Programming', 'application_domain': 'Informatics Engineering', 'methodologies': 'SQL Programming, Normalization', 'key_concepts': 'Unknown'}
+2025-05-20 23:16:44,110 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Programming I': 0.15
+2025-05-20 23:16:53,943 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Mathematics Fundamentals', 'application_domain': 'Informatics Engineering', 'methodologies': 'Computing, Computer Engineering, Software Engineering, Information Systems', 'key_concepts': 'Unknown'}
+2025-05-20 23:17:09,037 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Computing', 'application_domain': 'Information Technologies', 'methodologies': 'SQL Programming, Normalization, Indexing', 'key_concepts': 'Unknown'}
+2025-05-20 23:17:20,223 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Computer Engineering', 'application_domain': 'Information Technologies', 'methodologies': 'SQL Programming, Normalization, Indexing', 'key_concepts': 'Unknown'}
+2025-05-20 23:17:25,549 - main - INFO - Raw LLM response for theme comparison: 0.44
+2025-05-20 23:17:25,549 - main - INFO - Extracted LLM score: 0.44
+2025-05-20 23:17:25,549 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.44865378737449646, 'application_domain': 0.6845338344573975, 'methodologies': 0.39570683240890503, 'key_concepts': 0.0}, LLM: 0.44, Title: 0.15, Final: 0.42
+2025-05-20 23:17:25,549 - main - INFO - 🔵 [MAIN] Comparación temática: Programming I - Similitud: 0.42
+2025-05-20 23:17:25,691 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Fundamentals of Mathematics': 0.40
+2025-05-20 23:17:42,340 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Computer Organization', 'application_domain': 'Informatics Engineering', 'methodologies': 'Computing, Computer Engineering, Software Engineering, Information Systems', 'key_concepts': 'Unknown'}
+2025-05-20 23:17:52,923 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Mathematics', 'application_domain': 'Informatics', 'methodologies': 'Algebraic, Analytic', 'key_concepts': 'Unknown'}
+2025-05-20 23:18:06,860 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Mathematics', 'application_domain': 'Informatics', 'methodologies': 'Algebraic, Analytic', 'key_concepts': 'Unknown'}
+2025-05-20 23:18:12,032 - main - INFO - Raw LLM response for theme comparison: 0.44
+2025-05-20 23:18:12,032 - main - INFO - Extracted LLM score: 0.44
+2025-05-20 23:18:12,032 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4064217507839203, 'application_domain': 0.6845338344573975, 'methodologies': 0.6276024580001831, 'key_concepts': 0.0}, LLM: 0.44, Title: 0.40, Final: 0.45
+2025-05-20 23:18:12,032 - main - INFO - 🔵 [MAIN] Comparación temática: Fundamentals of Mathematics - Similitud: 0.45
+2025-05-20 23:18:12,186 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Physics': 0.10
+2025-05-20 23:18:27,410 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Computer Engineering', 'application_domain': 'Information Technologies', 'methodologies': 'SQL Programming, Normalization, Computer Networks', 'key_concepts': 'Unknown'}
+2025-05-20 23:18:39,393 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Database Systems', 'application_domain': 'Information Technologies', 'methodologies': 'SQL Programming, Normalization, Data Science', 'key_concepts': 'Unknown'}
+2025-05-20 23:18:50,786 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Data Structures', 'application_domain': 'Computer Science', 'methodologies': 'Algorithmics, Programming', 'key_concepts': 'Unknown'}
+2025-05-20 23:18:55,929 - main - INFO - Raw LLM response for theme comparison: 0.44
+2025-05-20 23:18:55,929 - main - INFO - Extracted LLM score: 0.44
+2025-05-20 23:18:55,930 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5004751086235046, 'application_domain': 0.5739765763282776, 'methodologies': 0.4359978437423706, 'key_concepts': 0.0}, LLM: 0.44, Title: 0.10, Final: 0.42
+2025-05-20 23:18:55,930 - main - INFO - 🔵 [MAIN] Comparación temática: Physics - Similitud: 0.42
+2025-05-20 23:18:56,064 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Introduction to Computers': 0.32
+2025-05-20 23:19:11,254 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Computer Interfacing', 'application_domain': 'Information Technologies', 'methodologies': 'Computer Engineering, Software Engineering', 'key_concepts': 'Unknown'}
+2025-05-20 23:19:27,515 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Probability Theory', 'application_domain': 'Statistics and Informatics', 'methodologies': 'Statistical Modeling, Data Analysis', 'key_concepts': 'Unknown'}
+2025-05-20 23:19:40,778 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Operating Systems', 'application_domain': 'Information Technologies', 'methodologies': 'Computer Engineering, Software Engineering', 'key_concepts': 'Unknown'}
+2025-05-20 23:19:47,332 - main - INFO - Raw LLM response for theme comparison: 0.64
+2025-05-20 23:19:47,332 - main - INFO - Extracted LLM score: 0.64
+2025-05-20 23:19:47,332 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.434253990650177, 'application_domain': 0.5739765763282776, 'methodologies': 0.4359978437423706, 'key_concepts': 0.0}, LLM: 0.64, Title: 0.32, Final: 0.5
+2025-05-20 23:19:47,332 - main - INFO - 🔵 [MAIN] Comparación temática: Introduction to Computers - Similitud: 0.50
+2025-05-20 23:19:47,562 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Computer Organization': 0.18
+2025-05-20 23:20:07,401 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Computer Architecture', 'application_domain': 'Information Technologies', 'methodologies': 'Computer Engineering, Software Engineering', 'key_concepts': 'Unknown'}
+2025-05-20 23:20:28,544 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Information Systems', 'application_domain': 'Business and Economic Environment', 'methodologies': 'Computing, Computer Engineering, Software Engineering', 'key_concepts': 'Unknown'}
+2025-05-20 23:20:43,143 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Software Engineering', 'application_domain': 'Information Technologies', 'methodologies': 'SQL Programming, Normalization, Computer Networks', 'key_concepts': 'Unknown'}
+2025-05-20 23:20:49,537 - main - INFO - Raw LLM response for theme comparison: 0.43
+2025-05-20 23:20:49,537 - main - INFO - Extracted LLM score: 0.43
+2025-05-20 23:20:49,537 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5130906105041504, 'application_domain': 0.6845338344573975, 'methodologies': 0.6276024580001831, 'key_concepts': 0.0}, LLM: 0.43, Title: 0.18, Final: 0.45
+2025-05-20 23:20:49,537 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Organization - Similitud: 0.45
+2025-05-20 23:20:49,737 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Mathematics I': 0.31
+2025-05-20 23:21:07,882 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Interaction Design', 'application_domain': 'Information Technologies', 'methodologies': 'Interface Design, Human-Computer Interaction', 'key_concepts': 'Unknown'}
+2025-05-20 23:21:26,072 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Computer Networks', 'application_domain': 'Information Technologies', 'methodologies': 'Network Architecture, Protocols, Distributed Systems', 'key_concepts': 'Unknown'}
+2025-05-20 23:21:37,666 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Computer Engineering', 'application_domain': 'Information Technologies', 'methodologies': 'SQL Programming, Normalization, Indexing', 'key_concepts': 'Unknown'}
+2025-05-20 23:21:43,056 - main - INFO - Raw LLM response for theme comparison: 0.14
+2025-05-20 23:21:43,056 - main - INFO - Extracted LLM score: 0.14
+2025-05-20 23:21:43,056 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.47757184505462646, 'application_domain': 0.5037672519683838, 'methodologies': 0.41637900471687317, 'key_concepts': 0.0}, LLM: 0.14, Title: 0.31, Final: 0.3
+2025-05-20 23:21:43,056 - main - INFO - 🔵 [MAIN] Comparación temática: Mathematics I - Similitud: 0.30
+2025-05-20 23:21:43,242 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Mathematics II': 0.30
+2025-05-20 23:21:44,188 - main - INFO - Raw LLM response for theme comparison: 0.14
+2025-05-20 23:21:44,188 - main - INFO - Extracted LLM score: 0.14
+2025-05-20 23:21:44,188 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.47757184505462646, 'application_domain': 0.5037672519683838, 'methodologies': 0.41637900471687317, 'key_concepts': 0.0}, LLM: 0.14, Title: 0.30, Final: 0.3
+2025-05-20 23:21:44,189 - main - INFO - 🔵 [MAIN] Comparación temática: Mathematics II - Similitud: 0.30
+2025-05-20 23:21:44,350 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Programming II': 0.15
+2025-05-20 23:21:49,748 - main - INFO - Raw LLM response for theme comparison: 0.83
+2025-05-20 23:21:49,748 - main - INFO - Extracted LLM score: 0.83
+2025-05-20 23:21:49,748 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.434253990650177, 'application_domain': 0.5739765763282776, 'methodologies': 0.5632988810539246, 'key_concepts': 0.0}, LLM: 0.83, Title: 0.15, Final: 0.57
+2025-05-20 23:21:49,748 - main - INFO - 🔵 [MAIN] Comparación temática: Programming II - Similitud: 0.57
+2025-05-20 23:21:49,908 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Databases': 0.55
+2025-05-20 23:21:54,803 - main - INFO - Raw LLM response for theme comparison: 0.44
+2025-05-20 23:21:54,803 - main - INFO - Extracted LLM score: 0.44
+2025-05-20 23:21:54,803 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5950945019721985, 'application_domain': 0.5739765763282776, 'methodologies': 0.45289552211761475, 'key_concepts': 0.0}, LLM: 0.44, Title: 0.55, Final: 0.49
+2025-05-20 23:21:54,803 - main - INFO - 🔵 [MAIN] Comparación temática: Databases - Similitud: 0.49
+2025-05-20 23:21:54,976 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Data Structures and Algorithmics': 0.40
+2025-05-20 23:21:59,578 - main - INFO - Raw LLM response for theme comparison: 0.43
+2025-05-20 23:21:59,578 - main - INFO - Extracted LLM score: 0.43
+2025-05-20 23:21:59,578 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.666907548904419, 'application_domain': 0.7733532190322876, 'methodologies': 0.5492804646492004, 'key_concepts': 0.0}, LLM: 0.43, Title: 0.40, Final: 0.52
+2025-05-20 23:21:59,578 - main - INFO - 🔵 [MAIN] Comparación temática: Data Structures and Algorithmics - Similitud: 0.52
+2025-05-20 23:21:59,749 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Computer Interfacing': 0.12
+2025-05-20 23:22:04,614 - main - INFO - Raw LLM response for theme comparison: 0.43
+2025-05-20 23:22:04,614 - main - INFO - Extracted LLM score: 0.43
+2025-05-20 23:22:04,614 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4604988694190979, 'application_domain': 0.5739765763282776, 'methodologies': 0.5751467347145081, 'key_concepts': 0.0}, LLM: 0.43, Title: 0.12, Final: 0.41
+2025-05-20 23:22:04,614 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Interfacing - Similitud: 0.41
+2025-05-20 23:22:04,763 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Probability and Statistics': 0.26
+2025-05-20 23:22:09,660 - main - INFO - Raw LLM response for theme comparison: 0.14
+2025-05-20 23:22:09,661 - main - INFO - Extracted LLM score: 0.14
+2025-05-20 23:22:09,661 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.36727046966552734, 'application_domain': 0.4978260397911072, 'methodologies': 0.4565111994743347, 'key_concepts': 0.0}, LLM: 0.14, Title: 0.26, Final: 0.27
+2025-05-20 23:22:09,661 - main - INFO - 🔵 [MAIN] Comparación temática: Probability and Statistics - Similitud: 0.27
+2025-05-20 23:22:09,813 - main - INFO - Detailed theme extracted (content-focused): {'core_topic': 'Software Engineering', 'application_domain': 'Information Technologies', 'methodologies': 'Programming, Computer Networks', 'key_concepts': 'Unknown'}
+2025-05-20 23:22:09,819 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Operating Systems': 0.33
+2025-05-20 23:22:14,037 - main - INFO - Raw LLM response for theme comparison: 0.43
+2025-05-20 23:22:14,037 - main - INFO - Extracted LLM score: 0.43
+2025-05-20 23:22:14,037 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.43783167004585266, 'application_domain': 0.5739765763282776, 'methodologies': 0.5751467347145081, 'key_concepts': 0.0}, LLM: 0.43, Title: 0.33, Final: 0.43
+2025-05-20 23:22:14,037 - main - INFO - 🔵 [MAIN] Comparación temática: Operating Systems - Similitud: 0.43
+2025-05-20 23:22:14,142 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Computer Architecture': 0.29
+2025-05-20 23:22:18,377 - main - INFO - Raw LLM response for theme comparison: 0.44
+2025-05-20 23:22:18,377 - main - INFO - Extracted LLM score: 0.44
+2025-05-20 23:22:18,377 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.486064612865448, 'application_domain': 0.5739765763282776, 'methodologies': 0.5751467347145081, 'key_concepts': 0.0}, LLM: 0.44, Title: 0.29, Final: 0.44
+2025-05-20 23:22:18,377 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Architecture - Similitud: 0.44
+2025-05-20 23:22:18,496 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Business and Economic Environment': 0.13
+2025-05-20 23:22:23,115 - main - INFO - Raw LLM response for theme comparison: 0.44
+2025-05-20 23:22:23,115 - main - INFO - Extracted LLM score: 0.44
+2025-05-20 23:22:23,115 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5250371098518372, 'application_domain': 0.47906118631362915, 'methodologies': 0.6088448762893677, 'key_concepts': 0.0}, LLM: 0.44, Title: 0.13, Final: 0.43
+2025-05-20 23:22:23,115 - main - INFO - 🔵 [MAIN] Comparación temática: Business and Economic Environment - Similitud: 0.43
+2025-05-20 23:22:23,214 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Introduction to Software Engineering': 0.24
+2025-05-20 23:22:27,912 - main - INFO - Raw LLM response for theme comparison: 0.64
+2025-05-20 23:22:27,912 - main - INFO - Extracted LLM score: 0.64
+2025-05-20 23:22:27,912 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.3977997303009033, 'application_domain': 0.5739765763282776, 'methodologies': 0.5632988810539246, 'key_concepts': 0.0}, LLM: 0.64, Title: 0.24, Final: 0.49
+2025-05-20 23:22:27,912 - main - INFO - 🔵 [MAIN] Comparación temática: Introduction to Software Engineering - Similitud: 0.49
+2025-05-20 23:22:28,054 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Interaction and Interface Design': 0.18
+2025-05-20 23:22:32,694 - main - INFO - Raw LLM response for theme comparison: 0.14
+2025-05-20 23:22:32,694 - main - INFO - Extracted LLM score: 0.14
+2025-05-20 23:22:32,694 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.3918096125125885, 'application_domain': 0.5739765763282776, 'methodologies': 0.5057899951934814, 'key_concepts': 0.0}, LLM: 0.14, Title: 0.18, Final: 0.28
+2025-05-20 23:22:32,694 - main - INFO - 🔵 [MAIN] Comparación temática: Interaction and Interface Design - Similitud: 0.28
+2025-05-20 23:22:32,803 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Computer Networks': 0.67
+2025-05-20 23:22:37,397 - main - INFO - Raw LLM response for theme comparison: 0.83
+2025-05-20 23:22:37,398 - main - INFO - Extracted LLM score: 0.83
+2025-05-20 23:22:37,398 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.7515489459037781, 'application_domain': 0.5739765763282776, 'methodologies': 0.7017504572868347, 'key_concepts': 0.0}, LLM: 0.83, Title: 0.67, Final: 0.71
+2025-05-20 23:22:37,398 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Networks - Similitud: 0.71
+2025-05-20 23:22:37,525 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Parallelism': 0.33
+2025-05-20 23:22:41,883 - main - INFO - Raw LLM response for theme comparison: 0.83
+2025-05-20 23:22:41,883 - main - INFO - Extracted LLM score: 0.83
+2025-05-20 23:22:41,883 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.434253990650177, 'application_domain': 0.5739765763282776, 'methodologies': 0.4359978437423706, 'key_concepts': 0.0}, LLM: 0.83, Title: 0.33, Final: 0.58
+2025-05-20 23:22:41,883 - main - INFO - 🔵 [MAIN] Comparación temática: Parallelism - Similitud: 0.58
+2025-05-20 23:22:41,990 - main - INFO - Title similarity between 'DATA NETWORKS' and 'Programming Projects': 0.18
+2025-05-20 23:22:46,090 - main - INFO - Raw LLM response for theme comparison: 0.43
+2025-05-20 23:22:46,090 - main - INFO - Extracted LLM score: 0.43
+2025-05-20 23:22:46,091 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.3977997303009033, 'application_domain': 0.5739765763282776, 'methodologies': 0.6632247567176819, 'key_concepts': 0.0}, LLM: 0.43, Title: 0.18, Final: 0.41
+2025-05-20 23:22:46,091 - main - INFO - 🔵 [MAIN] Comparación temática: Programming Projects - Similitud: 0.41
+2025-05-20 23:22:46,091 - main - INFO - 🔵 [MAIN] Asignaturas relevantes encontradas: 1
+2025-05-20 23:22:46,091 - main - INFO - 🔵 [MAIN] Fase 4: Extrayendo detalles asignatura principal
+2025-05-20 23:23:54,268 - main - INFO - 🔵 [MAIN] Fase 5: Procesando asignaturas relevantes
+2025-05-20 23:24:29,057 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-20 23:24:29,057 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-20 23:24:29,057 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: DATA NETWORKS
+            Competencias: ['Design and implement relational databases using SQL', 'Analyze network protocols and architectures', 'Troubleshoot common network issues'...
+2025-05-20 23:24:29,057 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Computer Networks
+                            Competencias: ['Design and implement computer networks using TCP/IP', 'Configure network devices for optimal performa...
+2025-05-20 23:24:29,057 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-20 23:24:29,057 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': 'DATA NETWORKS', 'competences': "['Design and implement relational databases using SQL', 'Analyze network protocols and architectures', 'Troubleshoot common network issues']", 'objectives': "['Design a network architecture for a given scenario', 'Implement a network protocol using programming languages', 'Analyze the performance of a network system', 'Troubleshoot common network issues', 'Develop a basic understanding of network security principles']", 'contents': "{'Module 1: Introduction to Data Networks': ['Network fundamentals', 'Types of networks (LAN, WAN, MAN)', 'Network protocols (TCP/IP, DNS, DHCP)'], 'Module 2: Network Architecture and Design': ['Network architecture design principles', 'Network topology and layout', 'Network device configuration'], 'Module 3: Network Protocols and Technologies': ['TCP/IP protocol suite', 'Network protocols (HTTP, FTP, SSH)', 'Network technologies (Ethernet, Wi-Fi, Fiber)'], 'Module 4: Network Security and Management': ['Network security principles', 'Firewall configuration', 'Network monitoring and management']}"}
+2025-05-20 23:24:29,057 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': 'Computer Networks', 'competences': "['Design and implement computer networks using TCP/IP', 'Configure network devices for optimal performance', 'Troubleshoot common network problems']", 'objectives': "['Analyze the structure of a computer network', 'Design and implement a simple computer network', 'Evaluate the performance of a computer network', 'Troubleshoot common network problems', 'Configure network devices for optimal performance']", 'contents': "{'Module 1: Introduction to Computer Networks': ['Network fundamentals', 'TCP/IP protocol suite', 'Network architecture'], 'Module 2: Network Design and Implementation': ['Network design principles', 'Network implementation using TCP/IP', 'Network configuration management'], 'Module 3: Network Performance Evaluation': ['Network performance metrics', 'Network traffic analysis', 'Network congestion control']}"}
+2025-05-20 23:24:29,057 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-20 23:24:29,057 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Module 1: Introduction to Data Networks': ['Network fundamentals', 'Types of networks (LAN, WAN, M...
+T2: {'Module 1: Introduction to Computer Networks': ['Network fundamentals', 'TCP/IP protocol suite', 'N...
+2025-05-20 23:24:29,057 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Design a network architecture for a given scenario', 'Implement a network protocol using programmi...
+T2: ['Analyze the structure of a computer network', 'Design and implement a simple computer network', 'E...
+2025-05-20 23:24:29,058 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Design and implement relational databases using SQL', 'Analyze network protocols and architectures...
+T2: ['Design and implement computer networks using TCP/IP', 'Configure network devices for optimal perfo...
+2025-05-20 23:24:29,192 - embedding - DEBUG - Similitud estricta calculada: 0.6922625633848084 (raw: 0.7922625633848084) (en 0.13s)
+2025-05-20 23:24:29,222 - embedding - DEBUG - Similitud estricta calculada: 0.8164124266858434 (raw: 0.9164124266858433) (en 0.16s)
+2025-05-20 23:24:29,222 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.8164124266858434
+2025-05-20 23:24:29,240 - embedding - DEBUG - Similitud estricta calculada: 0.7987510054333102 (raw: 0.8987510054333102) (en 0.18s)
+2025-05-20 23:24:29,240 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.7987510054333102
+2025-05-20 23:24:29,240 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.6922625633848084
+2025-05-20 23:24:29,240 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.8164124266858434), 'objectives': np.float64(0.7987510054333102), 'competences': np.float64(0.6922625633848084)}
+2025-05-20 23:24:29,240 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-20 23:24:29,240 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-20 23:24:29,240 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': 'DATA NETWORKS', 'competences': "['Design and implement relational databases using SQL', 'Analyze network protocols and architectures', 'Troubleshoot common network issues']", 'objectives': "['Design a network architecture for a given scenario', 'Implement a network protocol using programming languages', 'Analyze the performance of a network system', 'Troubleshoot common network issues', 'Develop a basic understanding of network security principles']", 'contents': "{'Module 1: Introduction to Data Networks': ['Network fundamentals', 'Types of networks (LAN, WAN, MAN)', 'Network protocols (TCP/IP, DNS, DHCP)'], 'Module 2: Network Architecture and Design': ['Network architecture design principles', 'Network topology and layout', 'Network device configuration'], 'Module 3: Network Protocols and Technologies': ['TCP/IP protocol suite', 'Network protocols (HTTP, FTP, SSH)', 'Network technologies (Ethernet, Wi-Fi, Fiber)'], 'Module 4: Network Security and Management': ['Network security principles', 'Firewall configuration', 'Network monitoring and management']}"}
+2025-05-20 23:24:29,240 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': 'Computer Networks', 'competences': "['Design and implement computer networks using TCP/IP', 'Configure network devices for optimal performance', 'Troubleshoot common network problems']", 'objectives': "['Analyze the structure of a computer network', 'Design and implement a simple computer network', 'Evaluate the performance of a computer network', 'Troubleshoot common network problems', 'Configure network devices for optimal performance']", 'contents': "{'Module 1: Introduction to Computer Networks': ['Network fundamentals', 'TCP/IP protocol suite', 'Network architecture'], 'Module 2: Network Design and Implementation': ['Network design principles', 'Network implementation using TCP/IP', 'Network configuration management'], 'Module 3: Network Performance Evaluation': ['Network performance metrics', 'Network traffic analysis', 'Network congestion control']}"}
+2025-05-20 23:24:29,240 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación estricta de programas académicos. Analiza RIGUROSAMENTE la similitud entre estas dos asignaturas:
+
+Asignatura 1:
+- Nombre: DATA NETWORKS
+- Competencias: ['Design and implement relational databases using SQL', 'Analyze network protocols and architectures', 'Troubleshoot common network issues']
+- Objetivos: ['Design a network architecture for a given scenario', 'Implement a network protocol using programming languages', 'Analyze the performance of a network system', ...
+2025-05-20 23:24:54,940 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 25.70s
+2025-05-20 23:24:54,940 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+A continuación te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["TCP/IP protocol suite", "Network protocols (HTTP, FTP, SSH)", "Network architecture design principles", "Network topology and layout"],
+    "diferencias_sustanciales": ["Module 4: Network Security and Management" no tiene equivalente en la asignatura 2; "Network monitoring and management" no está presente en la asignatura 2; La asignatura 1 incluye "Design a network architecture for a given scenario" y "Implement a network protocol using programming languages", mientras que la asignatura 2 solo menciona "Design and implement a simple computer network"],
+    "coincidencia_real": 60,
+    "advertencias": ["La asignatura 1 tiene un enfoque más amplio en la seguridad de redes, mientras que la asignatura 2 se enfoca más en la evaluación del rendimiento de las redes"]
+}
+2025-05-20 23:24:54,940 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+A continuación te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["TCP/IP protocol suite", "Network protocols (HTTP, FTP, SSH)", "Network architecture design principles", "Network topology and layout"],
+    "diferencias_sustanciales": ["Module 4: Network Security and Management" no tiene equivalente en la asignatura 2; "Network monitoring and management" no está presente en la asignatura 2; La asignatura 1 incluye "Design a network architecture for a given scenario" y "Implement a network protocol using programming languages", mientras que la asignatura 2 solo menciona "Design and implement a simple computer network"],
+    "coincidencia_real": 60,
+    "advertencias": ["La asignatura 1 tiene un enfoque más amplio en la seguridad de redes, mientras que la asignatura 2 se enfoca más en la evaluación del rendimiento de las redes"]
+}
+2025-05-20 23:24:54,940 - embedding - ERROR - 🔴 [EMBED-QA] Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["TCP/IP protocol suite", "Network protocols (HTTP, FTP, SSH)", "Network architecture design principles", "Network topology and layout"],
+    "diferencias_sustanciales": ["Module 4: Network Security and Management" no tiene equivalente en la asignatura 2; "Network monitoring and management" no está presente en la asignatura 2; La asignatura 1 incluye "Design a network architecture for a given scenario" y "Implement a network protocol using programming languages", mientras que la asignatura 2 solo menciona "Design and implement a simple computer network"],
+    "coincidencia_real": 60,
+    "advertencias": ["La asignatura 1 tiene un enfoque más amplio en la seguridad de redes, mientras que la asignatura 2 se enfoca más en la evaluación del rendimiento de las redes"]
+}
+2025-05-20 23:24:54,940 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'error': 'Invalid JSON response', 'response': 'A continuación te presento el análisis riguroso de las asignaturas:\n\n{\n    "similitudes_tecnicas": ["TCP/IP protocol suite", "Network protocols (HTTP, FTP, SSH)", "Network architecture design principles", "Network topology and layout"],\n    "diferencias_sustanciales": ["Module 4: Network Security and Management" no tiene equivalente en la asignatura 2; "Network monitoring and management" no está presente en la asignatura 2; La asignatura 1 incluye "Design a network architecture for a given scenario" y "Implement a network protocol using programming languages", mientras que la asignatura 2 solo menciona "Design and implement a simple computer network"],\n    "coincidencia_real": 60,\n    "advertencias": ["La asignatura 1 tiene un enfoque más amplio en la seguridad de redes, mientras que la asignatura 2 se enfoca más en la evaluación del rendimiento de las redes"]\n}', 'exception': 'Expecting value: line 1 column 1 (char 0)'}
+2025-05-20 23:24:54,940 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.7600037620698757
+2025-05-20 23:24:54,940 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-20 23:24:54,940 - embedding - INFO - Generando explicación estricta...
+2025-05-20 23:24:54,940 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: DATA NETWORKS
+Asignatura B: Computer Networks
+
+Puntuación de similitud: 76.0%
+
+Basándote en este análisis:
+{
+  "error": "Invalid JSON response",
+  "response": "A continuaci\u00f3n te presento el an\u00e1li...
+2025-05-20 23:25:37,872 - embedding - INFO - Explicación estricta generada en 42.93s
+2025-05-20 23:25:37,872 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: A continuación, se presenta el análisis riguroso de las asignaturas:
+
+**Coincidencias TÉCNICAS REALES**
+
+Ambas asignaturas comparten conocimientos técnicos importantes en la área de redes. En particular, se destacan los siguientes puntos en común: (1) el protocolo TCP/IP y su suite, (2) los protocolos de red como HTTP, FTP y SSH, (3) los principios de diseño de arquitectura de red y (4) la topología y diseño de la red. Estas coincidencias técnicas son fundamentales para cualquier estudiante que desee dominar el tema de redes.
+
+**Diferencias SUSTANCIALES**
+
+Aunque las asignaturas compartan algunos conocimientos técnicos, hay algunas diferencias sustanciales que deben ser consideradas. En particular, la asignatura A incluye módulos como "Design a network architecture for a given scenario" y "Implement a network protocol using programming languages", mientras que la asignatura B solo menciona "Design and implement a simple computer network". Además, la asignatura A tiene un enfoque más amplio en la seguridad de redes, lo que no se encuentra en la asignatura B. Por otro lado, la asignatura B no incluye el tema de monitoreo y gestión de red.
+
+**CONCLUSIÓN PRÁCTICA**
+
+En conclusión, aunque las asignaturas A y B comparten algunos conocimientos técnicos importantes, hay algunas diferencias sustanciales que deben ser consideradas. La asignatura A tiene un enfoque más amplio en la seguridad de redes y incluye módulos más avanzados de diseño y implementación de protocolos de red. Por otro lado, la asignatura B se enfoca más en la evaluación del rendimiento de las redes. En consecuencia, aunque haya algunas coincidencias técnicas reales entre ambas asignaturas, no es posible considerarlas equivalentes en términos prácticos.
+2025-05-20 23:25:37,872 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.76), 'components': {'contents': np.float64(0.8164124266858434), 'objectives': np.float64(0.7987510054333102), 'competences': np.float64(0.6922625633848084)}, 'llm_analysis': {'error': 'Invalid JSON response', 'response': 'A continuación te presento el análisis riguroso de las asignaturas:\n\n{\n    "similitudes_tecnicas": ["TCP/IP protocol suite", "Network protocols (HTTP, FTP, SSH)", "Network architecture design principles", "Network topology and layout"],\n    "diferencias_sustanciales": ["Module 4: Network Security and Management" no tiene equivalente en la asignatura 2; "Network monitoring and management" no está presente en la asignatura 2; La asignatura 1 incluye "Design a network architecture for a given scenario" y "Implement a network protocol using programming languages", mientras que la asignatura 2 solo menciona "Design and implement a simple computer network"],\n    "coincidencia_real": 60,\n    "advertencias": ["La asignatura 1 tiene un enfoque más amplio en la seguridad de redes, mientras que la asignatura 2 se enfoca más en la evaluación del rendimiento de las redes"]\n}', 'exception': 'Expecting value: line 1 column 1 (char 0)'}, 'explanation': 'A continuación, se presenta el análisis riguroso de las asignaturas:\n\n**Coincidencias TÉCNICAS REALES**\n\nAmbas asignaturas comparten conocimientos técnicos importantes en la área de redes. En particular, se destacan los siguientes puntos en común: (1) el protocolo TCP/IP y su suite, (2) los protocolos de red como HTTP, FTP y SSH, (3) los principios de diseño de arquitectura de red y (4) la topología y diseño de la red. Estas coincidencias técnicas son fundamentales para cualquier estudiante que desee dominar el tema de redes.\n\n**Diferencias SUSTANCIALES**\n\nAunque las asignaturas compartan algunos conocimientos técnicos, hay algunas diferencias sustanciales que deben ser consideradas. En particular, la asignatura A incluye módulos como "Design a network architecture for a given scenario" y "Implement a network protocol using programming languages", mientras que la asignatura B solo menciona "Design and implement a simple computer network". Además, la asignatura A tiene un enfoque más amplio en la seguridad de redes, lo que no se encuentra en la asignatura B. Por otro lado, la asignatura B no incluye el tema de monitoreo y gestión de red.\n\n**CONCLUSIÓN PRÁCTICA**\n\nEn conclusión, aunque las asignaturas A y B comparten algunos conocimientos técnicos importantes, hay algunas diferencias sustanciales que deben ser consideradas. La asignatura A tiene un enfoque más amplio en la seguridad de redes y incluye módulos más avanzados de diseño y implementación de protocolos de red. Por otro lado, la asignatura B se enfoca más en la evaluación del rendimiento de las redes. En consecuencia, aunque haya algunas coincidencias técnicas reales entre ambas asignaturas, no es posible considerarlas equivalentes en términos prácticos.'}
+2025-05-20 23:25:37,872 - main - INFO - 🟢 [MAIN] Comparación completada exitosamente

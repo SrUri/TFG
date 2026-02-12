@@ -1,0 +1,178 @@
+INFO:     Application startup complete.
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+Translation error: Need to load profiles.
+Detected language: sl
+Detected language: en
+WARNING:  StatReload detected changes in 'embedding.py'. Reloading...
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "",
+        "objectives": [
+            "Develop mathematical skills and problem-solving abilities",
+            "Understand the fundamental concepts of mathematics",
+            "Apply mathematical techniques to real-world problems"
+        ],
+        "contents": [
+            "Algebraic structures",
+            "Linear algebra",
+            "Calculus",
+            "Differential equations",
+            "Probability theory",
+            "Statistics"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Physics": {
+        "competences": "",
+        "objectives": [
+            "To understand the fundamental principles of physics",
+            "To apply mathematical and computational tools to solve physical problems",
+            "To develop critical thinking and problem-solving skills"
+        ],
+        "contents": [
+            "Laws of motion",
+            "Energy and work",
+            "Momentum and collisions",
+            "Rotational motion",
+            "Waves and oscillations",
+            "Thermodynamics",
+            "Quantum mechanics",
+            "Atomic and nuclear physics"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "Develop skills in computer basics, understand the fundamental concepts of computers and their applications.",
+        "objectives": [
+            "Understand the basic components of a computer",
+            "Learn about different types of computers and their uses",
+            "Develop problem-solving skills using programming languages"
+        ],
+        "contents": [
+            "Computer hardware and software",
+            "Basic programming concepts",
+            "Introduction to data structures and algorithms",
+            "Computer applications in everyday life"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "FUNDAMENTALS OF COMPUTERS": {
+        "competences": "Acquire knowledge about the structure, organization, logical design, operation, and interconnection of computers; understand programming and performance of assembly language; learn to use operating systems.",
+        "objectives": [
+            "To understand the basic concepts of computer architecture",
+            "To learn how to program in assembly language",
+            "To understand how to use operating systems",
+            "To develop problem-solving skills",
+            "To apply logical thinking to solve problems",
+            "To understand the importance of computers in modern society"
+        ],
+        "contents": [
+            "Structure, organization, and logical design of computers",
+            "Programming and performance of assembly language",
+            "Use of operating systems",
+            "Computer architecture and its applications",
+            "Assembly language programming techniques",
+            "Operating system concepts and functionality"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Develop mathematical skills and problem-solving abilities, Understand the fundamental concepts of mathematics, Apply mathematical techniques to real-world problems",
+        "objectives": [
+            "Develop mathematical skills and problem-solving abilities",
+            "Understand the fundamental concepts of mathematics",
+            "Apply mathematical techniques to real-world problems"
+        ],
+        "contents": [
+            "Algebraic structures",
+            "Linear algebra",
+            "Calculus",
+            "Differential equations",
+            "Probability theory",
+            "Statistics"
+        ]
+    },
+    "Physics": {
+        "competences": "",
+        "objectives": [
+            "To understand the fundamental principles of physics",
+            "To apply mathematical and computational tools to solve physical problems",
+            "To develop critical thinking and problem-solving skills"
+        ],
+        "contents": [
+            "Laws of motion",
+            "Energy and work",
+            "Momentum and collisions",
+            "Rotational motion",
+            "Waves and oscillations",
+            "Thermodynamics",
+            "Quantum mechanics",
+            "Atomic and nuclear physics"
+        ]
+    },
+    "Introduction to Computers": {
+        "competences": "Develop skills in computer basics, understand the fundamental concepts of computers and their applications.",
+        "objectives": [
+            "Understand the basic components of a computer",
+            "Learn about different types of computers and their uses",
+            "Develop problem-solving skills using programming languages"
+        ],
+        "contents": [
+            "Computer hardware and software",
+            "Basic programming concepts",
+            "Introduction to data structures and algorithms",
+            "Computer applications in everyday life"
+        ]
+    }
+}
+Detected language: ca
+INFO:embedding:Iniciando cálculo de similitud con prompt unificado...
+INFO:embedding:Componentes extraídos:
+Texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+Texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Ejecutando análisis completo con LLM...
+ERROR:embedding:Error parseando respuesta: No se encontró JSON en la respuesta
+INFO:embedding:Puntuación final calculada: 0.0
+INFO:embedding:Iniciando cálculo de similitud con prompt unificado...
+INFO:embedding:Componentes extraídos:
+Texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+Texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Ejecutando análisis completo con LLM...
+ERROR:embedding:Error parseando respuesta: No se encontró JSON en la respuesta
+INFO:embedding:Puntuación final calculada: 0.0
+INFO:embedding:Iniciando cálculo de similitud con prompt unificado...
+INFO:embedding:Componentes extraídos:
+Texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+Texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Ejecutando análisis completo con LLM...
+INFO:embedding:Puntuación final calculada: 0.09
+INFO:     127.0.0.1:49797 - "POST /compare HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3116]
+/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/embedding.py:13: LangChainDeprecationWarning: The class `OllamaEmbeddings` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaEmbeddings``.
+  embedding_model = OllamaEmbeddings(model="nomic-embed-text")
+/Users/uri/Desktop/Uri/4t/TFG/comparadorErasmus/backend/embedding.py:14: LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+  llm = Ollama(model="llama3", temperature=0.3)
+INFO:     Started server process [3306]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

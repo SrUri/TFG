@@ -1,0 +1,151 @@
+2025-08-12 23:29:50,375 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-08-12 23:29:50,375 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=cat&any_academic=2024_25&idioma=eng
+2025-08-12 23:29:50,375 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-08-12 23:29:50,375 - main - INFO - 🔵 [MAIN] Título asignatura: THE FUNDAMENTALS OF PROGRAMMING I
+2025-08-12 23:29:50,375 - main - INFO - 🔵 [MAIN] Extrayendo asignatura principal
+2025-08-12 23:29:50,375 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=cat&any_academic=2024_25&idioma=eng
+2025-08-12 23:29:50,375 - src.extractors.subject_extractor - INFO - 🔍 Detected URV URL - attempting contents extraction
+2025-08-12 23:29:50,375 - src.extractors.subject_extractor - INFO - 🔍 Fetching URV contents from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&fitxa_apartat=57
+2025-08-12 23:29:50,975 - src.extractors.urv_extractor - INFO - ✅ Contents table found with Topic/Sub-topic headers
+2025-08-12 23:29:50,975 - src.extractors.subject_extractor - INFO - ✅ URV contents extracted successfully
+2025-08-12 23:29:50,975 - src.extractors.subject_extractor - INFO - 🔍 Fetching URV objectives from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&fitxa_apartat=56
+2025-08-12 23:29:51,549 - src.extractors.subject_extractor - INFO - ✅ URV objectives extracted successfully
+2025-08-12 23:29:51,549 - src.extractors.subject_extractor - INFO - 🔍 Fetching URV competences from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&fitxa_apartat=55
+2025-08-12 23:29:52,100 - src.extractors.urv_extractor - INFO - ✅ Fallback table found with Verdana class cells
+2025-08-12 23:29:52,100 - src.extractors.subject_extractor - INFO - ✅ URV competences extracted successfully
+2025-08-12 23:30:10,194 - main - INFO - 🔵 [MAIN] Temática principal identificada: {'core_topic': 'Programming Fundamentals', 'key_contents': 'Variables, Control Structures, Conditionals, Loops, Procedures', 'application_domain': 'Software Development'}
+2025-08-12 23:30:46,625 - main - INFO - 🔵 [MAIN] No se encontraron comparaciones existentes, procediendo con extracción completa
+2025-08-12 23:30:46,625 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-08-12 23:30:46,625 - src.extractors.guide_extractor - INFO - 🔵 Procesando guía de grado (genérico): https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-08-12 23:30:46,625 - src.extractors.guide_extractor - INFO - 🔵 Procesando todos los enlaces de la página (casos especiales): https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-08-12 23:30:47,490 - src.extractors.guide_extractor - INFO - 🔗 Enlace válido detectado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+2025-08-12 23:30:47,490 - src.extractors.guide_extractor - INFO - 🔗 Enlace válido detectado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+2025-08-12 23:30:47,490 - src.extractors.guide_extractor - INFO - 🔗 Enlace válido detectado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+2025-08-12 23:30:47,490 - src.extractors.guide_extractor - INFO - 🔗 Enlace válido detectado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1
+2025-08-12 23:30:47,490 - src.extractors.guide_extractor - INFO - 🔗 Enlace válido detectado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC
+2025-08-12 23:30:47,490 - src.extractors.guide_extractor - INFO - 🔵 Límite de 5 enlaces alcanzado
+2025-08-12 23:30:47,491 - src.extractors.guide_extractor - INFO - ✅ Extraídos 5 enlaces válidos de casos especiales
+2025-08-12 23:30:47,491 - src.extractors.guide_extractor - INFO - 🔍 Enlaces candidatos detectados: 5
+2025-08-12 23:30:47,491 - src.extractors.guide_extractor - INFO - ✅ Asignatura detectada: Physics → https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+2025-08-12 23:30:47,491 - src.extractors.guide_extractor - INFO - ✅ Asignatura detectada: Fundamentals Of Mathematics → https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+2025-08-12 23:30:47,491 - src.extractors.guide_extractor - INFO - ✅ Asignatura detectada: Introduction To Computers → https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+2025-08-12 23:30:47,491 - src.extractors.guide_extractor - INFO - ✅ Asignatura detectada: Programming I → https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1
+2025-08-12 23:30:47,491 - src.extractors.guide_extractor - INFO - ✅ Asignatura detectada: Computer Organization → https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC
+2025-08-12 23:30:47,491 - src.extractors.guide_extractor - INFO - 🟢 Total asignaturas extraídas: 5
+2025-08-12 23:30:47,491 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 5
+2025-08-12 23:30:47,491 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-08-12 23:30:47,491 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+2025-08-12 23:30:47,491 - src.extractors.subject_extractor - INFO - 🔍 Processing non-URV URL, searching for content sections
+2025-08-12 23:30:48,653 - main - INFO - ✅ Contenido extraído para asignatura: Physics
+2025-08-12 23:30:48,653 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+2025-08-12 23:30:48,653 - src.extractors.subject_extractor - INFO - 🔍 Processing non-URV URL, searching for content sections
+2025-08-12 23:30:49,981 - main - INFO - ✅ Contenido extraído para asignatura: Fundamentals Of Mathematics
+2025-08-12 23:30:49,981 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+2025-08-12 23:30:49,981 - src.extractors.subject_extractor - INFO - 🔍 Processing non-URV URL, searching for content sections
+2025-08-12 23:30:51,363 - main - INFO - ✅ Contenido extraído para asignatura: Introduction To Computers
+2025-08-12 23:30:51,364 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1
+2025-08-12 23:30:51,364 - src.extractors.subject_extractor - INFO - 🔍 Processing non-URV URL, searching for content sections
+2025-08-12 23:30:52,657 - main - INFO - ✅ Contenido extraído para asignatura: Programming I
+2025-08-12 23:30:52,657 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC
+2025-08-12 23:30:52,657 - src.extractors.subject_extractor - INFO - 🔍 Processing non-URV URL, searching for content sections
+2025-08-12 23:30:53,871 - main - INFO - ✅ Contenido extraído para asignatura: Computer Organization
+2025-08-12 23:30:53,872 - main - INFO - 🔵 [MAIN] Asignaturas con contenido extraído: 5
+2025-08-12 23:30:53,872 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=cat&any_academic=2024_25&idioma=eng
+2025-08-12 23:30:53,872 - src.extractors.subject_extractor - INFO - 🔍 Detected URV URL - attempting contents extraction
+2025-08-12 23:30:53,872 - src.extractors.subject_extractor - INFO - 🔍 Fetching URV contents from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&fitxa_apartat=57
+2025-08-12 23:30:54,398 - src.extractors.urv_extractor - INFO - ✅ Contents table found with Topic/Sub-topic headers
+2025-08-12 23:30:54,399 - src.extractors.subject_extractor - INFO - ✅ URV contents extracted successfully
+2025-08-12 23:30:54,399 - src.extractors.subject_extractor - INFO - 🔍 Fetching URV objectives from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&fitxa_apartat=56
+2025-08-12 23:30:54,938 - src.extractors.subject_extractor - INFO - ✅ URV objectives extracted successfully
+2025-08-12 23:30:54,938 - src.extractors.subject_extractor - INFO - 🔍 Fetching URV competences from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&fitxa_apartat=55
+2025-08-12 23:30:55,476 - src.extractors.urv_extractor - INFO - ✅ Fallback table found with Verdana class cells
+2025-08-12 23:30:55,477 - src.extractors.subject_extractor - INFO - ✅ URV competences extracted successfully
+2025-08-12 23:31:03,085 - main - INFO - 🔵 [MAIN] Temática principal identificada: {'core_topic': 'Programming Fundamentals', 'key_contents': 'Variables, Control Structures, Conditionals, Loops, Procedures', 'application_domain': 'Software Development'}
+2025-08-12 23:31:03,085 - main - INFO - 🔵 [MAIN] Fase 3: Comparando temáticas
+2025-08-12 23:31:03,085 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+2025-08-12 23:31:03,085 - src.extractors.subject_extractor - INFO - 🔍 Processing non-URV URL, searching for content sections
+2025-08-12 23:31:03,303 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+2025-08-12 23:31:03,303 - src.extractors.subject_extractor - INFO - 🔍 Processing non-URV URL, searching for content sections
+2025-08-12 23:31:03,508 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+2025-08-12 23:31:03,508 - src.extractors.subject_extractor - INFO - 🔍 Processing non-URV URL, searching for content sections
+2025-08-12 23:31:03,807 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1
+2025-08-12 23:31:03,807 - src.extractors.subject_extractor - INFO - 🔍 Processing non-URV URL, searching for content sections
+2025-08-12 23:31:04,006 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC
+2025-08-12 23:31:04,006 - src.extractors.subject_extractor - INFO - 🔍 Processing non-URV URL, searching for content sections
+2025-08-12 23:31:22,619 - src.comparators.theme_comparator - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Physics': 0.15
+2025-08-12 23:31:39,865 - src.comparators.theme_comparator - INFO - Raw LLM response for theme comparison: 0.14
+2025-08-12 23:31:39,865 - src.comparators.theme_comparator - INFO - Extracted LLM score: 0.14
+2025-08-12 23:31:39,865 - src.comparators.theme_comparator - INFO - Theme comparison - Embedding: {'core_topic': np.float64(0.5067117777347716), 'key_contents': np.float64(0.5135465543014787), 'application_domain': np.float64(0.5078098435897995)}, LLM: 0.14, Title: 0.15, Final: 0.31
+2025-08-12 23:31:39,866 - main - INFO - 🔵 [MAIN] Comparación temática: Physics - Similitud: 0.31
+2025-08-12 23:31:40,021 - src.comparators.theme_comparator - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Fundamentals Of Mathematics': 0.63
+2025-08-12 23:31:43,429 - src.comparators.theme_comparator - INFO - Raw LLM response for theme comparison: "0.43"
+2025-08-12 23:31:43,429 - src.comparators.theme_comparator - INFO - Extracted LLM score: 0.43
+2025-08-12 23:31:43,429 - src.comparators.theme_comparator - INFO - Theme comparison - Embedding: {'core_topic': np.float64(0.4999432508089641), 'key_contents': np.float64(0.6685720344855818), 'application_domain': np.float64(0.45841766671408846)}, LLM: 0.43, Title: 0.63, Final: 0.51
+2025-08-12 23:31:43,429 - main - INFO - 🔵 [MAIN] Comparación temática: Fundamentals Of Mathematics - Similitud: 0.51
+2025-08-12 23:31:43,662 - src.comparators.theme_comparator - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Introduction To Computers': 0.17
+2025-08-12 23:31:46,941 - src.comparators.theme_comparator - INFO - Raw LLM response for theme comparison: 0.43
+2025-08-12 23:31:46,941 - src.comparators.theme_comparator - INFO - Extracted LLM score: 0.43
+2025-08-12 23:31:46,941 - src.comparators.theme_comparator - INFO - Theme comparison - Embedding: {'core_topic': np.float64(0.5248887437425453), 'key_contents': np.float64(0.6192677577787626), 'application_domain': np.float64(0.6636496354563017)}, LLM: 0.43, Title: 0.17, Final: 0.48
+2025-08-12 23:31:46,941 - main - INFO - 🔵 [MAIN] Comparación temática: Introduction To Computers - Similitud: 0.48
+2025-08-12 23:31:47,178 - src.comparators.theme_comparator - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Programming I': 0.57
+2025-08-12 23:31:50,602 - src.comparators.theme_comparator - INFO - Raw LLM response for theme comparison: 0.83
+2025-08-12 23:31:50,602 - src.comparators.theme_comparator - INFO - Extracted LLM score: 0.83
+2025-08-12 23:31:50,602 - src.comparators.theme_comparator - INFO - Theme comparison - Embedding: {'core_topic': np.float64(1.0000000000000007), 'key_contents': np.float64(0.7136688889719334), 'application_domain': np.float64(1.000000000000001)}, LLM: 0.83, Title: 0.57, Final: 0.83
+2025-08-12 23:31:50,602 - main - INFO - 🔵 [MAIN] Comparación temática: Programming I - Similitud: 0.83
+2025-08-12 23:31:52,172 - src.comparators.theme_comparator - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Computer Organization': 0.26
+2025-08-12 23:31:55,410 - src.comparators.theme_comparator - INFO - Raw LLM response for theme comparison: "0.83"
+2025-08-12 23:31:55,410 - src.comparators.theme_comparator - INFO - Extracted LLM score: 0.83
+2025-08-12 23:31:55,410 - src.comparators.theme_comparator - INFO - Theme comparison - Embedding: {'core_topic': np.float64(0.5248887437425453), 'key_contents': np.float64(0.5659912994155404), 'application_domain': np.float64(1.000000000000001)}, LLM: 0.83, Title: 0.26, Final: 0.69
+2025-08-12 23:31:55,410 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Organization - Similitud: 0.69
+2025-08-12 23:31:55,410 - main - INFO - 🔵 [MAIN] Asignaturas relevantes encontradas: 2
+2025-08-12 23:31:55,410 - main - INFO - 🔵 [MAIN] Fase 4: Extrayendo detalles asignatura principal
+2025-08-12 23:32:29,147 - main - INFO - 🔵 [MAIN] Fase 5: Procesando asignaturas relevantes
+2025-08-12 23:32:29,147 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1
+2025-08-12 23:32:29,148 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC
+2025-08-12 23:32:29,148 - src.extractors.subject_extractor - INFO - 🔍 Processing non-URV URL, searching for content sections
+2025-08-12 23:32:29,148 - src.extractors.subject_extractor - INFO - 🔍 Processing non-URV URL, searching for content sections
+2025-08-12 23:33:28,006 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-08-12 23:33:28,006 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-08-12 23:33:28,006 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-08-12 23:33:28,006 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-08-12 23:33:28,367 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.7095542142446501), 'objectives': np.float64(0.6012692767278695), 'competences': np.float64(0.4095602550228466)}
+2025-08-12 23:33:28,367 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Puntuación final: 0.8574526491415835
+2025-08-12 23:33:28,368 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-08-12 23:33:28,368 - src.comparators.content_comparator - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-08-12 23:33:55,009 - src.comparators.content_comparator - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 26.64s
+2025-08-12 23:33:55,009 - src.comparators.content_comparator - WARNING - 🟠 [EMBED-QA] Respuesta cruda del LLM:
+{
+    "similitudes_tecnicas": ["Programming concepts", "Data structures"],
+    "diferencias_sustanciales": ["Computer organization is not covered in Subject 1", "Arrays are only briefly mentioned in Subject 2"],
+    "advertencias": [],
+    "explicacion": "The thematic similarity between the two subjects lies in their focus on programming fundamentals and data structures. Both subjects cover topics such as variables, control structures, and sequences, indicating a strong connection. However, the primary difference is that Subject 1 delves deeper into programming concepts and algorithms, while Subject 2 focuses on computer organization and architecture. The similarity score of 0.86 reflects this balance between similarities and differences."
+2025-08-12 23:33:55,009 - src.utils.json_utils - WARNING - Strict JSON parsing failed: Expecting ',' delimiter: line 5 column 514 (char 749)
+2025-08-12 23:33:55,014 - src.utils.json_utils - WARNING - JSON5 parsing failed: <string>:5 Unexpected end of input at column 514
+2025-08-12 23:33:55,018 - src.comparators.content_comparator - INFO - 🟠 [EMBED-QA] Similitudes técnicas recibidas: ['Programming concepts', 'Data structures']
+2025-08-12 23:33:55,018 - src.comparators.content_comparator - INFO - 🟠 [EMBED-QA] Diferencias sustanciales recibidas: ['Computer organization is not covered in Subject 1', 'Arrays are only briefly mentioned in Subject 2']
+2025-08-12 23:33:55,018 - src.comparators.content_comparator - INFO - 🟠 [EMBED-QA] Análisis parseado correctamente
+2025-08-12 23:33:55,018 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.8575), 'components': {'contents': np.float64(0.7095542142446501), 'objectives': np.float64(0.6012692767278695), 'competences': np.float64(0.4095602550228466)}, 'llm_analysis': {'similitudes_tecnicas': ['Programming concepts', 'Data structures'], 'diferencias_sustanciales': ['Computer organization is not covered in Subject 1', 'Arrays are only briefly mentioned in Subject 2'], 'advertencias': [], 'explicacion': 'The thematic similarity between the two subjects lies in their focus on programming fundamentals and data structures. Both subjects cover topics such as variables, control structures, and sequences, indicating a strong connection. However, the primary difference is that Subject 1 delves deeper into programming concepts and algorithms, while Subject 2 focuses on computer organization and architecture. The similarity score of 0.86 reflects this balance between similarities and differences.'}, 'explanation': 'The thematic similarity between the two subjects lies in their focus on programming fundamentals and data structures. Both subjects cover topics such as variables, control structures, and sequences, indicating a strong connection. However, the primary difference is that Subject 1 delves deeper into programming concepts and algorithms, while Subject 2 focuses on computer organization and architecture. The similarity score of 0.86 reflects this balance between similarities and differences.'}
+2025-08-12 23:33:55,022 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-08-12 23:33:55,022 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-08-12 23:33:55,022 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-08-12 23:33:55,022 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-08-12 23:33:55,204 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.7555389994241638), 'objectives': np.float64(0.6976750908581393), 'competences': np.float64(0.44678956770609757)}
+2025-08-12 23:33:55,204 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Puntuación final: 0.9577553307915094
+2025-08-12 23:33:55,204 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-08-12 23:33:55,204 - src.comparators.content_comparator - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-08-12 23:34:21,579 - src.comparators.content_comparator - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 26.37s
+2025-08-12 23:34:21,579 - src.comparators.content_comparator - WARNING - 🟠 [EMBED-QA] Respuesta cruda del LLM:
+{
+    "similitudes_tecnicas": ["Programming fundamentals", "Data structures"],
+    "diferencias_sustanciales": ["Subject 1 covers structs, while Subject 2 does not mention them explicitly"],
+    "advertencias": [],
+    "explicacion": "The thematic similarity between the two subjects is evident in their programming fundamentals and data structure contents. Both subjects cover basic programming concepts, such as variables, control structures, and sequences. However, Subject 1 delves deeper into structs, which are not explicitly mentioned in Subject 2. The objectives of both subjects also align, focusing on designing and implementing programs, managing data structures, and using IT to share information. The balanced analysis of similarities and differences yields a score of 0.96."
+2025-08-12 23:34:21,579 - src.utils.json_utils - WARNING - Strict JSON parsing failed: Expecting ',' delimiter: line 5 column 574 (char 788)
+2025-08-12 23:34:21,584 - src.utils.json_utils - WARNING - JSON5 parsing failed: <string>:5 Unexpected end of input at column 574
+2025-08-12 23:34:21,588 - src.comparators.content_comparator - INFO - 🟠 [EMBED-QA] Similitudes técnicas recibidas: ['Programming fundamentals', 'Data structures']
+2025-08-12 23:34:21,588 - src.comparators.content_comparator - INFO - 🟠 [EMBED-QA] Diferencias sustanciales recibidas: ['Subject 1 covers structs, while Subject 2 does not mention them explicitly']
+2025-08-12 23:34:21,589 - src.comparators.content_comparator - INFO - 🟠 [EMBED-QA] Análisis parseado correctamente
+2025-08-12 23:34:21,589 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.9578), 'components': {'contents': np.float64(0.7555389994241638), 'objectives': np.float64(0.6976750908581393), 'competences': np.float64(0.44678956770609757)}, 'llm_analysis': {'similitudes_tecnicas': ['Programming fundamentals', 'Data structures'], 'diferencias_sustanciales': ['Subject 1 covers structs, while Subject 2 does not mention them explicitly'], 'advertencias': [], 'explicacion': 'The thematic similarity between the two subjects is evident in their programming fundamentals and data structure contents. Both subjects cover basic programming concepts, such as variables, control structures, and sequences. However, Subject 1 delves deeper into structs, which are not explicitly mentioned in Subject 2. The objectives of both subjects also align, focusing on designing and implementing programs, managing data structures, and using IT to share information. The balanced analysis of similarities and differences yields a score of 0.96.'}, 'explanation': 'The thematic similarity between the two subjects is evident in their programming fundamentals and data structure contents. Both subjects cover basic programming concepts, such as variables, control structures, and sequences. However, Subject 1 delves deeper into structs, which are not explicitly mentioned in Subject 2. The objectives of both subjects also align, focusing on designing and implementing programs, managing data structures, and using IT to share information. The balanced analysis of similarities and differences yields a score of 0.96.'}
+2025-08-12 23:34:21,591 - main - INFO - 🟢 [MAIN] Comparación completada y guardada en la base de datos

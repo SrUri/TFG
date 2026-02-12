@@ -1,0 +1,213 @@
+INFO:     127.0.0.1:50841 - "OPTIONS /compare HTTP/1.1" 200 OK
+📚 Extrayendo asignaturas básicas de la guía docente: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+🔗 Encolando asignatura: 'Programming I' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1
+🔗 Encolando asignatura: 'Computer Organization' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC
+🔗 Encolando asignatura: 'Mathematics I' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M1
+🔗 Encolando asignatura: 'Mathematics II' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M2
+🔗 Encolando asignatura: 'Programming II' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO2
+🔗 Encolando asignatura: 'Databases' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/BD
+🔗 Encolando asignatura: 'Computer Interfacing' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/CI
+🔗 Encolando asignatura: 'Data Structures and Algorithmics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EDA
+🔗 Encolando asignatura: 'Probability and Statistics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PE
+🔗 Encolando asignatura: 'Operating Systems' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/SO
+🔗 Encolando asignatura: 'Computer Architecture' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/AC
+🔗 Encolando asignatura: 'Business and Economic Environment' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EEE
+🔗 Encolando asignatura: 'Interaction and Interface Design' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IDI
+🔗 Encolando asignatura: 'Introduction to Software Engineering' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IES
+🔗 Encolando asignatura: 'Computer Networks' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/XC
+🔗 Encolando asignatura: 'Parallelism' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PAR
+🔗 Encolando asignatura: 'Programming Projects' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PROP
+🔍 Procesando asignatura principal: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+Theme subject:
+ "Physics"
+🎯 Temática principal identificada: Physics
+🔎 Comparando temáticas con asignaturas de la guía
+Theme subject:
+ "Physics and Informatics"
+Theme subject:
+ "Mathematics Fundamentals"
+Theme subject:
+ "Computer Science"
+Theme subject:
+ "Software programming"
+LLM similarity score: 0.9
+🔗 Physics: Physics and Informatics (similitud: 0.90)
+Theme subject:
+ "Computer Organization"
+Theme subject:
+ "Mathematics and Computing"
+Theme subject:
+ "Mathematics and Computing"
+Theme subject:
+ "Software programming"
+LLM similarity score: 0.3
+🔗 Fundamentals of Mathematics: Mathematics Fundamentals (similitud: 0.30)
+Theme subject:
+ "Database Systems"
+Theme subject:
+ "Computer Interfacing"
+Theme subject:
+ "Data Structures"
+Theme subject:
+ "Operating Systems"
+LLM similarity score: 0.3
+🔗 Introduction to Computers: Computer Science (similitud: 0.30)
+Theme subject:
+ "Interaction Design"
+Theme subject:
+ "Probability and Statistics"
+Theme subject:
+ "Software Engineering"
+Theme subject:
+ "Computer Architecture"
+LLM similarity score: 0.0
+🔗 Programming I: Software programming (similitud: 0.00)
+Theme subject:
+ "Software programming"
+Theme subject:
+ "Software Engineering"
+Theme subject:
+ "Computer Networks"
+Theme subject:
+ "Software Engineering"
+LLM similarity score: 0.2
+🔗 Computer Organization: Computer Organization (similitud: 0.20)
+LLM similarity score: 0.3
+🔗 Mathematics II: Mathematics and Computing (similitud: 0.30)
+LLM similarity score: 0.3
+🔗 Mathematics I: Mathematics and Computing (similitud: 0.30)
+LLM similarity score: 0.0
+🔗 Programming II: Software programming (similitud: 0.00)
+LLM similarity score: 0.05
+🔗 Databases: Database Systems (similitud: 0.05)
+LLM similarity score: 0.2
+🔗 Computer Interfacing: Computer Interfacing (similitud: 0.20)
+LLM similarity score: 0.05
+🔗 Data Structures and Algorithmics: Data Structures (similitud: 0.05)
+LLM similarity score: 0.02
+🔗 Operating Systems: Operating Systems (similitud: 0.02)
+LLM similarity score: 0.05
+🔗 Interaction and Interface Design: Interaction Design (similitud: 0.05)
+LLM similarity score: 0.3
+🔗 Probability and Statistics: Probability and Statistics (similitud: 0.30)
+LLM similarity score: 0.0
+🔗 Business and Economic Environment: Software Engineering (similitud: 0.00)
+LLM similarity score: 0.3
+🔗 Computer Architecture: Computer Architecture (similitud: 0.30)
+LLM similarity score: 0.02
+🔗 Programming Projects: Software programming (similitud: 0.02)
+LLM similarity score: 0.0
+🔗 Introduction to Software Engineering: Software Engineering (similitud: 0.00)
+LLM similarity score: 0.05
+🔗 Computer Networks: Computer Networks (similitud: 0.05)
+LLM similarity score: 0.05
+🔗 Parallelism: Software Engineering (similitud: 0.05)
+✅ Asignaturas relevantes encontradas: 1
+📝 Extrayendo detalles completos de la asignatura principal
+Detected language: en
+Raw model response:
+ {
+    "PHYSICS": {
+        "competences": [
+            "Design and implement relational databases using SQL",
+            "Apply fundamental concepts of Physics to Information Technologies Engineering",
+            "Analyze and solve problems related to Physics and Information Technologies Engineering"
+        ],
+        "objectives": [
+            "Design a database schema for a given problem",
+            "Implement a relational database using SQL",
+            "Analyze the behavior of physical systems and apply mathematical models to predict their performance",
+            "Solve problems related to Physics and Information Technologies Engineering",
+            "Apply fundamental concepts of Physics to real-world problems in Information Technologies Engineering"
+        ],
+        "contents": {
+            "Module 1: Introduction to Physics and Information Technologies Engineering": [
+                "Fundamental concepts of Physics",
+                "Introduction to Information Technologies Engineering",
+                "Relationship between Physics and Information Technologies Engineering"
+            ],
+            "Module 2: Database Systems": [
+                "Database design principles",
+                "Relational database management systems",
+                "SQL programming language"
+            ],
+            "Module 3: Physical Systems Analysis": [
+                "Physical system modeling",
+                "Mathematical models for physical systems",
+                "Analysis and simulation of physical systems"
+            ]
+        }
+    }
+}
+Detected language: tl
+⚙️ Extrayendo detalles completos de asignaturas relevantes
+Detected language: en
+Raw model response:
+ {
+    "Physics": {
+        "competences": [
+            "Design and implement relational databases using SQL",
+            "Apply mathematical models to describe physical phenomena",
+            "Analyze and interpret experimental data"
+        ],
+        "objectives": [
+            "Design a physics experiment to measure a specific physical quantity",
+            "Implement a numerical method to solve a differential equation",
+            "Analyze the results of an experiment and draw conclusions about the underlying physical principles"
+        ],
+        "contents": {
+            "Module 1: Introduction to Physics": ["Introduction to the field of physics", "Physical quantities and units"],
+            "Module 2: Mechanics": ["Newton's laws of motion", "Energy and momentum"],
+            "Module 3: Thermodynamics": ["Thermodynamic systems", "Heat transfer and energy conversion"],
+            "Module 4: Electromagnetism": ["Electric charges and currents", "Magnetic fields and forces"],
+            "Module 5: Quantum Mechanics": ["Wave-particle duality", "Schrödinger equation"],
+            "Module 6: Statistical Physics": ["Thermodynamic equilibrium", "Statistical mechanics"]
+        }
+    }
+}
+INFO:embedding:Iniciando cálculo de similitud estricto...
+INFO:embedding:Extrayendo componentes con validación estricta...
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+WARNING:embedding:Campo competences no cumple con el mínimo de contenido
+WARNING:embedding:Campo objectives no cumple con el mínimo de contenido
+WARNING:embedding:Campo contents no cumple con el mínimo de contenido
+WARNING:embedding:Campo name no cumple con el mínimo de contenido
+WARNING:embedding:Campo competences no cumple con el mínimo de contenido
+WARNING:embedding:Campo objectives no cumple con el mínimo de contenido
+WARNING:embedding:Campo contents no cumple con el mínimo de contenido
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings con umbrales estrictos...
+WARNING:embedding:Uno de los textos está vacío, devolviendo 0
+WARNING:embedding:Uno de los textos está vacío, devolviendo 0
+WARNING:embedding:Uno de los textos está vacío, devolviendo 0
+INFO:embedding:Puntuaciones crudas estrictas: {'contents': 0.0, 'objectives': 0.0, 'competences': 0.0}
+INFO:embedding:Iniciando análisis cualitativo estricto con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo estricto...
+INFO:embedding:Respuesta LLM estricta recibida en 30.65s
+ERROR:embedding:Error decodificando JSON estricto: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["Utilización de algoritmos para resolver problemas", "Análisis de datos para tomar decisiones"],
+    "diferencias_sustanciales": ["La Asignatura 1 se enfoca en la optimización de procesos, mientras que la Asignatura 2 se centra en el análisis predictivo"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que aunque haya similitudes técnicas, las diferencias sustanciales pueden afectar significativamente el enfoque y los resultados"]
+}
+
+Nota: He analizado con extrema rigurosidad y no he encontrado similitudes más allá de la utilización de algoritmos y análisis de datos. Las diferencias sustanciales son significativas, lo que reduce la coincidencia real a un 60%.
+INFO:embedding:Puntuación final estricta calculada: 0.0
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Generando explicación estricta...
+INFO:embedding:Explicación estricta generada en 52.04s
+INFO:embedding:Proceso estricto completado en 82.69 segundos
+INFO:     127.0.0.1:50841 - "POST /compare HTTP/1.1" 200 OK

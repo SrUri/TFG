@@ -1,0 +1,132 @@
+INFO:     127.0.0.1:49723 - "OPTIONS /compare HTTP/1.1" 200 OK
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+Detected language: sl
+Detected language: sl
+Detected language: en
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "Develop problem-solving skills, understand the basics of computer systems and programming languages.",
+        "objectives": [
+            "Understand the fundamental concepts of computers",
+            "Learn basic programming concepts",
+            "Develop problem-solving skills"
+        ],
+        "contents": [
+            "Introduction to computer systems",
+            "Programming fundamentals",
+            "Problem-solving techniques"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Physics": {
+        "competences": "",
+        "objectives": [
+            "To understand the fundamental laws of physics and their applications",
+            "To develop problem-solving skills in physics",
+            "To learn to analyze and interpret data",
+            "To understand the role of physics in engineering and technology",
+            "To develop critical thinking and analytical skills"
+        ],
+        "contents": [
+            "Laws of motion and energy",
+            "Mechanics, thermodynamics, electromagnetism, and optics",
+            "Quantum mechanics and relativity",
+            "Applications of physics to engineering and technology"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Develop mathematical skills and problem-solving abilities, understand mathematical concepts and their applications.",
+        "objectives": [
+            "Understand the fundamental principles of mathematics",
+            "Apply mathematical techniques to solve problems",
+            "Develop critical thinking and analytical skills"
+        ],
+        "contents": [
+            "Algebraic structures",
+            "Linear algebra",
+            "Calculus",
+            "Probability theory",
+            "Statistics"
+        ]
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "FUNDAMENTALS OF COMPUTERS": {
+        "competences": "Students will be able to understand the structure, organization, logical design, operation, and interconnection of computers. They will also learn programming and performance of assembly language and use operating systems.",
+        "objectives": [
+            "To understand the basic concepts of computer architecture",
+            "To learn programming in assembly language",
+            "To understand the use of operating systems",
+            "To develop problem-solving skills using logical design principles",
+            "To apply knowledge to real-world problems",
+            "To work effectively in a team environment"
+        ],
+        "contents": [
+            "Structure, organization, and logical design of computers",
+            "Programming and performance of assembly language",
+            "Use of operating systems",
+            "Logical design principles for problem-solving",
+            "Real-world applications of computer architecture concepts"
+        ]
+    }
+}
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "Develop problem-solving skills, understand the basics of computer systems and programming languages.",
+        "objectives": ["Understand the fundamental concepts of computers", "Learn basic programming concepts", "Develop problem-solving skills"],
+        "contents": ["Introduction to computer systems", "Programming fundamentals", "Problem-solving techniques"]
+    },
+    "Physics": {
+        "competences": "",
+        "objectives": ["To understand the fundamental laws of physics and their applications", "To develop problem-solving skills in physics", "To learn to analyze and interpret data", "To understand the role of physics in engineering and technology", "To develop critical thinking and analytical skills"],
+        "contents": ["Laws of motion and energy", "Mechanics, thermodynamics, electromagnetism, and optics", "Quantum mechanics and relativity", "Applications of physics to engineering and technology"]
+    },
+    "Fundamentals of Mathematics": {
+        "competences": "Develop mathematical skills and problem-solving abilities, understand mathematical concepts and their applications.",
+        "objectives": ["Understand the fundamental principles of mathematics", "Apply mathematical techniques to solve problems", "Develop critical thinking and analytical skills"],
+        "contents": ["Algebraic structures", "Linear algebra", "Calculus", "Probability theory", "Statistics"]
+    }
+}
+Detected language: ca
+INFO:embedding:Iniciando cálculo de similitud con prompt unificado...
+ERROR:embedding:Error extrayendo componentes: missing ), unterminated subpattern at position 13
+ERROR:embedding:Error extrayendo componentes: missing ), unterminated subpattern at position 13
+INFO:embedding:Componentes extraídos:
+Texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+Texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Ejecutando análisis completo con LLM...
+INFO:embedding:Puntuación final calculada: 0.02
+INFO:embedding:Iniciando cálculo de similitud con prompt unificado...
+ERROR:embedding:Error extrayendo componentes: missing ), unterminated subpattern at position 13
+ERROR:embedding:Error extrayendo componentes: missing ), unterminated subpattern at position 13
+INFO:embedding:Componentes extraídos:
+Texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+Texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Ejecutando análisis completo con LLM...
+INFO:embedding:Puntuación final calculada: 0.03
+INFO:embedding:Iniciando cálculo de similitud con prompt unificado...
+ERROR:embedding:Error extrayendo componentes: missing ), unterminated subpattern at position 13
+ERROR:embedding:Error extrayendo componentes: missing ), unterminated subpattern at position 13
+INFO:embedding:Componentes extraídos:
+Texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+Texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Ejecutando análisis completo con LLM...
+INFO:embedding:Puntuación final calculada: 0.02
+INFO:     127.0.0.1:49723 - "POST /compare HTTP/1.1" 200 OK

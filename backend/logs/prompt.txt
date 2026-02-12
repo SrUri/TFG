@@ -1,0 +1,57 @@
+    prompt = f"""You are an expert academic information extractor. Read the following syllabus data and extract only **individual subjects** (not specializations, mentions, degree branches, general itineraries, or titles of thematic areas).
+
+A **subject** is a specific academic unit that has its own program, technical content, objectives, etc. Do not confuse a specialization (such as "Computing", "Information Systems", etc.) with a subject. Subjects usually include titles with the name + number of credits, course, or code (for example: "PROGRAMMING I (6 ECTS)", "MATHEMATICAL ANALYSIS II", "PROGRAMMING I - 103481914").
+
+For each detected subject, extract exclusively:
+- Exact name of the subject (without credits or course info)
+- General competences acquired by the student (what skills or capabilities are expected to be developed)
+- Main objectives (what knowledge or skills are expected for the student to acquire)
+- Technical and specific content covered (key topics, blocks or modules, technologies, languages, etc.)
+
+The output must be in this exact format:
+
+{{
+    "Subject Name": {{
+        "competences": "General competences acquired by the student.",
+        "objectives": "Learning objectives for the subject.",
+        "content": "List of topics covered in the subject."
+    }},
+    ...
+}}
+
+Examples of generic "Content" for different subjects:
+- Social Sciences: "Contemporary and classical social theories", "History and evolution of psychology", "Social research methodology", "Public policies and human rights"
+- Natural Sciences: "Fundamentals of cellular and molecular biology", "Theory of evolution and genetics", "Principles of modern physics", "Geological structures and tectonic processes"
+- Mathematics: "Probability theory and distributions", "Linear algebra and matrices", "Differential and integral calculus", "Statistical methods for inference"
+- Arts and Humanities: "History of art and avant-garde movements", "Techniques of artistic expression and graphic design", "Comparative literature and literary theory", "Gender studies and feminism in the humanities"
+- Engineering: "Design and analysis of electronic circuits", "Algorithms and data structures", "Communication networks and computer architecture", "Software development and agile methodologies"
+- Economics and Business: "Microeconomic and macroeconomic theory", "Project management and decision analysis", "Strategic marketing and consumer behavior", "Corporate finance and risk management"
+
+Examples of generic "Objectives":
+- Social Sciences: "Understand key social theories", "Apply social research methods", "Develop skills in public policy analysis", "Study trends in psychology"
+- Natural Sciences: "Apply biological principles in research", "Understand geological processes", "Develop laboratory skills", "Solve problems using physical principles"
+- Mathematics: "Apply algebra and calculus to complex problems", "Use statistical models in various applications", "Develop logical and analytical thinking", "Solve problems using probability"
+- Arts and Humanities: "Analyze literary works from various perspectives", "Develop artistic skills", "Understand philosophical currents", "Apply theories to understand cultural phenomena"
+- Engineering: "Develop skills in electronic system design", "Apply engineering principles to practical problems", "Develop efficient software", "Design and analyze communication networks"
+- Economics and Business: "Apply economic theories to real problems", "Develop project management skills", "Foster strategic analysis skills", "Understand consumer behavior"
+
+Examples of generic "Competences":
+- Social Sciences: "Capacity for critical analysis of social phenomena", "Ability to design and interpret social research", "Communication skills in multicultural contexts"
+- Natural Sciences: "Scientific reasoning and analytical skills", "Ability to carry out laboratory experiments", "Interpretation of scientific data and results"
+- Mathematics: "Logical reasoning and abstraction", "Problem-solving skills", "Application of mathematical models to real-world situations"
+- Arts and Humanities: "Creativity and artistic expression", "Capacity for interpretation and analysis of cultural texts", "Development of aesthetic and critical judgment"
+- Engineering: "Problem-solving in technological contexts", "Teamwork and project execution", "Application of mathematical and scientific knowledge in design"
+- Economics and Business: "Strategic and operational decision-making", "Data interpretation for business analysis", "Entrepreneurship and leadership"
+
+Strict Guidelines:
+- Always use **double quotes** for keys and values.
+- Escape internal double quotes as \\"
+- If a field has no information, use ""
+- Do not add text outside the JSON
+- The JSON must be valid and must be readable directly with json.loads()
+
+IMPORTANT: If the source text is in a language other than Spanish (such as Catalan or English), **automatically TRANSLATE** the content to Spanish before returning the JSON.
+
+The input text is as follows:
+{translated_text}
+"""

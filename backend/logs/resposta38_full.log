@@ -1,0 +1,84 @@
+2025-06-03 16:53:55,522 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-06-03 16:53:55,522 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-06-03 16:53:55,522 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-06-03 16:53:55,522 - main - INFO - 🔵 [MAIN] Título asignatura: THE FUNDAMENTALS OF PROGRAMMING I
+2025-06-03 16:53:55,523 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-06-03 16:53:55,523 - src.extractors.guide_extractor - INFO - 📥 Processing guide URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-06-03 16:53:58,227 - src.extractors.html_extractor - INFO - 🔍 Searching for contents header in non-URV content
+2025-06-03 16:53:58,243 - src.extractors.html_extractor - INFO - 📌 Found contents header: 'contents'
+2025-06-03 16:53:58,244 - src.extractors.html_extractor - INFO - ✅ Content extracted from section under contents header
+2025-06-03 16:53:58,244 - src.extractors.guide_extractor - INFO - ✅ Subject processed: Fundamentals of Mathematics
+2025-06-03 16:53:58,275 - src.extractors.html_extractor - INFO - 🔍 Searching for contents header in non-URV content
+2025-06-03 16:53:58,279 - src.extractors.html_extractor - INFO - 📌 Found contents header: 'contents'
+2025-06-03 16:53:58,279 - src.extractors.html_extractor - INFO - ✅ Content extracted from section under contents header
+2025-06-03 16:53:58,279 - src.extractors.guide_extractor - INFO - ✅ Subject processed: Programming I
+2025-06-03 16:53:58,394 - src.extractors.html_extractor - INFO - 🔍 Searching for contents header in non-URV content
+2025-06-03 16:53:58,397 - src.extractors.html_extractor - INFO - 📌 Found contents header: 'contents'
+2025-06-03 16:53:58,398 - src.extractors.html_extractor - INFO - ✅ Content extracted from section under contents header
+2025-06-03 16:53:58,398 - src.extractors.guide_extractor - INFO - ✅ Subject processed: Physics
+2025-06-03 16:53:58,525 - src.extractors.html_extractor - INFO - 🔍 Searching for contents header in non-URV content
+2025-06-03 16:53:58,530 - src.extractors.html_extractor - INFO - 📌 Found contents header: 'contents'
+2025-06-03 16:53:58,531 - src.extractors.html_extractor - INFO - ✅ Content extracted from section under contents header
+2025-06-03 16:53:58,531 - src.extractors.guide_extractor - INFO - ✅ Subject processed: Introduction to Computers
+2025-06-03 16:53:58,531 - src.extractors.guide_extractor - INFO - ✅ Extracted 4 subjects from guide
+2025-06-03 16:53:58,531 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 4
+2025-06-03 16:53:58,531 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-06-03 16:53:58,531 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-06-03 16:53:58,531 - src.extractors.subject_extractor - INFO - 🔍 Detected URV URL - attempting contents extraction
+2025-06-03 16:53:58,531 - src.extractors.subject_extractor - INFO - 🔍 Fetching URV contents from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&fitxa_apartat=57
+2025-06-03 16:53:59,114 - src.extractors.urv_extractor - INFO - ✅ Contents table found with Topic/Sub-topic headers
+2025-06-03 16:53:59,115 - src.extractors.subject_extractor - INFO - ✅ URV contents extracted successfully
+2025-06-03 16:53:59,115 - src.extractors.subject_extractor - INFO - 🔍 Fetching URV objectives from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&fitxa_apartat=56
+2025-06-03 16:53:59,670 - src.extractors.subject_extractor - INFO - ✅ URV objectives extracted successfully
+2025-06-03 16:53:59,670 - src.extractors.subject_extractor - INFO - 🔍 Fetching URV competences from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&fitxa_apartat=55
+2025-06-03 16:54:00,231 - src.extractors.urv_extractor - INFO - ✅ Fallback table found with Verdana class cells
+2025-06-03 16:54:00,232 - src.extractors.subject_extractor - INFO - ✅ URV competences extracted successfully
+2025-06-03 16:54:19,093 - main - INFO - 🔵 [MAIN] Temática principal identificada: {'core_topic': 'Programming Fundamentals', 'key_contents': 'Variables, Control Structures, Conditionals, Loops, Sequences, Arrays', 'application_domain': 'Software Development'}
+2025-06-03 16:54:19,093 - main - INFO - 🔵 [MAIN] Fase 3: Comparando temáticas
+2025-06-03 16:54:34,457 - src.comparators.theme_comparator - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Fundamentals of Mathematics': 0.63
+2025-06-03 16:55:00,972 - src.comparators.theme_comparator - INFO - Raw LLM response for theme comparison: 0.14
+2025-06-03 16:55:00,972 - src.comparators.theme_comparator - INFO - Extracted LLM score: 0.14
+2025-06-03 16:55:00,973 - src.comparators.theme_comparator - INFO - Theme comparison - Embedding: {'core_topic': np.float64(0.49278347869637296), 'key_contents': np.float64(0.6613578620790527), 'application_domain': np.float64(0.5252191531730228)}, LLM: 0.14, Title: 0.63, Final: 0.4
+2025-06-03 16:55:00,973 - main - INFO - 🔵 [MAIN] Comparación temática: Fundamentals of Mathematics - Similitud: 0.40
+2025-06-03 16:55:01,140 - src.comparators.theme_comparator - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Physics': 0.15
+2025-06-03 16:55:05,113 - src.comparators.theme_comparator - INFO - Raw LLM response for theme comparison: "0.14"
+2025-06-03 16:55:05,113 - src.comparators.theme_comparator - INFO - Extracted LLM score: 0.14
+2025-06-03 16:55:05,113 - src.comparators.theme_comparator - INFO - Theme comparison - Embedding: {'core_topic': np.float64(0.7600107629039828), 'key_contents': np.float64(0.5928049403296676), 'application_domain': np.float64(0.4908388879753245)}, LLM: 0.14, Title: 0.15, Final: 0.39
+2025-06-03 16:55:05,113 - main - INFO - 🔵 [MAIN] Comparación temática: Physics - Similitud: 0.39
+2025-06-03 16:55:05,271 - src.comparators.theme_comparator - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Programming I': 0.57
+2025-06-03 16:55:08,893 - src.comparators.theme_comparator - INFO - Raw LLM response for theme comparison: 0.83
+2025-06-03 16:55:08,893 - src.comparators.theme_comparator - INFO - Extracted LLM score: 0.83
+2025-06-03 16:55:08,893 - src.comparators.theme_comparator - INFO - Theme comparison - Embedding: {'core_topic': np.float64(1.0000000000000007), 'key_contents': np.float64(0.861436928985923), 'application_domain': np.float64(1.000000000000001)}, LLM: 0.83, Title: 0.57, Final: 0.86
+2025-06-03 16:55:08,893 - main - INFO - 🔵 [MAIN] Comparación temática: Programming I - Similitud: 0.86
+2025-06-03 16:55:10,776 - src.utils.json_utils - WARNING - No JSON object found in response
+2025-06-03 16:55:10,776 - src.llm.subject_llm - WARNING - JSON decode error on attempt 1: Missing required fields in JSON response
+2025-06-03 16:55:21,766 - src.utils.json_utils - WARNING - No JSON object found in response
+2025-06-03 16:55:21,767 - src.llm.subject_llm - WARNING - JSON decode error on attempt 2: Missing required fields in JSON response
+2025-06-03 16:55:28,986 - src.utils.json_utils - WARNING - No JSON object found in response
+2025-06-03 16:55:28,986 - src.llm.subject_llm - WARNING - JSON decode error on attempt 3: Missing required fields in JSON response
+2025-06-03 16:55:28,986 - src.llm.subject_llm - ERROR - Failed to extract theme after 3 attempts: Missing required fields in JSON response
+2025-06-03 16:55:28,986 - src.comparators.theme_comparator - WARNING - One of the texts is empty, returning 0
+2025-06-03 16:55:28,986 - src.comparators.theme_comparator - INFO - Title similarity between 'THE FUNDAMENTALS OF PROGRAMMING I' and 'Introduction to Computers': 0.17
+2025-06-03 16:55:32,341 - src.comparators.theme_comparator - INFO - Raw LLM response for theme comparison: "0.40"
+2025-06-03 16:55:32,341 - src.comparators.theme_comparator - INFO - Extracted LLM score: 0.4
+2025-06-03 16:55:32,341 - src.comparators.theme_comparator - INFO - Theme comparison - Embedding: {'core_topic': 0.0, 'key_contents': 0.0, 'application_domain': 0.0}, LLM: 0.4, Title: 0.17, Final: 0.18
+2025-06-03 16:55:32,341 - main - INFO - 🔵 [MAIN] Comparación temática: Introduction to Computers - Similitud: 0.18
+2025-06-03 16:55:32,341 - main - INFO - 🔵 [MAIN] Asignaturas relevantes encontradas: 1
+2025-06-03 16:55:32,341 - main - INFO - 🔵 [MAIN] Fase 4: Extrayendo detalles asignatura principal
+2025-06-03 16:56:07,131 - main - INFO - 🔵 [MAIN] Fase 5: Procesando asignaturas relevantes
+2025-06-03 16:56:40,600 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-06-03 16:56:40,601 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-06-03 16:56:40,601 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-06-03 16:56:40,602 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-06-03 16:56:41,040 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.7578003496848259), 'objectives': np.float64(0.49494894074206175), 'competences': np.float64(0.4890363799814698)}
+2025-06-03 16:56:41,040 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-06-03 16:56:41,040 - src.comparators.content_comparator - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-06-03 16:57:01,906 - src.comparators.content_comparator - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 20.87s
+2025-06-03 16:57:01,907 - src.comparators.content_comparator - INFO - 🟠 [EMBED-QA] Análisis parseado correctamente
+2025-06-03 16:57:01,907 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Puntuación final: 0.9292776236404279
+2025-06-03 16:57:01,907 - src.comparators.content_comparator - INFO - 🟠 [EMBED] Generando explicación...
+2025-06-03 16:57:01,907 - src.comparators.content_comparator - INFO - Generando explicación estricta...
+2025-06-03 16:57:26,940 - src.comparators.content_comparator - INFO - Explicación estricta generada en 25.03s
+2025-06-03 16:57:26,941 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.9293), 'components': {'contents': np.float64(0.7578003496848259), 'objectives': np.float64(0.49494894074206175), 'competences': np.float64(0.4890363799814698)}, 'llm_analysis': {'similitudes_tecnicas': ['Introduction to programming', 'Data', 'Control structures', 'Sequences and arrays', 'Procedures', 'Structs'], 'diferencias_sustanciales': ['Basic algorithms I', 'Tuples'], 'coincidencia_real': 85.5, 'advertencias': []}, 'explanation': '{\n  "explicacion": {\n    "Asignatura A: THE FUNDAMENTALS OF PROGRAMMING I": {\n      "Coincidencias TÉCNICAS REALES": [\n        "Introduction to programming",\n        "Data",\n        "Control structures",\n        "Sequences and arrays",\n        "Procedures"\n      ],\n      "Diferencias": [\n        "Basic algorithms I",\n        "Tuples"\n      ]\n    }\n  },\n  "conclusion_practica": {\n    "La asignatura A y la asignatura B comparten una gran cantidad de conceptos técnicos, lo que sugiere una alta similitud entre ellas. Sin embargo, la presencia de \'Basic algorithms I\' y \'Tuples\' en la asignatura A indica que hay diferencias sustanciales entre ambas. En conclusión, aunque las asignaturas compartan muchos conceptos básicos, es importante considerar las diferencias para tener una comprensión precisa de su contenido."\n  }\n}'}
+2025-06-03 16:57:26,951 - main - INFO - 🟢 [MAIN] Comparación completada y guardada en la base de datos

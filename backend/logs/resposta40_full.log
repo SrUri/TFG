@@ -1,0 +1,451 @@
+2025-06-05 16:01:58,686 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-06-05 16:01:58,686 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-06-05 16:01:58,686 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-06-05 16:01:58,686 - main - INFO - 🔵 [MAIN] Título asignatura: THE FUNDAMENTALS OF PROGRAMMING I
+2025-06-05 16:01:58,686 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-06-05 16:01:58,686 - src.extractors.guide_extractor - INFO - 🔵 Procesando guía de grado (genérico): https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-06-05 16:01:58,686 - src.extractors.guide_extractor - INFO - 🔵 Procesando todos los enlaces de la página: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-06-05 16:01:59,000 - src.extractors.guide_extractor - INFO - 🔗 Enlace candidato: texto='physics', url='https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F', contexto='<td class=name>  <a href=https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F>   Physics  </a> </td>...'
+2025-06-05 16:01:59,000 - src.extractors.guide_extractor - INFO - 🔗 Enlace candidato: texto='fundamentals of mathematics', url='https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM', contexto='<td class=name>  <a href=https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM>   Fundamentals of Mathematics  </a> </td>...'
+2025-06-05 16:01:59,000 - src.extractors.guide_extractor - INFO - 🔗 Enlace candidato: texto='introduction to computers', url='https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC', contexto='<td class=name>  <a href=https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC>   Introduction to Computers  </a> </td>...'
+2025-06-05 16:01:59,000 - src.extractors.guide_extractor - INFO - 🔗 Enlace candidato: texto='programming i', url='https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1', contexto='<td class=name>  <a href=https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1>   Programming I  </a> </td>...'
+2025-06-05 16:01:59,000 - src.extractors.guide_extractor - INFO - 🔗 Enlace candidato: texto='computer organization', url='https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC', contexto='<td class=name>  <a href=https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC>   Computer Organization  </a> </td>...'
+2025-06-05 16:01:59,000 - src.extractors.guide_extractor - INFO - 🔗 Enlace candidato: texto='mathematics i', url='https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M1', contexto='<td class=name>  <a href=https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M1>   Mathematics I  </a> </td>...'
+2025-06-05 16:01:59,001 - src.extractors.guide_extractor - INFO - 🔗 Enlace candidato: texto='mathematics ii', url='https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M2', contexto='<td class=name>  <a href=https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M2>   Mathematics II  </a> </td>...'
+2025-06-05 16:01:59,001 - src.extractors.guide_extractor - INFO - 🔗 Enlace candidato: texto='programming ii', url='https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO2', contexto='<td class=name>  <a href=https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO2>   Programming II  </a> </td>...'
+2025-06-05 16:01:59,001 - src.extractors.guide_extractor - INFO - 🔗 Enlace candidato: texto='databases', url='https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/BD', contexto='<td class=name>  <a href=https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/BD>   Databases  </a> </td>...'
+2025-06-05 16:01:59,001 - src.extractors.guide_extractor - INFO - 🔗 Enlace candidato: texto='computer interfacing', url='https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/CI', contexto='<td class=name>  <a href=https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/CI>   Computer Interfacing  </a> </td>...'
+2025-06-05 16:01:59,001 - src.extractors.guide_extractor - INFO - 🔵 Límite de 10 enlaces alcanzado
+2025-06-05 16:01:59,001 - src.extractors.guide_extractor - INFO - ✅ Extraídos 10 enlaces tras pre-filtrado
+2025-06-05 16:01:59,001 - src.extractors.guide_extractor - INFO - 🔍 Candidatos iniciales: 10 enlaces
+2025-06-05 16:01:59,001 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F (texto='physics...')
+2025-06-05 16:01:59,001 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "physics"
+  - Absolute URL: "https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F"
+  - HTML context: "Physics"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a course page, suc...
+2025-06-05 16:01:59,001 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM (texto='fundamentals of mathematics...')
+2025-06-05 16:01:59,001 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "fundamentals of mathematics"
+  - Absolute URL: "https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM"
+  - HTML context: "Fundamentals of Mathematics"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contai...
+2025-06-05 16:01:59,002 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC (texto='introduction to computers...')
+2025-06-05 16:01:59,002 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "introduction to computers"
+  - Absolute URL: "https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC"
+  - HTML context: "Introduction to Computers"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains k...
+2025-06-05 16:01:59,002 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1 (texto='programming i...')
+2025-06-05 16:01:59,002 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "programming i"
+  - Absolute URL: "https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1"
+  - HTML context: "Programming I"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a c...
+2025-06-05 16:03:01,159 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-06-05 16:03:01,159 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC (texto='computer organization...')
+2025-06-05 16:03:01,160 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "computer organization"
+  - Absolute URL: "https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC"
+  - HTML context: "Computer Organization"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords ...
+2025-06-05 16:03:55,094 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-06-05 16:03:55,095 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M1 (texto='mathematics i...')
+2025-06-05 16:03:55,095 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M1:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "mathematics i"
+  - Absolute URL: "https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M1"
+  - HTML context: "Mathematics I"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a cou...
+2025-06-05 16:04:03,833 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-06-05 16:04:03,835 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M2 (texto='mathematics ii...')
+2025-06-05 16:04:03,835 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M2:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "mathematics ii"
+  - Absolute URL: "https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M2"
+  - HTML context: "Mathematics II"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a c...
+2025-06-05 16:05:00,935 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/EC: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-06-05 16:05:00,935 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO2 (texto='programming ii...')
+2025-06-05 16:05:00,935 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO2:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "programming ii"
+  - Absolute URL: "https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO2"
+  - HTML context: "Programming II"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a...
+2025-06-05 16:05:25,576 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-06-05 16:05:25,577 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/BD (texto='databases...')
+2025-06-05 16:05:25,577 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/BD:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "databases"
+  - Absolute URL: "https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/BD"
+  - HTML context: "Databases"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a course page...
+2025-06-05 16:06:02,842 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M1: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-06-05 16:06:02,842 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/CI (texto='computer interfacing...')
+2025-06-05 16:06:02,842 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/CI:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "computer interfacing"
+  - Absolute URL: "https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/CI"
+  - HTML context: "Computer Interfacing"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords in...
+2025-06-05 16:06:29,951 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/M2: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-06-05 16:07:01,950 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO2: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-06-05 16:07:34,356 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/BD: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-06-05 16:07:40,070 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/CI: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-06-05 16:07:40,071 - src.extractors.guide_extractor - INFO - 🔍 Candidatos tras eliminar duplicados: 0 enlaces
+2025-06-05 16:07:40,071 - src.extractors.guide_extractor - INFO - 🟢 Extraídas 0 asignaturas tras LLM
+2025-06-05 16:07:40,071 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 0
+2025-06-05 16:07:40,071 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-06-05 16:07:40,071 - main - INFO - 🔵 [MAIN] Asignaturas con contenido extraído: 0
+2025-06-05 16:07:40,071 - src.extractors.subject_extractor - INFO - 📥 Processing subject URL: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-06-05 16:07:40,071 - src.extractors.subject_extractor - INFO - 🔍 Detected URV URL - attempting contents extraction
+2025-06-05 16:07:40,071 - src.extractors.subject_extractor - INFO - 🔍 Fetching URV contents from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&fitxa_apartat=57
+2025-06-05 16:07:40,656 - src.extractors.urv_extractor - INFO - ✅ Contents table found with Topic/Sub-topic headers
+2025-06-05 16:07:40,657 - src.extractors.subject_extractor - INFO - ✅ URV contents extracted successfully
+2025-06-05 16:07:40,657 - src.extractors.subject_extractor - INFO - 🔍 Fetching URV objectives from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&fitxa_apartat=56
+2025-06-05 16:07:41,230 - src.extractors.subject_extractor - INFO - ✅ URV objectives extracted successfully
+2025-06-05 16:07:41,231 - src.extractors.subject_extractor - INFO - 🔍 Fetching URV competences from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&fitxa_apartat=55
+2025-06-05 16:07:41,786 - src.extractors.urv_extractor - INFO - ✅ Fallback table found with Verdana class cells
+2025-06-05 16:07:41,786 - src.extractors.subject_extractor - INFO - ✅ URV competences extracted successfully
+2025-06-05 16:07:51,805 - main - INFO - 🔵 [MAIN] Temática principal identificada: {'core_topic': 'Programming Fundamentals', 'key_contents': 'Variables, Control Structures, Sequences and arrays, Procedures', 'application_domain': 'Software Development'}
+2025-06-05 16:07:51,805 - main - INFO - 🔵 [MAIN] Fase 3: Comparando temáticas
+2025-06-05 16:07:51,805 - main - INFO - 🔵 [MAIN] Asignaturas relevantes encontradas: 0
+2025-06-05 16:07:51,805 - main - INFO - 🔵 [MAIN] Fase 4: Extrayendo detalles asignatura principal
+2025-07-27 20:37:12,858 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-07-27 20:37:12,859 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234001&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-07-27 20:37:12,859 - main - INFO - 🔵 [MAIN] URL2: https://fit.cvut.cz/en/studies/programs-and-specializations/bachelor/16597-computer-engineering/study-plan
+2025-07-27 20:37:12,859 - main - INFO - 🔵 [MAIN] Título asignatura: FONAMENTS DE PROGRAMACIO
+2025-07-27 20:37:12,859 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-07-27 20:37:12,859 - src.extractors.guide_extractor - INFO - 🔵 Procesando guía de grado (genérico): https://fit.cvut.cz/en/studies/programs-and-specializations/bachelor/16597-computer-engineering/study-plan
+2025-07-27 20:37:12,859 - src.extractors.guide_extractor - INFO - 🔵 Procesando todos los enlaces de la página (casos especiales): https://fit.cvut.cz/en/studies/programs-and-specializations/bachelor/16597-computer-engineering/study-plan
+2025-07-27 20:37:15,050 - src.extractors.guide_extractor - INFO - 🔗 Enlace válido detectado: http://bilakniha.cvut.cz/cs/predmet6540506.html
+2025-07-27 20:37:15,050 - src.extractors.guide_extractor - INFO - 🔗 Enlace válido detectado: http://bilakniha.cvut.cz/cs/predmet6540606.html
+2025-07-27 20:37:15,050 - src.extractors.guide_extractor - INFO - 🔗 Enlace válido detectado: http://bilakniha.cvut.cz/cs/predmet6540106.html
+2025-07-27 20:37:15,050 - src.extractors.guide_extractor - INFO - 🔗 Enlace válido detectado: http://bilakniha.cvut.cz/cs/predmet6540206.html
+2025-07-27 20:37:15,050 - src.extractors.guide_extractor - INFO - 🔗 Enlace válido detectado: http://bilakniha.cvut.cz/cs/predmet6548406.html
+2025-07-27 20:37:15,050 - src.extractors.guide_extractor - INFO - 🔗 Enlace válido detectado: http://bilakniha.cvut.cz/cs/predmet6684706.html
+2025-07-27 20:37:15,050 - src.extractors.guide_extractor - INFO - 🔗 Enlace válido detectado: http://bilakniha.cvut.cz/cs/predmet6543606.html
+2025-07-27 20:37:15,051 - src.extractors.guide_extractor - INFO - 🔗 Enlace válido detectado: http://bilakniha.cvut.cz/cs/predmet6540306.html
+2025-07-27 20:37:15,051 - src.extractors.guide_extractor - INFO - 🔗 Enlace válido detectado: http://bilakniha.cvut.cz/cs/predmet6543906.html
+2025-07-27 20:37:15,051 - src.extractors.guide_extractor - INFO - 🔗 Enlace válido detectado: http://bilakniha.cvut.cz/cs/predmet6698906.html
+2025-07-27 20:37:15,051 - src.extractors.guide_extractor - INFO - 🔵 Límite de 10 enlaces alcanzado
+2025-07-27 20:37:15,051 - src.extractors.guide_extractor - INFO - ✅ Extraídos 10 enlaces válidos de casos especiales
+2025-07-27 20:37:15,051 - src.extractors.guide_extractor - INFO - 🔍 Candidatos iniciales: 10 enlaces
+2025-07-27 20:37:15,051 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: http://bilakniha.cvut.cz/cs/predmet6540506.html (texto='programming and algorithmics 1...')
+2025-07-27 20:37:15,051 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para http://bilakniha.cvut.cz/cs/predmet6540506.html:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "programming and algorithmics 1"
+  - Absolute URL: "http://bilakniha.cvut.cz/cs/predmet6540506.html"
+  - HTML context: "Programming and Algorithmics 1"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a course page, such as:
+     • "/syllab...
+2025-07-27 20:37:15,051 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: http://bilakniha.cvut.cz/cs/predmet6540606.html (texto='technological fundamentals of computers...')
+2025-07-27 20:37:15,051 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para http://bilakniha.cvut.cz/cs/predmet6540606.html:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "technological fundamentals of computers"
+  - Absolute URL: "http://bilakniha.cvut.cz/cs/predmet6540606.html"
+  - HTML context: "Technological Fundamentals of Computers"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a course page, such a...
+2025-07-27 20:37:15,051 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: http://bilakniha.cvut.cz/cs/predmet6540106.html (texto='discrete mathematics and logic...')
+2025-07-27 20:37:15,051 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para http://bilakniha.cvut.cz/cs/predmet6540106.html:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "discrete mathematics and logic"
+  - Absolute URL: "http://bilakniha.cvut.cz/cs/predmet6540106.html"
+  - HTML context: "Discrete Mathematics and Logic"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a course page, such as:
+     • "/syllab...
+2025-07-27 20:37:15,052 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: http://bilakniha.cvut.cz/cs/predmet6540206.html (texto='linear algebra 1...')
+2025-07-27 20:37:15,052 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para http://bilakniha.cvut.cz/cs/predmet6540206.html:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "linear algebra 1"
+  - Absolute URL: "http://bilakniha.cvut.cz/cs/predmet6540206.html"
+  - HTML context: "Linear Algebra 1"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a course page, such as:
+     • "/syllabus/"
+     • "/subject/"
+    ...
+2025-07-27 20:38:28,549 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para http://bilakniha.cvut.cz/cs/predmet6540606.html: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-07-27 20:38:28,549 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: http://bilakniha.cvut.cz/cs/predmet6548406.html (texto='sw development technologies...')
+2025-07-27 20:38:28,549 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para http://bilakniha.cvut.cz/cs/predmet6548406.html:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "sw development technologies"
+  - Absolute URL: "http://bilakniha.cvut.cz/cs/predmet6548406.html"
+  - HTML context: "SW Development Technologies"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a course page, such as:
+     • "/syllabus/"
+ ...
+2025-07-27 20:38:28,648 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para http://bilakniha.cvut.cz/cs/predmet6540106.html: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-07-27 20:38:28,648 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: http://bilakniha.cvut.cz/cs/predmet6684706.html (texto='unix-like operating systems...')
+2025-07-27 20:38:28,648 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para http://bilakniha.cvut.cz/cs/predmet6684706.html:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "unix-like operating systems"
+  - Absolute URL: "http://bilakniha.cvut.cz/cs/predmet6684706.html"
+  - HTML context: "Unix-like Operating Systems"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a course page, such as:
+     • "/syllabus/"
+ ...
+2025-07-27 20:39:06,443 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para http://bilakniha.cvut.cz/cs/predmet6540506.html: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-07-27 20:39:06,444 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: http://bilakniha.cvut.cz/cs/predmet6543606.html (texto='computer structures and architectures...')
+2025-07-27 20:39:06,444 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para http://bilakniha.cvut.cz/cs/predmet6543606.html:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "computer structures and architectures"
+  - Absolute URL: "http://bilakniha.cvut.cz/cs/predmet6543606.html"
+  - HTML context: "Computer Structures and Architectures"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a course page, such as:
+ ...
+2025-07-27 20:39:25,211 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para http://bilakniha.cvut.cz/cs/predmet6540206.html: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-07-27 20:39:25,211 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: http://bilakniha.cvut.cz/cs/predmet6540306.html (texto='mathematical analysis 1...')
+2025-07-27 20:39:25,211 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para http://bilakniha.cvut.cz/cs/predmet6540306.html:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "mathematical analysis 1"
+  - Absolute URL: "http://bilakniha.cvut.cz/cs/predmet6540306.html"
+  - HTML context: "Mathematical Analysis 1"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a course page, such as:
+     • "/syllabus/"
+     • "/...
+2025-07-27 20:39:54,448 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para http://bilakniha.cvut.cz/cs/predmet6548406.html: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-07-27 20:39:54,448 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: http://bilakniha.cvut.cz/cs/predmet6543906.html (texto='database systems...')
+2025-07-27 20:39:54,448 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para http://bilakniha.cvut.cz/cs/predmet6543906.html:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "database systems"
+  - Absolute URL: "http://bilakniha.cvut.cz/cs/predmet6543906.html"
+  - HTML context: "Database Systems"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a course page, such as:
+     • "/syllabus/"
+     • "/subject/"
+    ...
+2025-07-27 20:40:07,462 - src.extractors.guide_extractor - INFO - 📝 Respuesta LLM para http://bilakniha.cvut.cz/cs/predmet6684706.html: {'Unknown': {'competences': [], 'objectives': [], 'contents': {}}}
+2025-07-27 20:40:07,462 - src.extractors.guide_extractor - INFO - 🔍 [PROMPT-INICIO] Construyendo prompt para enlace: http://bilakniha.cvut.cz/cs/predmet6698906.html (texto='programming and algorithmics 2...')
+2025-07-27 20:40:07,462 - src.extractors.guide_extractor - INFO - 🧾 [PROMPT-GENERADO] Prompt para http://bilakniha.cvut.cz/cs/predmet6698906.html:
+
+You are an automatic extractor of academic subjects (courses) from university syllabus pages.
+Your input is:
+  - Link text: "programming and algorithmics 2"
+  - Absolute URL: "http://bilakniha.cvut.cz/cs/predmet6698906.html"
+  - HTML context: "Programming and Algorithmics 2"
+
+Your task step by step:
+1. Analyze the **link_text**:
+   - Check if it resembles the name of an academic subject, such as names containing words like "programming", "mathematics", "physics", "databases", or other academic terms.
+   - Look for a short alphanumeric code (e.g., "FM", "PRO1", "CSD101") either in the text or as part of the URL.
+   - Check for credits or ECTS in parentheses (e.g., "(6 ECTS)", "(10)", "(7)") as an optional indicator, but do not require it.
+   - If the text contains generic terms like "Contact", "Admissions", "Download PDF", "Home", or similar, **discard it** as non-subject.
+
+2. Inspect the **link_url**:
+   - If the URL contains keywords indicating a course page, such as:
+     • "/syllab...

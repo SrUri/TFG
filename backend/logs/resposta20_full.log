@@ -1,0 +1,178 @@
+2025-05-20 17:20:19,381 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-05-20 17:20:19,381 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-20 17:20:19,381 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-20 17:20:19,381 - main - INFO - 🔵 [MAIN] Título asignatura: PHYSICS
+2025-05-20 17:20:19,381 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-05-20 17:20:21,114 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 20
+2025-05-20 17:20:21,114 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-05-20 17:20:42,610 - main - INFO - Detailed theme extracted: {'core_topic': 'Quantum Mechanics', 'application_domain': 'Engineering Physics', 'methodologies': 'Experimental Analysis', 'tools_technologies': 'Unknown'}
+2025-05-20 17:20:42,611 - main - INFO - 🔵 [MAIN] Temática principal identificada: {'core_topic': 'Quantum Mechanics', 'application_domain': 'Engineering Physics', 'methodologies': 'Experimental Analysis', 'tools_technologies': 'Unknown'}
+2025-05-20 17:20:42,611 - main - INFO - 🔵 [MAIN] Fase 3: Comparando temáticas
+2025-05-20 17:20:59,912 - main - INFO - Detailed theme extracted: {'core_topic': 'Mathematics Fundamentals', 'application_domain': 'Informatics Engineering', 'methodologies': 'Computational Analysis', 'tools_technologies': 'Unknown'}
+2025-05-20 17:21:05,353 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Science', 'application_domain': 'Informatics Engineering', 'methodologies': 'Experimental Analysis, Agile Development', 'tools_technologies': 'MATLAB, Python, Java'}
+2025-05-20 17:21:15,965 - main - INFO - Detailed theme extracted: {'core_topic': 'Programming I', 'application_domain': 'Informatics', 'methodologies': 'Unknown', 'tools_technologies': 'Unknown'}
+2025-05-20 17:21:16,067 - main - INFO - Detailed theme extracted: {'core_topic': 'Computational Physics', 'application_domain': 'Engineering', 'methodologies': 'Experimental Analysis, Simulation', 'tools_technologies': 'MATLAB, Python'}
+2025-05-20 17:21:24,369 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5062541365623474, 'application_domain': 0.6002724766731262, 'methodologies': 0.6629194617271423, 'tools_technologies': 0.0}, LLM: 0.44, Final: 0.49
+2025-05-20 17:21:24,369 - main - INFO - 🔵 [MAIN] Comparación temática: Fundamentals of Mathematics - Similitud: 0.49
+2025-05-20 17:21:37,361 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Organization', 'application_domain': 'Informatics Engineering', 'methodologies': 'Experimental Analysis, Agile Development', 'tools_technologies': 'Unknown'}
+2025-05-20 17:21:43,170 - main - INFO - Detailed theme extracted: {'core_topic': 'Mathematics', 'application_domain': 'Informatics', 'methodologies': 'Algebraic Analysis', 'tools_technologies': 'Unknown'}
+2025-05-20 17:21:53,319 - main - INFO - Detailed theme extracted: {'core_topic': 'Programming II', 'application_domain': 'Informatics Engineering', 'methodologies': 'Unknown', 'tools_technologies': 'Unknown'}
+2025-05-20 17:21:56,921 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.47184231877326965, 'application_domain': 0.6002724766731262, 'methodologies': 0.8428846001625061, 'tools_technologies': 0.0}, LLM: 0.14, Final: 0.38
+2025-05-20 17:21:56,921 - main - INFO - 🔵 [MAIN] Comparación temática: Introduction to Computers - Similitud: 0.38
+2025-05-20 17:21:57,165 - main - INFO - Detailed theme extracted: {'core_topic': 'Mathematics', 'application_domain': 'Informatics', 'methodologies': 'Algebraic Analysis', 'tools_technologies': 'Unknown'}
+2025-05-20 17:22:14,770 - main - INFO - Detailed theme extracted: {'core_topic': 'Database Systems', 'application_domain': 'Informatics Engineering', 'methodologies': 'Data Analysis, Database Design', 'tools_technologies': 'Unknown'}
+2025-05-20 17:22:20,866 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Interfacing', 'application_domain': 'Informatics Engineering', 'methodologies': 'Experimental Analysis, Agile Development', 'tools_technologies': 'MATLAB, Python, Java, SQL'}
+2025-05-20 17:22:24,207 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.3759605884552002, 'application_domain': 0.4298059046268463, 'methodologies': 0.0, 'tools_technologies': 0.0}, LLM: 0.1, Final: 0.21
+2025-05-20 17:22:24,207 - main - INFO - 🔵 [MAIN] Comparación temática: Programming I - Similitud: 0.21
+2025-05-20 17:22:35,691 - main - INFO - Detailed theme extracted: {'core_topic': 'Operating Systems', 'application_domain': 'Informatics Engineering', 'methodologies': 'Experimental Analysis, Agile Development', 'tools_technologies': 'Unknown'}
+2025-05-20 17:22:43,931 - main - INFO - Detailed theme extracted: {'core_topic': 'Probability Theory', 'application_domain': 'Data Science and Engineering', 'methodologies': 'Statistical Analysis, Modeling', 'tools_technologies': 'MATLAB, Python'}
+2025-05-20 17:22:52,724 - main - INFO - Detailed theme extracted: {'core_topic': 'Data Structures and Algorithmics', 'application_domain': 'Informatics Engineering', 'methodologies': 'Algorithmic Analysis, Problem Solving', 'tools_technologies': 'Unknown'}
+2025-05-20 17:22:56,229 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.6156859397888184, 'application_domain': 0.8652170896530151, 'methodologies': 0.9141204357147217, 'tools_technologies': 0.0}, LLM: 0.83, Final: 0.75
+2025-05-20 17:22:56,229 - main - INFO - 🔵 [MAIN] Comparación temática: Physics - Similitud: 0.75
+2025-05-20 17:23:05,676 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Architecture', 'application_domain': 'Informatics', 'methodologies': 'Experimental Analysis, Digital Circuit Design', 'tools_technologies': 'MATLAB, Python'}
+2025-05-20 17:23:16,476 - main - INFO - Detailed theme extracted: {'core_topic': 'Artificial Intelligence', 'application_domain': 'Engineering', 'methodologies': 'Machine Learning, Data Analysis', 'tools_technologies': 'Python, R, TensorFlow'}
+2025-05-20 17:23:22,155 - main - INFO - Detailed theme extracted: {'core_topic': 'Software Engineering', 'application_domain': 'Informatics Engineering', 'methodologies': 'Agile Development, Experimental Analysis', 'tools_technologies': 'Unknown'}
+2025-05-20 17:23:25,492 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4234374463558197, 'application_domain': 0.6002724766731262, 'methodologies': 0.8428846001625061, 'tools_technologies': 0.0}, LLM: 0.44, Final: 0.49
+2025-05-20 17:23:25,492 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Organization - Similitud: 0.49
+2025-05-20 17:23:37,193 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Networks', 'application_domain': 'Informatics Engineering', 'methodologies': 'Network Analysis, Protocol Design', 'tools_technologies': 'Unknown'}
+2025-05-20 17:23:44,352 - main - INFO - Detailed theme extracted: {'core_topic': 'Interaction Design', 'application_domain': 'Software Development', 'methodologies': 'User-Centered Design, Human-Computer Interaction', 'tools_technologies': 'Unknown'}
+2025-05-20 17:23:53,565 - main - INFO - Detailed theme extracted: {'core_topic': 'Parallel Computing', 'application_domain': 'Informatics Engineering', 'methodologies': 'Experimental Analysis, Algorithm Design', 'tools_technologies': 'MATLAB, Python'}
+2025-05-20 17:23:57,282 - main - ERROR - Error in LLM theme comparison: could not convert string to float: '"0.40"'
+2025-05-20 17:23:57,282 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5998328924179077, 'application_domain': 0.4298059046268463, 'methodologies': 0.6449631452560425, 'tools_technologies': 0.0}, LLM: 0.0, Final: 0.3
+2025-05-20 17:23:57,282 - main - INFO - 🔵 [MAIN] Comparación temática: Mathematics I - Similitud: 0.30
+2025-05-20 17:23:59,909 - main - INFO - Detailed theme extracted: {'core_topic': 'Programming Projects', 'application_domain': 'Informatics Engineering', 'methodologies': 'Software Development, Artificial Intelligence', 'tools_technologies': 'Unknown'}
+2025-05-20 17:24:00,105 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.35975152254104614, 'application_domain': 0.6002724766731262, 'methodologies': 0.0, 'tools_technologies': 0.0}, LLM: 0.19, Final: 0.27
+2025-05-20 17:24:00,105 - main - INFO - 🔵 [MAIN] Comparación temática: Programming II - Similitud: 0.27
+2025-05-20 17:24:03,244 - main - ERROR - Error in LLM theme comparison: could not convert string to float: '{"similarity":'
+2025-05-20 17:24:03,244 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5998328924179077, 'application_domain': 0.4298059046268463, 'methodologies': 0.6449631452560425, 'tools_technologies': 0.0}, LLM: 0.0, Final: 0.3
+2025-05-20 17:24:03,244 - main - INFO - 🔵 [MAIN] Comparación temática: Mathematics II - Similitud: 0.30
+2025-05-20 17:24:05,752 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4699552059173584, 'application_domain': 0.6002724766731262, 'methodologies': 0.6351058483123779, 'tools_technologies': 0.0}, LLM: 0.19, Final: 0.37
+2025-05-20 17:24:05,752 - main - INFO - 🔵 [MAIN] Comparación temática: Databases - Similitud: 0.37
+2025-05-20 17:24:08,305 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4103444814682007, 'application_domain': 0.6002724766731262, 'methodologies': 0.8428846001625061, 'tools_technologies': 0.0}, LLM: 0.44, Final: 0.48
+2025-05-20 17:24:08,305 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Interfacing - Similitud: 0.48
+2025-05-20 17:24:10,852 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4513954222202301, 'application_domain': 0.6002724766731262, 'methodologies': 0.8428846001625061, 'tools_technologies': 0.0}, LLM: 0.14, Final: 0.37
+2025-05-20 17:24:10,852 - main - INFO - 🔵 [MAIN] Comparación temática: Operating Systems - Similitud: 0.37
+2025-05-20 17:24:13,375 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.6178314685821533, 'application_domain': 0.6808480024337769, 'methodologies': 0.7200368046760559, 'tools_technologies': 0.0}, LLM: 0.43, Final: 0.53
+2025-05-20 17:24:13,375 - main - INFO - 🔵 [MAIN] Comparación temática: Probability and Statistics - Similitud: 0.53
+2025-05-20 17:24:15,889 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.42166608572006226, 'application_domain': 0.6002724766731262, 'methodologies': 0.6032458543777466, 'tools_technologies': 0.0}, LLM: 0.19, Final: 0.36
+2025-05-20 17:24:15,889 - main - INFO - 🔵 [MAIN] Comparación temática: Data Structures and Algorithmics - Similitud: 0.36
+2025-05-20 17:24:18,401 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4289657175540924, 'application_domain': 0.4298059046268463, 'methodologies': 0.8050861358642578, 'tools_technologies': 0.0}, LLM: 0.44, Final: 0.45
+2025-05-20 17:24:18,401 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Architecture - Similitud: 0.45
+2025-05-20 17:24:20,909 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.461327463388443, 'application_domain': 0.8652170896530151, 'methodologies': 0.657230019569397, 'tools_technologies': 0.0}, LLM: 0.43, Final: 0.52
+2025-05-20 17:24:20,909 - main - INFO - 🔵 [MAIN] Comparación temática: Business and Economic Environment - Similitud: 0.52
+2025-05-20 17:24:23,466 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.43122562766075134, 'application_domain': 0.6002724766731262, 'methodologies': 0.8011879920959473, 'tools_technologies': 0.0}, LLM: 0.44, Final: 0.48
+2025-05-20 17:24:23,466 - main - INFO - 🔵 [MAIN] Comparación temática: Introduction to Software Engineering - Similitud: 0.48
+2025-05-20 17:24:25,973 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.42775559425354004, 'application_domain': 0.6002724766731262, 'methodologies': 0.6189459562301636, 'tools_technologies': 0.0}, LLM: 0.14, Final: 0.34
+2025-05-20 17:24:25,973 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Networks - Similitud: 0.34
+2025-05-20 17:24:28,486 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4611045718193054, 'application_domain': 0.5003257989883423, 'methodologies': 0.3793461322784424, 'tools_technologies': 0.0}, LLM: 0.09, Final: 0.28
+2025-05-20 17:24:28,486 - main - INFO - 🔵 [MAIN] Comparación temática: Interaction and Interface Design - Similitud: 0.28
+2025-05-20 17:24:30,994 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4946630895137787, 'application_domain': 0.6002724766731262, 'methodologies': 0.8285521268844604, 'tools_technologies': 0.0}, LLM: 0.44, Final: 0.5
+2025-05-20 17:24:30,994 - main - INFO - 🔵 [MAIN] Comparación temática: Parallelism - Similitud: 0.50
+2025-05-20 17:24:33,515 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.3705103397369385, 'application_domain': 0.6002724766731262, 'methodologies': 0.43058860301971436, 'tools_technologies': 0.0}, LLM: 0.14, Final: 0.3
+2025-05-20 17:24:33,516 - main - INFO - 🔵 [MAIN] Comparación temática: Programming Projects - Similitud: 0.30
+2025-05-20 17:24:33,516 - main - INFO - 🔵 [MAIN] Asignaturas relevantes encontradas: 1
+2025-05-20 17:24:33,516 - main - INFO - 🔵 [MAIN] Fase 4: Extrayendo detalles asignatura principal
+2025-05-20 17:25:45,301 - main - INFO - 🔵 [MAIN] Fase 5: Procesando asignaturas relevantes
+2025-05-20 17:26:26,388 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-20 17:26:26,388 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-20 17:26:26,388 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: PHYSICS
+            Competencias: ['Design and implement relational databases using SQL', 'Apply fundamental concepts of physics to information technologies engineering', 'Analyze...
+2025-05-20 17:26:26,388 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Physics
+                            Competencias: ['Design and implement relational databases using SQL', 'Apply mathematical models to describe physical phenomena...
+2025-05-20 17:26:26,389 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-20 17:26:26,389 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': 'PHYSICS', 'competences': "['Design and implement relational databases using SQL', 'Apply fundamental concepts of physics to information technologies engineering', 'Analyze and solve problems related to physics and information technologies engineering']", 'objectives': "['Design a database schema for a given problem statement', 'Implement a relational database using SQL', 'Analyze the physical principles underlying information technologies engineering', 'Solve problems related to physics and information technologies engineering', 'Apply fundamental concepts of physics to real-world problems in information technologies engineering']", 'contents': "{'Module 1: Introduction to Physics and Information Technologies Engineering': ['Fundamental concepts of physics', 'Introduction to information technologies engineering', 'Relationship between physics and information technologies engineering'], 'Module 2: Relational Databases': ['Database schema design', 'Relational database implementation using SQL', 'Data modeling and normalization'], 'Module 3: Physics in Information Technologies Engineering': ['Physical principles underlying information technologies engineering', 'Applications of physics to information technologies engineering', 'Case studies in physics and information technologies engineering']}"}
+2025-05-20 17:26:26,389 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': 'Physics', 'competences': "['Design and implement relational databases using SQL', 'Apply mathematical models to describe physical phenomena', 'Analyze and interpret experimental data']", 'objectives': "['Design a database schema for a given problem', 'Implement a simple physics simulation using Python', 'Analyze the results of an experiment and draw conclusions']", 'contents': '{\'Module 1: Introduction to Physics\': [\'Introduction to physics\', \'Physical quantities and units\'], \'Module 2: Mechanics\': ["Newton\'s laws of motion", \'Energy and work\'], \'Module 3: Thermodynamics\': [\'Thermodynamic systems\', \'Heat transfer\'], \'Module 4: Electromagnetism\': [\'Electric charges and fields\', \'Magnetic fields and forces\'], \'Module 5: Optics\': [\'Reflection and refraction\', \'Interference and diffraction\'], \'Module 6: Quantum Mechanics\': [\'Wave-particle duality\', \'Schrödinger equation\']}'}
+2025-05-20 17:26:26,389 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-20 17:26:26,389 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Module 1: Introduction to Physics and Information Technologies Engineering': ['Fundamental concept...
+T2: {'Module 1: Introduction to Physics': ['Introduction to physics', 'Physical quantities and units'], ...
+2025-05-20 17:26:26,389 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Design a database schema for a given problem statement', 'Implement a relational database using SQ...
+T2: ['Design a database schema for a given problem', 'Implement a simple physics simulation using Python...
+2025-05-20 17:26:26,390 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: ['Design and implement relational databases using SQL', 'Apply fundamental concepts of physics to in...
+T2: ['Design and implement relational databases using SQL', 'Apply mathematical models to describe physi...
+2025-05-20 17:26:26,564 - embedding - DEBUG - Similitud estricta calculada: 0.5707178000340165 (raw: 0.8133972500425206) (en 0.17s)
+2025-05-20 17:26:26,581 - embedding - DEBUG - Similitud estricta calculada: 0.7880825835730705 (raw: 0.8880825835730705) (en 0.19s)
+2025-05-20 17:26:26,624 - embedding - DEBUG - Similitud estricta calculada: 0.7120205596545385 (raw: 0.8120205596545385) (en 0.23s)
+2025-05-20 17:26:26,624 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.7120205596545385
+2025-05-20 17:26:26,624 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.5707178000340165
+2025-05-20 17:26:26,624 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.7880825835730705
+2025-05-20 17:26:26,624 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.7120205596545385), 'objectives': np.float64(0.5707178000340165), 'competences': np.float64(0.7880825835730705)}
+2025-05-20 17:26:26,624 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-20 17:26:26,624 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-20 17:26:26,624 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': 'PHYSICS', 'competences': "['Design and implement relational databases using SQL', 'Apply fundamental concepts of physics to information technologies engineering', 'Analyze and solve problems related to physics and information technologies engineering']", 'objectives': "['Design a database schema for a given problem statement', 'Implement a relational database using SQL', 'Analyze the physical principles underlying information technologies engineering', 'Solve problems related to physics and information technologies engineering', 'Apply fundamental concepts of physics to real-world problems in information technologies engineering']", 'contents': "{'Module 1: Introduction to Physics and Information Technologies Engineering': ['Fundamental concepts of physics', 'Introduction to information technologies engineering', 'Relationship between physics and information technologies engineering'], 'Module 2: Relational Databases': ['Database schema design', 'Relational database implementation using SQL', 'Data modeling and normalization'], 'Module 3: Physics in Information Technologies Engineering': ['Physical principles underlying information technologies engineering', 'Applications of physics to information technologies engineering', 'Case studies in physics and information technologies engineering']}"}
+2025-05-20 17:26:26,624 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': 'Physics', 'competences': "['Design and implement relational databases using SQL', 'Apply mathematical models to describe physical phenomena', 'Analyze and interpret experimental data']", 'objectives': "['Design a database schema for a given problem', 'Implement a simple physics simulation using Python', 'Analyze the results of an experiment and draw conclusions']", 'contents': '{\'Module 1: Introduction to Physics\': [\'Introduction to physics\', \'Physical quantities and units\'], \'Module 2: Mechanics\': ["Newton\'s laws of motion", \'Energy and work\'], \'Module 3: Thermodynamics\': [\'Thermodynamic systems\', \'Heat transfer\'], \'Module 4: Electromagnetism\': [\'Electric charges and fields\', \'Magnetic fields and forces\'], \'Module 5: Optics\': [\'Reflection and refraction\', \'Interference and diffraction\'], \'Module 6: Quantum Mechanics\': [\'Wave-particle duality\', \'Schrödinger equation\']}'}
+2025-05-20 17:26:26,624 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación estricta de programas académicos. Analiza RIGUROSAMENTE la similitud entre estas dos asignaturas:
+
+Asignatura 1:
+- Nombre: PHYSICS
+- Competencias: ['Design and implement relational databases using SQL', 'Apply fundamental concepts of physics to information technologies engineering', 'Analyze and solve problems related to physics and information technologies engineering']
+- Objetivos: ['Design a database schema for a given problem statement', 'Implement a relational...
+2025-05-20 17:26:58,663 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 32.04s
+2025-05-20 17:26:58,663 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+A continuación, te presento el análisis con EXTREMO RIGOR:
+
+{
+    "similitudes_tecnicas": ["Design and implement relational databases using SQL", "Analyze and solve problems related to physics and information technologies engineering"],
+    "diferencias_sustanciales": ["Physical principles underlying information technologies engineering" (Asignatura 1) vs. "Apply mathematical models to describe physical phenomena" (Asignatura 2), "Physics in Information Technologies Engineering" (Asignatura 1) vs. no equivalente en Asignatura 2],
+    "coincidencia_real": 40,
+    "advertencias": ["La asignatura 1 combina física y tecnologías de la información, mientras que la asignatura 2 se enfoca exclusivamente en física. La asignatura 1 tiene un módulo específico sobre bases de datos relacionales, lo que no se encuentra en la asignatura 2."]
+}
+
+Nota: La estimación de coincidencia real (40%) se basa en la similitud entre los objetivos y competencias técnicas, pero se consideran diferencias sustanciales en el contenido y enfoque de las asignaturas.
+2025-05-20 17:26:58,663 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+A continuación, te presento el análisis con EXTREMO RIGOR:
+
+{
+    "similitudes_tecnicas": ["Design and implement relational databases using SQL", "Analyze and solve problems related to physics and information technologies engineering"],
+    "diferencias_sustanciales": ["Physical principles underlying information technologies engineering" (Asignatura 1) vs. "Apply mathematical models to describe physical phenomena" (Asignatura 2), "Physics in Information Technologies Engineering" (Asignatura 1) vs. no equivalente en Asignatura 2],
+    "coincidencia_real": 40,
+    "advertencias": ["La asignatura 1 combina física y tecnologías de la información, mientras que la asignatura 2 se enfoca exclusivamente en física. La asignatura 1 tiene un módulo específico sobre bases de datos relacionales, lo que no se encuentra en la asignatura 2."]
+}
+
+Nota: La estimación de coincidencia real (40%) se basa en la similitud entre los objetivos y competencias técnicas, pero se consideran diferencias sustanciales en el contenido y enfoque de las asignaturas.
+2025-05-20 17:26:58,663 - embedding - ERROR - 🔴 [EMBED-QA] Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis con EXTREMO RIGOR:
+
+{
+    "similitudes_tecnicas": ["Design and implement relational databases using SQL", "Analyze and solve problems related to physics and information technologies engineering"],
+    "diferencias_sustanciales": ["Physical principles underlying information technologies engineering" (Asignatura 1) vs. "Apply mathematical models to describe physical phenomena" (Asignatura 2), "Physics in Information Technologies Engineering" (Asignatura 1) vs. no equivalente en Asignatura 2],
+    "coincidencia_real": 40,
+    "advertencias": ["La asignatura 1 combina física y tecnologías de la información, mientras que la asignatura 2 se enfoca exclusivamente en física. La asignatura 1 tiene un módulo específico sobre bases de datos relacionales, lo que no se encuentra en la asignatura 2."]
+}
+
+Nota: La estimación de coincidencia real (40%) se basa en la similitud entre los objetivos y competencias técnicas, pero se consideran diferencias sustanciales en el contenido y enfoque de las asignaturas.
+2025-05-20 17:26:58,663 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'error': 'Invalid JSON response', 'response': 'A continuación, te presento el análisis con EXTREMO RIGOR:\n\n{\n    "similitudes_tecnicas": ["Design and implement relational databases using SQL", "Analyze and solve problems related to physics and information technologies engineering"],\n    "diferencias_sustanciales": ["Physical principles underlying information technologies engineering" (Asignatura 1) vs. "Apply mathematical models to describe physical phenomena" (Asignatura 2), "Physics in Information Technologies Engineering" (Asignatura 1) vs. no equivalente en Asignatura 2],\n    "coincidencia_real": 40,\n    "advertencias": ["La asignatura 1 combina física y tecnologías de la información, mientras que la asignatura 2 se enfoca exclusivamente en física. La asignatura 1 tiene un módulo específico sobre bases de datos relacionales, lo que no se encuentra en la asignatura 2."]\n}\n\nNota: La estimación de coincidencia real (40%) se basa en la similitud entre los objetivos y competencias técnicas, pero se consideran diferencias sustanciales en el contenido y enfoque de las asignaturas.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}
+2025-05-20 17:26:58,663 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.6115016087502283
+2025-05-20 17:26:58,663 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-20 17:26:58,663 - embedding - INFO - Generando explicación estricta...
+2025-05-20 17:26:58,663 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: PHYSICS
+Asignatura B: Physics
+
+Puntuación de similitud: 61.2%
+
+Basándote en este análisis:
+{
+  "error": "Invalid JSON response",
+  "response": "A continuaci\u00f3n, te presento el an\u00e1lisis con EXTREMO...
+2025-05-20 17:27:24,523 - embedding - INFO - Explicación estricta generada en 25.86s
+2025-05-20 17:27:24,523 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: A continuación, te presento el análisis con EXTREMO RIGOR:
+
+Las coincidencias técnicas reales entre Asignatura A y Asignatura B se limitan a la capacidad de analizar y resolver problemas relacionados con la física y las tecnologías de la información. Ambas asignaturas comparten esta competencia técnica, lo que representa un 40% de similitud real.
+
+Las diferencias sustanciales entre ambas asignaturas radican en el enfoque y contenido. La Asignatura A combina física y tecnologías de la información, mientras que la Asignatura B se enfoca exclusivamente en física. Además, la Asignatura A tiene un módulo específico sobre bases de datos relacionales, lo que no se encuentra en la Asignatura B.
+
+En conclusión práctica, aunque haya algunas coincidencias técnicas reales entre ambas asignaturas, las diferencias sustanciales en el contenido y enfoque sugieren que no hay equivalencia real entre ellas.
+2025-05-20 17:27:24,523 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.6115), 'components': {'contents': np.float64(0.7120205596545385), 'objectives': np.float64(0.5707178000340165), 'competences': np.float64(0.7880825835730705)}, 'llm_analysis': {'error': 'Invalid JSON response', 'response': 'A continuación, te presento el análisis con EXTREMO RIGOR:\n\n{\n    "similitudes_tecnicas": ["Design and implement relational databases using SQL", "Analyze and solve problems related to physics and information technologies engineering"],\n    "diferencias_sustanciales": ["Physical principles underlying information technologies engineering" (Asignatura 1) vs. "Apply mathematical models to describe physical phenomena" (Asignatura 2), "Physics in Information Technologies Engineering" (Asignatura 1) vs. no equivalente en Asignatura 2],\n    "coincidencia_real": 40,\n    "advertencias": ["La asignatura 1 combina física y tecnologías de la información, mientras que la asignatura 2 se enfoca exclusivamente en física. La asignatura 1 tiene un módulo específico sobre bases de datos relacionales, lo que no se encuentra en la asignatura 2."]\n}\n\nNota: La estimación de coincidencia real (40%) se basa en la similitud entre los objetivos y competencias técnicas, pero se consideran diferencias sustanciales en el contenido y enfoque de las asignaturas.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}, 'explanation': 'A continuación, te presento el análisis con EXTREMO RIGOR:\n\nLas coincidencias técnicas reales entre Asignatura A y Asignatura B se limitan a la capacidad de analizar y resolver problemas relacionados con la física y las tecnologías de la información. Ambas asignaturas comparten esta competencia técnica, lo que representa un 40% de similitud real.\n\nLas diferencias sustanciales entre ambas asignaturas radican en el enfoque y contenido. La Asignatura A combina física y tecnologías de la información, mientras que la Asignatura B se enfoca exclusivamente en física. Además, la Asignatura A tiene un módulo específico sobre bases de datos relacionales, lo que no se encuentra en la Asignatura B.\n\nEn conclusión práctica, aunque haya algunas coincidencias técnicas reales entre ambas asignaturas, las diferencias sustanciales en el contenido y enfoque sugieren que no hay equivalencia real entre ellas.'}
+2025-05-20 17:27:24,524 - main - INFO - 🟢 [MAIN] Comparación completada exitosamente

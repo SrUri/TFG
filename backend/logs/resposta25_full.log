@@ -1,0 +1,50 @@
+2025-05-22 22:16:09,372 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-05-22 22:16:09,372 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-22 22:16:09,372 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-22 22:16:09,372 - main - INFO - 🔵 [MAIN] Título asignatura: PHYSICS
+2025-05-22 22:16:09,372 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-05-22 22:16:09,372 - main - INFO - 📥 Processing guide URL: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-22 22:16:09,729 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-22 22:16:09,733 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-22 22:16:09,734 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-22 22:16:09,734 - main - INFO - ✅ Subject processed: Introduction to Computers
+2025-05-22 22:16:09,805 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-22 22:16:09,815 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-22 22:16:09,815 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-22 22:16:09,815 - main - INFO - ✅ Subject processed: Fundamentals of Mathematics
+2025-05-22 22:16:09,821 - main - INFO - 🔍 Searching for contents header in non-URV content
+2025-05-22 22:16:09,825 - main - INFO - 📌 Found contents header: 'contents'
+2025-05-22 22:16:09,825 - main - INFO - ✅ Content extracted from section under contents header
+2025-05-22 22:16:09,825 - main - INFO - ✅ Subject processed: Physics
+2025-05-22 22:16:09,826 - main - INFO - ✅ Extracted 3 subjects from guide
+2025-05-22 22:16:09,826 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 3
+2025-05-22 22:16:09,826 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-05-22 22:16:09,826 - main - INFO - 📥 Processing subject URL: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-22 22:16:09,826 - main - INFO - 🔍 Detected URV URL - attempting contents extraction
+2025-05-22 22:16:09,826 - main - INFO - 🔍 Fetching URV contents from: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&fitxa_apartat=57
+2025-05-22 22:16:10,082 - main - INFO - ✅ Contents table found with Topic/Sub-topic headers
+2025-05-22 22:16:10,082 - main - INFO - ✅ Extracted contents: ['Electrostatics: Electric Field, Electrostatic Energy and Potential, Conductor and Dielectric Materials, Capacitors', 'Direct Electric Current: Electric Circuits, Kirchhoff Laws, Node Voltage method and Grid Current Method, Thévenin and Norton Laws', 'Steady Sinusoidal Regime: Elements with Time Response, Transfer Function, Resonance', 'Fundamentals of Semiconductors: Semiconducting Materials, Semiconductor Devices, Junction Diode and Light Emitting Diode, Field-Effect Transistor', 'Semiconductor Devices Applications: Logical Families with CMOS Technology, Logic Programmable Devices']
+2025-05-22 22:16:10,082 - main - INFO - ✅ URV contents extracted successfully from contents URL
+2025-05-22 22:16:20,726 - main - INFO - Detailed theme extracted: {'core_topic': 'Electrical Engineering Fundamentals', 'key_contents': 'Electric Field, Kirchhoff Laws, Transfer Function, Resonance', 'application_domain': 'Electronics and Electrical Systems', 'methodologies': ''}
+2025-05-22 22:16:20,726 - main - INFO - 🔵 [MAIN] Temática principal identificada: {'core_topic': 'Electrical Engineering Fundamentals', 'key_contents': 'Electric Field, Kirchhoff Laws, Transfer Function, Resonance', 'application_domain': 'Electronics and Electrical Systems', 'methodologies': ''}
+2025-05-22 22:16:20,726 - main - INFO - 🔵 [MAIN] Fase 3: Comparando temáticas
+2025-05-22 22:16:44,837 - main - INFO - Detailed theme extracted: {'core_topic': 'Direct Current and Alternating Current', 'key_contents': "Ohm's law, Kirchhoff's laws, RC and RL circuits, RLC circuits: steady state response", 'application_domain': 'Electrical Engineering', 'methodologies': ''}
+2025-05-22 22:16:45,774 - main - INFO - Title similarity between 'PHYSICS' and 'Physics': 1.00
+2025-05-22 22:16:49,856 - main - INFO - Detailed theme extracted: {'core_topic': 'Digital Information Processing', 'key_contents': 'Representation of natural numbers in decimal, binary, and hexadecimal, Combinational logic circuits, Sequential logical circuits, Special purpose processors', 'application_domain': 'Computer Science', 'methodologies': 'Lectures, Practical Exercises'}
+2025-05-22 22:16:54,123 - main - INFO - Raw LLM response for theme comparison: "0.93"
+2025-05-22 22:16:54,123 - main - INFO - Extracted LLM score: 0.93
+2025-05-22 22:16:54,123 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5819562673568726, 'key_contents': 0.6996811628341675, 'application_domain': 0.7916765809059143}, LLM: 0.93, Title: 1.00, Final: 0.81
+2025-05-22 22:16:54,123 - main - INFO - 🔵 [MAIN] Comparación temática: Physics - Similitud: 0.81
+2025-05-22 22:16:54,340 - main - INFO - Title similarity between 'PHYSICS' and 'Introduction to Computers': 0.12
+2025-05-22 22:16:58,165 - main - INFO - Raw LLM response for theme comparison: "0.44"
+2025-05-22 22:16:58,165 - main - INFO - Extracted LLM score: 0.44
+2025-05-22 22:16:58,165 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4306720793247223, 'key_contents': 0.4650684595108032, 'application_domain': 0.5909145474433899}, LLM: 0.44, Title: 0.12, Final: 0.43
+2025-05-22 22:16:58,165 - main - INFO - 🔵 [MAIN] Comparación temática: Introduction to Computers - Similitud: 0.43
+2025-05-22 22:17:00,133 - main - INFO - Detailed theme extracted: {'core_topic': 'Discrete Mathematics', 'key_contents': 'Formal propositional calculus, Predicate logic, Sets and elements, Functions', 'application_domain': 'Computer Science and Cryptography', 'methodologies': ''}
+2025-05-22 22:17:00,246 - main - INFO - Title similarity between 'PHYSICS' and 'Fundamentals of Mathematics': 0.24
+2025-05-22 22:17:03,282 - main - INFO - Raw LLM response for theme comparison: "0.14"
+2025-05-22 22:17:03,282 - main - INFO - Extracted LLM score: 0.14
+2025-05-22 22:17:03,282 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5168657898902893, 'key_contents': 0.4884796738624573, 'application_domain': 0.5648995041847229}, LLM: 0.14, Title: 0.24, Final: 0.34
+2025-05-22 22:17:03,282 - main - INFO - 🔵 [MAIN] Comparación temática: Fundamentals of Mathematics - Similitud: 0.34
+2025-05-22 22:17:03,282 - main - INFO - 🔵 [MAIN] Asignaturas relevantes encontradas: 1
+2025-05-22 22:17:03,282 - main - INFO - 🔵 [MAIN] Fase 4: Extrayendo detalles asignatura principal

@@ -1,0 +1,218 @@
+INFO:     127.0.0.1:53517 - "OPTIONS /compare HTTP/1.1" 200 OK
+📥 Procesando asignatura individual: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&idioma=eng&any_academic=2024_25&any_academic=2024_25
+🔗 Añadiendo sección 'study programmes' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=null&idioma=eng
+🔗 Añadiendo sección 'competences' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=55&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'contents' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=57&idioma=eng&any_academic=2024_25
+🔗 Añadiendo sección 'recommendations' -> https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234002&fitxa_apartat=63&idioma=eng&any_academic=2024_25
+📥 Procesando guía de grado: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+🔗 Encolando asignatura: 'Physics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/F
+🔗 Encolando asignatura: 'Fundamentals of Mathematics' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/FM
+🔗 Encolando asignatura: 'Introduction to Computers' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/IC
+🔗 Encolando asignatura: 'Programming I' -> https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus/PRO1
+Translation error: Need to load profiles.
+Detected language: sl
+Detected language: sl
+Detected language: en
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "Capacity for understanding the basic concepts of computer science, ability to apply programming principles and design simple algorithms.",
+        "objectives": "Understand the fundamental concepts of computer science, develop problem-solving skills through programming, analyze and design simple algorithms.",
+        "contents": "Computer hardware and software, programming languages (Python), data structures, algorithms, program design and development."
+    }
+}
+Raw model response:
+ {
+    "PROGRAMMING I": {
+        "competences": "Capacity for critical analysis of programming concepts, ability to design and implement algorithms, communication skills in multicultural contexts",
+        "objectives": "Understand programming fundamentals, apply programming principles to real-world problems, develop problem-solving skills",
+        "contents": "Programming languages (e.g. Python), data structures (e.g. arrays, linked lists), algorithms (e.g. sorting, searching), software engineering methodologies"
+    }
+}
+Raw model response:
+ {
+    "Fundamentals of Mathematics": {
+        "competences": "Capacity for logical reasoning and abstraction, problem-solving skills, application of mathematical models to real-world situations.",
+        "objectives": "Understand fundamental concepts in mathematics, apply mathematical techniques to solve problems, develop critical thinking and analytical skills.",
+        "contents": "Algebraic structures, number theory, geometry, calculus, probability theory and distributions, linear algebra and matrices, differential and integral calculus, statistical methods for inference."
+    }
+}
+Raw model response:
+ {
+    "Physics": {
+        "competences": "Capacity for scientific reasoning and analytical skills, ability to apply physical principles to real-world situations.",
+        "objectives": "Understand the fundamental laws of physics, develop problem-solving skills, apply mathematical models to physical phenomena.",
+        "contents": "Mechanics: kinematics, dynamics, energy and momentum; Thermodynamics: temperature, heat transfer, thermodynamic processes; Electromagnetism: electric charges, electric fields, magnetic fields, electromagnetic induction; Optics: light, refraction, reflection, lenses, mirrors; Quantum Mechanics: wave-particle duality, Schrödinger equation, quantum systems."
+    }
+}
+Detected language: en
+Raw model response:
+ {
+    "FUNDAMENTALS OF COMPUTERS": {
+        "competences": "Capacity for logical design, operation and interconnection of computers; programming skills in assembly language; understanding of operating systems.",
+        "objectives": "To understand the structure, organization and logical design of computers; to learn how to program in assembly language; to use operating systems effectively.",
+        "contents": [
+            "Structure, organization and logical design of computers",
+            "Programming in assembly language",
+            "Use of operating systems"
+        ],
+        "planning": "",
+        "methodologies": "",
+        "personalized attention": "Foreign exchange students will receive personalized support in English and be able to develop assessment activities in this language.",
+        "assessment": "",
+        "sources of information": "",
+        "recommendations": ""
+    }
+}
+Raw model response:
+ {
+    "Introduction to Computers": {
+        "competences": "Capacity for understanding the basic concepts of computer science, ability to apply programming principles and design simple algorithms.",
+        "objectives": "Understand the fundamental concepts of computer science, develop problem-solving skills through programming, analyze and design simple algorithms.",
+        "contents": "Computer hardware and software, programming languages (Python), data structures, algorithms, program design and development."
+    },
+    "Programming I": {
+        "competences": "Capacity for critical analysis of programming concepts, ability to design and implement algorithms, communication skills in multicultural contexts",
+        "objectives": "Understand programming fundamentals, apply programming principles to real-world problems, develop problem-solving skills",
+        "contents": "Programming languages (e.g. Python), data structures (e.g. arrays, linked lists), algorithms (e.g. sorting, searching), software engineering methodologies"
+    },
+    "Fundamentals of Mathematics": {
+        "competences": "Capacity for logical reasoning and abstraction, problem-solving skills, application of mathematical models to real-world situations.",
+        "objectives": "Understand fundamental concepts in mathematics, apply mathematical techniques to solve problems, develop critical thinking and analytical skills.",
+        "contents": "Algebraic structures, number theory, geometry, calculus, probability theory and distributions, linear algebra and matrices, differential and integral calculus, statistical methods for inference."
+    },
+    "Physics": {
+        "competences": "Capacity for scientific reasoning and analytical skills, ability to apply physical principles to real-world situations.",
+        "objectives": "Understand the fundamental laws of physics, develop problem-solving skills, apply mathematical models to physical phenomena.",
+        "contents": "Mechanics: kinematics, dynamics, energy and momentum; Thermodynamics: temperature, heat transfer, thermodynamic processes; Electromagnetism: electric charges, electric fields, magnetic fields, electromagnetic induction; Optics: light, refraction, reflection, lenses, mirrors; Quantum Mechanics: wave-particle duality, Schrödinger equation, quantum systems."
+    }
+}
+Detected language: pt
+INFO:embedding:Iniciando cálculo de similitud...
+INFO:embedding:Extrayendo componentes del texto...
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings...
+INFO:embedding:Puntuaciones crudas: {'contents': np.float64(0.8254866360321622), 'objectives': np.float64(0.8091190262370558), 'competences': np.float64(0.8593215772422561)}
+INFO:embedding:Iniciando análisis cualitativo con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo...
+INFO:embedding:Respuesta LLM recibida en 48.66s
+ERROR:embedding:Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te proporciono el análisis detallado en formato JSON:
+
+{
+"similitudes": [
+"Structure and organization of computers" (Asignatura 1: 'Structure, organization and logical design of computers'; Asignatura 2: Computer hardware and software),
+"Programming principles" (Asignatura 1: Programming in assembly language; Asignatura 2: Programming languages (Python), program design and development...),
+"Design and analysis of algorithms" (Asignatura 1: Use of operating systems; Asignatura 2: Algorithms, program design and development...)
+],
+
+"diferencias": [
+"Asignatura 1 se enfoca en la lógica de diseño y operación de computadoras, mientras que Asignatura 2 se centra en los conceptos básicos de ciencia de computadora",
+"La asignatura 1 se enfoca en el lenguaje ensamblador, mientras que Asignatura 2 utiliza Python como lenguaje de programación",
+"Asignatura 1 no aborda temas de datos estructurados, al contrario de Asignatura 2"
+],
+
+"coincidencia_estimada": 75,
+
+"recomendacion": "Ambas asignaturas son fundamentales para cualquier estudiante de computación, pero si se busca una mayor profundidad en la lógica de diseño y operación de computadoras, Asignatura 1 puede ser más adecuada. Si se busca un enfoque más amplio en los conceptos básicos de ciencia de computadora, Asignatura 2 puede ser más adecuada."
+}
+INFO:embedding:Puntuación final calculada: 0.8255966081941503
+INFO:embedding:Generando explicación...
+INFO:embedding:Generando explicación...
+INFO:embedding:Explicación generada en 37.53s
+INFO:embedding:Proceso completado en 87.14 segundos
+INFO:embedding:Iniciando cálculo de similitud...
+INFO:embedding:Extrayendo componentes del texto...
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings...
+INFO:embedding:Puntuaciones crudas: {'contents': np.float64(0.7755258164415036), 'objectives': np.float64(0.7369794334690402), 'competences': np.float64(0.7735459808583279)}
+INFO:embedding:Iniciando análisis cualitativo con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo...
+INFO:embedding:Respuesta LLM recibida en 30.69s
+ERROR:embedding:Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis detallado de las similitudes y diferencias entre las asignaturas:
+
+{
+"similitudes": ["Programación", "Algoritmos"],
+"diferencias": ["Lenguaje de programación (Assembly vs. Python)", "Enfoque en la estructura y organización del computador (Asignatura 1) vs. Enfoque en el diseño y implementación de algoritmos (Asignatura 2)", "Métodologías de ingeniería de software (Asignatura 2)"],
+"coincidencia_estimada": 75,
+"recomendacion": "Ambas asignaturas comparten un enfoque en la programación y el diseño de algoritmos, pero Asignatura 1 se centra más en la estructura y organización del computador, mientras que Asignatura 2 se enfoca en la implementación de algoritmos y metodologías de ingeniería de software."
+}
+INFO:embedding:Puntuación final calculada: 0.7676185562886932
+INFO:embedding:Generando explicación...
+INFO:embedding:Generando explicación...
+INFO:embedding:Explicación generada en 40.77s
+INFO:embedding:Proceso completado en 71.63 segundos
+INFO:embedding:Iniciando cálculo de similitud...
+INFO:embedding:Extrayendo componentes del texto...
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings...
+INFO:embedding:Puntuaciones crudas: {'contents': np.float64(0.6126059000966033), 'objectives': np.float64(0.6728951228205089), 'competences': np.float64(0.7938759066773279)}
+INFO:embedding:Iniciando análisis cualitativo con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo...
+INFO:embedding:Respuesta LLM recibida en 28.80s
+ERROR:embedding:Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te presento el análisis detallado de las similitudes y diferencias entre las asignaturas:
+
+{
+"similitudes": [
+  "Capacity for logical design and operation",
+  "Problem-solving skills",
+  "Application of models to real-world situations"
+],
+"diferencias": [
+  "Lenguaje de programación (assembly vs. matemáticas)",
+  "Enfoque en la computadora y su organización vs. enfoque en conceptos matemáticos abstractos",
+  "Nivel de abstracción y complejidad"
+],
+"coincidencia_estimada": 60,
+"recomendacion": "Ambas asignaturas requieren habilidades lógicas y resolución de problemas, por lo que es importante considerar la interdisciplinariedad en su diseño."
+}
+
+Nota: La coincidencia estimada se basa en la similitud entre los contenidos, objetivos y competencias de ambas asignaturas.
+INFO:embedding:Puntuación final calculada: 0.6427907452994569
+INFO:embedding:Generando explicación...
+INFO:embedding:Generando explicación...
+INFO:embedding:Explicación generada en 48.82s
+INFO:embedding:Proceso completado en 77.77 segundos
+INFO:embedding:Iniciando cálculo de similitud...
+INFO:embedding:Extrayendo componentes del texto...
+INFO:embedding:Componentes extraídos texto 1: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Componentes extraídos texto 2: dict_keys(['name', 'competences', 'objectives', 'contents'])
+INFO:embedding:Calculando similitud de embeddings...
+INFO:embedding:Puntuaciones crudas: {'contents': np.float64(0.5823256634869707), 'objectives': np.float64(0.6744890196879564), 'competences': np.float64(0.7442504775121022)}
+INFO:embedding:Iniciando análisis cualitativo con LLM...
+INFO:embedding:Preparando prompt para análisis cualitativo...
+INFO:embedding:Respuesta LLM recibida en 53.53s
+ERROR:embedding:Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, te proporciono el análisis detallado en formato JSON:
+
+{
+"similitudes": [
+"La asignatura FUNDAMENTALS OF COMPUTERS y la asignatura de Física comparten una similitud clave en cuanto a la estructura lógica y organizada de los contenidos. Ambas asignaturas presentan un enfoque sistemático y lógico para abordar sus respectivos temas.",
+"La programación en assembly language de la primera asignatura se puede comparar con el uso de modelos matemáticos en la segunda asignatura, ya que ambos requieren una comprensión profunda del lenguaje y su aplicación práctica.",
+"La importancia de la comprensión efectiva de los sistemas operativos en la primera asignatura se puede relacionar con la comprensión de las leyes físicas en la segunda asignatura, ya que ambos requieren una comprensión sólida para aplicarlas a situaciones reales."
+],
+"diferencias": [
+"La asignatura FUNDAMENTALS OF COMPUTERS se enfoca en el diseño y operación de computadoras, mientras que la asignatura de Física se enfoca en la descripción y aplicación de las leyes físicas.",
+"La programación en assembly language es un tema fundamental en la primera asignatura, mientras que no es mencionado en la segunda asignatura.",
+"La asignatura de Física presenta una amplia variedad de temas y subtemas, como la mecánica, termodinámica, electromagnetismo y óptica, lo que no se encuentra en la primera asignatura."
+],
+"coincidencia_estimada": 75,
+"recomendacion": "Ambas asignaturas requieren una comprensión sólida de los conceptos básicos y una capacidad para aplicarlos a situaciones prácticas. Es importante destacar que, aunque compartan ciertas similitudes, cada asignatura tiene su propio enfoque y contenido."
+}
+INFO:embedding:Puntuación final calculada: 0.616950816129681
+INFO:embedding:Generando explicación...
+INFO:embedding:Generando explicación...
+INFO:embedding:Explicación generada en 46.29s
+INFO:embedding:Proceso completado en 100.45 segundos
+INFO:     127.0.0.1:53517 - "POST /compare HTTP/1.1" 200 OK
+^CINFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6882]
+INFO:     Stopping reloader process [4726]
+(.venv) uri@192 backend % 

@@ -1,0 +1,283 @@
+2025-05-20 18:06:41,026 - main - INFO - 🔵 [MAIN] Iniciando comparación
+2025-05-20 18:06:41,026 - main - INFO - 🔵 [MAIN] URL1: https://guiadocent.urv.cat/docnet/guia_docent/?centre=17&ensenyament=1723&assignatura=17234013&idioma=eng&any_academic=2024_25&any_academic=2024_25
+2025-05-20 18:06:41,026 - main - INFO - 🔵 [MAIN] URL2: https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering/curriculum/syllabus
+2025-05-20 18:06:41,026 - main - INFO - 🔵 [MAIN] Título asignatura: PHYSICS
+2025-05-20 18:06:41,026 - main - INFO - 🔵 [MAIN] Fase 1: Extrayendo asignaturas básicas de la guía docente
+2025-05-20 18:06:42,727 - main - INFO - 🔵 [MAIN] Asignaturas encontradas en guía: 20
+2025-05-20 18:06:42,727 - main - INFO - 🔵 [MAIN] Fase 2: Procesando asignatura principal
+2025-05-20 18:07:07,695 - main - INFO - Detailed theme extracted: {'core_topic': 'Introductory Physics', 'application_domain': 'Information Technologies Engineering', 'methodologies': 'Flipped Classrooms, Online Learning', 'key_concepts': 'Fundamental Concepts on Physics'}
+2025-05-20 18:07:07,695 - main - INFO - 🔵 [MAIN] Temática principal identificada: {'core_topic': 'Introductory Physics', 'application_domain': 'Information Technologies Engineering', 'methodologies': 'Flipped Classrooms, Online Learning', 'key_concepts': 'Fundamental Concepts on Physics'}
+2025-05-20 18:07:07,695 - main - INFO - 🔵 [MAIN] Fase 3: Comparando temáticas
+2025-05-20 18:07:26,001 - main - INFO - Detailed theme extracted: {'core_topic': 'Introductory Programming', 'application_domain': 'Computer Engineering', 'methodologies': 'Procedural Programming', 'key_concepts': 'Variables, Loops'}
+2025-05-20 18:07:27,687 - main - INFO - Title similarity between 'PHYSICS' and 'Programming I': 0.20
+2025-05-20 18:07:31,641 - main - INFO - Detailed theme extracted: {'core_topic': 'Classical Mechanics', 'application_domain': 'Physics', 'methodologies': 'Experimental Analysis, Analytical Problem Solving', 'key_concepts': 'Mechanics, Thermodynamics'}
+2025-05-20 18:07:43,234 - main - INFO - Detailed theme extracted: {'core_topic': 'Introduction to Computers', 'application_domain': 'Informatics', 'methodologies': 'Programming, Problem Solving', 'key_concepts': 'Computer Fundamentals, Programming Basics'}
+2025-05-20 18:07:49,503 - main - INFO - Detailed theme extracted: {'core_topic': 'Mathematical Fundamentals', 'application_domain': 'Informatics', 'methodologies': 'Problem Solving, Analytical Thinking', 'key_concepts': 'Algebra, Geometry, Calculus'}
+2025-05-20 18:07:54,644 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.7597756385803223, 'application_domain': 0.6927357912063599, 'methodologies': 0.38246431946754456, 'key_concepts': 0.40911751985549927}, LLM: 0.83, Title: 0.20, Final: 0.68
+2025-05-20 18:07:54,644 - main - INFO - 🔵 [MAIN] Comparación temática: Programming I - Similitud: 0.68
+2025-05-20 18:07:54,916 - main - INFO - Title similarity between 'PHYSICS' and 'Physics': 1.00
+2025-05-20 18:08:09,270 - main - INFO - Detailed theme extracted: {'core_topic': 'Mathematics II', 'application_domain': 'Informatics', 'methodologies': 'Unknown', 'key_concepts': 'Unknown'}
+2025-05-20 18:08:09,272 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Organization', 'application_domain': 'Informatics Engineering', 'methodologies': 'Digital Circuit Design, Microprocessor Architecture', 'key_concepts': 'Computer Systems, Memory Hierarchy, Input/Output Operations'}
+2025-05-20 18:08:26,102 - main - INFO - Detailed theme extracted: {'core_topic': 'Mathematics I', 'application_domain': 'Informatics', 'methodologies': 'Unknown', 'key_concepts': 'Unknown'}
+2025-05-20 18:08:30,869 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5550559163093567, 'application_domain': 0.4338861107826233, 'methodologies': 0.3906111419200897, 'key_concepts': 0.637449324131012}, LLM: 0.83, Title: 1.00, Final: 0.69
+2025-05-20 18:08:30,870 - main - INFO - 🔵 [MAIN] Comparación temática: Physics - Similitud: 0.69
+2025-05-20 18:08:31,083 - main - INFO - Title similarity between 'PHYSICS' and 'Introduction to Computers': 0.12
+2025-05-20 18:08:39,614 - main - INFO - Detailed theme extracted: {'core_topic': 'Data Structures', 'application_domain': 'Computer Science', 'methodologies': 'Algorithms, Data Analysis', 'key_concepts': 'Arrays, Linked Lists, Trees'}
+2025-05-20 18:08:51,140 - main - INFO - Detailed theme extracted: {'core_topic': 'Programming', 'application_domain': 'Computer Engineering', 'methodologies': 'Object-Oriented Programming', 'key_concepts': 'Algorithms, Data Structures'}
+2025-05-20 18:08:57,390 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Interfacing', 'application_domain': 'Informatics Engineering', 'methodologies': 'Digital Circuit Design, Microprocessor Programming', 'key_concepts': 'Input/Output Operations, Data Transmission'}
+2025-05-20 18:09:02,662 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.6701180934906006, 'application_domain': 0.6155086755752563, 'methodologies': 0.445888876914978, 'key_concepts': 0.683656632900238}, LLM: 0.74, Title: 0.12, Final: 0.62
+2025-05-20 18:09:02,662 - main - INFO - 🔵 [MAIN] Comparación temática: Introduction to Computers - Similitud: 0.62
+2025-05-20 18:09:02,845 - main - INFO - Title similarity between 'PHYSICS' and 'Fundamentals of Mathematics': 0.24
+2025-05-20 18:09:17,214 - main - INFO - Detailed theme extracted: {'core_topic': 'Data Structures and Algorithmics', 'application_domain': 'Computer Science', 'methodologies': 'Algorithm Design, Data Analysis', 'key_concepts': 'Arrays, Linked Lists, Sorting'}
+2025-05-20 18:09:25,480 - main - INFO - Detailed theme extracted: {'core_topic': 'Probability Theory', 'application_domain': 'Statistics', 'methodologies': 'Statistical Analysis, Modeling', 'key_concepts': "Random Variables, Distributions, Bayes' Theorem"}
+2025-05-20 18:09:34,360 - main - INFO - Detailed theme extracted: {'core_topic': 'Operating Systems', 'application_domain': 'Computer Engineering', 'methodologies': 'System Design, Implementation', 'key_concepts': 'Process Management, Memory Allocation'}
+2025-05-20 18:09:39,572 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.5358510613441467, 'application_domain': 0.6155086755752563, 'methodologies': 0.4213448166847229, 'key_concepts': 0.5574790239334106}, LLM: 0.74, Title: 0.24, Final: 0.59
+2025-05-20 18:09:39,572 - main - INFO - 🔵 [MAIN] Comparación temática: Fundamentals of Mathematics - Similitud: 0.59
+2025-05-20 18:09:39,712 - main - INFO - Title similarity between 'PHYSICS' and 'Mathematics II': 0.38
+2025-05-20 18:09:51,206 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Architecture', 'application_domain': 'Informatics Engineering', 'methodologies': 'Digital Design, Microprocessor Organization', 'key_concepts': 'Instruction Set Architectures, Memory Hierarchy'}
+2025-05-20 18:10:00,610 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Systems', 'application_domain': 'Engineering', 'methodologies': 'Programming, Data Analysis', 'key_concepts': 'Algorithms, Computer Networks'}
+2025-05-20 18:10:10,113 - main - INFO - Detailed theme extracted: {'core_topic': 'Software Engineering', 'application_domain': 'Computer Engineering', 'methodologies': 'Procedural Programming, Analytical Problem Solving', 'key_concepts': 'Variables, Loops, Functions'}
+2025-05-20 18:10:15,570 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.3795737028121948, 'application_domain': 0.6155086755752563, 'methodologies': 0.0, 'key_concepts': 0.0}, LLM: 0.4, Title: 0.38, Final: 0.37
+2025-05-20 18:10:15,570 - main - INFO - 🔵 [MAIN] Comparación temática: Mathematics II - Similitud: 0.37
+2025-05-20 18:10:15,848 - main - INFO - Title similarity between 'PHYSICS' and 'Computer Organization': 0.14
+2025-05-20 18:10:29,994 - main - INFO - Detailed theme extracted: {'core_topic': 'Interaction Design', 'application_domain': 'Computer Science', 'methodologies': 'User-Centered Design, Human-Computer Interaction', 'key_concepts': 'Interface Design, User Experience, Interaction Prototyping'}
+2025-05-20 18:10:42,311 - main - INFO - Detailed theme extracted: {'core_topic': 'Computer Networks', 'application_domain': 'Informatics Engineering', 'methodologies': 'Network Architecture, Protocols', 'key_concepts': 'TCP/IP, Routing, Switching'}
+2025-05-20 18:10:53,727 - main - INFO - Detailed theme extracted: {'core_topic': 'Parallel Computing', 'application_domain': 'Computer Engineering', 'methodologies': 'Distributed Systems, Algorithm Design', 'key_concepts': 'Multithreading, Synchronization'}
+2025-05-20 18:11:01,799 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.38284704089164734, 'application_domain': 0.8180222511291504, 'methodologies': 0.4156992435455322, 'key_concepts': 0.41086888313293457}, LLM: 0.74, Title: 0.14, Final: 0.56
+2025-05-20 18:11:01,799 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Organization - Similitud: 0.56
+2025-05-20 18:11:01,919 - main - INFO - Title similarity between 'PHYSICS' and 'Mathematics I': 0.40
+2025-05-20 18:11:08,675 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.49459588527679443, 'application_domain': 0.6155086755752563, 'methodologies': 0.0, 'key_concepts': 0.0}, LLM: 0.4, Title: 0.40, Final: 0.4
+2025-05-20 18:11:08,675 - main - INFO - 🔵 [MAIN] Comparación temática: Mathematics I - Similitud: 0.40
+2025-05-20 18:11:08,918 - main - INFO - Title similarity between 'PHYSICS' and 'Databases': 0.25
+2025-05-20 18:11:15,997 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.3966290056705475, 'application_domain': 0.5037074685096741, 'methodologies': 0.4086989760398865, 'key_concepts': 0.46017879247665405}, LLM: 0.43, Title: 0.25, Final: 0.41
+2025-05-20 18:11:15,998 - main - INFO - 🔵 [MAIN] Comparación temática: Databases - Similitud: 0.41
+2025-05-20 18:11:16,230 - main - INFO - Title similarity between 'PHYSICS' and 'Programming II': 0.19
+2025-05-20 18:11:23,034 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.45560717582702637, 'application_domain': 0.6927357912063599, 'methodologies': 0.43616557121276855, 'key_concepts': 0.4924941956996918}, LLM: 0.64, Title: 0.19, Final: 0.53
+2025-05-20 18:11:23,034 - main - INFO - 🔵 [MAIN] Comparación temática: Programming II - Similitud: 0.53
+2025-05-20 18:11:23,267 - main - INFO - Title similarity between 'PHYSICS' and 'Computer Interfacing': 0.22
+2025-05-20 18:11:29,260 - main - INFO - Detailed theme extracted: {'core_topic': 'Programming Projects', 'application_domain': 'Computer Engineering', 'methodologies': 'Procedural Programming, Software Development', 'key_concepts': 'Variables, Loops, Functions, Data Structures'}
+2025-05-20 18:11:29,383 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.38512691855430603, 'application_domain': 0.8180222511291504, 'methodologies': 0.4304783046245575, 'key_concepts': 0.4049134850502014}, LLM: 0.74, Title: 0.22, Final: 0.57
+2025-05-20 18:11:29,383 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Interfacing - Similitud: 0.57
+2025-05-20 18:11:29,521 - main - INFO - Title similarity between 'PHYSICS' and 'Data Structures and Algorithmics': 0.21
+2025-05-20 18:11:34,748 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4032955765724182, 'application_domain': 0.5037074685096741, 'methodologies': 0.37680870294570923, 'key_concepts': 0.45623987913131714}, LLM: 0.43, Title: 0.21, Final: 0.41
+2025-05-20 18:11:34,748 - main - INFO - 🔵 [MAIN] Comparación temática: Data Structures and Algorithmics - Similitud: 0.41
+2025-05-20 18:11:34,918 - main - INFO - Title similarity between 'PHYSICS' and 'Probability and Statistics': 0.36
+2025-05-20 18:11:39,801 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.496701180934906, 'application_domain': 0.41610586643218994, 'methodologies': 0.33532100915908813, 'key_concepts': 0.48171430826187134}, LLM: 0.44, Title: 0.36, Final: 0.44
+2025-05-20 18:11:39,801 - main - INFO - 🔵 [MAIN] Comparación temática: Probability and Statistics - Similitud: 0.44
+2025-05-20 18:11:39,930 - main - INFO - Title similarity between 'PHYSICS' and 'Operating Systems': 0.33
+2025-05-20 18:11:44,584 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.3730505704879761, 'application_domain': 0.6927357912063599, 'methodologies': 0.40094566345214844, 'key_concepts': 0.41032880544662476}, LLM: 0.43, Title: 0.33, Final: 0.44
+2025-05-20 18:11:44,585 - main - INFO - 🔵 [MAIN] Comparación temática: Operating Systems - Similitud: 0.44
+2025-05-20 18:11:44,711 - main - INFO - Title similarity between 'PHYSICS' and 'Computer Architecture': 0.29
+2025-05-20 18:11:49,190 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.39645010232925415, 'application_domain': 0.8180222511291504, 'methodologies': 0.41517600417137146, 'key_concepts': 0.4069288969039917}, LLM: 0.63, Title: 0.29, Final: 0.53
+2025-05-20 18:11:49,191 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Architecture - Similitud: 0.53
+2025-05-20 18:11:49,319 - main - INFO - Title similarity between 'PHYSICS' and 'Business and Economic Environment': 0.15
+2025-05-20 18:11:53,344 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.39438366889953613, 'application_domain': 0.6800180673599243, 'methodologies': 0.37882938981056213, 'key_concepts': 0.44634702801704407}, LLM: 0.44, Title: 0.15, Final: 0.43
+2025-05-20 18:11:53,344 - main - INFO - 🔵 [MAIN] Comparación temática: Business and Economic Environment - Similitud: 0.43
+2025-05-20 18:11:53,474 - main - INFO - Title similarity between 'PHYSICS' and 'Introduction to Software Engineering': 0.09
+2025-05-20 18:11:57,670 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.42658013105392456, 'application_domain': 0.6927357912063599, 'methodologies': 0.39236879348754883, 'key_concepts': 0.48215556144714355}, LLM: 0.43, Title: 0.09, Final: 0.43
+2025-05-20 18:11:57,671 - main - INFO - 🔵 [MAIN] Comparación temática: Introduction to Software Engineering - Similitud: 0.43
+2025-05-20 18:11:57,804 - main - INFO - Title similarity between 'PHYSICS' and 'Interaction and Interface Design': 0.10
+2025-05-20 18:12:01,994 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.45392096042633057, 'application_domain': 0.5037074685096741, 'methodologies': 0.4520524740219116, 'key_concepts': 0.48343127965927124}, LLM: 0.44, Title: 0.10, Final: 0.42
+2025-05-20 18:12:01,995 - main - INFO - 🔵 [MAIN] Comparación temática: Interaction and Interface Design - Similitud: 0.42
+2025-05-20 18:12:02,179 - main - INFO - Title similarity between 'PHYSICS' and 'Computer Networks': 0.17
+2025-05-20 18:12:06,333 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.38167810440063477, 'application_domain': 0.8180222511291504, 'methodologies': 0.4058838188648224, 'key_concepts': 0.4195994436740875}, LLM: 0.44, Title: 0.17, Final: 0.44
+2025-05-20 18:12:06,333 - main - INFO - 🔵 [MAIN] Comparación temática: Computer Networks - Similitud: 0.44
+2025-05-20 18:12:06,476 - main - INFO - Title similarity between 'PHYSICS' and 'Parallelism': 0.22
+2025-05-20 18:12:10,632 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.4395180642604828, 'application_domain': 0.6927357912063599, 'methodologies': 0.41467809677124023, 'key_concepts': 0.4520707130432129}, LLM: 0.43, Title: 0.22, Final: 0.44
+2025-05-20 18:12:10,632 - main - INFO - 🔵 [MAIN] Comparación temática: Parallelism - Similitud: 0.44
+2025-05-20 18:12:10,760 - main - INFO - Title similarity between 'PHYSICS' and 'Programming Projects': 0.15
+2025-05-20 18:12:14,925 - main - INFO - Theme comparison - Embedding: {'core_topic': 0.3813920319080353, 'application_domain': 0.6927357912063599, 'methodologies': 0.4200720191001892, 'key_concepts': 0.5176066160202026}, LLM: 0.43, Title: 0.15, Final: 0.43
+2025-05-20 18:12:14,925 - main - INFO - 🔵 [MAIN] Comparación temática: Programming Projects - Similitud: 0.43
+2025-05-20 18:12:14,925 - main - INFO - 🔵 [MAIN] Asignaturas relevantes encontradas: 2
+2025-05-20 18:12:14,925 - main - INFO - 🔵 [MAIN] Fase 4: Extrayendo detalles asignatura principal
+2025-05-20 18:13:28,271 - main - INFO - 🔵 [MAIN] Fase 5: Procesando asignaturas relevantes
+2025-05-20 18:14:41,541 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-20 18:14:41,541 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-20 18:14:41,541 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: PHYSICS
+            Competencias: ['Design and implement relational databases using SQL', 'Apply fundamental concepts of physics to information technologies engineering', 'Analyze...
+2025-05-20 18:14:41,541 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Physics
+                            Competencias: ['Design and implement relational databases using SQL', 'Apply mathematical models to describe physical phenomena...
+2025-05-20 18:14:41,541 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-20 18:14:41,541 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': '', 'competences': '', 'objectives': '', 'contents': "{'Module 1: Introduction to Physics and Information Technologies Engineering': ['Introduction to physics and its relevance to information technologies engineering', 'Fundamental concepts of physics, including mechanics, thermodynamics, and electromagnetism'], 'Module 2: Relational Databases and SQL': ['Introduction to relational databases and their applications', 'Designing a database schema for a given problem', 'Implementing a relational database using SQL'], 'Module 3: Physics and Information Technologies Engineering': ['Applying fundamental concepts of physics to information technologies engineering', 'Analyzing the behavior of physical systems in relation to information technologies', 'Solving problems related to physics and information technologies']}"}
+2025-05-20 18:14:41,541 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': '', 'competences': '', 'objectives': '', 'contents': '{\'Module 1: Introduction to Physics\': [\'Introduction to physics\', \'Physical quantities and units\'], \'Module 2: Mechanics\': ["Newton\'s laws", \'Energy and momentum\'], \'Module 3: Thermodynamics\': [\'Thermodynamic systems\', \'Heat transfer\'], \'Module 4: Electromagnetism\': [\'Electric charges and currents\', \'Magnetic fields\'], \'Module 5: Quantum Mechanics\': [\'Wave-particle duality\', \'Schrödinger equation\'], \'Module 6: Statistical Physics\': [\'Thermodynamic ensembles\', \'Statistical mechanics\']}'}
+2025-05-20 18:14:41,541 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-20 18:14:41,542 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Module 1: Introduction to Physics and Information Technologies Engineering': ['Introduction to phy...
+T2: {'Module 1: Introduction to Physics': ['Introduction to physics', 'Physical quantities and units'], ...
+2025-05-20 18:14:41,542 - embedding - WARNING - Uno de los textos está vacío, devolviendo 0
+2025-05-20 18:14:41,542 - embedding - WARNING - Uno de los textos está vacío, devolviendo 0
+2025-05-20 18:14:41,767 - embedding - DEBUG - Similitud estricta calculada: 0.7402900348135648 (raw: 0.8402900348135648) (en 0.22s)
+2025-05-20 18:14:41,767 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.7402900348135648
+2025-05-20 18:14:41,767 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.0
+2025-05-20 18:14:41,767 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.0
+2025-05-20 18:14:41,767 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.7402900348135648), 'objectives': 0.0, 'competences': 0.0}
+2025-05-20 18:14:41,767 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-20 18:14:41,767 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-20 18:14:41,767 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': '', 'competences': '', 'objectives': '', 'contents': "{'Module 1: Introduction to Physics and Information Technologies Engineering': ['Introduction to physics and its relevance to information technologies engineering', 'Fundamental concepts of physics, including mechanics, thermodynamics, and electromagnetism'], 'Module 2: Relational Databases and SQL': ['Introduction to relational databases and their applications', 'Designing a database schema for a given problem', 'Implementing a relational database using SQL'], 'Module 3: Physics and Information Technologies Engineering': ['Applying fundamental concepts of physics to information technologies engineering', 'Analyzing the behavior of physical systems in relation to information technologies', 'Solving problems related to physics and information technologies']}"}
+2025-05-20 18:14:41,767 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': '', 'competences': '', 'objectives': '', 'contents': '{\'Module 1: Introduction to Physics\': [\'Introduction to physics\', \'Physical quantities and units\'], \'Module 2: Mechanics\': ["Newton\'s laws", \'Energy and momentum\'], \'Module 3: Thermodynamics\': [\'Thermodynamic systems\', \'Heat transfer\'], \'Module 4: Electromagnetism\': [\'Electric charges and currents\', \'Magnetic fields\'], \'Module 5: Quantum Mechanics\': [\'Wave-particle duality\', \'Schrödinger equation\'], \'Module 6: Statistical Physics\': [\'Thermodynamic ensembles\', \'Statistical mechanics\']}'}
+2025-05-20 18:14:41,767 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación estricta de programas académicos. Analiza RIGUROSAMENTE la similitud entre estas dos asignaturas:
+
+Asignatura 1:
+- Nombre: 
+- Competencias: 
+- Objetivos: 
+- Contenidos: {'Module 1: Introduction to Physics and Information Technologies Engineering': ['Introduction to physics and its relevance to information technologies engineering', 'Fundamental concepts of physics, including mechanics, thermodynamics, and electromagnetism'], 'Module 2: Relational Databases and SQL'...
+2025-05-20 18:15:32,559 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 50.79s
+2025-05-20 18:15:32,559 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+A continuación te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["El módulo 1 de la Asignatura 1 incluye 'Introduction to physics and its relevance to information technologies engineering', mientras que el módulo 1 de la Asignatura 2 incluye 'Introduction to physics'", "Ambas asignaturas tienen un módulo dedicado a la electromagnetismo"],
+    "diferencias_sustanciales": ["La Asignatura 1 combina física y tecnologías de información, mientras que la Asignatura 2 se enfoca exclusivamente en física", "La Asignatura 1 incluye un módulo sobre bases de datos relacionales y SQL, mientras que la Asignatura 2 no lo hace"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que la Asignatura 1 tiene un enfoque interdisciplinario, combinando física con tecnologías de información, lo que puede llevar a una mayor complejidad y diversidad de contenidos"]
+}
+
+Nota: La estimación de coincidencia real (60%) se basa en la similitud entre los módulos 1 y 3 de ambas asignaturas, así como la presencia de electromagnetismo en ambos programas. Sin embargo, la diferencia sustancial en el enfoque interdisciplinario y la inclusión de bases de datos relacionales y SQL en la Asignatura 1 reducen significativamente la similitud entre las dos asignaturas.
+2025-05-20 18:15:32,559 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+A continuación te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["El módulo 1 de la Asignatura 1 incluye 'Introduction to physics and its relevance to information technologies engineering', mientras que el módulo 1 de la Asignatura 2 incluye 'Introduction to physics'", "Ambas asignaturas tienen un módulo dedicado a la electromagnetismo"],
+    "diferencias_sustanciales": ["La Asignatura 1 combina física y tecnologías de información, mientras que la Asignatura 2 se enfoca exclusivamente en física", "La Asignatura 1 incluye un módulo sobre bases de datos relacionales y SQL, mientras que la Asignatura 2 no lo hace"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que la Asignatura 1 tiene un enfoque interdisciplinario, combinando física con tecnologías de información, lo que puede llevar a una mayor complejidad y diversidad de contenidos"]
+}
+
+Nota: La estimación de coincidencia real (60%) se basa en la similitud entre los módulos 1 y 3 de ambas asignaturas, así como la presencia de electromagnetismo en ambos programas. Sin embargo, la diferencia sustancial en el enfoque interdisciplinario y la inclusión de bases de datos relacionales y SQL en la Asignatura 1 reducen significativamente la similitud entre las dos asignaturas.
+2025-05-20 18:15:32,559 - embedding - ERROR - 🔴 [EMBED-QA] Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación te presento el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["El módulo 1 de la Asignatura 1 incluye 'Introduction to physics and its relevance to information technologies engineering', mientras que el módulo 1 de la Asignatura 2 incluye 'Introduction to physics'", "Ambas asignaturas tienen un módulo dedicado a la electromagnetismo"],
+    "diferencias_sustanciales": ["La Asignatura 1 combina física y tecnologías de información, mientras que la Asignatura 2 se enfoca exclusivamente en física", "La Asignatura 1 incluye un módulo sobre bases de datos relacionales y SQL, mientras que la Asignatura 2 no lo hace"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que la Asignatura 1 tiene un enfoque interdisciplinario, combinando física con tecnologías de información, lo que puede llevar a una mayor complejidad y diversidad de contenidos"]
+}
+
+Nota: La estimación de coincidencia real (60%) se basa en la similitud entre los módulos 1 y 3 de ambas asignaturas, así como la presencia de electromagnetismo en ambos programas. Sin embargo, la diferencia sustancial en el enfoque interdisciplinario y la inclusión de bases de datos relacionales y SQL en la Asignatura 1 reducen significativamente la similitud entre las dos asignaturas.
+2025-05-20 18:15:32,559 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'error': 'Invalid JSON response', 'response': 'A continuación te presento el análisis riguroso de las asignaturas:\n\n{\n    "similitudes_tecnicas": ["El módulo 1 de la Asignatura 1 incluye \'Introduction to physics and its relevance to information technologies engineering\', mientras que el módulo 1 de la Asignatura 2 incluye \'Introduction to physics\'", "Ambas asignaturas tienen un módulo dedicado a la electromagnetismo"],\n    "diferencias_sustanciales": ["La Asignatura 1 combina física y tecnologías de información, mientras que la Asignatura 2 se enfoca exclusivamente en física", "La Asignatura 1 incluye un módulo sobre bases de datos relacionales y SQL, mientras que la Asignatura 2 no lo hace"],\n    "coincidencia_real": 60,\n    "advertencias": ["Es importante destacar que la Asignatura 1 tiene un enfoque interdisciplinario, combinando física con tecnologías de información, lo que puede llevar a una mayor complejidad y diversidad de contenidos"]\n}\n\nNota: La estimación de coincidencia real (60%) se basa en la similitud entre los módulos 1 y 3 de ambas asignaturas, así como la presencia de electromagnetismo en ambos programas. Sin embargo, la diferencia sustancial en el enfoque interdisciplinario y la inclusión de bases de datos relacionales y SQL en la Asignatura 1 reducen significativamente la similitud entre las dos asignaturas.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}
+2025-05-20 18:15:32,559 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.550362543516956
+2025-05-20 18:15:32,559 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-20 18:15:32,559 - embedding - INFO - Generando explicación estricta...
+2025-05-20 18:15:32,559 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: 
+Asignatura B: 
+
+Puntuación de similitud: 55.0%
+
+Basándote en este análisis:
+{
+  "error": "Invalid JSON response",
+  "response": "A continuaci\u00f3n te presento el an\u00e1lisis riguroso de las asignatura...
+2025-05-20 18:16:10,011 - embedding - INFO - Explicación estricta generada en 37.45s
+2025-05-20 18:16:10,011 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: Asignatura A y Asignatura B presentan algunas coincidencias técnicas reales. En primer lugar, ambos programas incluyen un módulo dedicado a la electromagnetismo, lo que sugiere una similitud en el contenido físico. Además, el módulo 1 de ambas asignaturas introduce conceptos básicos de física y su relevancia para la ingeniería de tecnologías de información (Asignatura A) o simplemente a la física (Asignatura B).
+
+Sin embargo, existen diferencias sustanciales entre las dos asignaturas. La Asignatura A combina física con tecnologías de información, lo que implica un enfoque interdisciplinario y una mayor complejidad y diversidad de contenidos. Por otro lado, la Asignatura B se enfoca exclusivamente en física, sin incluir temas relacionados con la ingeniería de tecnologías de información. En conclusión, aunque existan algunas similitudes técnicas reales entre las dos asignaturas, su enfoque y contenido son significativamente diferentes, lo que reduce la equivalencia real entre ellas.
+2025-05-20 18:16:10,011 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.5504), 'components': {'contents': np.float64(0.7402900348135648), 'objectives': 0.0, 'competences': 0.0}, 'llm_analysis': {'error': 'Invalid JSON response', 'response': 'A continuación te presento el análisis riguroso de las asignaturas:\n\n{\n    "similitudes_tecnicas": ["El módulo 1 de la Asignatura 1 incluye \'Introduction to physics and its relevance to information technologies engineering\', mientras que el módulo 1 de la Asignatura 2 incluye \'Introduction to physics\'", "Ambas asignaturas tienen un módulo dedicado a la electromagnetismo"],\n    "diferencias_sustanciales": ["La Asignatura 1 combina física y tecnologías de información, mientras que la Asignatura 2 se enfoca exclusivamente en física", "La Asignatura 1 incluye un módulo sobre bases de datos relacionales y SQL, mientras que la Asignatura 2 no lo hace"],\n    "coincidencia_real": 60,\n    "advertencias": ["Es importante destacar que la Asignatura 1 tiene un enfoque interdisciplinario, combinando física con tecnologías de información, lo que puede llevar a una mayor complejidad y diversidad de contenidos"]\n}\n\nNota: La estimación de coincidencia real (60%) se basa en la similitud entre los módulos 1 y 3 de ambas asignaturas, así como la presencia de electromagnetismo en ambos programas. Sin embargo, la diferencia sustancial en el enfoque interdisciplinario y la inclusión de bases de datos relacionales y SQL en la Asignatura 1 reducen significativamente la similitud entre las dos asignaturas.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}, 'explanation': 'Asignatura A y Asignatura B presentan algunas coincidencias técnicas reales. En primer lugar, ambos programas incluyen un módulo dedicado a la electromagnetismo, lo que sugiere una similitud en el contenido físico. Además, el módulo 1 de ambas asignaturas introduce conceptos básicos de física y su relevancia para la ingeniería de tecnologías de información (Asignatura A) o simplemente a la física (Asignatura B).\n\nSin embargo, existen diferencias sustanciales entre las dos asignaturas. La Asignatura A combina física con tecnologías de información, lo que implica un enfoque interdisciplinario y una mayor complejidad y diversidad de contenidos. Por otro lado, la Asignatura B se enfoca exclusivamente en física, sin incluir temas relacionados con la ingeniería de tecnologías de información. En conclusión, aunque existan algunas similitudes técnicas reales entre las dos asignaturas, su enfoque y contenido son significativamente diferentes, lo que reduce la equivalencia real entre ellas.'}
+2025-05-20 18:16:10,011 - main - INFO - 🔵 [MAIN] Calculando similitud con embedding...
+2025-05-20 18:16:10,011 - embedding - INFO - 🟠 [EMBED] Iniciando cálculo de similitud
+2025-05-20 18:16:10,011 - embedding - DEBUG - 🟠 [EMBED] Texto 1 (inicio):
+
+            Nombre: PHYSICS
+            Competencias: ['Design and implement relational databases using SQL', 'Apply fundamental concepts of physics to information technologies engineering', 'Analyze...
+2025-05-20 18:16:10,011 - embedding - DEBUG - 🟠 [EMBED] Texto 2 (inicio):
+
+                            Nombre: Programming I
+                            Competencias: ['Design and implement relational databases using SQL', 'Write efficient algorithms for solving computation...
+2025-05-20 18:16:10,011 - embedding - INFO - 🟠 [EMBED] Extrayendo componentes...
+2025-05-20 18:16:10,011 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 1: {'name': '', 'competences': '', 'objectives': '', 'contents': "{'Module 1: Introduction to Physics and Information Technologies Engineering': ['Introduction to physics and its relevance to information technologies engineering', 'Fundamental concepts of physics, including mechanics, thermodynamics, and electromagnetism'], 'Module 2: Relational Databases and SQL': ['Introduction to relational databases and their applications', 'Designing a database schema for a given problem', 'Implementing a relational database using SQL'], 'Module 3: Physics and Information Technologies Engineering': ['Applying fundamental concepts of physics to information technologies engineering', 'Analyzing the behavior of physical systems in relation to information technologies', 'Solving problems related to physics and information technologies']}"}
+2025-05-20 18:16:10,011 - embedding - DEBUG - 🟠 [EMBED] Componentes texto 2: {'name': '', 'competences': '', 'objectives': '', 'contents': "{'Module 1: Introduction to Programming': ['Introduction to programming concepts', 'Basic syntax and semantics of programming languages'], 'Module 2: Data Structures': ['Arrays and lists', 'Linked lists and stacks', 'Trees and graphs'], 'Module 3: Algorithms': ['Sorting algorithms (e.g., bubble sort, quicksort)', 'Searching algorithms (e.g., linear search, binary search)', 'Graph traversal algorithms (e.g., DFS, BFS)']}"}
+2025-05-20 18:16:10,011 - embedding - INFO - 🟠 [EMBED] Calculando similitud de embeddings...
+2025-05-20 18:16:10,011 - embedding - DEBUG - Calculando similitud estricta para textos:
+T1: {'Module 1: Introduction to Physics and Information Technologies Engineering': ['Introduction to phy...
+T2: {'Module 1: Introduction to Programming': ['Introduction to programming concepts', 'Basic syntax and...
+2025-05-20 18:16:10,012 - embedding - WARNING - Uno de los textos está vacío, devolviendo 0
+2025-05-20 18:16:10,012 - embedding - WARNING - Uno de los textos está vacío, devolviendo 0
+2025-05-20 18:16:10,126 - embedding - DEBUG - Similitud estricta calculada: 0.5454774592787314 (raw: 0.7818468240984141) (en 0.11s)
+2025-05-20 18:16:10,126 - embedding - DEBUG - 🟠 [EMBED] Similitud contents: 0.5454774592787314
+2025-05-20 18:16:10,126 - embedding - DEBUG - 🟠 [EMBED] Similitud objectives: 0.0
+2025-05-20 18:16:10,126 - embedding - DEBUG - 🟠 [EMBED] Similitud competences: 0.0
+2025-05-20 18:16:10,126 - embedding - INFO - 🟠 [EMBED] Puntuaciones crudas: {'contents': np.float64(0.5454774592787314), 'objectives': 0.0, 'competences': 0.0}
+2025-05-20 18:16:10,126 - embedding - INFO - 🟠 [EMBED] Iniciando análisis cualitativo...
+2025-05-20 18:16:10,126 - embedding - INFO - 🟠 [EMBED-QA] Iniciando análisis cualitativo
+2025-05-20 18:16:10,126 - embedding - DEBUG - 🟠 [EMBED-QA] Comp1: {'name': '', 'competences': '', 'objectives': '', 'contents': "{'Module 1: Introduction to Physics and Information Technologies Engineering': ['Introduction to physics and its relevance to information technologies engineering', 'Fundamental concepts of physics, including mechanics, thermodynamics, and electromagnetism'], 'Module 2: Relational Databases and SQL': ['Introduction to relational databases and their applications', 'Designing a database schema for a given problem', 'Implementing a relational database using SQL'], 'Module 3: Physics and Information Technologies Engineering': ['Applying fundamental concepts of physics to information technologies engineering', 'Analyzing the behavior of physical systems in relation to information technologies', 'Solving problems related to physics and information technologies']}"}
+2025-05-20 18:16:10,126 - embedding - DEBUG - 🟠 [EMBED-QA] Comp2: {'name': '', 'competences': '', 'objectives': '', 'contents': "{'Module 1: Introduction to Programming': ['Introduction to programming concepts', 'Basic syntax and semantics of programming languages'], 'Module 2: Data Structures': ['Arrays and lists', 'Linked lists and stacks', 'Trees and graphs'], 'Module 3: Algorithms': ['Sorting algorithms (e.g., bubble sort, quicksort)', 'Searching algorithms (e.g., linear search, binary search)', 'Graph traversal algorithms (e.g., DFS, BFS)']}"}
+2025-05-20 18:16:10,126 - embedding - DEBUG - 🟠 [EMBED-QA] Prompt enviado al LLM:
+Eres un experto en comparación estricta de programas académicos. Analiza RIGUROSAMENTE la similitud entre estas dos asignaturas:
+
+Asignatura 1:
+- Nombre: 
+- Competencias: 
+- Objetivos: 
+- Contenidos: {'Module 1: Introduction to Physics and Information Technologies Engineering': ['Introduction to physics and its relevance to information technologies engineering', 'Fundamental concepts of physics, including mechanics, thermodynamics, and electromagnetism'], 'Module 2: Relational Databases and SQL'...
+2025-05-20 18:16:53,369 - embedding - INFO - 🟠 [EMBED-QA] Respuesta LLM recibida en 43.24s
+2025-05-20 18:16:53,369 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta completa LLM:
+A continuación, se presenta el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["El uso de módulos o unidades de aprendizaje para organizar los contenidos", "La presencia de conceptos y algoritmos como temas principales"],
+    "diferencias_sustanciales": ["La falta de relación directa entre física e información tecnológica en la Asignatura 2, en comparación con la Asignatura 1 que explota esta conexión", "La ausencia de lenguajes y herramientas específicas para el desarrollo de software en la Asignatura 1"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que, aunque haya similitudes técnicas, las asignaturas tienen objetivos y competencias muy diferentes"]
+}
+
+Nota: La estimación de coincidencia real se basa en la cantidad de módulos y unidades de aprendizaje similares entre ambas asignaturas, así como la presencia de conceptos y algoritmos como temas principales. Sin embargo, la falta de relación directa entre física e información tecnológica en la Asignatura 2 y la ausencia de lenguajes y herramientas específicas para el desarrollo de software en la Asignatura 1 son diferencias sustanciales que reducen la coincidencia real.
+2025-05-20 18:16:53,369 - embedding - DEBUG - 🟠 [EMBED-QA] Respuesta limpia:
+A continuación, se presenta el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["El uso de módulos o unidades de aprendizaje para organizar los contenidos", "La presencia de conceptos y algoritmos como temas principales"],
+    "diferencias_sustanciales": ["La falta de relación directa entre física e información tecnológica en la Asignatura 2, en comparación con la Asignatura 1 que explota esta conexión", "La ausencia de lenguajes y herramientas específicas para el desarrollo de software en la Asignatura 1"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que, aunque haya similitudes técnicas, las asignaturas tienen objetivos y competencias muy diferentes"]
+}
+
+Nota: La estimación de coincidencia real se basa en la cantidad de módulos y unidades de aprendizaje similares entre ambas asignaturas, así como la presencia de conceptos y algoritmos como temas principales. Sin embargo, la falta de relación directa entre física e información tecnológica en la Asignatura 2 y la ausencia de lenguajes y herramientas específicas para el desarrollo de software en la Asignatura 1 son diferencias sustanciales que reducen la coincidencia real.
+2025-05-20 18:16:53,369 - embedding - ERROR - 🔴 [EMBED-QA] Error decodificando JSON: Expecting value: line 1 column 1 (char 0)
+Respuesta: A continuación, se presenta el análisis riguroso de las asignaturas:
+
+{
+    "similitudes_tecnicas": ["El uso de módulos o unidades de aprendizaje para organizar los contenidos", "La presencia de conceptos y algoritmos como temas principales"],
+    "diferencias_sustanciales": ["La falta de relación directa entre física e información tecnológica en la Asignatura 2, en comparación con la Asignatura 1 que explota esta conexión", "La ausencia de lenguajes y herramientas específicas para el desarrollo de software en la Asignatura 1"],
+    "coincidencia_real": 60,
+    "advertencias": ["Es importante destacar que, aunque haya similitudes técnicas, las asignaturas tienen objetivos y competencias muy diferentes"]
+}
+
+Nota: La estimación de coincidencia real se basa en la cantidad de módulos y unidades de aprendizaje similares entre ambas asignaturas, así como la presencia de conceptos y algoritmos como temas principales. Sin embargo, la falta de relación directa entre física e información tecnológica en la Asignatura 2 y la ausencia de lenguajes y herramientas específicas para el desarrollo de software en la Asignatura 1 son diferencias sustanciales que reducen la coincidencia real.
+2025-05-20 18:16:53,369 - embedding - DEBUG - 🟠 [EMBED] Análisis cualitativo:
+{'error': 'Invalid JSON response', 'response': 'A continuación, se presenta el análisis riguroso de las asignaturas:\n\n{\n    "similitudes_tecnicas": ["El uso de módulos o unidades de aprendizaje para organizar los contenidos", "La presencia de conceptos y algoritmos como temas principales"],\n    "diferencias_sustanciales": ["La falta de relación directa entre física e información tecnológica en la Asignatura 2, en comparación con la Asignatura 1 que explota esta conexión", "La ausencia de lenguajes y herramientas específicas para el desarrollo de software en la Asignatura 1"],\n    "coincidencia_real": 60,\n    "advertencias": ["Es importante destacar que, aunque haya similitudes técnicas, las asignaturas tienen objetivos y competencias muy diferentes"]\n}\n\nNota: La estimación de coincidencia real se basa en la cantidad de módulos y unidades de aprendizaje similares entre ambas asignaturas, así como la presencia de conceptos y algoritmos como temas principales. Sin embargo, la falta de relación directa entre física e información tecnológica en la Asignatura 2 y la ausencia de lenguajes y herramientas específicas para el desarrollo de software en la Asignatura 1 son diferencias sustanciales que reducen la coincidencia real.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}
+2025-05-20 18:16:53,369 - embedding - INFO - 🟠 [EMBED] Puntuación final: 0.30684682409841424
+2025-05-20 18:16:53,369 - embedding - INFO - 🟠 [EMBED] Generando explicación...
+2025-05-20 18:16:53,369 - embedding - INFO - Generando explicación estricta...
+2025-05-20 18:16:53,369 - embedding - DEBUG - Prompt explicación estricta:
+Genera una explicación ESTRICTA Y PRECISA (2 párrafos máximo) en español sobre:
+
+Asignatura A: 
+Asignatura B: 
+
+Puntuación de similitud: 30.7%
+
+Basándote en este análisis:
+{
+  "error": "Invalid JSON response",
+  "response": "A continuaci\u00f3n, se presenta el an\u00e1lisis riguroso de las asignatur...
+2025-05-20 18:17:26,897 - embedding - INFO - Explicación estricta generada en 33.53s
+2025-05-20 18:17:26,897 - embedding - DEBUG - 🟠 [EMBED] Explicación generada: Asignatura A: Física y Tecnología de la Información
+Asignatura B: [No especificado]
+
+Aunque las asignaturas presenten ciertas similitudes técnicas, como el uso de módulos o unidades de aprendizaje para organizar los contenidos y la presencia de conceptos y algoritmos como temas principales, es importante destacar que existen diferencias sustanciales entre ellas. En particular, la Asignatura B carece de relación directa entre física e información tecnológica, lo que reduce significativamente la coincidencia real.
+
+En conclusión, aunque haya ciertas similitudes técnicas, no hay equivalencia real entre las dos asignaturas. La Asignatura A se enfoca en la aplicación de conceptos físicos a problemas tecnológicos, mientras que la Asignatura B no explota esta conexión. Por lo tanto, es importante considerar estas diferencias sustanciales al diseñar y evaluar los contenidos y competencias de ambas asignaturas.
+2025-05-20 18:17:26,897 - main - INFO - 🔵 [MAIN] Resultado análisis:
+{'score': np.float64(0.3068), 'components': {'contents': np.float64(0.5454774592787314), 'objectives': 0.0, 'competences': 0.0}, 'llm_analysis': {'error': 'Invalid JSON response', 'response': 'A continuación, se presenta el análisis riguroso de las asignaturas:\n\n{\n    "similitudes_tecnicas": ["El uso de módulos o unidades de aprendizaje para organizar los contenidos", "La presencia de conceptos y algoritmos como temas principales"],\n    "diferencias_sustanciales": ["La falta de relación directa entre física e información tecnológica en la Asignatura 2, en comparación con la Asignatura 1 que explota esta conexión", "La ausencia de lenguajes y herramientas específicas para el desarrollo de software en la Asignatura 1"],\n    "coincidencia_real": 60,\n    "advertencias": ["Es importante destacar que, aunque haya similitudes técnicas, las asignaturas tienen objetivos y competencias muy diferentes"]\n}\n\nNota: La estimación de coincidencia real se basa en la cantidad de módulos y unidades de aprendizaje similares entre ambas asignaturas, así como la presencia de conceptos y algoritmos como temas principales. Sin embargo, la falta de relación directa entre física e información tecnológica en la Asignatura 2 y la ausencia de lenguajes y herramientas específicas para el desarrollo de software en la Asignatura 1 son diferencias sustanciales que reducen la coincidencia real.', 'exception': 'Expecting value: line 1 column 1 (char 0)'}, 'explanation': 'Asignatura A: Física y Tecnología de la Información\nAsignatura B: [No especificado]\n\nAunque las asignaturas presenten ciertas similitudes técnicas, como el uso de módulos o unidades de aprendizaje para organizar los contenidos y la presencia de conceptos y algoritmos como temas principales, es importante destacar que existen diferencias sustanciales entre ellas. En particular, la Asignatura B carece de relación directa entre física e información tecnológica, lo que reduce significativamente la coincidencia real.\n\nEn conclusión, aunque haya ciertas similitudes técnicas, no hay equivalencia real entre las dos asignaturas. La Asignatura A se enfoca en la aplicación de conceptos físicos a problemas tecnológicos, mientras que la Asignatura B no explota esta conexión. Por lo tanto, es importante considerar estas diferencias sustanciales al diseñar y evaluar los contenidos y competencias de ambas asignaturas.'}
+2025-05-20 18:17:26,897 - main - INFO - 🟢 [MAIN] Comparación completada exitosamente
