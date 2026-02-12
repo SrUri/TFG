@@ -1,0 +1,378 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+.mode-selector {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.mode-button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #2c3e50;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.mode-button:hover {
+  color: #3498db;
+}
+
+.mode-button.active {
+  color: #3498db;
+}
+
+.mode-button.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #3498db;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.compare-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.compare-button:hover {
+  background-color: #2980b9;
+}
+
+.compare-button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #e74c3c;
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid #e74c3c;
+  border-radius: 4px;
+  background-color: #fadbd8;
+}
+
+.results-container {
+  margin-top: 40px;
+}
+
+.comparison-title {
+  font-style: italic;
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+.results-grid {
+  display: grid;
+  gap: 15px;
+}
+
+.result-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.result-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+.subject-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.similarity-badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  min-width: 60px;
+  text-align: center;
+}
+
+.toggle-icon {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.result-details {
+  padding: 20px;
+  background-color: white;
+  border-top: 1px solid #eee;
+}
+
+.components-scores ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.components-scores li {
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.analysis-section,
+.raw-details {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px dashed #ddd;
+}
+
+.analysis-section h5 {
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.analysis-section ul {
+  padding-left: 20px;
+}
+
+.analysis-section li {
+  margin-bottom: 5px;
+}
+
+.detail-section {
+  margin-bottom: 15px;
+}
+
+.detail-section h4,
+.detail-section h5 {
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.detail-section p {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+  white-space: pre-line;
+}
+
+.result-card.expanded {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.match-type.technical {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.diff-severity.high {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.detail-content {
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.history-container {
+  margin-top: 20px;
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.history-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.history-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.history-date {
+  font-weight: bold;
+  color: #333;
+}
+
+.history-type {
+  font-style: italic;
+  color: #666;
+}
+
+.history-details p {
+  margin: 5px 0;
+}
+
+.history-details ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.history-details a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.history-details a:hover {
+  text-decoration: underline;
+}
+
+.clear-history-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.clear-history-button:hover {
+  background-color: #c0392b;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.modal h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.modal p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.modal-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.confirm-button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.confirm-button:hover {
+  background-color: #c0392b;
+}
+
+.cancel-button {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #7f8c8d;
+}
